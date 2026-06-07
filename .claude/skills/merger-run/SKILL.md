@@ -59,9 +59,10 @@ A "gate" works with Claude Code's turn-taking:
    any that are missing. 🚦 Gate (approve / add / remove / edit sources). This gate
    happens **before** any research fetching.
 
-3. **Research** — invoke the `research` skill with `RUN_DIR`. It grounds claims only
-   in the **approved** sources from `source_plan.json`, tags each claim with a coverage
-   area, and (final step) builds the coverage map:
+3. **Research** — invoke the `research` skill with `RUN_DIR`. It **fans out one
+   `research-area` subagent per coverage area** (parallel leaf workers), grounds claims
+   only in the **approved** sources from `source_plan.json`, tags each claim with its
+   area, ingests + verifies centrally, and builds the coverage map:
    ```bash
    python tool/scripts/cli.py coverage --run "<RUN_DIR>"
    ```

@@ -18,15 +18,32 @@ add / remove / edit them **before** any research fetching happens. You are given
    python tool/scripts/cli.py source-plan-template
    ```
 
-2. **Propose concrete sources.** For the chosen coverage area, fill each relevant
-   class with specific, real sources. Use WebSearch to *locate* concrete documents
-   (e.g. the target's latest 10-K on sec.gov) — get direct URLs where you can, or
-   leave a `search_hint` for research to resolve. Always carry the seed_docs from
-   intake. Give every source a one-line rationale.
+2. **Propose concrete sources — three kinds, not just given links.** For each area you
+   plan to cover, propose a *mix*:
+   - **(a) Seeds** — the seed_docs from intake / anything the analyst supplied.
+   - **(b) General web search** — at least one `search_hint` per area so research casts
+     a wide net (use WebSearch yourself to sanity-check the query returns real results,
+     and pin direct URLs where you can).
+   - **(c) Canonical / commonsense sources** — the standard places an analyst would
+     always check for that area, even if nobody named them. Use this cheat-sheet:
 
-   Be honest about coverage: if a class isn't relevant to this area (e.g. court
-   dockets for a pure fundamentals pass), list it under `classes_skipped` with a
-   reason rather than padding.
+     | Area | Canonical sources to propose |
+     |---|---|
+     | target_fundamentals | target 10-K + latest 10-Q, earnings releases (8-K Ex-99) |
+     | commercial_market | both 10-K "Competition" sections, industry/analyst overviews |
+     | deal_rationale_synergies | deal press release, merger proxy / 424B3 "reasons for the merger" |
+     | financing_balance_sheet | merger proxy financing section, acquirer debt 8-K, rating-agency actions |
+     | antitrust_regulatory | merger proxy "Regulatory Approvals", DOJ/FTC press releases, news on second requests |
+     | litigation_legal | 10-K "Legal Proceedings", court dockets (CourtListener), litigation news |
+     | management_governance | DEF 14A proxy, executive/board news, leadership-change coverage |
+     | short_activist | Seeking Alpha, short-seller reports (e.g. Hindenburg/Muddy Waters), 13D activist filings |
+     | macro_geopolitical | 10-K risk factors (FX/tariffs), macro/sector commentary |
+     | operational_integration | both 10-Ks (facilities/IT/supply chain), integration commentary in deal materials |
+     | esg_environmental | 10-K environmental disclosures, ESG-rating / controversy coverage |
+
+   Give every source a one-line rationale and a tier. Prefer direct URLs; use
+   `search_hint` when you can't pin one. Be honest: if an area/class truly doesn't apply,
+   list it under `classes_skipped` with a reason rather than padding.
 
 3. **Write the plan** to `RUN_DIR/source_plan.json`:
    ```json
