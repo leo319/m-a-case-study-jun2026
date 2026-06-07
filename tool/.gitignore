@@ -1,0 +1,8 @@
+# Outputs and caches are regenerated; never commit them.
+/cache/
+/runs/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env

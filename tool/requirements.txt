@@ -1,0 +1,4 @@
+# Milestone 1 (the spine) deliberately keeps dependencies tiny.
+# Everything else uses the Python 3.11+ standard library (urllib, hashlib, json, ...).
+jsonschema>=4.21
+PyYAML>=6.0

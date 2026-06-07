@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://merger-tool/schemas/claim.schema.json",
+  "title": "Claim",
+  "description": "The audit spine. Every assertion that can reach a memo is a claim. fact claims must carry a source + verbatim quote; inference claims must reference the verified claims they build on.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "statement", "type", "module"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Stable unique id for this claim (e.g. c0001)."
+    },
+    "statement": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The assertion in plain language."
+    },
+    "type": {
+      "enum": ["fact", "inference"],
+      "description": "fact = directly grounded in a source quote. inference = reasoning built on other verified claims."
+    },
+    "supports": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "description": "claim ids this inference is built on. Experts may only build on status:verified claims."
+    },
+    "source_ids": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "description": "source ids in the source_registry that ground this fact."
+    },
+    "quote": {
+      "type": "string",
+      "description": "Verbatim span from the source that supports the statement. Checked literally by the verifier."
+    },
+    "locator": {
+      "type": "string",
+      "description": "Where in the source the quote lives (e.g. '424B3 > Background of the Merger > p.42' or a section/figure ref for filings)."
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Author's confidence, 0..1."
+    },
+    "module": {
+      "enum": ["research", "rationale", "tailrisk"],
+      "description": "Which pipeline module produced the claim."
+    },
+    "status": {
+      "enum": ["verified", "quarantined", "unverified"],
+      "default": "unverified",
+      "description": "Set by the deterministic verifier. unverified until checked; quarantined never reaches the memo."
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Audit trail written by the verifier hook.",
+      "properties": {
+        "checked_at": { "type": "string" },
+        "mode": { "enum": ["url-quote", "filing-locator", "inference-support"] },
+        "reasons": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "type": { "const": "fact" } } },
+      "then": {
+        "required": ["source_ids", "quote"],
+        "properties": {
+          "source_ids": { "minItems": 1 },
+          "quote": { "minLength": 1 }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "type": { "const": "inference" } } },
+      "then": {
+        "required": ["supports"],
+        "properties": {
+          "supports": { "minItems": 1 }
+        }
+      }
+    }
+  ]
+}

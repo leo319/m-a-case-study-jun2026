@@ -143,12 +143,14 @@ We test along **two axes**. The mapping is the key insight: **tail risk is judge
 
 ## 6. Build sequence (how to actually tackle it)
 
-1. **Spine first.** Schemas + `deal_spec`/`source_registry`/`claims` + the deterministic citation verifier. Prove a fabricated URL gets caught before any agents exist.
-2. **Thin end-to-end slice on Cintas/UniFirst.** One area, one research agent, one expert, render a memo. Get the full loop working badly before making it good.
-3. **Widen research** to the full coverage checklist + verification report + gates.
-4. **Add experts + materiality filter + red-team.**
-5. **Eval pipeline** + the Cintas/UF gold set; then generalize to the 3 test deals.
-6. **Harden:** failure-mode hunting, variance runs, write-up.
+_Status legend: ✅ done · 🔄 in progress · ⬜ not started_
+
+1. ✅ **Spine first.** Schemas + `deal_spec`/`source_registry`/`claims` + the deterministic citation verifier. Prove a fabricated URL gets caught before any agents exist. _Built in `/tool`; proof: `python scripts/run_milestone1_demo.py` quarantines fabricated, dead, and quote-absent citations. Spine smoke tests in `tests/test_spine.py`._
+2. ⬜ **Thin end-to-end slice on Cintas/UniFirst.** One area, one research agent, one expert, render a memo. Get the full loop working badly before making it good.
+3. ⬜ **Widen research** to the full coverage checklist + verification report + gates.
+4. ⬜ **Add experts + materiality filter + red-team.**
+5. ⬜ **Eval pipeline** + the Cintas/UF gold set; then generalize to the 3 test deals.
+6. ⬜ **Harden:** failure-mode hunting, variance runs, write-up.
 
 ---
 

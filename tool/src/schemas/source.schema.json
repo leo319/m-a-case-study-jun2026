@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://merger-tool/schemas/source.schema.json",
+  "title": "Source",
+  "description": "One entry in the source_registry. Fetched docs are cached content-addressed so verification is deterministic even as the live web changes.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "url", "tier"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Stable unique id (e.g. s0001). Claims reference this."
+    },
+    "title": {
+      "type": "string",
+      "description": "Human-readable source title."
+    },
+    "url": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Origin URL (or filing accession URL)."
+    },
+    "tier": {
+      "enum": ["T1", "T2", "T3", "T4"],
+      "description": "T1 primary (SEC, court, regulator) > T2 reputable secondary (major news, sell-side) > T3 trade/specialist > T4 unverified (blog/forum). Travels with every claim."
+    },
+    "retrieved_at": {
+      "type": "string",
+      "description": "ISO-8601 timestamp the content was fetched."
+    },
+    "content_hash": {
+      "type": "string",
+      "description": "sha256 of the cached content. The cache key; integrity-checked at verify time."
+    },
+    "local_path": {
+      "type": "string",
+      "description": "Path to the cached content, relative to the cache root."
+    },
+    "media_type": {
+      "type": "string",
+      "description": "e.g. text/html, application/pdf, text/plain."
+    }
+  }
+}

@@ -1,0 +1,68 @@
+# deal_spec — inputs only. Nothing company-specific lives in the tool's logic; it lives here.
+# This is the worked example. Copy this file to add a new deal; the pipeline reads it verbatim.
+#
+# IMPORTANT: every value under `seed_terms` is an ANALYST SEED, not an established fact.
+# Seeds are hints that tell research where to look. They become facts only after a claim
+# grounded in a cited source passes the deterministic verifier. The tool must never present
+# a seed as a verified number.
+
+deal:
+  id: cintas_unifirst
+  acquirer:
+    name: Cintas Corporation
+    ticker: CTAS
+    exchange: NASDAQ
+  target:
+    name: UniFirst Corporation
+    ticker: UNF
+    exchange: NYSE
+  # Announcement date of the transaction under analysis. Leave null if analysing a
+  # rumoured / proposed / previously-rejected approach rather than a signed deal.
+  announcement_date: null
+  status_note: >
+    Cintas has publicly pursued UniFirst before (notably a rejected 2023 approach).
+    Confirm in Stage 1 whether the deal under analysis is signed, proposed, or hypothetical
+    before treating any term below as real.
+
+# Seed documents the intake stage should fetch first. Real, stable endpoints only.
+# EDGAR browse URLs resolve by ticker; exact accession numbers get registered after fetch.
+seed_docs:
+  - title: Cintas SEC filings (EDGAR)
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CTAS&type=10-K&dateb=&owner=include&count=10
+    tier: T1
+  - title: UniFirst SEC filings (EDGAR)
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=UNF&type=10-K&dateb=&owner=include&count=10
+    tier: T1
+  - title: Cintas investor relations
+    url: https://www.cintas.com/company/investors
+    tier: T2
+  - title: UniFirst investor relations
+    url: https://unifirst.com/investors/
+    tier: T2
+
+# Analyst seeds for headline terms. ALL must be grounded before use. Fill what you suspect;
+# leave null where you don't want to bias research.
+seed_terms:
+  consideration_type: null      # cash | stock | mixed
+  offer_price_per_share: null   # number, seed only
+  premium_pct: null             # number, seed only
+  financing: null               # e.g. "cash + new debt"
+  stated_synergies: null        # number or null
+
+# run_config drives HOW this deal is run and carries analyst steering. Propagates to every stage.
+run_config:
+  depth: standard               # quick | standard | deep
+  # Coverage areas to emphasise. The full checklist lives in methodology/ (deal-agnostic);
+  # this just biases weighting toward what the analyst already cares about.
+  emphasize_areas:
+    - antitrust
+    - target_fundamentals
+  # Free-form analyst steering captured at intake. Hunches, priorities, worries.
+  steering:
+    notes:
+      - "Worried about antitrust given how concentrated the uniform-rental market is post-deal."
+      - "Watch UniFirst's organic growth trajectory — is the target's business deteriorating?"
+    priorities:
+      - "Is a structural force (or an emerging competitor) driving this, or is it empire-building?"
+  # Bound the one allowed Stage-5 loop-back so runs stay reproducible.
+  max_redteam_loopbacks: 1
