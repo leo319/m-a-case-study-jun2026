@@ -27,6 +27,9 @@ deal:
 # Seed documents the intake stage should fetch first. Real, stable endpoints only.
 # EDGAR browse URLs resolve by ticker; exact accession numbers get registered after fetch.
 seed_docs:
+  - title: Letter to shareholders of Unifirst on transaction proposed
+    url: https://www.sec.gov/Archives/edgar/data/0000723254/000114036126020376/ny20069194x3_424b3.htm
+    tier: T1
   - title: Cintas SEC filings (EDGAR)
     url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CTAS&type=10-K&dateb=&owner=include&count=10
     tier: T1
@@ -54,15 +57,10 @@ run_config:
   depth: standard               # quick | standard | deep
   # Coverage areas to emphasise. The full checklist lives in methodology/ (deal-agnostic);
   # this just biases weighting toward what the analyst already cares about.
-  emphasize_areas:
-    - antitrust
-    - target_fundamentals
+  emphasize_areas: null
   # Free-form analyst steering captured at intake. Hunches, priorities, worries.
   steering:
-    notes:
-      - "Worried about antitrust given how concentrated the uniform-rental market is post-deal."
-      - "Watch UniFirst's organic growth trajectory — is the target's business deteriorating?"
-    priorities:
-      - "Is a structural force (or an emerging competitor) driving this, or is it empire-building?"
+    notes: null
+    priorities: null
   # Bound the one allowed Stage-5 loop-back so runs stay reproducible.
   max_redteam_loopbacks: 1

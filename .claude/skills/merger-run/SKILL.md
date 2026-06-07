@@ -24,9 +24,9 @@ python tool/scripts/cli.py map
 
 Show the analyst that pipeline map verbatim, then tell them plainly:
 - This is the **whole journey** so they know what to expect.
-- **Active now** (Milestone 2): Intake, Research, Expert, and the memo render.
-- **Coming later**: Source Planning (stage 2) and Red-Team & Finalize (stage 5) are
-  listed so they can anticipate them, but are not yet implemented.
+- **Active now**: Intake, Source Planning, Research, Expert, and the memo render.
+- **Coming later**: Red-Team & Finalize (stage 5) is listed so they can anticipate
+  it, but is not yet implemented.
 - After **every** stage you will stop, show them the artifact, and wait for their
   steering before continuing.
 
@@ -53,16 +53,22 @@ A "gate" works with Claude Code's turn-taking:
    run directory on its last line — **capture it as `RUN_DIR`** and reuse it for
    every later command. Present `intake.md`. 🚦 Gate.
 
-2. **Research** — invoke the `research` skill with `RUN_DIR` (area: the analyst's
-   emphasized area; default target fundamentals). Present `research_brief.md` and the
-   verification summary — especially **what was quarantined and why**, and any
+2. **Source Planning** — invoke the `source-plan` skill with `RUN_DIR`. It proposes
+   the sources research will use, by class, and lists classes it skipped. Present
+   `source_plan.md` and **make the skipped classes explicit** so the analyst can add
+   any that are missing. 🚦 Gate (approve / add / remove / edit sources). This gate
+   happens **before** any research fetching.
+
+3. **Research** — invoke the `research` skill with `RUN_DIR`. It grounds claims only
+   in the **approved** sources from `source_plan.json`. Present `research_brief.md`
+   and the verification summary — especially **what was quarantined and why**, and any
    coverage gaps. 🚦 Gate.
 
-3. **Expert** — invoke the `expert` skill with `RUN_DIR`. It produces the preliminary
+4. **Expert** — invoke the `expert` skill with `RUN_DIR`. It produces the preliminary
    memo (verified claims only; the renderer refuses anything ungrounded). Present
    `preliminary_memo.md`. 🚦 Gate (final sign-off for this thin slice).
 
-4. Tell the analyst the run is complete and point them to the audit trail:
+5. Tell the analyst the run is complete and point them to the audit trail:
    `steering_log.md`, `conversation.jsonl`, `claims.jsonl`, `source_registry.json`,
    `verification_report.md` in `RUN_DIR`.
 

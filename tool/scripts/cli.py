@@ -27,8 +27,10 @@ try:
 except (AttributeError, ValueError):
     pass
 
+from src.core import cache, fetch, textutil  # noqa: E402
+from src.core.paths import CACHE_ROOT  # noqa: E402
 from src.hooks import check_memo, validate_schema, verify_citations  # noqa: E402
-from src.pipeline import expert, ingest_research, intake, render_memo, runspace  # noqa: E402
+from src.pipeline import expert, ingest_research, intake, render_brief, render_memo, runspace, source_plan  # noqa: E402
 
 
 def _load(path: str) -> dict:
@@ -56,7 +58,7 @@ def cmd_research(args) -> int:
     report = ingest_research.ingest(run, proposals, mock_sources=mock)
     sc = report["status_counts"]
     print(f"research: {sc.get('verified',0)} verified, {sc.get('quarantined',0)} quarantined", file=sys.stderr)
-    print(str(run.run_dir / "research_brief.md"))
+    print(str(run.run_dir / "research_findings.md"))
     return 0
 
 
@@ -75,6 +77,31 @@ def cmd_render(args) -> int:
         print(f"render: REFUSED — {e}", file=sys.stderr)
         return 1
     out = Path(args.run) / "preliminary_memo.md"
+    out.write_text(md, encoding="utf-8")
+    print(str(out))
+    return 0
+
+
+def cmd_render_brief(args) -> int:
+    try:
+        md = render_brief.render(args.run, _load(args.brief))
+    except ValueError as e:
+        print(f"render-brief: REFUSED — {e}", file=sys.stderr)
+        return 1
+    out = Path(args.run) / "research_brief.md"
+    out.write_text(md, encoding="utf-8")
+    print(str(out))
+    return 0
+
+
+def cmd_render_doc(args) -> int:
+    """Render any narrative doc spec (title/sections/[[id]] prose) fail-closed to --out."""
+    try:
+        md = render_brief.render(args.run, _load(args.spec))
+    except ValueError as e:
+        print(f"render-doc: REFUSED — {e}", file=sys.stderr)
+        return 1
+    out = Path(args.run) / args.out
     out.write_text(md, encoding="utf-8")
     print(str(out))
     return 0
@@ -99,6 +126,49 @@ def cmd_verify(args) -> int:
 
 def cmd_validate(args) -> int:
     return validate_schema.run(args.run)
+
+
+def cmd_source_plan_template(_args) -> int:
+    print(json.dumps(source_plan.baseline_template(), indent=2))
+    return 0
+
+
+def cmd_source_plan(args) -> int:
+    run = runspace.open_run(args.run)
+    plan = _load(args.plan)
+    source_plan.apply_plan(run, plan)
+    print(f"source-plan: wrote {run.run_dir / 'source_plan.md'}", file=sys.stderr)
+    print(str(run.run_dir / "source_plan.md"))
+    return 0
+
+
+def cmd_inspect(args) -> int:
+    """Fetch a URL via the SEC-compliant fetch path and surface readable text.
+
+    The agent's read tool when WebFetch is blocked (e.g. SEC 403). With --grep,
+    prints normalized sentences containing any '|'-separated term — copy these
+    verbatim as claim quotes (the verifier extracts text the same way, so a span
+    copied from here is guaranteed to match)."""
+    import re
+    src = fetch.fetch_url(args.url, CACHE_ROOT, source_id="_inspect", tier="T1", title=args.url)
+    text = textutil.normalize(textutil.to_text(cache.load(CACHE_ROOT, src["content_hash"]), src["media_type"]))
+    print(f"# fetched {len(text)} chars (text) from {args.url}", file=sys.stderr)
+    if args.grep:
+        terms = [t for t in args.grep.split("|") if t]
+        sents = re.split(r"(?<=[.%])\s+(?=[A-Z(0-9$])", text)
+        n = 0
+        for s in sents:
+            s = s.strip()
+            if 30 < len(s) < args.maxlen and any(t.lower() in s.lower() for t in terms):
+                print(s + "\n")
+                n += 1
+                if n >= args.max:
+                    break
+        if n == 0:
+            print("(no matching sentences)")
+    else:
+        print(text[: args.max_chars])
+    return 0
 
 
 def cmd_gate(args) -> int:
@@ -128,11 +198,28 @@ def main() -> int:
     p = sub.add_parser("render"); p.add_argument("--run", required=True); p.add_argument("--memo", required=True)
     p.set_defaults(fn=cmd_render)
 
+    p = sub.add_parser("render-brief"); p.add_argument("--run", required=True); p.add_argument("--brief", required=True)
+    p.set_defaults(fn=cmd_render_brief)
+
+    p = sub.add_parser("render-doc"); p.add_argument("--run", required=True); p.add_argument("--spec", required=True)
+    p.add_argument("--out", required=True, help="output filename within the run dir")
+    p.set_defaults(fn=cmd_render_doc)
+
     p = sub.add_parser("check-memo"); p.add_argument("--run", required=True); p.add_argument("--memo", required=True)
     p.set_defaults(fn=cmd_check_memo)
 
     p = sub.add_parser("verify"); p.add_argument("--run", required=True); p.set_defaults(fn=cmd_verify)
     p = sub.add_parser("validate"); p.add_argument("--run", required=True); p.set_defaults(fn=cmd_validate)
+
+    sub.add_parser("source-plan-template").set_defaults(fn=cmd_source_plan_template)
+    p = sub.add_parser("source-plan"); p.add_argument("--run", required=True); p.add_argument("--plan", required=True)
+    p.set_defaults(fn=cmd_source_plan)
+
+    p = sub.add_parser("inspect"); p.add_argument("--url", required=True)
+    p.add_argument("--grep", default=None, help="'|'-separated terms; prints matching sentences")
+    p.add_argument("--max", type=int, default=15); p.add_argument("--maxlen", type=int, default=320)
+    p.add_argument("--max-chars", type=int, default=4000, dest="max_chars")
+    p.set_defaults(fn=cmd_inspect)
 
     p = sub.add_parser("gate"); p.add_argument("--run", required=True); p.add_argument("--stage", required=True)
     p.add_argument("--presented", required=True); p.add_argument("--steering", required=True)

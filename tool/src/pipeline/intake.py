@@ -28,11 +28,13 @@ def run_intake(deal_spec_path: str | Path, *, cache_dir: Path | None = None,
     deal_id = deal.get("id") or Path(deal_spec_path).stem
     run = runspace.create_run(deal_id, cache_dir=cache_dir, ts=ts)
 
+    # `or` not the default arg: a key present with a null value returns None,
+    # which would break the renderers. Coerce null -> empty.
     intake = {
         "deal": deal,
-        "seed_docs": spec.get("seed_docs", []),
-        "seed_terms": spec.get("seed_terms", {}),
-        "run_config": spec.get("run_config", {}),
+        "seed_docs": spec.get("seed_docs") or [],
+        "seed_terms": spec.get("seed_terms") or {},
+        "run_config": spec.get("run_config") or {},
     }
     (run.run_dir / "intake.json").write_text(json.dumps(intake, indent=2) + "\n", encoding="utf-8")
     (run.run_dir / "intake.md").write_text(_render_intake_md(intake), encoding="utf-8")
@@ -44,7 +46,7 @@ def _render_intake_md(intake: dict) -> str:
     d = intake["deal"]
     acq, tgt = d.get("acquirer", {}), d.get("target", {})
     rc = intake["run_config"]
-    steering = rc.get("steering", {})
+    steering = rc.get("steering") or {}
     lines = [
         "# Intake & Scoping",
         "",
@@ -60,7 +62,7 @@ def _render_intake_md(intake: dict) -> str:
         lines.append(f"- [{s.get('tier','?')}] {s.get('title','?')} — {s.get('url','?')}")
     lines += ["", "## Run config"]
     lines.append(f"- **Depth:** {rc.get('depth','?')}")
-    lines.append(f"- **Emphasize areas:** {', '.join(rc.get('emphasize_areas', [])) or '(none)'}")
+    lines.append(f"- **Emphasize areas:** {', '.join(rc.get('emphasize_areas') or []) or '(none)'}")
     if steering.get("notes"):
         lines += ["", "## Analyst steering — notes"]
         lines += [f"- {n}" for n in steering["notes"]]

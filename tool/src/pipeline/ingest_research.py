@@ -134,9 +134,9 @@ def _write_research_brief(run: runspace.Run, area: str, report: dict) -> None:
     facts = [c for c in verified if c.get("type") == "fact"]
     infers = [c for c in verified if c.get("type") == "inference"]
 
-    lines = [f"# Research brief — {area}", "",
-             "_Only verified claims appear below. Quarantined claims are in "
-             "`verification_report.md` and never reach the memo._", ""]
+    lines = [f"# Research findings (verified claims) — {area}", "",
+             "_Structured appendix: the verified claims the narrative `research_brief.md` is "
+             "built from. Quarantined claims are in `verification_report.md` and never reach the memo._", ""]
     lines.append("## Verified findings (facts)")
     if facts:
         for c in facts:
@@ -158,7 +158,7 @@ def _write_research_brief(run: runspace.Run, area: str, report: dict) -> None:
               f"- Verified: {sc.get('verified',0)}  |  Quarantined: {sc.get('quarantined',0)}",
               f"- Fabricated/dead caught: {report['fabricated_or_dead']}  |  Quote-absent caught: {report['quote_absent']}",
               ""]
-    (run.run_dir / "research_brief.md").write_text("\n".join(lines), encoding="utf-8")
+    (run.run_dir / "research_findings.md").write_text("\n".join(lines), encoding="utf-8")
 
 
 def main() -> int:
@@ -176,8 +176,8 @@ def main() -> int:
     report = ingest(run, proposals, mock_sources=mock)
     sc = report["status_counts"]
     print(f"research: {sc.get('verified',0)} verified, {sc.get('quarantined',0)} quarantined "
-          f"-> {run.run_dir / 'research_brief.md'}", file=sys.stderr)
-    print(str(run.run_dir / "research_brief.md"))
+          f"-> {run.run_dir / 'research_findings.md'}", file=sys.stderr)
+    print(str(run.run_dir / "research_findings.md"))
     return 0
 
 

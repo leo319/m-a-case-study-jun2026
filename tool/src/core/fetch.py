@@ -4,8 +4,9 @@ Used by the real intake/research stages. The milestone-1 demo does NOT use this
 (it seeds the cache from a local fixture so the proof needs no network), but this
 is the path a live run takes. Stdlib urllib only — no third-party HTTP dependency.
 
-SEC EDGAR requires a descriptive User-Agent; set FETCH_USER_AGENT or it defaults
-to a generic identifier.
+SEC EDGAR enforces a fair-access policy: the User-Agent MUST identify a real
+contact, in the format "Company Name AdminContact@domain". A generic browser UA is
+rejected (HTTP 403). Override with FETCH_USER_AGENT if needed.
 """
 from __future__ import annotations
 
@@ -16,9 +17,10 @@ from urllib.request import Request, urlopen
 
 from . import cache
 
+# SEC-compliant format: "<name> <admin contact email>". Not a browser UA.
 DEFAULT_UA = os.environ.get(
     "FETCH_USER_AGENT",
-    "merger-analysis-tool/0.1 (contact: analyst@example.com)",
+    "Merger Analysis Tool (Nicholas Kang) nicholas.kang.jun.jie@gmail.com",
 )
 
 

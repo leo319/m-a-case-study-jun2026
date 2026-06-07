@@ -23,7 +23,7 @@ from ..core.paths import CACHE_ROOT, RUNS_ROOT, RunContext
 # map to the analyst at the start of every run so they know the whole journey.
 PIPELINE_STAGES = [
     {"key": "intake", "title": "Intake & Scoping", "gate": "Confirm deal scope + steering", "active": True},
-    {"key": "source_plan", "title": "Source Planning", "gate": "Approve / add / remove sources", "active": False},
+    {"key": "source_plan", "title": "Source Planning", "gate": "Approve / add / remove sources", "active": True},
     {"key": "research", "title": "Research, Grounding & Verification", "gate": "Review brief + quarantines, steer", "active": True},
     {"key": "expert", "title": "Expert Analysis", "gate": "Review preliminary analysis, steer", "active": True},
     {"key": "redteam", "title": "Red-Team & Finalize", "gate": "Final sign-off", "active": False},
