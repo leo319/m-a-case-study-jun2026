@@ -1,0 +1,77 @@
+# Deal-agnostic coverage checklist (PLAN.md §1 "Comprehensiveness", §3 stage 3, §3b).
+# Lives in the tool, NOT in any deal_spec — so blind spots are visible across deals.
+# Drawn from the financial-services dd-checklist workstreams + the tail-risk areas in
+# PLAN.md §78-79. Research covers these areas; the coverage map reports searched/hits/gaps.
+#
+# Per area:
+#   key        stable id; claims are tagged with this in claims.jsonl `area`
+#   lens       which expert(s) the area feeds: fundamentals | rationale | tailrisk
+#   default    required | recommended | optional  (drives gap flagging in the coverage map)
+#   subtopics  what "covered" means for this area
+
+areas:
+  - key: target_fundamentals
+    title: Target fundamentals
+    lens: [fundamentals]
+    default: required
+    subtopics: [revenue trend, operating margin, organic growth, customer retention, cash flow]
+
+  - key: commercial_market
+    title: Commercial & market
+    lens: [fundamentals, rationale]
+    default: recommended
+    subtopics: [market size / TAM, competitive positioning, pricing power, customer concentration]
+
+  - key: deal_rationale_synergies
+    title: Deal rationale & synergies
+    lens: [rationale]
+    default: required
+    subtopics: [strategic logic, stated synergies, accretion/dilution, premium, consideration mix]
+
+  - key: financing_balance_sheet
+    title: Financing & balance sheet
+    lens: [rationale, tailrisk]
+    default: recommended
+    subtopics: [pro-forma leverage, debt, deal financing, liquidity]
+
+  - key: antitrust_regulatory
+    title: Antitrust & regulatory
+    lens: [tailrisk]
+    default: required
+    subtopics: [market concentration, HSR / DOJ / FTC, sector regulators, approval risk]
+
+  - key: litigation_legal
+    title: Litigation & legal
+    lens: [tailrisk]
+    default: recommended
+    subtopics: [material litigation, legal proceedings, contracts, IP disputes]
+
+  - key: management_governance
+    title: Management & governance
+    lens: [tailrisk]
+    default: recommended
+    subtopics: [management quality, governance/shareholder controversies, key-person risk]
+
+  - key: short_activist
+    title: Short-seller / activist
+    lens: [tailrisk]
+    default: recommended
+    subtopics: [bear theses, short reports, activist campaigns]
+
+  - key: macro_geopolitical
+    title: Macro & geopolitical
+    lens: [tailrisk]
+    default: optional
+    subtopics: [macro exposure, FX, tariffs, geopolitical risk]
+
+  - key: operational_integration
+    title: Operational & integration
+    lens: [rationale, tailrisk]
+    default: recommended
+    subtopics: [integration/execution risk, IT systems, supply chain, facilities]
+
+  - key: esg_environmental
+    title: ESG / environmental
+    lens: [tailrisk]
+    default: optional
+    subtopics: [environmental liabilities, regulatory compliance history, ESG risks]

@@ -16,7 +16,13 @@ You are given `RUN_DIR` by the orchestrator.
 
 ## How to work
 
-0. **Use the approved source plan.** Read `RUN_DIR/source_plan.json` (produced by
+0a. **Know the coverage areas.** The deal-agnostic checklist (`python tool/scripts/cli.py
+   coverage-checklist`) defines the areas research can cover (target_fundamentals,
+   antitrust_regulatory, litigation_legal, ...). Cover the area(s) the analyst
+   emphasized (run_config), and **tag every claim with its `area`** so the coverage map
+   can report searched/hits/gaps. One research pass may span several areas.
+
+0b. **Use the approved source plan.** Read `RUN_DIR/source_plan.json` (produced by
    Stage 2 and approved at its gate). Ground claims **only** in those approved sources.
    If a source has a `url`, use it; if it only has a `search_hint`, resolve it to a
    direct document URL with WebSearch. Do not invent new sources the analyst didn't
@@ -46,12 +52,12 @@ You are given `RUN_DIR` by the orchestrator.
    {
      "area": "target_fundamentals",
      "proposals": [
-       {"claim_id":"c0001","type":"fact","module":"research",
+       {"claim_id":"c0001","type":"fact","module":"research","area":"target_fundamentals",
         "statement":"<plain statement>",
         "source":{"id":"s_unf_10k","title":"<title>","url":"<direct url>","tier":"T1"},
         "quote":"<verbatim span copied from the source>",
         "locator":"<section, optional>"},
-       {"claim_id":"c0010","type":"inference","module":"research",
+       {"claim_id":"c0010","type":"inference","module":"research","area":"target_fundamentals",
         "statement":"<reasoning>","supports":["c0001"]}
      ]
    }

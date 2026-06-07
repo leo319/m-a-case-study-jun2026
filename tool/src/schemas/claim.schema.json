@@ -49,6 +49,10 @@
       "enum": ["research", "rationale", "tailrisk"],
       "description": "Which pipeline module produced the claim."
     },
+    "area": {
+      "type": "string",
+      "description": "Coverage-checklist area key this claim belongs to (e.g. 'target_fundamentals', 'antitrust_regulatory'). Drives the coverage map's searched/hits/gaps report."
+    },
     "status": {
       "enum": ["verified", "quarantined", "unverified"],
       "default": "unverified",

@@ -30,7 +30,9 @@ except (AttributeError, ValueError):
 from src.core import cache, fetch, textutil  # noqa: E402
 from src.core.paths import CACHE_ROOT  # noqa: E402
 from src.hooks import check_memo, validate_schema, verify_citations  # noqa: E402
-from src.pipeline import expert, ingest_research, intake, render_brief, render_memo, runspace, source_plan  # noqa: E402
+from src.pipeline import (  # noqa: E402
+    coverage, expert, ingest_research, intake, render_brief, render_memo, runspace, source_plan,
+)
 
 
 def _load(path: str) -> dict:
@@ -142,6 +144,19 @@ def cmd_source_plan(args) -> int:
     return 0
 
 
+def cmd_coverage_checklist(_args) -> int:
+    for a in coverage.load_checklist():
+        print(f"{a['key']:26} [{','.join(a.get('lens', []))}] {a.get('default','')} — {a.get('title','')}")
+    return 0
+
+
+def cmd_coverage(args) -> int:
+    cmap = coverage.run(args.run)
+    print(f"coverage: {cmap['areas_covered']}/{cmap['total_areas']} areas covered, "
+          f"{len(cmap['gaps'])} gaps -> {Path(args.run) / 'coverage_report.md'}")
+    return 0
+
+
 def cmd_inspect(args) -> int:
     """Fetch a URL via the SEC-compliant fetch path and surface readable text.
 
@@ -210,6 +225,9 @@ def main() -> int:
 
     p = sub.add_parser("verify"); p.add_argument("--run", required=True); p.set_defaults(fn=cmd_verify)
     p = sub.add_parser("validate"); p.add_argument("--run", required=True); p.set_defaults(fn=cmd_validate)
+
+    sub.add_parser("coverage-checklist").set_defaults(fn=cmd_coverage_checklist)
+    p = sub.add_parser("coverage"); p.add_argument("--run", required=True); p.set_defaults(fn=cmd_coverage)
 
     sub.add_parser("source-plan-template").set_defaults(fn=cmd_source_plan_template)
     p = sub.add_parser("source-plan"); p.add_argument("--run", required=True); p.add_argument("--plan", required=True)

@@ -95,6 +95,7 @@ def ingest(run: runspace.Run, proposals: dict, mock_sources: dict | None = None)
     # 2. Assemble claims (embed source object -> source_ids reference).
     claims = claims_io.load_claims(run.ctx.claims_path)
     existing_ids = {c["id"] for c in claims}
+    default_area = proposals.get("area")
     for p in proposals.get("proposals", []):
         cid = p["claim_id"]
         if cid in existing_ids:
@@ -106,6 +107,9 @@ def ingest(run: runspace.Run, proposals: dict, mock_sources: dict | None = None)
             "module": p.get("module", "research"),
             "status": "unverified",
         }
+        area = p.get("area") or default_area
+        if area:
+            claim["area"] = area
         if p["type"] == "fact":
             claim["source_ids"] = [p["source"]["id"]]
             claim["quote"] = p.get("quote", "")

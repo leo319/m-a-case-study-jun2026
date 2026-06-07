@@ -60,9 +60,14 @@ A "gate" works with Claude Code's turn-taking:
    happens **before** any research fetching.
 
 3. **Research** — invoke the `research` skill with `RUN_DIR`. It grounds claims only
-   in the **approved** sources from `source_plan.json`. Present `research_brief.md`
-   and the verification summary — especially **what was quarantined and why**, and any
-   coverage gaps. 🚦 Gate.
+   in the **approved** sources from `source_plan.json`, tags each claim with a coverage
+   area, and (final step) builds the coverage map:
+   ```bash
+   python tool/scripts/cli.py coverage --run "<RUN_DIR>"
+   ```
+   Present `research_brief.md`, the verification summary (**what was quarantined and
+   why**), and `coverage_report.md` — call out the **gaps (blind-spot areas)** so the
+   analyst can direct more research. 🚦 Gate.
 
 4. **Expert** — invoke the `expert` skill with `RUN_DIR`. It produces the preliminary
    memo (verified claims only; the renderer refuses anything ungrounded). Present
