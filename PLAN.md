@@ -146,7 +146,7 @@ We test along **two axes**. The mapping is the key insight: **tail risk is judge
 _Status legend: ✅ done · 🔄 in progress · ⬜ not started_
 
 1. ✅ **Spine first.** Schemas + `deal_spec`/`source_registry`/`claims` + the deterministic citation verifier. Prove a fabricated URL gets caught before any agents exist. _Built in `/tool`; proof: `python scripts/run_milestone1_demo.py` quarantines fabricated, dead, and quote-absent citations. Spine smoke tests in `tests/test_spine.py`._
-2. ⬜ **Thin end-to-end slice on Cintas/UniFirst.** One area, one research agent, one expert, render a memo. Get the full loop working badly before making it good.
+2. 🔄 **Thin end-to-end slice on Cintas/UniFirst.** One area, one research agent, one expert, render a memo. Get the full loop working badly before making it good. _CC-native pipeline (skills in `.claude/skills/`: merger-run orchestrator + intake/research/expert/render-memo) over the Python spine in `tool/`. Gate interaction = Model C (turn-by-turn) with an audit/steering log. Mock full-loop proven with zero tokens: `python tool/scripts/run_milestone2_mock.py`. **Remaining: the live checkpoint run** (needs `ANTHROPIC_API_KEY`)._
 3. ⬜ **Widen research** to the full coverage checklist + verification report + gates.
 4. ⬜ **Add experts + materiality filter + red-team.**
 5. ⬜ **Eval pipeline** + the Cintas/UF gold set; then generalize to the 3 test deals.
@@ -186,6 +186,8 @@ The repo must hand in three things — the plan should produce all three, not ju
 **Locked:**
 - _Retrieval_ → Claude native web search API + SEC EDGAR + court-docket sources.
 - _Orchestration_ → thin master orchestrator over decoupled, file-based stages; passes pointers not contents; runs the human gates (§3).
+- _Gate interaction (Model C)_ → conversational. The analyst fills in the deal_spec yaml, then executes the run via the master agent in an **agent panel**. The agent manages control flow; when an intermediate artifact is ready it informs the analyst, **blocks**, takes natural-language steering, and writes that steering back as structured file edits before proceeding. (Rejected: edit-files-and-resume CLI, blocking CLI prompts.)
+- _Auditability_ → every run records a full **conversation/steering log** (the analyst's turns + the agent's), so an auditor can replay exactly what the analyst directed. This is also what reconciles Model C with reproducibility: the conversation is the UI, the recorded structured edit is the source of truth.
 - _Autonomy levels_ → dropped; the human gates every stage, full stop.
 - _Endogenous vs exogenous risk overlap_ → double-counting across rationale (1a) and tail-risk (1b) is acceptable; no boundary policing needed.
 - _Skills_ → every stage is packaged as an invokable skill.

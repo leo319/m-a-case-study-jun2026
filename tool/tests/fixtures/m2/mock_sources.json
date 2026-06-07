@@ -1,0 +1,5 @@
+{
+  "_note": "Maps source URL -> local fixture path (relative to tool/). Stands in for network/EDGAR fetch in offline mode. A URL absent here simulates a dead link.",
+  "https://www.sec.gov/Archives/edgar/data/717954/unifirst-10k-fy2024.htm": "tests/fixtures/m2/unifirst_10k_excerpt.txt",
+  "https://news.example.com/unifirst-customer-retention": "tests/fixtures/m2/unifirst_news.txt"
+}

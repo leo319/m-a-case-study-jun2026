@@ -4,9 +4,9 @@ A pipeline that turns a deal specification into a sourced, audit-traceable M&A m
 designed so that **an unsourced or ungrounded claim cannot structurally reach the
 final memo** (see [`../PLAN.md`](../PLAN.md)).
 
-> Status: **Milestone 1 (the spine) — built.** Schemas, the data model, the
-> content-addressed cache, and the deterministic citation verifier exist and are
-> proven. No agents yet.
+> Status: **Milestone 1 (spine) — done.** **Milestone 2 (thin slice) — mock-proven.**
+> The full loop (intake → research → expert → memo) runs end-to-end with zero tokens
+> via fixtures; the live checkpoint run is the remaining M2 step.
 
 ## Layout (PLAN.md §7)
 
@@ -52,6 +52,31 @@ deterministically, with no network and no model:
 
 ```bash
 python scripts/run_milestone1_demo.py
+```
+
+## Run the pipeline (Milestone 2)
+
+CC-native: the pipeline is driven by skills in `../.claude/skills/` (orchestrator
+`merger-run` + stage skills), which call the Python spine via one CLI. The analyst
+invokes `/merger-run` in Claude Code; the orchestrator shows the full pipeline, then
+runs each stage and stops at a human gate (Model C). Every gate is recorded to an
+audit/steering log for reproducibility.
+
+Prove the whole loop with **no tokens** (fixtures stand in for the agents):
+
+```bash
+python scripts/run_milestone2_mock.py
+```
+
+The pipeline CLI (what the skills call):
+
+```bash
+python scripts/cli.py map                                  # show the full pipeline
+python scripts/cli.py intake   --deal deal_spec/<deal>.yaml
+python scripts/cli.py research --run RUNDIR --proposals proposals.json
+python scripts/cli.py expert   --run RUNDIR --memo memo_spec.json
+python scripts/cli.py render   --run RUNDIR --memo memo_spec.json   # fail-closed
+python scripts/cli.py gate     --run RUNDIR --stage research --presented "..." --steering "..."
 ```
 
 ## The deterministic hooks

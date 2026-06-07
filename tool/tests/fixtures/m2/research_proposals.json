@@ -1,0 +1,65 @@
+{
+  "area": "target_fundamentals",
+  "_note": "Stands in for what the research agent would propose after web/EDGAR search. Mix of grounded facts, a hallucinated number, a dead citation, and inferences — to exercise every verifier path offline.",
+  "proposals": [
+    {
+      "claim_id": "c0001", "type": "fact", "module": "research",
+      "statement": "UniFirst's fiscal 2024 revenue was $2.43 billion, up 9.2% year over year.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2024 Annual Report (synthetic)", "url": "https://www.sec.gov/Archives/edgar/data/717954/unifirst-10k-fy2024.htm", "tier": "T1"},
+      "quote": "Revenues for fiscal 2024 were $2.43 billion, an increase of 9.2% over the prior\nyear",
+      "locator": "Results of Operations",
+      "confidence": 0.95
+    },
+    {
+      "claim_id": "c0002", "type": "fact", "module": "research",
+      "statement": "UniFirst's operating margin declined to 7.8% from 8.6% the prior year.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2024 Annual Report (synthetic)", "url": "https://www.sec.gov/Archives/edgar/data/717954/unifirst-10k-fy2024.htm", "tier": "T1"},
+      "quote": "Operating margin declined to 7.8% from 8.6% in the prior fiscal year",
+      "locator": "Results of Operations",
+      "confidence": 0.95
+    },
+    {
+      "claim_id": "c0003", "type": "fact", "module": "research",
+      "statement": "UniFirst's Core Laundry Operations organic growth was 7.5% for the fiscal year.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2024 Annual Report (synthetic)", "url": "https://www.sec.gov/Archives/edgar/data/717954/unifirst-10k-fy2024.htm", "tier": "T1"},
+      "quote": "organic growth rate was 7.5% for the fiscal year",
+      "confidence": 0.9
+    },
+    {
+      "claim_id": "c0004", "type": "fact", "module": "research",
+      "statement": "UniFirst's revenue fell 15% in fiscal 2024 amid weakening demand.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2024 Annual Report (synthetic)", "url": "https://www.sec.gov/Archives/edgar/data/717954/unifirst-10k-fy2024.htm", "tier": "T1"},
+      "quote": "Revenues for fiscal 2024 declined 15% amid weakening demand",
+      "_intent": "HALLUCINATED NUMBER — this quote is not in the source; must be quarantined.",
+      "confidence": 0.6
+    },
+    {
+      "claim_id": "c0005", "type": "fact", "module": "research",
+      "statement": "UniFirst disclosed the loss of its largest customer.",
+      "source": {"id": "s_ghostnews", "title": "Unifirst loses largest customer (fabricated)", "url": "https://news.example.com/unifirst-loses-largest-customer", "tier": "T3"},
+      "quote": "UniFirst disclosed the loss of its largest customer",
+      "_intent": "DEAD/FABRICATED CITATION — url has no fixture; must be quarantined.",
+      "confidence": 0.4
+    },
+    {
+      "claim_id": "c0006", "type": "fact", "module": "research",
+      "statement": "UniFirst's customer retention remains above 90%, consistent with history.",
+      "source": {"id": "s_news", "title": "UniFirst holds customer base steady (synthetic)", "url": "https://news.example.com/unifirst-customer-retention", "tier": "T2"},
+      "quote": "customer retention rates consistent with historical levels above 90%",
+      "confidence": 0.7
+    },
+    {
+      "claim_id": "c0007", "type": "inference", "module": "research",
+      "statement": "UniFirst is growing revenue while margins compress — a mild fundamentals concern, not deterioration.",
+      "supports": ["c0001", "c0002"],
+      "confidence": 0.6
+    },
+    {
+      "claim_id": "c0008", "type": "inference", "module": "research",
+      "statement": "The reported 15% revenue decline signals serious deterioration of the target.",
+      "supports": ["c0004"],
+      "_intent": "Built on the hallucinated claim c0004 — must be quarantined.",
+      "confidence": 0.6
+    }
+  ]
+}
