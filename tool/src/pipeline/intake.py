@@ -36,8 +36,8 @@ def run_intake(deal_spec_path: str | Path, *, cache_dir: Path | None = None,
         "seed_terms": spec.get("seed_terms") or {},
         "run_config": spec.get("run_config") or {},
     }
-    (run.run_dir / "intake.json").write_text(json.dumps(intake, indent=2) + "\n", encoding="utf-8")
-    (run.run_dir / "intake.md").write_text(_render_intake_md(intake), encoding="utf-8")
+    run.ctx.audit("intake.json").write_text(json.dumps(intake, indent=2) + "\n", encoding="utf-8")
+    run.ctx.audit("intake.md").write_text(_render_intake_md(intake), encoding="utf-8")
     runspace.set_stage_status(run, "intake", "awaiting_gate")
     return run
 
@@ -80,7 +80,7 @@ def main() -> int:
     args = ap.parse_args()
     cache = Path(args.cache) if args.cache else None
     run = run_intake(args.deal, cache_dir=cache)
-    print(f"intake: wrote {run.run_dir / 'intake.md'}", file=sys.stderr)
+    print(f"intake: wrote {run.ctx.audit('intake.md')}", file=sys.stderr)
     # last line = run dir, for the orchestrator to capture
     print(str(run.run_dir))
     return 0

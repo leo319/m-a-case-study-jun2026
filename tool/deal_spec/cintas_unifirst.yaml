@@ -1,3 +1,4 @@
+# ✏️ EDITABLE INPUT · scope: deal-specific (one file per deal) · copy this file to start a new deal.
 # deal_spec — inputs only. Nothing company-specific lives in the tool's logic; it lives here.
 # This is the worked example. Copy this file to add a new deal; the pipeline reads it verbatim.
 #

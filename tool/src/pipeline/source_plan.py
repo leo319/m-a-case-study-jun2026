@@ -39,8 +39,8 @@ def baseline_template() -> dict:
 
 
 def apply_plan(run: runspace.Run, plan: dict) -> dict:
-    (run.run_dir / "source_plan.json").write_text(json.dumps(plan, indent=2) + "\n", encoding="utf-8")
-    (run.run_dir / "source_plan.md").write_text(_render(plan), encoding="utf-8")
+    run.ctx.audit("source_plan.json").write_text(json.dumps(plan, indent=2) + "\n", encoding="utf-8")
+    run.ctx.artifact("source_plan.md").write_text(_render(plan), encoding="utf-8")
     runspace.set_stage_status(run, "source_plan", "awaiting_gate")
     return plan
 
@@ -90,7 +90,7 @@ def main() -> int:
     run = runspace.open_run(args.run)
     plan = json.loads(Path(args.plan).read_text(encoding="utf-8"))
     apply_plan(run, plan)
-    print(str(run.run_dir / "source_plan.md"))
+    print(str(run.ctx.artifact("source_plan.md")))
     return 0
 
 

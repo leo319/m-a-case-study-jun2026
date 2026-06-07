@@ -19,9 +19,9 @@ from pathlib import Path
 import yaml
 
 from ..core import claims as claims_io
-from ..core.paths import TOOL_ROOT
+from ..core.paths import CONFIG_DIR, audit_dir, claims_path
 
-CHECKLIST_PATH = TOOL_ROOT / "methodology" / "coverage_checklist.yaml"
+CHECKLIST_PATH = CONFIG_DIR / "coverage_checklist.yaml"
 
 
 def load_checklist() -> list[dict]:
@@ -31,7 +31,7 @@ def load_checklist() -> list[dict]:
 
 def coverage_map(run_dir: str | Path) -> dict:
     areas = load_checklist()
-    claims = claims_io.load_claims(Path(run_dir) / "claims.jsonl")
+    claims = claims_io.load_claims(claims_path(run_dir))
     verified = Counter()
     attempted = Counter()
     for c in claims:
@@ -88,7 +88,7 @@ def write_report(run_dir: str | Path, cmap: dict) -> Path:
         lines += ["", "## Claims tagged to areas not in the checklist", ""]
         lines += [f"- `{u}`" for u in cmap["untracked"]]
     lines.append("")
-    out = Path(run_dir) / "coverage_report.md"
+    out = audit_dir(run_dir) / "coverage_report.md"
     out.write_text("\n".join(lines), encoding="utf-8")
     return out
 

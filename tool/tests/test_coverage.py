@@ -30,7 +30,8 @@ def build_claims(d: Path):
         {"id": "c4", "statement": "weird", "type": "fact", "module": "research",
          "area": "made_up_area", "source_ids": ["s1"], "quote": "q", "status": "verified"},
     ]
-    claims_io.save_claims(d / "claims.jsonl", claims)
+    (d / "audit").mkdir(parents=True, exist_ok=True)
+    claims_io.save_claims(d / "audit" / "claims.jsonl", claims)
 
 
 def main() -> int:

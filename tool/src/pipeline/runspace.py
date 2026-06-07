@@ -15,8 +15,11 @@ import json
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 from ..core.paths import CACHE_ROOT, RUNS_ROOT, RunContext
+
+_PACIFIC = ZoneInfo("America/Los_Angeles")
 
 # The full pipeline, single source of truth. Stages marked active=False are
 # planned but not yet implemented (Milestone 3+). The orchestrator renders this
@@ -35,7 +38,8 @@ def _now_iso() -> str:
 
 
 def _ts_slug() -> str:
-    return datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    # Readable, Pacific time. No ':' — Windows forbids it in paths — so HHMM not HH:MM.
+    return datetime.now(_PACIFIC).strftime("%Y-%m-%d %H%M")
 
 
 @dataclass(frozen=True)
@@ -49,15 +53,15 @@ class Run:
 
     @property
     def manifest_path(self) -> Path:
-        return self.run_dir / "manifest.json"
+        return self.ctx.audit("manifest.json")
 
     @property
     def steering_log_path(self) -> Path:
-        return self.run_dir / "steering_log.md"
+        return self.ctx.audit("steering_log.md")
 
     @property
     def conversation_path(self) -> Path:
-        return self.run_dir / "conversation.jsonl"
+        return self.ctx.audit("conversation.jsonl")
 
 
 def create_run(deal_id: str, *, cache_dir: Path | None = None, ts: str | None = None) -> Run:
@@ -89,7 +93,7 @@ def create_run(deal_id: str, *, cache_dir: Path | None = None, ts: str | None = 
 
 def open_run(run_dir: str | Path, *, cache_dir: Path | None = None) -> Run:
     run_dir = Path(run_dir)
-    manifest = json.loads((run_dir / "manifest.json").read_text(encoding="utf-8"))
+    manifest = json.loads((run_dir / "audit" / "manifest.json").read_text(encoding="utf-8"))
     cache = cache_dir if cache_dir is not None else CACHE_ROOT
     ctx = RunContext(run_dir=run_dir, cache_dir=cache)
     return Run(ctx=ctx, deal_id=manifest["deal_id"])

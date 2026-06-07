@@ -28,7 +28,7 @@ except (AttributeError, ValueError):
     pass
 
 from src.core import cache, fetch, textutil  # noqa: E402
-from src.core.paths import CACHE_ROOT  # noqa: E402
+from src.core.paths import CACHE_ROOT, audit_dir, out_path  # noqa: E402
 from src.hooks import check_memo, validate_schema, verify_citations  # noqa: E402
 from src.pipeline import (  # noqa: E402
     coverage, expert, ingest_research, intake, render_brief, render_memo, runspace, source_plan,
@@ -60,7 +60,7 @@ def cmd_research(args) -> int:
     report = ingest_research.ingest(run, proposals, mock_sources=mock)
     sc = report["status_counts"]
     print(f"research: {sc.get('verified',0)} verified, {sc.get('quarantined',0)} quarantined", file=sys.stderr)
-    print(str(run.run_dir / "research_findings.md"))
+    print(str(run.ctx.artifact("research_findings.md")))
     return 0
 
 
@@ -78,7 +78,7 @@ def cmd_render(args) -> int:
     except ValueError as e:
         print(f"render: REFUSED — {e}", file=sys.stderr)
         return 1
-    out = Path(args.run) / "preliminary_memo.md"
+    out = out_path(args.run, "preliminary_memo.md")
     out.write_text(md, encoding="utf-8")
     print(str(out))
     return 0
@@ -90,7 +90,7 @@ def cmd_render_brief(args) -> int:
     except ValueError as e:
         print(f"render-brief: REFUSED — {e}", file=sys.stderr)
         return 1
-    out = Path(args.run) / "research_brief.md"
+    out = out_path(args.run, "research_brief.md")
     out.write_text(md, encoding="utf-8")
     print(str(out))
     return 0
@@ -103,7 +103,7 @@ def cmd_render_doc(args) -> int:
     except ValueError as e:
         print(f"render-doc: REFUSED — {e}", file=sys.stderr)
         return 1
-    out = Path(args.run) / args.out
+    out = out_path(args.run, args.out)
     out.write_text(md, encoding="utf-8")
     print(str(out))
     return 0
@@ -139,8 +139,8 @@ def cmd_source_plan(args) -> int:
     run = runspace.open_run(args.run)
     plan = _load(args.plan)
     source_plan.apply_plan(run, plan)
-    print(f"source-plan: wrote {run.run_dir / 'source_plan.md'}", file=sys.stderr)
-    print(str(run.run_dir / "source_plan.md"))
+    print(f"source-plan: wrote {run.ctx.artifact('source_plan.md')}", file=sys.stderr)
+    print(str(run.ctx.artifact("source_plan.md")))
     return 0
 
 
@@ -153,7 +153,7 @@ def cmd_coverage_checklist(_args) -> int:
 def cmd_coverage(args) -> int:
     cmap = coverage.run(args.run)
     print(f"coverage: {cmap['areas_covered']}/{cmap['total_areas']} areas covered, "
-          f"{len(cmap['gaps'])} gaps -> {Path(args.run) / 'coverage_report.md'}")
+          f"{len(cmap['gaps'])} gaps -> {audit_dir(args.run) / 'coverage_report.md'}")
     return 0
 
 

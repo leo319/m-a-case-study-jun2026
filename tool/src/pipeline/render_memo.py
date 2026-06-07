@@ -18,6 +18,7 @@ from pathlib import Path
 
 from ..core import claims as claims_io
 from ..core import registry as registry_io
+from ..core.paths import claims_path, out_path, registry_path
 from ..hooks import check_memo
 
 
@@ -27,9 +28,9 @@ def render(run_dir: str | Path, memo_spec: dict) -> str:
     if problems:
         raise ValueError("memo cites non-verified claims:\n  - " + "\n  - ".join(problems))
 
-    claims = claims_io.load_claims(run_dir / "claims.jsonl")
+    claims = claims_io.load_claims(claims_path(run_dir))
     by_id = claims_io.index_by_id(claims)
-    sources = registry_io.load_registry(run_dir / "source_registry.json")
+    sources = registry_io.load_registry(registry_path(run_dir))
 
     lines = [f"# {memo_spec.get('title', 'Preliminary memo')}", ""]
     if memo_spec.get("subtitle"):
@@ -75,7 +76,7 @@ def main() -> int:
     except ValueError as e:
         print(f"render_memo: REFUSED — {e}", file=sys.stderr)
         return 1
-    out = Path(args.run) / "preliminary_memo.md"
+    out = out_path(args.run, "preliminary_memo.md")
     out.write_text(md, encoding="utf-8")
     print(f"render_memo: wrote {out}", file=sys.stderr)
     print(str(out))

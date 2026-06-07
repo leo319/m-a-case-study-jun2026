@@ -16,10 +16,11 @@ import sys
 from pathlib import Path
 
 from ..core import claims as claims_io
+from ..core.paths import claims_path
 
 
 def check(run_dir: str | Path, memo_spec: dict) -> list[str]:
-    claims = claims_io.load_claims(Path(run_dir) / "claims.jsonl")
+    claims = claims_io.load_claims(claims_path(run_dir))
     by_id = claims_io.index_by_id(claims)
     problems: list[str] = []
     for section in memo_spec.get("sections", []):

@@ -27,6 +27,7 @@ from pathlib import Path
 
 from ..core import claims as claims_io
 from ..core import registry as registry_io
+from ..core.paths import claims_path, out_path, registry_path
 
 _TOKEN = re.compile(r"\[\[([A-Za-z0-9_]+)\]\]")
 
@@ -39,7 +40,7 @@ def referenced_ids(brief_spec: dict) -> list[str]:
 
 
 def check(run_dir: str | Path, brief_spec: dict) -> list[str]:
-    claims = claims_io.load_claims(Path(run_dir) / "claims.jsonl")
+    claims = claims_io.load_claims(claims_path(run_dir))
     by_id = claims_io.index_by_id(claims)
     problems: list[str] = []
     for cid in referenced_ids(brief_spec):
@@ -57,8 +58,8 @@ def render(run_dir: str | Path, brief_spec: dict) -> str:
     if problems:
         raise ValueError("brief cites non-verified claims:\n  - " + "\n  - ".join(problems))
 
-    by_id = claims_io.index_by_id(claims_io.load_claims(run_dir / "claims.jsonl"))
-    sources = registry_io.load_registry(run_dir / "source_registry.json")
+    by_id = claims_io.index_by_id(claims_io.load_claims(claims_path(run_dir)))
+    sources = registry_io.load_registry(registry_path(run_dir))
     footnotes: list[str] = []
     fn_for_source: dict[str, int] = {}
 
@@ -99,7 +100,7 @@ def main() -> int:
     except ValueError as e:
         print(f"render-brief: REFUSED — {e}", file=sys.stderr)
         return 1
-    out = Path(args.run) / "research_brief.md"
+    out = out_path(args.run, "research_brief.md")
     out.write_text(md, encoding="utf-8")
     print(str(out))
     return 0

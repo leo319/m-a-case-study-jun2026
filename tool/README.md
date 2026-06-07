@@ -4,29 +4,43 @@ A pipeline that turns a deal specification into a sourced, audit-traceable M&A m
 designed so that **an unsourced or ungrounded claim cannot structurally reach the
 final memo** (see [`../PLAN.md`](../PLAN.md)).
 
-> Status: **Milestone 1 (spine) — done.** **Milestone 2 (thin slice) — mock-proven.**
-> The full loop (intake → research → expert → memo) runs end-to-end with zero tokens
-> via fixtures; the live checkpoint run is the remaining M2 step.
+> Status: **Milestones 1–3 done.** Spine + full gated pipeline (intake → source
+> planning → research → expert → memo), Model C human gates, coverage checklist/map.
+> Proven live on Cintas/UniFirst (target fundamentals + antitrust).
 
-## Layout (PLAN.md §7)
+## Inputs vs. outputs (what you can edit)
+
+Three unmistakable buckets:
+
+| Bucket | Where | Edit? |
+|---|---|---|
+| ✏️ **Deal-specific inputs** | `deal_spec/<deal>.yaml` | yes — one file per deal (copy the worked example) |
+| ✏️ **Deal-agnostic inputs** (tool-wide knobs) | `config/` | yes — e.g. `coverage_checklist.yaml` (what research must cover) |
+| 🤖 **Generated outputs** | `runs/`, `cache/` | no — produced by the tool (gitignored) |
+
+Editable input files carry a `# ✏️ EDITABLE INPUT · scope: …` banner at the top.
+
+## Layout
 
 ```
-deal_spec/        one yaml per deal (inputs only) — cintas_unifirst.yaml is the worked example
-methodology/      deal-agnostic M&A method-cards for stages 2-4   (Milestone 3b/4)
+config/           deal-agnostic input knobs (coverage_checklist.yaml)        ✏️ editable
+deal_spec/        one yaml per deal (cintas_unifirst.yaml is the example)     ✏️ editable
+methodology/      M&A method-cards for stages 2-4 (future: M3b/4)
 src/
   schemas/        claim + source JSON schemas — the contract everything flows through
   core/           the spine: paths, content-addressed cache, registry, claims IO, schema, fetch
-  hooks/          deterministic verifiers/scorers (no LLM): validate_schema, verify_citations
-  pipeline/       stages 1-5                                       (Milestone 2+)
+  hooks/          deterministic verifiers (no LLM): validate_schema, verify_citations, check_memo
+  pipeline/       stages + backends (intake, source_plan, ingest_research, coverage, render_*, ...)
   eval/           eval pipeline + rubric + judge                  (Milestone 5)
-cache/            content-addressed fetched sources (gitignored)
-runs/<deal>/<ts>/ outputs: claims, registry, briefs, memos, traces (gitignored)
-scripts/          runnable entry points
+cache/            content-addressed fetched sources (gitignored)             🤖 generated
+runs/<deal>/<YYYY-MM-DD HHMM>/   one run (Pacific-time folder), split into:   🤖 generated
+    artifacts/      what the analyst reviews: research_brief.md, preliminary_memo.md,
+                    research_findings.md, source_plan.md
+    audit/          full trail: claims.jsonl, source_registry.json, *_report.md,
+                    steering_log.md, conversation.jsonl, intake/specs/proposals
+scripts/          runnable entry points (cli.py + milestone proofs)
 tests/            fixtures + proofs
 ```
-
-> Note: `src/core/` is a small addition to the §7 sketch — shared spine code the
-> hooks and (later) stages import, kept separate from the deterministic `hooks/`.
 
 ## The data model (PLAN.md §2)
 

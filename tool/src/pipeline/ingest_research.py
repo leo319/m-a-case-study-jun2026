@@ -162,7 +162,7 @@ def _write_research_brief(run: runspace.Run, area: str, report: dict) -> None:
               f"- Verified: {sc.get('verified',0)}  |  Quarantined: {sc.get('quarantined',0)}",
               f"- Fabricated/dead caught: {report['fabricated_or_dead']}  |  Quote-absent caught: {report['quote_absent']}",
               ""]
-    (run.run_dir / "research_findings.md").write_text("\n".join(lines), encoding="utf-8")
+    run.ctx.artifact("research_findings.md").write_text("\n".join(lines), encoding="utf-8")
 
 
 def main() -> int:
@@ -180,8 +180,8 @@ def main() -> int:
     report = ingest(run, proposals, mock_sources=mock)
     sc = report["status_counts"]
     print(f"research: {sc.get('verified',0)} verified, {sc.get('quarantined',0)} quarantined "
-          f"-> {run.run_dir / 'research_findings.md'}", file=sys.stderr)
-    print(str(run.run_dir / "research_findings.md"))
+          f"-> {run.ctx.artifact('research_findings.md')}", file=sys.stderr)
+    print(str(run.ctx.artifact("research_findings.md")))
     return 0
 
 

@@ -65,7 +65,7 @@ def main() -> int:
 
     # --- Stage 1: intake ---
     run = intake.run_intake(DEAL_SPEC, cache_dir=run_dir / "cache", ts=TS)
-    print(f"\n[1] intake        -> {(run.run_dir / 'intake.md').relative_to(TOOL_ROOT)}")
+    print(f"\n[1] intake        -> {run.ctx.audit('intake.md').relative_to(TOOL_ROOT)}")
     runspace.record_gate(run, stage="intake",
                          presented="Deal skeleton + steering for Cintas/UniFirst.",
                          steering="Approved. Focus the slice on target fundamentals.",
@@ -75,13 +75,13 @@ def main() -> int:
     proposals = json.loads((FIX / "research_proposals.json").read_text(encoding="utf-8"))
     report = ingest_research.ingest(run, proposals, mock_sources=resolve_mock_sources())
     sc = report["status_counts"]
-    print(f"[3] research      -> {(run.run_dir / 'research_brief.md').relative_to(TOOL_ROOT)}  "
+    print(f"[3] research      -> {run.ctx.artifact('research_findings.md').relative_to(TOOL_ROOT)}  "
           f"({sc.get('verified',0)} verified, {sc.get('quarantined',0)} quarantined)")
     runspace.record_gate(run, stage="research",
                          presented=f"{sc.get('verified',0)} verified, {sc.get('quarantined',0)} quarantined "
                                    f"({report['fabricated_or_dead']} dead/fabricated, {report['quote_absent']} quote-absent).",
                          steering="Continue. Note the margin compression in the memo.",
-                         artifacts=["research_brief.md", "verification_report.md"])
+                         artifacts=["research_findings.md", "verification_report.md"])
 
     # --- Stage 4: expert (+verify) ---
     memo_spec = json.loads((FIX / "expert_memo_spec.json").read_text(encoding="utf-8"))
@@ -90,8 +90,8 @@ def main() -> int:
 
     # --- render memo (fail-closed) ---
     memo_md = render_memo.render(run.run_dir, memo_spec)
-    (run.run_dir / "preliminary_memo.md").write_text(memo_md, encoding="utf-8")
-    print(f"    render        -> {(run.run_dir / 'preliminary_memo.md').relative_to(TOOL_ROOT)}")
+    run.ctx.artifact("preliminary_memo.md").write_text(memo_md, encoding="utf-8")
+    print(f"    render        -> {run.ctx.artifact('preliminary_memo.md').relative_to(TOOL_ROOT)}")
     runspace.record_gate(run, stage="expert",
                          presented="Preliminary memo on target fundamentals (verified claims only).",
                          steering="(awaiting analyst review)",
