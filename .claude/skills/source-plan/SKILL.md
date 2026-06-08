@@ -12,18 +12,31 @@ add / remove / edit them **before** any research fetching happens. You are given
 
 ## How to work
 
-1. **Read the scope:** `RUN_DIR/intake.json` (deal, seed_docs, run_config, steering)
+1. **Read the scope:** `RUN_DIR/audit/intake.json` (deal, seed_docs, run_config, steering)
    and the deal-agnostic class list:
    ```bash
    python tool/scripts/cli.py source-plan-template
    ```
 
-2. **Propose concrete sources — three kinds, not just given links.** For each area you
-   plan to cover, propose a *mix*:
+2. **Run a broad discovery sweep — find what a fixed checklist misses.** Before planning,
+   run ~6–10 open WebSearch queries across both companies + the deal, hunting the
+   **non-obvious, cross-area** sources a class list won't predict:
+   - activist / hedge-fund campaigns (a fund's press releases, `PREC14A` / `DFAN14A` /
+     Schedule 13D filings),
+   - short-seller reports,
+   - **comparable / precedent deals** (prior roll-ups, spin-offs, rebuffed approaches),
+   - regulator statements, and pivotal news.
+
+   Pin each to a **direct URL** where you can, else leave a `search_hint`. **Noise
+   discipline:** prefer primary; for any secondary candidate name the specific publisher
+   and why it's credible; never list aggregators / SEO / AI-summary pages; tier honestly.
+   Tag everything this sweep surfaces (beyond seeds + the cheat-sheet) with `"via":"scout"`.
+   Keep it to **breadth** — leave per-lens deep searching to the Stage-3 research workers.
+
+3. **Assemble the plan — deal-wide, every source tagged with its `area`.** Cover the areas
+   the analyst emphasised (or all required + recommended). For each area, mix three kinds:
    - **(a) Seeds** — the seed_docs from intake / anything the analyst supplied.
-   - **(b) General web search** — at least one `search_hint` per area so research casts
-     a wide net (use WebSearch yourself to sanity-check the query returns real results,
-     and pin direct URLs where you can).
+   - **(b) Discovery** — the relevant candidates from your sweep (tagged `"via":"scout"`).
    - **(c) Canonical / commonsense sources** — the standard places an analyst would
      always check for that area, even if nobody named them. Use this cheat-sheet:
 
@@ -41,39 +54,44 @@ add / remove / edit them **before** any research fetching happens. You are given
      | operational_integration | both 10-Ks (facilities/IT/supply chain), integration commentary in deal materials |
      | esg_environmental | 10-K environmental disclosures, ESG-rating / controversy coverage |
 
-   Give every source a one-line rationale and a tier. Prefer direct URLs; use
-   `search_hint` when you can't pin one. Be honest: if an area/class truly doesn't apply,
-   list it under `classes_skipped` with a reason rather than padding.
+   Give every source an `area`, a `class`, a `tier`, and a one-line rationale. Prefer
+   direct URLs; use `search_hint` when you can't pin one. Be honest: if an area/class
+   truly doesn't apply, list it under `classes_skipped` with a reason rather than padding.
 
-3. **Write the plan** to `RUN_DIR/source_plan.json`:
+4. **Write the plan** to `RUN_DIR/audit/source_plan.json` — one deal-wide list, each entry
+   carrying its `area` (scout finds carry `"via":"scout"`):
    ```json
    {
-     "area": "target_fundamentals",
      "deal_id": "cintas_unifirst",
      "planned_sources": [
-       {"id":"s_unf_10k","title":"UniFirst FY2025 Form 10-K","class":"filings","tier":"T1",
-        "url":"https://www.sec.gov/Archives/.../unf-20250830.htm",
+       {"id":"s_unf_10k","title":"UniFirst FY2025 Form 10-K","area":"target_fundamentals",
+        "class":"filings","tier":"T1","url":"https://www.sec.gov/Archives/.../unf-20250830.htm",
         "rationale":"Primary source for revenue, margin, organic-growth trend."},
-       {"id":"s_news_unf","title":"Recent UniFirst earnings coverage","class":"news_analyst","tier":"T2",
-        "search_hint":"UniFirst fiscal 2025 results organic growth","rationale":"Corroborate filings with secondary commentary."}
+       {"id":"s_engine_prec14a","title":"Engine Capital PREC14A","area":"short_activist",
+        "class":"filings","tier":"T2","url":"https://www.sec.gov/Archives/...","via":"scout",
+        "rationale":"Activist pushing the board to sell — surfaced by discovery, not the checklist."}
      ],
      "classes_skipped": [
-       {"class":"court_dockets","reason":"Not relevant to a target-fundamentals pass."},
-       {"class":"activist_short","reason":"No known activist/short thesis on UNF; revisit in tail-risk."}
+       {"class":"court_dockets","reason":"No live litigation surfaced; revisit if research finds any."}
      ]
    }
    ```
 
-4. **Persist + render:**
+5. **Persist + render:**
    ```bash
-   python tool/scripts/cli.py source-plan --run "<RUN_DIR>" --plan "<RUN_DIR>/source_plan.json"
+   python tool/scripts/cli.py source-plan --run "<RUN_DIR>" --plan "<RUN_DIR>/audit/source_plan.json"
    ```
 
-5. Present `RUN_DIR/source_plan.md` to the orchestrator for the gate. Make the
-   skipped classes explicit so the analyst can add any you left out.
+6. **Present `RUN_DIR/artifacts/source_plan.md` at the gate.** Explicitly call out **what the
+   discovery sweep added beyond seeds + canonical** (the `(via scout)` entries) so the analyst
+   can steer — prioritise, drop, or add — before any research fetches. Make skipped classes
+   explicit too.
 
 ## Rules
 
 - Sources only — do NOT fetch content or extract claims here. That's research (Stage 3).
+- One **deal-wide** plan: every planned source carries its `area`.
+- Discovery is **breadth, not depth** — surface the non-obvious and cross-area; don't pad the
+  plan with low-credibility noise, and leave per-lens deep searching to the research workers.
 - Prefer primary (T1 filings/regulators/dockets) for anything load-bearing.
 - Surface gaps honestly via `classes_skipped`; the gate is where the analyst fills them.
