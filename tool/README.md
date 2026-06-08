@@ -4,9 +4,11 @@ A pipeline that turns a deal specification into a sourced, audit-traceable M&A m
 designed so that **an unsourced or ungrounded claim cannot structurally reach the
 final memo** (see [`../PLAN.md`](../PLAN.md)).
 
-> Status: **Milestones 1–3 done.** Spine + full gated pipeline (intake → source
-> planning → research → expert → memo), Model C human gates, coverage checklist/map.
-> Proven live on Cintas/UniFirst (target fundamentals + antitrust).
+> Status: **Milestones 1–3 done; pipeline hardened.** Spine + full gated pipeline
+> (intake → source planning → research → expert → memo), Model C human gates, coverage
+> checklist/map. Proven live on Cintas/UniFirst: **9 of 11 areas, 100 verified claims,
+> 0 required/recommended gaps** — with page-level decimal citations, an auto
+> "sources consulted" appendix, and Stage-2 deal-wide source planning + discovery.
 
 ## Inputs vs. outputs (what you can edit)
 
@@ -28,7 +30,8 @@ deal_spec/        one yaml per deal (cintas_unifirst.yaml is the example)     �
 methodology/      M&A method-cards for stages 2-4 (future: M3b/4)
 src/
   schemas/        claim + source JSON schemas — the contract everything flows through
-  core/           the spine: paths, content-addressed cache, registry, claims IO, schema, fetch
+  core/           the spine: paths, content-addressed cache, registry, claims IO, schema, fetch,
+                  citations (page-level footnote builder shared by the brief & memo renderers)
   hooks/          deterministic verifiers (no LLM): validate_schema, verify_citations, check_memo
   pipeline/       stages + backends (intake, source_plan, ingest_research, coverage, render_*, ...)
   eval/           eval pipeline + rubric + judge                  (Milestone 5)

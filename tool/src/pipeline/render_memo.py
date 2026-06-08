@@ -18,6 +18,7 @@ from pathlib import Path
 
 from ..core import claims as claims_io
 from ..core import registry as registry_io
+from ..core.citations import CitationBuilder
 from ..core.paths import claims_path, out_path, registry_path
 from ..hooks import check_memo
 
@@ -38,30 +39,25 @@ def render(run_dir: str | Path, memo_spec: dict) -> str:
     lines += ["> Every claim below is tagged `fact`/`inference` and traces to a "
               "machine-verified source. This is a render of the verified claim store.", ""]
 
-    footnotes: list[str] = []
-    fn_index: dict[str, int] = {}
-
-    def cite(claim: dict) -> str:
-        sid = (claim.get("source_ids") or [None])[0]
-        if not sid:
-            return ""
-        if sid not in fn_index:
-            s = sources.get(sid, {})
-            fn_index[sid] = len(footnotes) + 1
-            footnotes.append(f"[^{fn_index[sid]}]: [{s.get('tier','?')}] {s.get('title','?')} — {s.get('url','?')}")
-        return f"[^{fn_index[sid]}]"
+    # Pre-scan every cited claim so the (source, locator) page numbering is stable.
+    builder = CitationBuilder(sources)
+    cited = [by_id[pt["claim_id"]] for section in memo_spec.get("sections", [])
+             for pt in section.get("points", []) if pt["claim_id"] in by_id]
+    builder.prescan(cited)
 
     for section in memo_spec.get("sections", []):
         lines += [f"## {section.get('heading','')}", ""]
         for pt in section.get("points", []):
             c = by_id[pt["claim_id"]]
             tag = "fact" if c.get("type") == "fact" else "inference"
-            marker = cite(c) if c.get("type") == "fact" else ""
+            marker = builder.cite(c) if c.get("type") == "fact" else ""
             lines.append(f"- **[{tag}]** {c['statement']}{marker}")
         lines.append("")
 
-    if footnotes:
-        lines += ["---", ""] + footnotes + [""]
+    citations = builder.citations_md()
+    if citations:
+        lines += ["---", ""] + citations
+    lines += builder.sources_consulted_md()
     return "\n".join(lines)
 
 

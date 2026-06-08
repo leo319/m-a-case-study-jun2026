@@ -27,9 +27,26 @@ from pathlib import Path
 
 from ..core import claims as claims_io
 from ..core import registry as registry_io
+from ..core.citations import CitationBuilder
 from ..core.paths import claims_path, out_path, registry_path
 
 _TOKEN = re.compile(r"\[\[([A-Za-z0-9_]+)\]\]")
+# collapse consecutive identical citation markers, e.g. [3.1][3.1] -> [3.1]
+_DUP_MARKER = re.compile(r"(\[\d+(?:\.\d+)?\])\1+")
+
+
+def _tidy(body: str) -> str:
+    """Remove the whitespace artifacts a removed inference marker leaves behind —
+    e.g. a space before sentence punctuation or before a closing ``_`` (which would
+    otherwise break markdown emphasis). Leaves table rows untouched."""
+    out = []
+    for line in body.split("\n"):
+        if "|" not in line:  # don't disturb markdown tables
+            line = re.sub(r"[ \t]+([.,;:)_])", r"\1", line)      # space before punctuation
+            line = re.sub(r"(\S)[ \t]{2,}(\S)", r"\1 \2", line)  # collapse internal runs
+            line = re.sub(r"[ \t]+$", "", line)                   # trailing space
+        out.append(line)
+    return "\n".join(out)
 
 
 def referenced_ids(brief_spec: dict) -> list[str]:
@@ -60,19 +77,15 @@ def render(run_dir: str | Path, brief_spec: dict) -> str:
 
     by_id = claims_io.index_by_id(claims_io.load_claims(claims_path(run_dir)))
     sources = registry_io.load_registry(registry_path(run_dir))
-    footnotes: list[str] = []
-    fn_for_source: dict[str, int] = {}
+
+    # Pre-scan referenced claims so single-locator sources stay [N] and only
+    # genuinely multi-page sources get the decimal [N.m] page markers.
+    builder = CitationBuilder(sources)
+    builder.prescan([by_id[cid] for cid in referenced_ids(brief_spec) if cid in by_id])
 
     def cite(cid: str) -> str:
-        c = by_id[cid]
-        sid = (c.get("source_ids") or [None])[0]
-        if not sid:  # inference claim — no direct source; cite nothing inline
-            return ""
-        if sid not in fn_for_source:
-            s = sources.get(sid, {})
-            fn_for_source[sid] = len(footnotes) + 1
-            footnotes.append(f"[^{fn_for_source[sid]}]: [{s.get('tier','?')}] {s.get('title','?')} — {s.get('url','?')}")
-        return f"[^{fn_for_source[sid]}]"
+        c = by_id.get(cid)
+        return builder.cite(c) if c else ""
 
     lines = [f"# {brief_spec.get('title', 'Research brief')}", ""]
     if brief_spec.get("subtitle"):
@@ -80,12 +93,14 @@ def render(run_dir: str | Path, brief_spec: dict) -> str:
     for sec in brief_spec.get("sections", []):
         lines += [f"## {sec['heading']}", ""]
         body = _TOKEN.sub(lambda m: cite(m.group(1)), sec.get("body", ""))
-        # collapse consecutive duplicate footnote markers (e.g. two claims, same source)
-        body = re.sub(r"(\[\^\d+\])\1+", r"\1", body)
+        body = _DUP_MARKER.sub(r"\1", body)  # collapse [3.1][3.1] -> [3.1]
+        body = _tidy(body)                   # clean whitespace left by removed inference markers
         lines.append(body.strip())
         lines.append("")
-    if footnotes:
-        lines += ["---", ""] + footnotes + [""]
+    citations = builder.citations_md()
+    if citations:
+        lines += ["---", ""] + citations
+    lines += builder.sources_consulted_md()
     return "\n".join(lines)
 
 

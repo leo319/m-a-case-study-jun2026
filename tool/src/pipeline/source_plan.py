@@ -5,8 +5,13 @@ can approve / add / remove / edit it at a gate (PLAN.md §3, stage 2). The deter
 part is the deal-agnostic list of source CLASSES to consider — so blind spots are
 visible. The agent fills in concrete, deal-specific sources with a one-line rationale.
 
+The plan is **deal-wide**: every planned source carries its coverage `area`, so the
+Stage-2 gate shows the analyst everything research will pull, grouped by area. A source
+surfaced by the planner's open discovery sweep (beyond the canonical checklist) is
+tagged `via: "scout"` so the gate can call out what discovery added.
+
 A planned source:
-  {id, title, class, tier, url?|search_hint?, rationale}
+  {id, title, area, class, tier, url?|search_hint?, rationale, via?}
 
 CLI:
   python tool/scripts/cli.py source-plan-template          # baseline classes (for the agent)
@@ -19,7 +24,7 @@ import json
 import sys
 from pathlib import Path
 
-from . import runspace
+from . import coverage, runspace
 
 # Deal-agnostic source classes to consider for ANY deal. Lives in the tool, not the
 # deal_spec — that's what makes coverage gaps visible rather than silent.
@@ -45,25 +50,49 @@ def apply_plan(run: runspace.Run, plan: dict) -> dict:
     return plan
 
 
-def _render(plan: dict) -> str:
-    lines = [f"# Source plan — {plan.get('area', '(area)')}", "",
-             "_Proposed sources to research, grouped by class. Approve / add / remove / "
-             "edit before research fans out._", ""]
-    by_class: dict[str, list] = {}
-    for s in plan.get("planned_sources", []):
-        by_class.setdefault(s.get("class", "(unclassified)"), []).append(s)
+def _area_order() -> tuple[list[str], dict[str, str]]:
+    """Coverage-checklist key order + key->title, so the plan reads as one system with
+    the coverage map. Degrades gracefully if the checklist can't be loaded."""
+    try:
+        checklist = coverage.load_checklist()
+        return [a["key"] for a in checklist], {a["key"]: a.get("title", a["key"]) for a in checklist}
+    except Exception:  # noqa: BLE001 — checklist is a nicety here, not a hard dep
+        return [], {}
 
-    ordered = _CLASS_ORDER + [k for k in by_class if k not in _CLASS_ORDER]
-    for cls in ordered:
-        if cls not in by_class:
-            continue
-        lines.append(f"## {cls}")
-        for s in by_class[cls]:
-            target = s.get("url") or (f"search: {s['search_hint']}" if s.get("search_hint") else "(to be located)")
-            lines.append(f"- [{s.get('tier', '?')}] **{s.get('title', '?')}** — {target}")
-            if s.get("rationale"):
-                lines.append(f"    - {s['rationale']}")
-        lines.append("")
+
+def _render(plan: dict) -> str:
+    deal = plan.get("deal_id") or plan.get("area") or "(deal)"
+    lines = [f"# Source plan — {deal}", "",
+             "_Proposed sources to research, grouped by area then class. Approve / add / "
+             "remove / edit before research fans out. `(via scout)` = surfaced by open "
+             "discovery, beyond the canonical checklist._", ""]
+
+    # Group by area (deal-wide). Sources with no area fall under one (unassigned) heading
+    # so old single-area plans still render.
+    by_area: dict[str, list] = {}
+    for s in plan.get("planned_sources", []):
+        by_area.setdefault(s.get("area") or "(unassigned)", []).append(s)
+
+    order, titles = _area_order()
+    known = [k for k in order if k in by_area]
+    extra = sorted(k for k in by_area if k not in order and k != "(unassigned)")
+    tail = ["(unassigned)"] if "(unassigned)" in by_area else []
+    for area in known + extra + tail:
+        lines += [f"## {titles.get(area, area)}", ""]
+        by_class: dict[str, list] = {}
+        for s in by_area[area]:
+            by_class.setdefault(s.get("class", "(unclassified)"), []).append(s)
+        for cls in _CLASS_ORDER + [k for k in by_class if k not in _CLASS_ORDER]:
+            if cls not in by_class:
+                continue
+            lines.append(f"### {cls}")
+            for s in by_class[cls]:
+                target = s.get("url") or (f"search: {s['search_hint']}" if s.get("search_hint") else "(to be located)")
+                via = " _(via scout)_" if s.get("via") else ""
+                lines.append(f"- [{s.get('tier', '?')}] **{s.get('title', '?')}**{via} — {target}")
+                if s.get("rationale"):
+                    lines.append(f"    - {s['rationale']}")
+            lines.append("")
 
     skipped = plan.get("classes_skipped") or []
     lines += ["## Classes intentionally skipped", ""]
