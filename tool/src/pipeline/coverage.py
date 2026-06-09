@@ -12,6 +12,7 @@ CLI:
 from __future__ import annotations
 
 import argparse
+import re
 import sys
 from collections import Counter
 from pathlib import Path
@@ -84,6 +85,23 @@ def write_report(run_dir: str | Path, cmap: dict) -> Path:
             lines.append(f"- **{g['title']}** ({g['default']}) — {g['status']}")
     else:
         lines.append("- (none — every required/recommended area has verified coverage)")
+
+    # Depth check (Phase 1): an area is only really "covered" when each of its subtopics
+    # has a verified claim behind it — not when it has *any* claim. Listing the subtopics
+    # and heuristically flagging areas with fewer verified claims than subtopics makes a
+    # "covered but hollow" area (the deal_rationale miss) eyeballable at the gate.
+    covered_rows = [r for r in cmap["rows"] if r["hits"] > 0]
+    if covered_rows:
+        lines += ["", "## Depth check — does each covered area answer its subtopics?", "",
+                  "_'Covered' should mean every subtopic has a verified claim behind it. Areas flagged "
+                  "**⚠ thin** have fewer verified claims than subtopics — confirm each subtopic is "
+                  "actually addressed before sign-off (a heuristic prompt, not a hard gap)._", ""]
+        for r in covered_rows:
+            subs = r.get("subtopics") or []
+            sub_txt = ", ".join(subs) if subs else "(no subtopics defined)"
+            thin = "  ⚠ **thin**" if subs and r["hits"] < len(subs) else ""
+            lines.append(f"- **{r['title']}** — {r['hits']} verified · subtopics: {sub_txt}{thin}")
+
     if cmap["untracked"]:
         lines += ["", "## Claims tagged to areas not in the checklist", ""]
         lines += [f"- `{u}`" for u in cmap["untracked"]]
@@ -97,6 +115,53 @@ def run(run_dir: str | Path) -> dict:
     cmap = coverage_map(run_dir)
     write_report(run_dir, cmap)
     return cmap
+
+
+# --- Claim utilization -------------------------------------------------------
+# Coverage proves a claim was *gathered*; this proves the memo *used* it. The
+# expert stage picks which verified claims to cite, so its failure mode is silently
+# dropping the sharpest analysis (here: an "8.0x flatters the deal" inference and a
+# synergy-vs-revenue inference both sat unused). The high-signal flag is an unused
+# verified *research inference* — a distilled judgment, expensive to drop. Research
+# claims carry an `area`; expert-authored memo inferences don't, so they're excluded
+# (they're this stage's outputs, not its inputs).
+_CITE_TOKEN = re.compile(r"\[\[([A-Za-z0-9_]+)\]\]")
+LOAD_BEARING_MODULES = ("rationale", "tailrisk")
+
+
+def utilization(run_dir: str | Path, memo_spec: dict) -> dict:
+    """Verified research inferences (rationale/tailrisk) the memo left unused."""
+    cited = {cid for sec in memo_spec.get("sections", [])
+             for cid in _CITE_TOKEN.findall(sec.get("body", ""))}
+    by_module: dict[str, dict] = {}
+    unused_inference: list[dict] = []
+    for c in claims_io.load_claims(claims_path(run_dir)):
+        if (c.get("status") != "verified" or "area" not in c
+                or c.get("module") not in LOAD_BEARING_MODULES):
+            continue
+        m = by_module.setdefault(c["module"], {"total": 0, "cited": 0})
+        m["total"] += 1
+        if c.get("id") in cited:
+            m["cited"] += 1
+        elif c.get("type") == "inference":
+            unused_inference.append(c)
+    return {"by_module": by_module, "unused_inference": unused_inference}
+
+
+def utilization_report(util: dict) -> list[str]:
+    """Compact warning lines for the expert step — a depth nudge, not a hard gate."""
+    out: list[str] = []
+    summary = ", ".join(f"{m} {d['cited']}/{d['total']} research claims cited"
+                        for m, d in sorted(util["by_module"].items()))
+    if summary:
+        out.append(f"utilization: {summary}")
+    if util["unused_inference"]:
+        out.append(f"⚠ {len(util['unused_inference'])} verified research INFERENCE claim(s) unused "
+                   "(distilled judgments — cite, or justify dropping in 'Limits'):")
+        for c in util["unused_inference"]:
+            s = " ".join((c.get("statement") or "").split())
+            out.append(f"   - {c.get('id')}: {s[:90]}{'…' if len(s) > 90 else ''}")
+    return out
 
 
 def main() -> int:

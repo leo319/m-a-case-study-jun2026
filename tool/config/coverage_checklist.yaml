@@ -21,30 +21,31 @@ areas:
     title: Commercial & market
     lens: [fundamentals, rationale]
     default: recommended
-    subtopics: [market size / TAM, competitive positioning, pricing power, customer concentration]
+    subtopics: [market size / TAM, competitive positioning, pricing power, customer concentration, precedent transactions (last ~10y, incl. announced-but-failed — value, rationale, regulatory/macro outcome)]
 
   - key: deal_rationale_synergies
     title: Deal rationale & synergies
     lens: [rationale]
     default: required
-    subtopics: [strategic logic, stated synergies, accretion/dilution, premium, consideration mix]
+    # Mirrors the case brief 1a (strategic logic + financial rationale + synergy credibility).
+    subtopics: [deal type & strategic drivers, premium vs unaffected price, consideration structure, accretion/dilution, synergies vs premium, synergy credibility/basis]
 
   - key: financing_balance_sheet
     title: Financing & balance sheet
     lens: [rationale, tailrisk]
-    default: recommended
+    default: required
     subtopics: [pro-forma leverage, debt, deal financing, liquidity]
 
   - key: antitrust_regulatory
     title: Antitrust & regulatory
     lens: [tailrisk]
     default: required
-    subtopics: [market concentration, HSR / DOJ / FTC, sector regulators, approval risk]
+    subtopics: [market concentration, HSR / DOJ / FTC, sector regulators, approval risk, precedent antitrust outcomes (how prior deals in the sector cleared / were challenged)]
 
   - key: litigation_legal
     title: Litigation & legal
     lens: [tailrisk]
-    default: recommended
+    default: required
     subtopics: [material litigation, legal proceedings, contracts, IP disputes]
 
   - key: management_governance
@@ -69,7 +70,7 @@ areas:
     title: Operational & integration
     lens: [rationale, tailrisk]
     default: recommended
-    subtopics: [integration/execution risk, IT systems, supply chain, facilities]
+    subtopics: [integration/execution risk, IT systems, supply chain, facilities, workforce/people & culture integration (retention, sales-force & route overlap, key-person), customer retention/attrition through integration]
 
   - key: esg_environmental
     title: ESG / environmental

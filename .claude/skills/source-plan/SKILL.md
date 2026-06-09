@@ -44,7 +44,7 @@ add / remove / edit them **before** any research fetching happens. You are given
      |---|---|
      | target_fundamentals | target 10-K + latest 10-Q, earnings releases (8-K Ex-99) |
      | commercial_market | both 10-K "Competition" sections, industry/analyst overviews |
-     | deal_rationale_synergies | deal press release, merger proxy / 424B3 "reasons for the merger" |
+     | deal_rationale_synergies | deal press release; 424B3 "Background of the Merger" + **"Opinion of the Financial Advisor"** (premium, comparable-companies / precedent-transactions / DCF multiples, accretion view); the target's **unaffected pre-announcement share price** (for the premium) |
      | financing_balance_sheet | merger proxy financing section, acquirer debt 8-K, rating-agency actions |
      | antitrust_regulatory | merger proxy "Regulatory Approvals", DOJ/FTC press releases, news on second requests |
      | litigation_legal | 10-K "Legal Proceedings", court dockets (CourtListener), litigation news |

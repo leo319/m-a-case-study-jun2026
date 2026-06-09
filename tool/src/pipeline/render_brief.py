@@ -38,9 +38,14 @@ _DUP_MARKER = re.compile(r"(\[\d+(?:\.\d+)?\])\1+")
 def _tidy(body: str) -> str:
     """Remove the whitespace artifacts a removed inference marker leaves behind —
     e.g. a space before sentence punctuation or before a closing ``_`` (which would
-    otherwise break markdown emphasis). Leaves table rows untouched."""
+    otherwise break markdown emphasis). Leaves table rows untouched.
+
+    Also rewrites a bare ``~`` used as "approximately" (``~$5.5B``, ``~103%``) to
+    ``c. `` (circa): a lone tilde is the GFM strikethrough delimiter, so two of them on
+    one line render everything between as struck-through text."""
     out = []
     for line in body.split("\n"):
+        line = re.sub(r"~(?=[\d$])", "c. ", line)  # ~ as "approximately"/circa (incl. tables)
         if "|" not in line:  # don't disturb markdown tables
             line = re.sub(r"[ \t]+([.,;:)_])", r"\1", line)      # space before punctuation
             line = re.sub(r"(\S)[ \t]{2,}(\S)", r"\1 \2", line)  # collapse internal runs

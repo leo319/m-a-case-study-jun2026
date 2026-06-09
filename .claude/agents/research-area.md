@@ -14,6 +14,11 @@ assigned area and do NOT ingest or verify (the parent does that centrally).
 ## Inputs (the parent gives you)
 - `RUN_DIR` — the run directory.
 - `AREA` — the coverage-area key you own (e.g. `litigation_legal`).
+- `SUBTOPICS` — the specific questions your area must answer (from the checklist). **These
+  are your mandate**, not a suggestion: produce at least one grounded claim for *each*
+  subtopic, or explicitly report it as an unsourced gap. (If the parent didn't pass them,
+  read your area's row from `python tool/scripts/cli.py coverage-checklist`.) An area is
+  not "covered" just because it has *some* claims — it's covered when its subtopics are.
 - The approved sources for your area are in `RUN_DIR/audit/source_plan.json`
   (entries whose `class`/area match yours, plus any general web-search hints).
 
@@ -61,7 +66,31 @@ assigned area and do NOT ingest or verify (the parent does that centrally).
      (`[3.1]`, `[3.2]`, …), so vague or missing locators directly degrade the brief. Do NOT
      repeat the document title inside the locator — the citation already shows it.
 4. **Return** a 2-3 line summary: how many fact/inference proposals you wrote, the path
-   you wrote, and any gap (what you could NOT source for this area). Do not ingest.
+   you wrote, and a **subtopic checklist** — for each of your `SUBTOPICS`, whether you
+   grounded it or left it as a gap (and why). Do not ingest.
+
+## Cover every subtopic
+Your area's subtopics define what "covered" means. For a rationale/financial area especially,
+the analytical subtopics are the point — e.g. `deal_rationale_synergies` requires the
+**premium vs the unaffected pre-announcement price**, the **accretion/dilution** direction,
+and **synergies sized against the premium**, not just the headline deal terms. Mine the
+merger proxy / 424B3 "Opinion of the Financial Advisor" and "Background of the Merger"
+sections for premium, comparable-company / precedent-transaction / DCF multiples. If a
+subtopic genuinely can't be sourced (e.g. it needs a computation or market data you can't
+ground), say so explicitly rather than letting the area look complete.
+
+A few subtopics are routinely under-gathered — give them the same rigor:
+- **Precedent transactions** (`commercial_market`): sweep the **last ~10 years** of sector
+  M&A and capture **both completed and announced-but-failed/abandoned** deals — for each, the
+  acquirer/target, deal value/terms, strategic rationale, and any **regulatory or macro
+  challenge or outcome** (e.g. a required divestiture, a blocked or withdrawn deal). A failed
+  deal is often the most informative datapoint.
+- **Antitrust precedents** (`antitrust_regulatory`): don't stop at *this* deal's HSR timeline —
+  ground **how prior comparable deals in the sector cleared or were challenged** (second
+  requests, consent decrees, divestitures), as base-rate evidence for this deal's odds.
+- **People & execution integration** (`operational_integration`): beyond IT/systems, ground
+  **workforce/culture integration, retention (route drivers, sales force, key management),
+  sales-force/route overlap, and customer attrition risk** — these drive synergy realization.
 
 ## Rules
 - Never invent a quote or URL. If you can't source a claim, leave it out and report the gap.
