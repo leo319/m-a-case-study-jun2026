@@ -47,6 +47,12 @@ cost us the project's guarantees, so:
      premiums, comparables, DCF — not premium-alone); **accretion/dilution with the mechanism**
      (new-debt cost + shares issued vs. synergy phasing), not just the disclosed timing; the
      consideration & financing mix and the leverage it implies.
+     - **No cherry-picking:** when several verified claims give the *same* metric (e.g. two banks'
+       DCF ranges), present the **full set** or say which you used and why — never pass one
+       source's figure off as "the" range.
+     - **Label derived figures honestly:** a premium %, multiple, or "X% above/below" is *your*
+       computation — say which **bound** it's measured against (top vs. bottom of a range), and
+       don't present a computed number as if the source stated it.
    - *Synergy credibility* — it's management's number: **size it** (vs. target revenue/EBITDA,
      vs. precedent-deal synergy %); if the headline multiple is synergy-inclusive, give the
      **ex-synergy** multiple too.
