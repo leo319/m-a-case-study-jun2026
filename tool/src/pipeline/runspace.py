@@ -29,7 +29,7 @@ PIPELINE_STAGES = [
     {"key": "source_plan", "title": "Source Planning", "gate": "Approve / add / remove sources", "active": True},
     {"key": "research", "title": "Research, Grounding & Verification", "gate": "Review brief + quarantines, steer", "active": True},
     {"key": "expert", "title": "Expert Analysis", "gate": "Review preliminary analysis, steer", "active": True},
-    {"key": "redteam", "title": "Red-Team & Finalize", "gate": "Final sign-off", "active": False},
+    {"key": "redteam", "title": "Red-Team & Finalize", "gate": "Final sign-off", "active": True},
 ]
 
 

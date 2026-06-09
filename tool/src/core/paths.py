@@ -32,6 +32,7 @@ AUDIT = "audit"
 ARTIFACT_FILES = {
     "research_brief.md",
     "preliminary_memo.md",
+    "final_memo.md",
     "research_findings.md",
     "source_plan.md",
 }
