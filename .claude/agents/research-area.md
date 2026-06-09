@@ -75,7 +75,10 @@ the analytical subtopics are the point — e.g. `deal_rationale_synergies` requi
 **premium vs the unaffected pre-announcement price**, the **accretion/dilution** direction,
 and **synergies sized against the premium**, not just the headline deal terms. Mine the
 merger proxy / 424B3 "Opinion of the Financial Advisor" and "Background of the Merger"
-sections for premium, comparable-company / precedent-transaction / DCF multiples. If a
+sections for premium, comparable-company / precedent-transaction / DCF multiples. Capture
+**every advisor's version of every methodology** (each bank's comparables, precedent
+transactions, DCF, and premiums-paid ranges) as its **own** claim — if two banks each give a
+DCF range, ground both, so downstream synthesis can't be forced to cherry-pick one. If a
 subtopic genuinely can't be sourced (e.g. it needs a computation or market data you can't
 ground), say so explicitly rather than letting the area look complete.
 
@@ -98,6 +101,11 @@ A few subtopics are routinely under-gathered — give them the same rigor:
 - Quotes must be exact: **exact unicode** (curly quotes/dashes copied as-is) and a **single
   contiguous span**. Whitespace-tolerant, but punctuation- and wording-exact.
 - Every `fact` needs a `locator` with a **page number** where the document is paginated.
+- **One claim = one analysis.** Don't bundle two distinct source analyses (e.g. a DCF range
+  and a premiums-paid range) into a single claim — split them so each carries its own exact
+  `locator` and renders as its own citation.
+- **Preserve scope qualifiers.** If a quote is scoped ("in our X segment", "for fiscal 2025"),
+  keep that scope in the `statement` — never generalize a segment/period figure to the whole.
 - Prefer **quantified** facts: where the area is a company or industry, capture concrete
   numbers (segment revenue in $ and %, growth rates, employee/customer counts, deal values),
   not just qualitative statements.

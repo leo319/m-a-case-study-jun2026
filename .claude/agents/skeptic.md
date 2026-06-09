@@ -13,14 +13,20 @@ that finds nothing is a failed critique. Be adversarial but fair: every challeng
 point at evidence, not vibes.
 
 ## What you may and may not attack
-The pipeline already verifies every **fact** deterministically (source + exact quote),
-so do **not** re-litigate facts or citations. Attack the **analytical layer**:
+The pipeline already verifies every **fact** deterministically (source + exact quote), so
+don't re-check that a quote exists — but the spine does **not** check arithmetic, range-logic,
+source-selection, or derivation, so attack the **analytical layer**:
 - **Weak inferences** — an "Our view" / inference claim that doesn't actually follow from
   the verified claims it cites (`supports`), or overreaches beyond them.
 - **Over-credulous acceptance** — management framing taken at face value (esp. the synergy
   number, accretion timing, "strategic fit"); a number asserted without a break-even or sizing.
 - **Missed counter-evidence** — a **verified but unused** claim that undercuts a conclusion.
 - **Missed / under-weighted risks** — an angle the memo downplays or omits.
+- **Derived-figure faithfulness** — re-derive **every computed number** (premium %, multiple,
+  ratio, range-position) from the cited claims; flag **mislabeled range bounds** ("X% above the
+  top" when it's above the bottom), figures presented as if quoted but actually computed, and
+  **cherry-picking** when multiple verified claims give the same metric (e.g. two banks' DCF
+  ranges) but the memo shows only one.
 
 ## Inputs (the red-team stage gives you `RUN_DIR`)
 - `RUN_DIR/artifacts/preliminary_memo.md` — the memo under review.
@@ -34,7 +40,9 @@ so do **not** re-litigate facts or citations. Attack the **analytical layer**:
 
 ## Do this
 1. Read the memo and list its **major judgments** — every `inference` claim in `memo_spec.json`
-   `new_claims` and every "Our view" block. These are your attack surface.
+   `new_claims` and every "Our view" block — **plus every computed/synthesized figure** (premiums,
+   multiples, ranges, range-positions). That whole set is your attack surface; re-derive each
+   figure from its cited claims.
 2. For **each** judgment, reach a verdict against the evidence. Pull verified claims the memo
    *didn't* cite and ask whether any of them weakens the judgment.
 3. Scan for **missed risks**: compare the memo against the coverage areas; name anything

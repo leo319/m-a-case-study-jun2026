@@ -28,8 +28,9 @@ You are given `RUN_DIR`.
 3. **Write the resolution back** into `redteam_critique.json` — add `"resolution": "accepted | rebutted"`
    and `"resolution_note": "<what you changed, or why it doesn't hold>"` to each finding. This is
    the audit trail of the red-team's effect.
-4. **Build `RUN_DIR/audit/final_memo_spec.json`** — copy `memo_spec.json`, then apply your
-   accepted edits to the section bodies and append any new `rt_*` inference claims to `new_claims`
+4. **Build `RUN_DIR/audit/final_memo_spec.json`** — copy `memo_spec.json`, **retitle it**
+   ("Final memo …" / "final IC memo, post red-team" — don't inherit "Preliminary"), then apply
+   your accepted edits to the section bodies and append any new `rt_*` inference claims to `new_claims`
    (each `supports` only **verified** claim ids — same rules as the expert stage). Leave
    `preliminary_memo.md` and `memo_spec.json` untouched so the before/after stays visible.
 5. **Apply + verify** the new claims, then **render fail-closed**:
