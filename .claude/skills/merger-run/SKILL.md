@@ -24,9 +24,9 @@ python tool/scripts/cli.py map
 
 Show the analyst that pipeline map verbatim, then tell them plainly:
 - This is the **whole journey** so they know what to expect.
-- **Active now**: Intake, Source Planning, Research, Expert, and the memo render.
-- **Coming later**: Red-Team & Finalize (stage 5) is listed so they can anticipate
-  it, but is not yet implemented.
+- **Active now**: Intake, Source Planning, Research, Expert, Red-Team & Finalize.
+- The pipeline ends with a red-team pass (an independent skeptic attacks the memo's
+  judgments) and a final memo.
 - After **every** stage you will stop, show them the artifact, and wait for their
   steering before continuing.
 
@@ -72,11 +72,16 @@ A "gate" works with Claude Code's turn-taking:
 
 4. **Expert** — invoke the `expert` skill with `RUN_DIR`. It produces the preliminary
    memo (verified claims only; the renderer refuses anything ungrounded). Present
-   `preliminary_memo.md`. 🚦 Gate (final sign-off for this thin slice).
+   `preliminary_memo.md`. 🚦 Gate (review the preliminary analysis, steer).
 
-5. Tell the analyst the run is complete and point them to the audit trail:
+5. **Red-Team & Finalize** — invoke the `red-team` skill with `RUN_DIR`. An independent
+   skeptic attacks the memo's judgments (`redteam_critique.json`); you resolve each finding
+   and render `final_memo.md` (still fail-closed). Present `final_memo.md` with the red-team
+   ledger (findings by severity, accepted vs. rebutted, what changed). 🚦 Gate (final sign-off).
+
+6. Tell the analyst the run is complete and point them to the audit trail:
    `steering_log.md`, `conversation.jsonl`, `claims.jsonl`, `source_registry.json`,
-   `verification_report.md` in `RUN_DIR`.
+   `verification_report.md`, `redteam_critique.json` in `RUN_DIR`.
 
 ## Rules
 
