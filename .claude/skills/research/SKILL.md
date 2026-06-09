@@ -27,11 +27,15 @@ context gets bogged down, then ingest everything centrally and verify. You are g
 
 2. **Fan out — one `research-area` subagent per area, spawned in parallel.** Use the
    Task tool with `subagent_type: "research-area"`, one call per area, **in a single
-   message** so they run concurrently. Give each worker its `RUN_DIR` and its `AREA`.
-   Each worker pulls the deal-wide plan's sources **for its area** AND runs its own open
-   searches (the plan is a starting net, not a cap), writes
+   message** so they run concurrently. Give each worker its `RUN_DIR`, its `AREA`, **and
+   that area's `subtopics`** (from `coverage-checklist` — they print under each area).
+   **The subtopics are the worker's mandate: a claim for each, or an explicit gap.**
+   This is what stops an area passing on surface facts alone (e.g. `deal_rationale_synergies`
+   must produce premium, accretion/dilution, and synergies-vs-premium — not just the deal
+   terms). Each worker pulls the deal-wide plan's sources **for its area** AND runs its own
+   open searches (the plan is a starting net, not a cap), writes
    `RUN_DIR/audit/research_proposals_<area>.json` (proposals only — they do NOT ingest),
-   and returns a short summary + any gap it hit.
+   and returns a short summary + **which subtopics it could and could not source**.
 
 3. **Ingest each area's proposals SERIALLY** (avoid racing on claims.jsonl):
    ```bash
@@ -40,11 +44,15 @@ context gets bogged down, then ingest everything centrally and verify. You are g
    Run once per area's file. This fetches/caches/verifies and writes the verified-claims
    appendix `RUN_DIR/artifacts/research_findings.md` + `RUN_DIR/audit/verification_report.md`.
 
-4. **Build the coverage map:**
+4. **Build the coverage map — then read the Depth check, don't just trust the green ticks:**
    ```bash
    python tool/scripts/cli.py coverage --run "<RUN_DIR>"
    ```
-   → `RUN_DIR/audit/coverage_report.md` (searched / hits / gaps).
+   → `RUN_DIR/audit/coverage_report.md` (searched / hits / gaps + a **Depth check** of subtopics
+   per area). An area is "covered" on ≥1 verified claim, which can hide a hollow area — so
+   **re-task any area flagged `⚠ thin` (or any area missing a subtopic)** with a follow-up
+   worker before presenting the gate. Surface facts passing as "covered" is the failure this
+   guards against.
 
 5. **Write the narrative brief** (the deliverable). Author `RUN_DIR/audit/brief_spec.json`
    covering: Executive summary · The transaction · The companies · Industry & business model ·

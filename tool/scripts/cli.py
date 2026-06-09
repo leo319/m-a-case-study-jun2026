@@ -24,6 +24,7 @@ TOOL_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(TOOL_ROOT))
 try:
     sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
 except (AttributeError, ValueError):
     pass
 
@@ -66,9 +67,12 @@ def cmd_research(args) -> int:
 
 def cmd_expert(args) -> int:
     run = runspace.open_run(args.run)
-    report = expert.apply_expert(run, _load(args.memo))
+    memo_spec = _load(args.memo)
+    report = expert.apply_expert(run, memo_spec)
     sc = report["status_counts"]
     print(f"expert: {sc.get('verified',0)} verified, {sc.get('quarantined',0)} quarantined", file=sys.stderr)
+    for line in coverage.utilization_report(coverage.utilization(args.run, memo_spec)):
+        print(line, file=sys.stderr)
     return 0
 
 
@@ -147,6 +151,9 @@ def cmd_source_plan(args) -> int:
 def cmd_coverage_checklist(_args) -> int:
     for a in coverage.load_checklist():
         print(f"{a['key']:26} [{','.join(a.get('lens', []))}] {a.get('default','')} — {a.get('title','')}")
+        subs = a.get("subtopics") or []
+        if subs:
+            print(f"{'':26} subtopics (each must be addressed or flagged): {', '.join(subs)}")
     return 0
 
 

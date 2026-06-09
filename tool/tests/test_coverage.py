@@ -34,6 +34,23 @@ def build_claims(d: Path):
     claims_io.save_claims(d / "audit" / "claims.jsonl", claims)
 
 
+def build_utilization_claims(d: Path):
+    """Two research inferences (one cited, one not), an expert-authored inference (no
+    `area`, never flagged), and a research fact (not an inference, never flagged)."""
+    claims = [
+        {"id": "rationale_infA", "statement": "cited judgment", "type": "inference",
+         "module": "rationale", "area": "deal_rationale_synergies", "supports": ["x"], "status": "verified"},
+        {"id": "rationale_infB", "statement": "dropped judgment", "type": "inference",
+         "module": "rationale", "area": "deal_rationale_synergies", "supports": ["x"], "status": "verified"},
+        {"id": "ex_view", "statement": "expert output", "type": "inference",
+         "module": "rationale", "supports": ["rationale_infA"], "status": "verified"},  # no area
+        {"id": "rationale_fact", "statement": "a fact", "type": "fact", "module": "rationale",
+         "area": "deal_rationale_synergies", "source_ids": ["s1"], "quote": "q", "status": "verified"},
+    ]
+    (d / "audit").mkdir(parents=True, exist_ok=True)
+    claims_io.save_claims(d / "audit" / "claims.jsonl", claims)
+
+
 def main() -> int:
     try:
         sys.stdout.reconfigure(encoding="utf-8")
@@ -57,6 +74,24 @@ def main() -> int:
             ("areas_covered == 2", cmap["areas_covered"] == 2),
         ]
         for name, passed in checks:
+            print(f"  {'✅' if passed else '❌'} {name}")
+            ok = ok and passed
+
+    with tempfile.TemporaryDirectory() as t:
+        d = Path(t)
+        build_utilization_claims(d)
+        memo_spec = {"sections": [{"body": "We cite [[rationale_infA]] here."}]}
+        util = coverage.utilization(d, memo_spec)
+        unused = {c["id"] for c in util["unused_inference"]}
+        u_checks = [
+            ("dropped research inference flagged", "rationale_infB" in unused),
+            ("cited research inference NOT flagged", "rationale_infA" not in unused),
+            ("expert inference (no area) NOT flagged", "ex_view" not in unused),
+            ("research fact (non-inference) NOT flagged", "rationale_fact" not in unused),
+            ("module tally counts research claims only", util["by_module"]["rationale"]["total"] == 3
+                and util["by_module"]["rationale"]["cited"] == 1),
+        ]
+        for name, passed in u_checks:
             print(f"  {'✅' if passed else '❌'} {name}")
             ok = ok and passed
 
