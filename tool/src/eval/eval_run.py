@@ -10,7 +10,7 @@ Flow (the `eval` skill drives this; nothing here calls an LLM directly):
   1. plan(run_dir)            -> run/eval/chunks/chunk_NN.json + run/eval/manifest.json
   2. source_dossier(...)      -> a self-contained, per-claim brief the verifier reads
   3. (verifier subagents)     -> run/eval/chunks/chunk_NN_result.json
-  4. aggregate(run_dir)       -> run/eval/{ledger.md, scorecard.md, scorecard.json}
+  4. aggregate(run_dir)       -> run/eval/{scorecard.md (summary + ledger), scorecard.json}
   5. dashboard(runs_root)     -> runs_root/_eval_dashboard.md
 
 Everything is judged against the cached source snapshot, so a run re-evaluates
@@ -335,7 +335,7 @@ def _pct(rate: float | str) -> str:
 
 def aggregate(run_dir: str | Path) -> dict:
     """Read chunk_*_result.json, build verdict rows, compute metrics, and write
-    eval/{ledger.md, scorecard.md, scorecard.json}. Returns the scorecard dict."""
+    eval/{scorecard.md (summary + ledger), scorecard.json}. Returns the scorecard dict."""
     run_dir = Path(run_dir)
     manifest_path = eval_dir(run_dir) / "manifest.json"
     manifest = json.loads(manifest_path.read_text(encoding="utf-8")) if manifest_path.exists() else {}
@@ -403,11 +403,14 @@ def aggregate(run_dir: str | Path) -> dict:
         "generated_at": datetime.now(timezone.utc).isoformat(),
     }
 
-    _write_ledger(run_dir, verdicts, unjudged)
-    _write_scorecard_md(run_dir, scorecard)
+    uncovered = [r["title"] for r in cmap["rows"] if r["hits"] == 0]
+    _write_report(run_dir, scorecard, verdicts, unjudged, uncovered,
+                  len(util["unused_inference"]))
     (eval_dir(run_dir) / "scorecard.json").write_text(
         json.dumps(scorecard, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
+    # The old two-file layout is now one report; drop a stale ledger if present.
+    (eval_dir(run_dir) / "ledger.md").unlink(missing_ok=True)
     return scorecard
 
 
@@ -425,22 +428,78 @@ def _md_cell(text: str) -> str:
     return (text or "").replace("|", "\\|").replace("\n", " ").strip() or "—"
 
 
-def _write_ledger(run_dir: str | Path, verdicts: list[dict], unjudged: list[str]) -> Path:
+def _write_report(run_dir: str | Path, sc: dict, verdicts: list[dict],
+                  unjudged: list[str], uncovered_areas: list[str],
+                  unused_inferences: int) -> Path:
+    """Write the single human-facing eval file: a summary table up top
+    (metric · definition · score · what failed), the full per-claim ledger below."""
+    def _fails(verdict: str) -> str:
+        ids = [v.get("claim_id", "") for v in verdicts if v.get("verdict") == verdict]
+        return ", ".join(ids) if ids else "—"
+
+    fact_fail = [v.get("claim_id", "") for v in verdicts
+                 if v.get("type") == "fact" and v.get("verdict") != "PASS"]
+    cov_note = ", ".join(uncovered_areas) if uncovered_areas else "—"
+    util_note = (f"{unused_inferences} verified research inference(s) unused"
+                 if unused_inferences else "—")
+
     lines = [
-        "# Eval ledger — independent verification",
+        f"# Eval report — {sc['deal']} / {sc['run']}",
         "",
-        "_Every claim the memo surfaced, re-judged INDEPENDENTLY against its own cached "
-        "source snapshot (reproducible). Failures are listed first._",
+        f"_Independent verification of the **{sc['surfaced']}** claims the memo surfaced "
+        f"({sc['facts_total']} facts, {sc['inferences_total']} inferences), judged against the "
+        f"cached source snapshot by `{sc['verifier_model']}`._",
         "",
-        "**Verdict meanings**",
-        "- **PASS** — fact: citation resolves, quote present, statement entailed by the quoted span; "
-        "inference: supports resolve to verified facts and the conclusion follows.",
-        "- 🔴 **FABRICATION** (fact) — citation is dead/missing or the quote is absent from the source.",
-        "- **MISATTRIBUTION** (fact) — source and quote are present, but the statement isn't supported by them "
-        "(e.g. a route-density claim pinned to a quote that doesn't establish it).",
-        "- **WEAK-INFERENCE** (inference) — the conclusion doesn't follow / overreaches its supports.",
-        "- **DISCIPLINE** (inference) — opinion presented as fact, or a fact left ungrounded "
-        "(fact/inference separation failure).",
+        "## Summary",
+        "",
+        "| Metric | Definition | Score | What failed |",
+        "|---|---|---|---|",
+        f"| **Fact precision** | citation resolves, quote present, statement entailed by the "
+        f"quoted span | {_pct(sc['fact_precision'])} ({sc['facts_pass']}/{sc['facts_total']}) "
+        f"| {_md_cell(', '.join(fact_fail) if fact_fail else '—')} |",
+        f"| &nbsp;&nbsp;↳ Fabrication | citation dead/missing or quote absent "
+        f"| {_pct(sc['fabrication_rate'])} ({sc['facts_fabrication']}/{sc['facts_total']}) "
+        f"| {_md_cell(_fails('FABRICATION'))} |",
+        f"| &nbsp;&nbsp;↳ Misattribution | quote present, but the statement overreaches it "
+        f"| {_pct(sc['misattribution_rate'])} ({sc['facts_misattribution']}/{sc['facts_total']}) "
+        f"| {_md_cell(_fails('MISATTRIBUTION'))} |",
+        f"| **Inference validity** | supports resolve to verified facts and the conclusion follows "
+        f"| {_pct(sc['inference_validity_rate'])} ({sc['inferences_pass']}/{sc['inferences_total']}) "
+        f"| {_md_cell(_fails('WEAK-INFERENCE'))} |",
+        f"| &nbsp;&nbsp;↳ Separation discipline | no opinion-as-fact; fact/inference separation kept "
+        f"| {_pct(sc['separation_discipline_rate'])} "
+        f"({sc['inferences_total'] - sc['inferences_discipline']}/{sc['inferences_total']}) "
+        f"| {_md_cell(_fails('DISCIPLINE'))} |",
+        f"| Coverage | checklist areas with ≥1 verified claim "
+        f"| {_pct(sc['coverage_pct'])} ({sc['areas_covered']}/{sc['total_areas']}) "
+        f"| {_md_cell(cov_note)} |",
+        f"| Utilization | verified rationale/tailrisk research claims the memo cited "
+        f"| {_pct(sc['utilization'])} ({sc['utilization_cited']}/{sc['utilization_total']}) "
+        f"| {_md_cell(util_note)} |",
+        "",
+        _interpretation(sc),
+        "",
+    ]
+    if sc["unjudged_surfaced_ids"]:
+        lines += [
+            f"> ⚠ {len(sc['unjudged_surfaced_ids'])} surfaced claim(s) received no verdict — "
+            "the scores above cover only the judged claims (listed at the bottom).",
+            "",
+        ]
+
+    # --- per-claim ledger -----------------------------------------------------
+    lines += [
+        "## Ledger — per-claim verdicts",
+        "",
+        "_Every surfaced claim, re-judged INDEPENDENTLY against its own cached source "
+        "snapshot (reproducible). Failures are listed first._",
+        "",
+        "**Verdict meanings** — "
+        "**PASS** (grounded & entailed) · "
+        "🔴 **FABRICATION** (citation dead/missing or quote absent) · "
+        "**MISATTRIBUTION** (quote present but statement not supported by it) · "
+        "**WEAK-INFERENCE** (conclusion doesn't follow its supports) · "
+        "**DISCIPLINE** (opinion-as-fact / broken fact-inference separation).",
         "",
         "| claim_id | type | verdict | cited source | offending span | reason |",
         "|---|---|---|---|---|---|",
@@ -457,52 +516,6 @@ def _write_ledger(run_dir: str | Path, verdicts: list[dict], unjudged: list[str]
         lines += ["", "## Surfaced claims with NO verdict (coverage gap in the eval)", ""]
         lines += [f"- `{cid}`" for cid in unjudged]
     lines.append("")
-    out = eval_dir(run_dir) / "ledger.md"
-    out.write_text("\n".join(lines), encoding="utf-8")
-    return out
-
-
-def _write_scorecard_md(run_dir: str | Path, sc: dict) -> Path:
-    fp = sc["fact_precision"]
-    interp = _interpretation(sc)
-    lines = [
-        f"# Eval scorecard — {sc['deal']} / {sc['run']}",
-        "",
-        f"_Independent verification of the **{sc['surfaced']}** claims the memo surfaced "
-        f"({sc['facts_total']} facts, {sc['inferences_total']} inferences), judged against the "
-        f"cached source snapshot by `{sc['verifier_model']}`._",
-        "",
-        "## Headline",
-        "",
-        f"- **Fact precision:** {_pct(fp)}  ({sc['facts_pass']}/{sc['facts_total']} facts PASS)",
-        f"- **Fabrication rate:** {_pct(sc['fabrication_rate'])}  "
-        f"({sc['facts_fabrication']}/{sc['facts_total']} facts)",
-        f"- **Misattribution rate:** {_pct(sc['misattribution_rate'])}  "
-        f"({sc['facts_misattribution']}/{sc['facts_total']} facts)",
-        f"- **Inference validity:** {_pct(sc['inference_validity_rate'])}  "
-        f"({sc['inferences_pass']}/{sc['inferences_total']} inferences PASS)",
-        f"- **Separation discipline:** {_pct(sc['separation_discipline_rate'])}  "
-        f"({sc['inferences_total'] - sc['inferences_discipline']}/{sc['inferences_total']} "
-        f"inferences NOT flagged DISCIPLINE)",
-        f"- **Coverage:** {_pct(sc['coverage_pct'])}  "
-        f"({sc['areas_covered']}/{sc['total_areas']} checklist areas)",
-        f"- **Utilization (rationale/tailrisk research claims cited):** {_pct(sc['utilization'])}  "
-        f"({sc['utilization_cited']}/{sc['utilization_total']})",
-        "",
-        "## Read",
-        "",
-        f"{interp}",
-        "",
-        f"See **ledger.md** for the per-claim verdicts (failures first), each judged against the "
-        f"cached source snapshot.",
-        "",
-    ]
-    if sc["unjudged_surfaced_ids"]:
-        lines += [
-            f"> ⚠ {len(sc['unjudged_surfaced_ids'])} surfaced claim(s) received no verdict — "
-            "the metrics above cover only the judged claims. See ledger.md.",
-            "",
-        ]
     out = eval_dir(run_dir) / "scorecard.md"
     out.write_text("\n".join(lines), encoding="utf-8")
     return out
@@ -531,7 +544,7 @@ def _interpretation(sc: dict) -> str:
                 "or separation failures.")
     return ("Independent verification flagged " + ", ".join(problems)
             + " among the surfaced claims — each needs fixing or dropping before sign-off "
-              "(see ledger.md).")
+              "(see the ledger below).")
 
 
 # --- dashboard ---------------------------------------------------------------
