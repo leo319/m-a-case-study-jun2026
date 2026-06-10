@@ -40,14 +40,14 @@ cached source snapshot**. Because everything is judged against the snapshot, the
    ```bash
    python tool/scripts/cli.py eval-aggregate --run "<RUN_DIR>"
    ```
-   This reads every `chunk_NN_result.json`, computes the metrics, and writes the scorecard
-   + ledger. It reuses the pipeline's own coverage + utilization helpers, so those numbers
-   match the run's coverage report.
+   This reads every `chunk_NN_result.json`, computes the metrics, and writes
+   `scorecard.md` (a summary table on top, the full per-claim ledger below). It reuses the
+   pipeline's own coverage + utilization helpers, so those numbers match the run's coverage
+   report.
 
-4. **Present the results.** Show `RUN_DIR/eval/scorecard.md` in full, then the top
-   (failures-first) rows of `RUN_DIR/eval/ledger.md`. Be honest about any FABRICATION /
-   MISATTRIBUTION / WEAK-INFERENCE / DISCIPLINE flags and any surfaced claim that received
-   no verdict.
+4. **Present the results.** Show `RUN_DIR/eval/scorecard.md` — the summary table first, then
+   the failures-first rows of its ledger. Be honest about any FABRICATION / MISATTRIBUTION /
+   WEAK-INFERENCE / DISCIPLINE flags and any surfaced claim that received no verdict.
 
 5. **Offer the dashboard** (cross-run view): ask whether to run
    ```bash
@@ -63,8 +63,7 @@ RUN_DIR/eval/
     chunk_00.json          # {"chunk":0,"claims":[<full claim records>]}   (input to a verifier)
     chunk_00_result.json   # {"chunk":0,"verdicts":[...]}                  (verifier output)
     ...
-  ledger.md                # per-claim verdicts, failures first (🔴 for fabrications)
-  scorecard.md             # headline rates with raw counts + one honest read
+  scorecard.md             # summary table (metric·definition·score·what-failed) + full per-claim ledger
   scorecard.json           # machine mirror (feeds eval-dashboard)
 ```
 
