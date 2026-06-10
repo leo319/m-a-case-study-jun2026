@@ -124,9 +124,9 @@ what the deterministic verifier structurally cannot — **semantic misattributio
 real, live quote cited for a statement it doesn't actually support.
 
 Fan-out workflow: surfaced claims are chunked (~10 per subagent), one `claim-verifier`
-runs per chunk in parallel, then results aggregate into a ledger + scorecard under
-`run/eval/`. Standalone — invoke the `eval` skill on any finished run; it is **not**
-part of the gated `merger-run` pipeline.
+runs per chunk in parallel, then results aggregate into a single scorecard (summary table
++ per-claim ledger) under `run/eval/`. Standalone — invoke the `eval` skill on any finished
+run; it is **not** part of the gated `merger-run` pipeline.
 
 Per-claim verdicts:
 
@@ -142,15 +142,16 @@ verified claim) and utilization (did the memo use the verified inferences it gat
 Be explicit: these measure *"did we use what we found,"* **not** *"did we find what
 exists."*
 
-Output under `run/eval/`: `manifest.json`, `chunks/`, `ledger.md` (per-claim, failures
-on top), `scorecard.md` + `scorecard.json`; cross-deal roll-up at
-`runs/_eval_dashboard.md`. Everything reads the cached source snapshot, so a re-run is
-deterministic and a regression is attributable to the tool, not a changed source.
+Output under `run/eval/`: `manifest.json`, `chunks/`, `scorecard.md` (a summary table —
+metric · definition · score · what-failed — followed by the full per-claim ledger, failures
+on top) + `scorecard.json`; cross-deal roll-up at `runs/_eval_dashboard.md`. Everything reads
+the cached source snapshot, so a re-run is deterministic and a regression is attributable to
+the tool, not a changed source.
 
 ```bash
 eval-plan      --run RUNDIR [--chunk-size 10]   # chunk surfaced claims, write manifest
 eval-source    --run RUNDIR --claim ID          # re-check one claim vs. its cached source
-eval-aggregate --run RUNDIR                      # ledger + scorecard
+eval-aggregate --run RUNDIR                      # scorecard.md (summary + ledger) + json
 eval-dashboard                                   # cross-deal roll-up
 ```
 
