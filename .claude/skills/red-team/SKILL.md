@@ -45,6 +45,11 @@ You are given `RUN_DIR`.
 
 ## Rules
 - The skeptic attacks judgment; you never weaken the fact/inference + fail-closed guarantees.
+- The expert's authoring rules still bind to every section body you edit: **no citation drift**
+  (a `[[claim_id]]` must support the specific sentence it tags), **no untokened opinion** in a
+  facts bullet (judgments go in "Our view"), and **recompute any derived ratio** you touch. Run
+  the same faithfulness self-pass — re-read each cited sentence against the claim's `statement` +
+  `quote` — before you render `final_memo.md`.
 - Don't rubber-stamp: if you rebut a finding, the note must say *why*, citing evidence.
 - Prefer honest caveats over deletion — surfacing a limitation is better than hiding a weak point.
 - Keep `preliminary_memo.md` intact; the final memo is a **separate** artifact.
