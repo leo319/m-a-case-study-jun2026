@@ -1,12 +1,16 @@
 # Writeup — M&A case study tool
 
-_Nicholas Kang · merger-arbitrage analyst case study · worked example: Cintas (CTAS) / UniFirst (UNF)_
+*Nicholas Kang · merger-arbitrage analyst case study · worked example: Cintas (CTAS) / UniFirst (UNF)*
 
 ---
 
 ## Executive summary
 
-The tool takes a one-page deal spec — parties, tickers, announcement date, seed documents, and any analyst steering — and produces a final investment memo covering both the deal's strategic/financial rationale and its tail risks. A **research brief** is the intermediate artifact the analyst reviews along the way, and the full audit trail (every claim, source, quote, and verification verdict) is made available behind it. On Cintas/UniFirst it concluded — and I largely agree — that this is a high-certainty horizontal consolidation at a very full price: the deal will most likely complete, and the principal concern is that Cintas overpaid rather than that the deal falls apart.
+The tool takes a one-page deal spec — parties, tickers, announcement date, seed documents, and any analyst steering — and produces a final investment memo covering both the deal's strategic/financial rationale and its tail risks. 
+
+Auditability and steerability are key principles of the tool. Concretely, this means gating every stage of the process to get human input and producing intermediate artifacts (e.g., a research brief) and a full audit trail every claim, source, quote, and verification verdict).
+
+On Cintas/UniFirst it concluded — and I largely agree — that this is a high-certainty horizontal consolidation at a very full price: the deal will most likely complete, and the principal concern is that Cintas overpaid rather than that the deal falls apart.
 
 ---
 
@@ -14,20 +18,22 @@ The tool takes a one-page deal spec — parties, tickers, announcement date, see
 
 These are the six principles from the build plan — each one a mechanism in code, not a sentiment:
 
-| Principle | Mechanism (not a vibe — a thing in code) |
-|---|---|
-| **Transparency** | Every claim is a structured object tagged `fact` vs `inference`, with source + verbatim quote. The memo is a *render* of that store. |
-| **Guardrails / accuracy** | Deterministic citation verifier (URL resolves + quote present) runs as a hook; failures are quarantined, never shown. |
-| **Comprehensiveness** | A coverage checklist by risk/area, with a "searched / hits / gaps" report so blind spots are visible. |
-| **Human-in-the-loop** | Named human gate between every stage; the tool proposes and pauses, never auto-finishes. |
-| **Customizable** | `deal_spec` + `run_config` drive everything; deal-specific facts live in config, never in logic. |
-| **Trustworthy** | Separate eval pipeline over a frozen source snapshot; re-runs to the same verdict. |
+
+| Principle             | Mechanism (not a vibe — a thing in code)                                                                                             |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| **Transparency**      | Every claim is a structured object tagged `fact` vs `inference`, with source + verbatim quote. The memo is a *render* of that store. |
+| **Accuracy**          | Deterministic citation verifier (URL resolves + quote present) runs as a hook; failures are quarantined, never shown.                |
+| **Comprehensiveness** | A coverage checklist by risk/area, with a "searched / hits / gaps" report so blind spots are visible.                                |
+| **Steerability**      | Human gate between every stage; the tool proposes and pauses, never auto-finishes. unless explicitly asked.                          |
+| **Customizable**      | `deal_spec` + `run_config` drive everything; deal-specific facts live in config, never in logic.                                     |
+| **Auditable**         | Full audit trail.                                                                                                                    |
+
 
 ---
 
 ## How it works, end-to-end
 
-Think of it as a small diligence team you direct — except every member shows their work and nobody asserts anything they can't source. You hand it a deal brief (parties, tickers, date, seed documents, your hunches). It runs five stages, stopping to show its work after each:
+Think of it as a small diligence team you direct, where every member shows their work and nobody asserts anything they can't source. You hand it a deal brief (parties, tickers, date, seed documents, your hunches). It runs five stages, stopping to show its work after each:
 
 1. **Intake** — reads the brief, extracts the deal skeleton (parties, price, structure, dates), shows you the scope.
 2. **Source planning** — proposes the list of sources it intends to consult, by class, *before* the expensive work, so you're never surprised where a claim came from.
@@ -41,24 +47,36 @@ What lands is a memo with an exec summary, deal structure, rationale, a ranked t
 
 ## Key design decisions
 
-**A primer on the machinery first.** A master orchestrator (the `merger-run` skill) drives the run: at each of the five stages it invokes that stage's skill, and each skill drives the Python spine through a single CLI (`scripts/cli.py`), which in turn calls the underlying scripts — research ingest, coverage mapping, the memo renderers — and the deterministic hooks (`validate_schema`, `verify_citations`). Stages never talk to each other directly; they communicate only through files on disk. With that in mind, the four decisions that matter:
+A master orchestrator (the `merger-run` skill) drives the run: at each of the five stages it invokes that stage's skill, and each skill drives the Python spine through a single CLI (`scripts/cli.py`), which in turn calls the underlying scripts — research ingest, coverage mapping, the memo renderers — and the deterministic hooks (`validate_schema`, `verify_citations`). 
+
+Stages never talk to each other directly; they communicate only through files on disk. 
+
+With that in mind, the four decisions that matter:
 
 **1. The single spine — the memo is a view over a claim store, not freehand prose.** Three files flow through every stage:
+
 - `deal_spec` — all deal-specific input (the only thing you edit per deal).
 - `source_registry` — every source, with tier, URL, retrieval time, and content hash.
 - `claims.jsonl` — the audit spine; each claim is `{statement, type: fact|inference, supports[], source_ids[], quote, locator, status}`.
 
 A fact without a source and quote is invalid by schema; experts may build only on `verified` claims; the renderers assemble verified claims into narrative. There is no code path from an unverified claim to rendered output — which makes "no ungrounded claim reaches the memo" structurally true, not aspirational.
 
-**2. A thin master orchestrator over agents and subagents.** The orchestrator passes *pointers*, not contents, so it never ingests the full corpus and stays lean across a long multi-stage run; every handoff is an inspectable file. Underneath it, the wide work fans out to subagents: research spawns one subagent per coverage area, each writing grounded claim *proposals* that a separate ingest step then verifies and admits. The same fan-out powers the evaluator (surfaced claims chunked ~10/worker, one verifier subagent per chunk, results aggregated). This is the managed-agent pattern — orchestrator plus depth-1 leaf workers plus steering events — borrowed from Anthropic's `financial-services` reference architecture.
+**2. A master orchestrator over agents and subagents.** The orchestrator passes *pointers*, not contents, so it never ingests the full corpus and stays lean across a long multi-stage run; every handoff is an inspectable file. 
+
+Underneath it, the wide work fans out to subagents: (used to parallelize effort and limit context bloat) 
+
+- Research spawns one subagent per coverage area, each writing grounded claim *proposals* that a separate ingest step then verifies and admits.
+- Post-run evaluation
 
 **3. Layered verification.** Checks of deliberately different kinds, split across two places:
 
-*In-pipeline (runs as part of the run):*
+*In-pipeline checks:*
+
 - **Deterministic (script, no LLM)** — re-fetches the cited source and confirms the quoted span is physically present at the locator. Catches dead/fabricated citations with certainty.
 - **Semantic (model)** — asks whether the source actually *supports* the claim, not just whether it resolves.
 
-*Independent evaluation (out of pipeline, separate code path):*
+*Post-run evaluation (out of pipeline):*
+
 - **Independent evaluator** — re-judges every surfaced claim against its *own cached source*, so it doesn't inherit the pipeline's blind spots and can catch **misattribution**: a real, correctly-quoted source cited for a statement it doesn't support.
 
 **4. Page-level citations, quarantining, fail-closed rendering.** Citations resolve to filing section + page, carry their tier inline, and roll up into a "sources consulted" appendix. A citation that fails — dead URL, quote absent, smart-quote mismatch, non-contiguous span — is quarantined: kept in the audit trail with a reason, barred from rendering. The renderers refuse to print an unverified claim; during red-team this held even against the tool itself, when a skeptic's benchmark was rebutted *because its supporting evidence had been quarantined*.
@@ -67,28 +85,33 @@ A fact without a source and quote is invalid by schema; experts may build only o
 
 ## The evaluation
 
-**The metrics we care about.**
 
-| Metric | What it asks |
-|---|---|
-| **Fact precision** | Does the citation resolve, is the quote present, and does it actually support the statement? |
-| ↳ **Fabrication rate** | Citation dead or absent — the cardinal sin. |
-| ↳ **Misattribution rate** | Resolves and quoted correctly, but doesn't support the statement. |
-| **Inference validity** | Are the supports verified and does the conclusion follow? |
-| **Separation discipline** | No opinion dressed up as fact. |
-| **Coverage** | Checklist areas with a verified claim. |
-| **Utilization** | Did the memo use what it found? |
-| **Fact / insight recall** _(gold set only)_ | Did we surface the material facts and reach the key judgments? |
+| Metric                                      | What it asks                                                                                 |
+| ------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| **Fact precision**                          | Does the citation resolve, is the quote present, and does it actually support the statement? |
+| ↳ **Fabrication rate**                      | Citation dead or absent — the cardinal sin.                                                  |
+| ↳ **Misattribution rate**                   | Resolves and quoted correctly, but doesn't support the statement.                            |
+| **Inference validity**                      | Are the supports verified and does the conclusion follow?                                    |
+| **Separation discipline**                   | No opinion dressed up as fact.                                                               |
+| **Coverage**                                | Checklist areas with a verified claim.                                                       |
+| **Utilization**                             | Did the memo use what it found?                                                              |
+| **Fact / insight recall** *(gold set only)* | Did we surface the material facts and reach the key judgments?                               |
+
 
 These split into two evals, because precision and recall have very different costs — a fact has a clean check against its own source, but recall ("did we catch everything?") is unanswerable without knowing what *should* have been found.
 
 **[Live eval] — independent verification, on every memo.**
+
 - *When:* runs on every finished memo, today.
 - *How:* re-checks every surfaced claim against its cached source, fanning out parallel verifiers, and writes a reproducible scorecard of fact precision, fabrication, misattribution, inference validity, separation discipline, coverage, and utilization. The coverage/utilization figures are honestly labelled as *recall proxies* — they measure "did we use what we found," not "did we find what exists."
 
 **[Ongoing / backtest eval] — gold-set recall, in production.**
+
 - *When:* a pinned regression harness — re-run the whole pipeline on a fixed set of deals at regular intervals (and on every model / prompt / pipeline change) to confirm quality holds and nothing has regressed.
-- *How:* set aside a handful of past investment memos as **golden truths** — closed deals where both the real proxy and a real IC memo exist, annotated for material facts and key judgments. Re-run the pipeline on those same deals and compare its output to the golden memo. This measures what precision can't: **fact recall** (did we surface the material facts?), **insight recall** (did we independently reach the key judgments — overpayment, integration, antitrust? missing the thesis is a failure, not a blemish), and precision vs. a canonical value. I'd pair it with a **reliability** pass — run the pipeline N times and report the *spread* of every metric, since a high mean with high variance is untrustworthy. Caveat: a gold memo encodes one analyst's choices, so treat recall as directional.
+- *How:* set aside a handful of past investment memos as **golden truths** — closed deals where both the real proxy and a real IC memo exist, annotated for material facts and key judgments. Re-run the pipeline on those same deals and compare its output to the golden memo. All the live eval metrics plus 
+  - **Fact recall** (did we surface the material facts?), 
+  - **Insight recall** (did we independently reach the key judgments — overpayment, integration, antitrust? missing the thesis is a failure, not a blemish), and precision vs. a canonical value. 
+  - **Reliability** — run the pipeline N times and report the *spread* of every metric, since a high mean with high variance is untrustworthy.
 
 ### What it showed on Cintas/UniFirst — weaknesses included
 
@@ -105,7 +128,7 @@ The defects share one pattern: **the tool doesn't fabricate, it occasionally ove
 
 ## What I'd build with more time
 
-- **Inspectability + GUI.** The audit trail is complete but lives in JSON/markdown. The highest-leverage addition is a front-end where every citation is clickable — hover to see the quote, tier, page, verdict, and an inference's supporting chain. The data model already supports it; it needs a face.
+- **Inspectability + GUI.** The audit trail is complete but lives in JSON/markdown. Having a clickable GUI that makes it easy to inspect sources is critical.
 - **A curated knowledge base.** A vetted library the research agents draw on — trustworthy primary sources by sector, the structural questions a good diligence asks per area, reusable method-cards — raising both recall and analytical quality.
 - **A council of advisors across providers.** A single model family is prone to **self-agreement bias** — expert and red-team share a prior. Running expert/red-team/judge across different providers' frontier models buys genuine diversity: convergence means real confidence, divergence flags the contested ground for a human.
 - **The right model for each job.** Beyond diversity, different models have different strengths, and I'd assign them by purpose rather than use one everywhere — e.g. Gemini for multi-modality and document parsing (pulling figures out of scanned exhibits, charts, and PDF tables that filings bury), a strong reasoning model for the expert and red-team judgment work, and a fast, cheap model for high-volume mechanical checks.
