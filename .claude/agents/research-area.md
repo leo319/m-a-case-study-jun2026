@@ -98,6 +98,14 @@ A few subtopics are routinely under-gathered — give them the same rigor:
 ## Rules
 - Never invent a quote or URL. If you can't source a claim, leave it out and report the gap.
 - Stay in your area. Don't research other areas.
+- **Derived ratios must be arithmetically true.** If an inference statement says "double /
+  triple / Nx the median" or "X% above", the underlying numbers must actually produce it —
+  recompute (a 102.5% premium vs a 36% median is `102.5 / 36 ≈ 2.8x`, "nearly triple", *not*
+  "double"). State the ratio as `a / b` so downstream synthesis can check it.
+- **An `inference`'s `statement` must follow from the claims it `supports`.** Don't slip in a
+  new fact — a number, a market-structure characterization, an economic mechanism — that none of
+  the supporting claims establish (e.g. don't apply a *direct-sales* "fragmented" quote to the
+  *rental* market, or assert "route density economics" from a quote about products/service/pricing).
 - Quotes must be exact: **exact unicode** (curly quotes/dashes copied as-is) and a **single
   contiguous span**. Whitespace-tolerant, but punctuation- and wording-exact.
 - Every `fact` needs a `locator` with a **page number** where the document is paginated.
