@@ -29,7 +29,8 @@ except (AttributeError, ValueError):
     pass
 
 from src.core import cache, fetch, textutil  # noqa: E402
-from src.core.paths import CACHE_ROOT, audit_dir, out_path  # noqa: E402
+from src.core.paths import CACHE_ROOT, RUNS_ROOT, audit_dir, out_path  # noqa: E402
+from src.eval import eval_run  # noqa: E402
 from src.hooks import check_memo, validate_schema, verify_citations  # noqa: E402
 from src.pipeline import (  # noqa: E402
     coverage, expert, ingest_research, intake, render_brief, render_memo, runspace, source_plan,
@@ -193,6 +194,38 @@ def cmd_inspect(args) -> int:
     return 0
 
 
+def cmd_eval_plan(args) -> int:
+    manifest = eval_run.plan(args.run, chunk_size=args.chunk_size)
+    print(f"eval-plan: {manifest['total_surfaced']} surfaced claims "
+          f"({manifest['facts']} facts, {manifest['inferences']} inferences) -> "
+          f"{manifest['n_chunks']} chunk(s) in {eval_run.chunks_dir(args.run)}", file=sys.stderr)
+    print(str(eval_run.eval_dir(args.run) / "manifest.json"))
+    return 0
+
+
+def cmd_eval_source(args) -> int:
+    print(eval_run.source_dossier(args.run, args.claim, full=args.full))
+    return 0
+
+
+def cmd_eval_aggregate(args) -> int:
+    sc = eval_run.aggregate(args.run)
+    print(f"eval-aggregate: precision {eval_run._pct(sc['fact_precision'])} "
+          f"({sc['facts_pass']}/{sc['facts_total']}), "
+          f"fabrication {eval_run._pct(sc['fabrication_rate'])}, "
+          f"misattribution {eval_run._pct(sc['misattribution_rate'])}, "
+          f"inference-validity {eval_run._pct(sc['inference_validity_rate'])}", file=sys.stderr)
+    print(str(eval_run.eval_dir(args.run) / "scorecard.md"))
+    return 0
+
+
+def cmd_eval_dashboard(args) -> int:
+    out = eval_run.dashboard(args.runs_root)
+    print(f"eval-dashboard: wrote {out}", file=sys.stderr)
+    print(str(out))
+    return 0
+
+
 def cmd_gate(args) -> int:
     run = runspace.open_run(args.run)
     artifacts = args.artifacts.split(",") if args.artifacts else []
@@ -245,6 +278,21 @@ def main() -> int:
     p.add_argument("--max", type=int, default=15); p.add_argument("--maxlen", type=int, default=320)
     p.add_argument("--max-chars", type=int, default=4000, dest="max_chars")
     p.set_defaults(fn=cmd_inspect)
+
+    p = sub.add_parser("eval-plan"); p.add_argument("--run", required=True)
+    p.add_argument("--chunk-size", type=int, default=10, dest="chunk_size")
+    p.set_defaults(fn=cmd_eval_plan)
+
+    p = sub.add_parser("eval-source"); p.add_argument("--run", required=True)
+    p.add_argument("--claim", required=True); p.add_argument("--full", action="store_true")
+    p.set_defaults(fn=cmd_eval_source)
+
+    p = sub.add_parser("eval-aggregate"); p.add_argument("--run", required=True)
+    p.set_defaults(fn=cmd_eval_aggregate)
+
+    p = sub.add_parser("eval-dashboard")
+    p.add_argument("--runs-root", default=str(RUNS_ROOT), dest="runs_root")
+    p.set_defaults(fn=cmd_eval_dashboard)
 
     p = sub.add_parser("gate"); p.add_argument("--run", required=True); p.add_argument("--stage", required=True)
     p.add_argument("--presented", required=True); p.add_argument("--steering", required=True)
