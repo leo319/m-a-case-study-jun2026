@@ -129,6 +129,7 @@ The defects share one pattern: **the tool doesn't fabricate, it occasionally ove
 ## What I'd build with more time
 
 - **Inspectability + GUI.** The audit trail is complete but lives in JSON/markdown. Having a clickable GUI that makes it easy to inspect sources is critical.
+- **Test-time compute knob**: Performance is a function of test-time compute -- increasing number of agents, depth/length of thinking will yield better results. So, giving a knob to control this will help improve quality
 - **A curated knowledge base.** A vetted library the research agents draw on — trustworthy primary sources by sector, the structural questions a good diligence asks per area, reusable method-cards — raising both recall and analytical quality.
 - **A council of advisors across providers.** A single model family is prone to **self-agreement bias** — expert and red-team share a prior. Running expert/red-team/judge across different providers' frontier models buys genuine diversity: convergence means real confidence, divergence flags the contested ground for a human.
 - **The right model for each job.** Beyond diversity, different models have different strengths, and I'd assign them by purpose rather than use one everywhere — e.g. Gemini for multi-modality and document parsing (pulling figures out of scanned exhibits, charts, and PDF tables that filings bury), a strong reasoning model for the expert and red-team judgment work, and a fast, cheap model for high-volume mechanical checks.
