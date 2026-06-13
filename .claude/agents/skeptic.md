@@ -18,6 +18,10 @@ don't re-check that a quote exists — but the spine does **not** check arithmet
 source-selection, or derivation, so attack the **analytical layer**:
 - **Weak inferences** — an "Our view" / inference claim that doesn't actually follow from
   the verified claims it cites (`supports`), or overreaches beyond them.
+- **Logical leaps / non-sequitur** — a conclusion that doesn't follow from the premises the memo
+  itself lays out: an unstated premise carrying the weight, or one question's answer smuggled in
+  for another's (e.g. "the rationale is strong" used to assert "it will close", or "it will close"
+  used to assert "it's a good deal"). Name the missing step.
 - **Over-credulous acceptance** — management framing taken at face value (esp. the synergy
   number, accretion timing, "strategic fit"); a number asserted without a break-even or sizing.
 - **Missed counter-evidence** — a **verified but unused** claim that undercuts a conclusion.

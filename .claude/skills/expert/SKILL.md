@@ -47,9 +47,8 @@ then `01`–`05`):
 1. **First-principles trace (card 00).** From the verified claims, reconstruct how this
    business actually makes money — who the customer is and why they pay, who's in the supply
    chain and where power sits, where the cost is fixed vs. variable, and the **binding
-   constraint on profit**. State the profit engine in one sentence (e.g. "a density business;
-   profit is dominated by route fill"). *Derive* it from this deal's facts — don't import a
-   framework's prefab boxes.
+   constraint on profit**. State the profit engine — what governs profitability in this
+   business. *Derive* it from this deal's facts — don't import a framework's prefab boxes.
 2. **Work the buckets (cards 01–05):** industry economics → each company's position/advantage →
    the **deal mechanism** (what the combination changes in the unit economics, through what
    lever, and whether it's worth the premium) → macro/regulatory → **why this deal, why now**
@@ -77,7 +76,9 @@ field) — a traceable "why", not speculation. The spine becomes §5/§6 and the
    as a table, not prose** — last ~10y, **including announced-but-failed deals** — with columns
    for acquirer/target, year, value/terms, strategic rationale, and regulatory/macro outcome.
    Keep the detail *in the table* so it doesn't bloat the narrative.
-4. **Deal structure** (~0.5 pg) — consideration, financing, conditions, timeline, ownership/approval.
+4. **Deal structure** (~0.5 pg) — consideration, financing, conditions, timeline, ownership/approval,
+   and the **deal-protection terms** (termination / reverse break fees, MAC/MAE, the regulatory-efforts
+   covenant, financing condition) that set who bears the risk and feed the close-likelihood balance in §7.
 5. **Strategic & financial rationale** (~2 pg) — the analytical core; mirror brief §1a. Each
    point is a **must-answer**: answer it with the numbers, or state it's genuinely unsourced —
    don't skip it, and don't restate management's framing as the answer.
@@ -87,8 +88,9 @@ field) — a traceable "why", not speculation. The spine becomes §5/§6 and the
      (relative scale of the parties, share / customers / route density added), then name the
      deal **type** (horizontal / capability / geographic) as a *consequence* of that lever. A
      bare "horizontal" label or "creates a leading platform" is not an answer — the answer is the
-     causal chain from the merger to a cost or revenue line; most deals are empire-building, so
-     if you can't trace the lever to a number, say so.
+     causal chain from the merger to a cost or revenue line, and whether that lever will *actually*
+     move the line for *this* buyer, not just whether management says so; most deals are
+     empire-building, so if you can't trace the lever to a number, say so.
    - *Financial rationale* — the **premium against every disclosed valuation anchor** (precedent
      premiums, comparables, DCF — not premium-alone); **accretion/dilution with the mechanism**
      (new-debt cost + shares issued vs. synergy phasing), not just the disclosed timing; the
@@ -110,9 +112,10 @@ field) — a traceable "why", not speculation. The spine becomes §5/§6 and the
        → implied premium), then a **separate frameworks table** (precedent premiums, each bank's
        comparables and DCF) where every row shows the *same* thing — where the offer lands vs.
        that range. Keep the synergy-inclusive EV/EBITDA caveat in prose, not as a table row.
-   - *Synergy credibility* — it's management's number: **size it** (vs. target revenue/EBITDA,
-     vs. precedent-deal synergy %); if the headline multiple is synergy-inclusive, give the
-     **ex-synergy** multiple too.
+   - *Synergy credibility* — a verified synergy figure means management *asserted* it, not that
+     it's real: **test it, don't bank it.** Size it (vs. target revenue/EBITDA, vs. precedent-deal
+     synergy %, and against the cost base you built in the spine); if the headline multiple is
+     synergy-inclusive, give the **ex-synergy** multiple too.
    - *Deal-economics risks* — the few that matter, each with its transmission to returns.
      Cover **execution as well as systems**: not just IT/ERP integration but **people
      (retention of route drivers, sales force, key management), sales-force/route overlap,
@@ -127,9 +130,22 @@ field) — a traceable "why", not speculation. The spine becomes §5/§6 and the
    timeline. If §5's valuation work
    exposes a weakest link (e.g. overpayment vs. the DCF/comps range), carry it here as a
    ranked risk — the dominant risk often lives in the rationale, not just the risk list.
-7. **Assessment & what would change our view** (~0.5 pg) — bottom-line verdict on rationale +
-   tail risk, the specific **monitorables**, and what would flip the call. (For a *tool*, this
-   is the "recommendation" — an assessment, not trade advice.)
+7. **Assessment & what would change our view** (~0.5 pg) — the bottom line, as **two distinct
+   questions kept apart** (collapsing them is the classic memo leap):
+   - *Will it close?* Reason close likelihood as a **balance of forces** — those pushing the deal
+     to completion (a strong strategic imperative and the buyer determination it implies, board/
+     insider lock-ups, the merger agreement's deal-protection terms, financing certainty) against
+     those pulling it apart (antitrust, a MAC or financing-out trigger, shareholder dissent, target
+     deterioration). Weigh them by strength and say **which side dominates and why** — a reasoned
+     net, not a binary or a checklist. A strong rationale is itself a push force (a buyer that needs
+     the deal will lobby, litigate, re-bid, or accept remedies), so it can lift close-odds even
+     against heavy regulatory pull.
+   - *Is it a good deal?* Separately — does the combination actually improve the economics enough
+     to justify the price (the §5 work, management's logic tested), or not? A deal can be
+     **near-certain to close *and* likely to disappoint** — a coherent verdict only if the two are
+     argued separately, never with one smuggled in as the answer to the other.
+   - Then the **net call**, the specific **monitorables**, and what would flip each. (For a *tool*,
+     this is the "recommendation" — an assessment, not trade advice.)
 8. **Appendix** — **auto-generated** by the renderer (page-level Citations + Sources
    consulted). Do NOT hand-write it.
 
@@ -176,7 +192,9 @@ field) — a traceable "why", not speculation. The spine becomes §5/§6 and the
    `claims.jsonl`. Confirm the claim genuinely supports *that* sentence (no over-reach / no
    scope drift), and that no load-bearing sentence is both untokened and outside an "Our view"
    block. Fix drift by re-citing the right claim, demoting the assertion to an inference, or
-   dropping it. Recompute any derived ratio one last time.
+   dropping it. Recompute any derived ratio one last time. Then read each **"Our view" against its
+   own logic** — does the conclusion follow from the claims it cites, or is an unstated premise
+   doing the work? Ground the missing premise or soften the claim.
 6. **Render the narrative memo** (fail-closed) to `preliminary_memo.md`:
    ```bash
    python tool/scripts/cli.py render-doc --run "<RUN_DIR>" --spec "<RUN_DIR>/audit/memo_spec.json" --out preliminary_memo.md
@@ -192,7 +210,10 @@ field) — a traceable "why", not speculation. The spine becomes §5/§6 and the
 - **Answer the `key_questions`.** Each Plan-stage question gets answered in the memo or named in
   Limits as unanswerable from the verified facts. Card 05's anomalies (e.g. an extreme premium)
   are must-answer "whys".
-- Skeptical by default: state management's claim vs your independent read where they differ.
+- **Skeptical by default — verified ≠ true.** A verified claim means the source *said* it; an
+  interested party's assertion (synergy size, accretion, "strategic fit") is a claim to **test**
+  against independently-grounded facts, not a fact to relay. State management's claim vs. your
+  independent read where they differ.
 - Every load-bearing **fact** carries a `[[claim_id]]`; **judgment** lives in "Our view" blocks
   that cite an inference claim. Keep the separation visible — it's a graded requirement.
 - Don't smuggle unsourced assertions — if it isn't a verified claim, it can't be a cited fact.
@@ -200,6 +221,9 @@ field) — a traceable "why", not speculation. The spine becomes §5/§6 and the
   broader/adjacent assertion (citation drift) is a defect even though the renderer allows it.
 - Recompute every derived ratio ("double/triple/Nx", "X% above"); the exec summary and any table
   must state the *same* number.
+- **No logical leaps.** Each "Our view" must follow from the claims it cites plus reasoning a
+  reader can check; if it needs an unstated premise, state and ground it or weaken the conclusion —
+  and never let one question's answer ("will it close") stand in for another's ("is it a good deal").
 - Sections 5 & 6 must answer the case brief §1a/§1b specifically (premium, accretion/dilution,
   synergies-vs-premium, synergy basis; per-risk transmission mechanism to *this* deal).
 - Flag what you could NOT conclude — but never write "not computed/assessed" for something a

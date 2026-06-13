@@ -101,10 +101,21 @@ A few subtopics are routinely under-gathered — give them the same rigor:
 - **People & execution integration** (`operational_integration`): beyond IT/systems, ground
   **workforce/culture integration, retention (route drivers, sales force, key management),
   sales-force/route overlap, and customer attrition risk** — these drive synergy realization.
+- **Merger-agreement terms** (`merger_agreement`): pull the deal-protection mechanics from the
+  merger agreement itself (annex to the proxy / 8-K exhibit) — closing conditions, MAC/MAE,
+  **termination fees both ways**, the **regulatory-efforts / "hell or high water" covenant**, the
+  financing condition and specific performance, and the outside date — these set deal certainty
+  and risk allocation.
 
 ## Rules
 - Never invent a quote or URL. If you can't source a claim, leave it out and report the gap.
 - Stay in your area. Don't research other areas.
+- **Verified ≠ true — corroborate, and label interested-party claims.** The parent's verifier
+  only confirms the source *said* it. For a load-bearing fact — especially an interested party's
+  assertion (synergy size, "strategic fit", accretion, guidance) — seek an **independent** second
+  source and ground it as its own claim; where only the interested party asserts it, keep that
+  scope in the `statement` (e.g. "<acquirer> asserts …"). Actively look for **disconfirming**
+  evidence, not just confirmation.
 - **Derived ratios must be arithmetically true.** If an inference statement says "double /
   triple / Nx the median" or "X% above", the underlying numbers must actually produce it —
   recompute (a 102.5% premium vs a 36% median is `102.5 / 36 ≈ 2.8x`, "nearly triple", *not*

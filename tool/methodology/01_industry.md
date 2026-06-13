@@ -31,7 +31,7 @@ what governs profitability — concentration, pricing power, supply chain, trend
 - Secular trends with a number where possible (growth rate, penetration, input-cost moves).
 
 ## Inferences to form (→ expert)
-- The one force or structural fact that most governs profitability here.
+- Which forces or structural facts most govern profitability here, and why.
 - Where the industry sits in its life cycle and what that implies for M&A.
 - Whether scale/density/integration plausibly changes the economics (sets up cards 03/05).
 

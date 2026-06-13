@@ -15,9 +15,13 @@ This is the card that asks **why**. It runs last, on top of the others.
 - **Why now?** What changed — a structural force in the industry (card 01 life cycle), an
   emerging competitor, a capital position, a regulatory window? Most consolidation clusters in
   industry maturity; position the timing.
-- **How hard will they push?** Strategic buyer with a unique lever and a structural imperative
-  → price-disciplined but determined; a buyer with a weak rationale → likely to walk on
-  friction. This read sets deal certainty and the monitorables.
+- **Will it close? Weigh the forces.** Deal certainty is the **net of forces pushing the deal
+  to completion** — the buyer's strategic imperative and the determination it implies (a buyer
+  that needs the deal will lobby, litigate, re-bid, or accept remedies), plus board/insider
+  lock-ups and the merger agreement's deal-protection terms — **against the forces pulling it
+  apart** (antitrust, financing, a MAC trigger, shareholder dissent). Judge **which side
+  dominates and why**: it's a weighted read, not binary, and a strong rationale is itself a
+  push force, so it can lift close-odds even against heavy regulatory pull.
 
 ## The anomaly drill (the "ask why" engine)
 Scan the assembled picture for anything that **looks off**, and for each, **ask why and drill
@@ -40,11 +44,14 @@ expert must answer / the red-team must close from the fact base or caveat.
 - Stated strategic rationale (deal materials, calls) — to contrast with the independent read.
 - Competitive/timing context (a rival's moves, an emerging threat, the buyer's capital position).
 - Target-side dynamics (board process, activist pressure, "Background of the Merger").
+- The deal-protection terms (termination/break fees, MAC, regulatory-efforts covenant) and
+  lock-ups that tilt the force balance toward or against close.
 
 ## Inferences to form (→ expert)
 - The independent answer to **"why this deal, why now"** — buyer's real incentive vs.
   management's framing, stated side by side.
-- A read on **how hard the buyer pushes** and what would make them walk (deal certainty).
+- The **close call as a balance of forces** — which side (push vs pull) dominates and why, and
+  what would make the buyer walk.
 - For each anomaly: the most plausible root-cause thread, grounded in verified facts, or an
   explicit gap to flag.
 
@@ -52,3 +59,4 @@ expert must answer / the red-team must close from the fact base or caveat.
 - Restating management's "strategic fit" as the answer to "why".
 - No anomaly drill — a high premium or a hard regulatory path noted but never interrogated.
 - A "why now" with no structural or competitive trigger.
+- Treating close as a coin-flip or a checklist instead of weighing which forces dominate.

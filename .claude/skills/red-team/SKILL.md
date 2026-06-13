@@ -64,6 +64,11 @@ You are given `RUN_DIR`.
 - The skeptic attacks judgment; you never weaken the fact/inference + fail-closed guarantees.
 - **Close, don't loop.** Try to answer each unanswered "why" / `key_question` from existing
   verified claims (grounded `rt_*` inference); never re-open research. Unclosable → Limitations.
+- **Check entailment, not just facts.** Beyond closing "whys", make sure each load-bearing
+  conclusion you keep **follows from its premises** — if the skeptic flags a leap (a conclusion
+  resting on an unstated premise, or "will it close" answered with "is it a good deal"), close it
+  by grounding the missing premise or softening the conclusion. The fail-closed rails check facts;
+  logical validity is on you.
 - The expert's authoring rules still bind to every section body you edit: **no citation drift**
   (a `[[claim_id]]` must support the specific sentence it tags), **no untokened opinion** in a
   facts bullet (judgments go in "Our view"), and **recompute any derived ratio** you touch. Run

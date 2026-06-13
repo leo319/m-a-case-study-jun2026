@@ -15,9 +15,9 @@ the rest of the run.
 
 ## First principles first — frameworks are servants, not masters
 
-Following Victor Cheng (*Case Interview Secrets*): **reasoning is first-principles, not
-framework-driven.** The mechanical application of a standard framework is a red flag, not
-an answer. So every card is structured this way:
+The principle: **reasoning is first-principles, not framework-driven.** The mechanical
+application of a standard framework is a red flag, not an answer. So every card is
+structured this way:
 
 1. **First-principles trace** — build the picture from scratch by following the money:
    who is the customer and why do they pay, who is in the supply chain and where does power
@@ -49,7 +49,7 @@ question into grounded analysis.
 
 | # | Card | Bucket | Grounded in |
 |---|---|---|---|
-| 00 | First principles — trace the business | (meta, always) | Cheng — hypothesis-free, custom logic |
+| 00 | First principles — trace the business | (meta, always) | First-principles — hypothesis-free, custom logic |
 | 01 | Industry structure & economics | Industry | Porter Five Forces · Value Chain · industry life cycle |
 | 02 | Company position & competitive advantage | Companies | VRIO / Resource-Based View |
 | 03 | Deal mechanism & synergies | Deal / combination | Value-chain overlap · Damodaran synergy |

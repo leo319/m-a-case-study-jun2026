@@ -33,7 +33,10 @@ context gets bogged down, then ingest everything centrally and verify. You are g
    matches — the deal-specific first-principles questions from the Plan stage).
    **Subtopics + key_questions are the worker's mandate: a claim for each, or an explicit gap.**
    The key_questions are what push the worker past generic checklist facts into the
-   deal-specific "why" the expert will need.
+   deal-specific "why" the expert will need. And press each worker **past face value**:
+   verified ≠ true (the spine checks the quote, not the claim), so it must corroborate
+   load-bearing facts against an independent source and flag interested-party assertions
+   (synergy size, accretion, "strategic fit") as claims to test, not facts to relay.
    This is what stops an area passing on surface facts alone (e.g. `deal_rationale_synergies`
    must produce premium, accretion/dilution, and synergies-vs-premium — not just the deal
    terms). Each worker pulls the deal-wide plan's sources **for its area** AND runs its own

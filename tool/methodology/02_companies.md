@@ -28,8 +28,8 @@ are Valuable, Rare, costly to Imitate, and Organized to exploit.
 - Evidence on customer retention / switching costs (churn, contract length, win-loss).
 
 ## Inferences to form (→ expert)
-- One-line read on each company's competitive position and whether its advantage is durable
-  (VRIO verdict), not just asserted.
+- A read on each company's competitive position and whether its advantage is durable — a VRIO
+  verdict, not an assertion.
 - Where acquirer and target are strong/weak relative to each other — the raw material for the
   combination logic in card 03.
 

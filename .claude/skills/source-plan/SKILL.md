@@ -66,6 +66,7 @@ given `RUN_DIR`.
      | commercial_market | both 10-K "Competition" sections, industry/analyst overviews |
      | deal_rationale_synergies | deal press release; 424B3 "Background of the Merger" + **"Opinion of the Financial Advisor"** (premium, comparable-companies / precedent-transactions / DCF multiples, accretion view); the target's **unaffected pre-announcement share price** (for the premium) |
      | financing_balance_sheet | merger proxy financing section, acquirer debt 8-K, rating-agency actions |
+     | merger_agreement | the **merger agreement** (annex to the merger proxy / 424B3, or 8-K exhibit) — its "The Merger Agreement" summary: conditions, termination & break-fee, MAC, regulatory-efforts covenant |
      | antitrust_regulatory | merger proxy "Regulatory Approvals", DOJ/FTC press releases, news on second requests |
      | litigation_legal | 10-K "Legal Proceedings", court dockets (CourtListener), litigation news |
      | management_governance | DEF 14A proxy, executive/board news, leadership-change coverage |
@@ -83,25 +84,22 @@ given `RUN_DIR`.
    (scout finds carry `"via":"scout"`):
    ```json
    {
-     "deal_id": "cintas_unifirst",
+     "deal_id": "<deal_id>",
      "key_questions": [
-       {"id":"q_density","bucket":"industry","area":"commercial_market",
-        "question":"How much of uniform-rental cost is fixed route+plant, so that overlapping routes raise margin?",
-        "why_it_matters":"Decides whether the merger changes unit economics or just adds scale."},
-       {"id":"q_premium","bucket":"why","area":"deal_rationale_synergies",
-        "question":"Why is Cintas willing to pay a premium far above sector precedent?",
-        "why_it_matters":"Anomaly drill — unique density lever, defensive block, or overpayment?"}
+       {"id":"q_<slug>","bucket":"<industry|companies|deal|macro|why>","area":"<coverage_area>",
+        "question":"<a deal-specific first-principles question the static checklist would miss>",
+        "why_it_matters":"<what answering it decides for the analysis>"}
      ],
      "planned_sources": [
-       {"id":"s_unf_10k","title":"UniFirst FY2025 Form 10-K","area":"target_fundamentals",
-        "class":"filings","tier":"T1","url":"https://www.sec.gov/Archives/.../unf-20250830.htm",
-        "rationale":"Primary source for revenue, margin, organic-growth trend."},
-       {"id":"s_engine_prec14a","title":"Engine Capital PREC14A","area":"short_activist",
-        "class":"filings","tier":"T2","url":"https://www.sec.gov/Archives/...","via":"scout",
-        "rationale":"Activist pushing the board to sell — surfaced by discovery, not the checklist."}
+       {"id":"s_<slug>","title":"<source title>","area":"<coverage_area>",
+        "class":"<class>","tier":"T1","url":"https://...",
+        "rationale":"<why this source answers its area>"},
+       {"id":"s_<slug2>","title":"<source surfaced by discovery>","area":"<coverage_area>",
+        "class":"<class>","tier":"T2","url":"https://...","via":"scout",
+        "rationale":"<non-obvious, found by the sweep rather than the checklist>"}
      ],
      "classes_skipped": [
-       {"class":"court_dockets","reason":"No live litigation surfaced; revisit if research finds any."}
+       {"class":"<class>","reason":"<why it doesn't apply for this deal>"}
      ]
    }
    ```

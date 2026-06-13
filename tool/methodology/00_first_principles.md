@@ -3,8 +3,8 @@
 **Bucket:** meta (runs first, under every other card)
 **The why it answers:** What is actually going on in this business, from scratch —
 before any named framework touches it?
-**Grounded in:** Victor Cheng, *Case Interview Secrets* — reasoning is first-principles,
-not framework-driven; mechanical framework application is a red flag.
+**Grounded in:** first-principles reasoning — build the picture from this business's own
+economics; the mechanical application of a named framework is a red flag, not an answer.
 
 This card is not a topic to research; it is the **reasoning posture** for all the others.
 Build the picture by following the money, *then* reach for frameworks only to check you
@@ -18,14 +18,8 @@ missed nothing.
   operator integrated vs. exposed; who can squeeze whose margin?
 - **Trace one unit of value from input to cash.** Where does cost actually sit (fixed vs.
   variable), and where does the profit pool form?
-- **What is the binding constraint on profit** in this specific business (density,
-  utilization, capacity, network reach, switching costs, recurring-revenue retention)?
-
-> Worked illustration (uniform rental — illustration only, derive your own): trace the
-> supply chain and you find the operator *owns the laundry plants and the delivery routes*.
-> The rented garment is cheap; the truck and the plant are not. So profit is governed by
-> stops-per-route and plant fill → it is a **density business**. You reach "density" by
-> tracing the supply chain, not by filling in Porter's "supplier power" box.
+- **What is the binding constraint on profit** in this specific business — the thing that, if
+  it moved, would move profit most?
 
 ## Framework prompts (a checklist to TEST the trace — adapt or discard; say which)
 - Does the trace survive Porter's five forces (card 01) and a competitive-advantage read
@@ -39,8 +33,7 @@ missed nothing.
 - The cost structure (largest cost lines, fixed vs. variable) and what scales with volume.
 
 ## Inferences to form (→ expert)
-- One-sentence statement of the profit engine: "this is a `<density / utilization / scale /
-  switching-cost>` business; profit is dominated by `<constraint>`."
+- A clear statement of the profit engine — what governs profitability in this business, and why.
 - Where power sits in the chain, and what that implies for margins and durability.
 
 ## Weak-answer tells

@@ -38,9 +38,9 @@ realizable than revenue synergies.
   lever would run through.
 
 ## Inferences to form (→ expert)
-- The synergy **mechanism**: "because `<cost-structure fact>`, combining changes `<economics>`,
-  worth ~`<size>`, which is why the premium is `<defensible / extreme>`." A grounded causal
-  chain, not a verdict.
+- The synergy **mechanism** — the causal chain from a specific cost-structure fact to the cost or
+  revenue line it moves, roughly how much, and what that says about whether the premium is
+  justified. A grounded causal chain, not a verdict.
 - Synergies **sized** vs. target revenue/EBITDA and vs. precedent-deal synergy %; the
   ex-synergy multiple if the headline is synergy-inclusive.
 - The few deal-economics risks that actually threaten the lever (people retention, route/
