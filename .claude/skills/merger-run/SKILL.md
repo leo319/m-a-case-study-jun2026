@@ -53,11 +53,12 @@ A "gate" works with Claude Code's turn-taking:
    run directory on its last line — **capture it as `RUN_DIR`** and reuse it for
    every later command. Present `intake.md`. 🚦 Gate.
 
-2. **Source Planning** — invoke the `source-plan` skill with `RUN_DIR`. It proposes
-   the sources research will use, by class, and lists classes it skipped. Present
-   `source_plan.md` and **make the skipped classes explicit** so the analyst can add
-   any that are missing. 🚦 Gate (approve / add / remove / edit sources). This gate
-   happens **before** any research fetching.
+2. **Plan (source-plan)** — invoke the `source-plan` skill with `RUN_DIR`. It proposes the
+   sources research will use (by area/class) **and derives the deal-specific first-principles
+   `key_questions`** from the method cards — what the static checklist misses for this deal.
+   Present `source_plan.md`, walk the analyst through the **`key_questions`** and the **skipped
+   classes**, and let them edit both. 🚦 Gate (approve / add / remove / edit questions +
+   sources). This gate happens **before** any research fetching.
 
 3. **Research** — invoke the `research` skill with `RUN_DIR`. It **fans out one
    `research-area` subagent per coverage area** (parallel leaf workers), grounds claims

@@ -1,14 +1,20 @@
 ---
 name: source-plan
-description: Stage 2 of the merger pipeline — propose a source list by class for the analyst to approve/edit BEFORE research fans out.
+description: Stage 2 of the merger pipeline — the PLAN step. Propose the sources research will use AND derive the deal-specific first-principles questions, for the analyst to approve/edit BEFORE research fans out.
 allowed-tools: Bash Read Write WebSearch
-model: sonnet
+model: opus
 ---
 
-# Stage 2 — Source Planning
+# Stage 2 — Plan (sources + first-principles questions)
 
-Propose the sources research will use, grouped by class, so the analyst can approve /
-add / remove / edit them **before** any research fetching happens. You are given `RUN_DIR`.
+This is the **Plan** step. Two jobs, one gate:
+1. Propose the **sources** research will use, grouped by area/class.
+2. Derive the **deal-specific first-principles questions** (`key_questions`) — what the
+   static coverage checklist *misses* for THIS deal — so research gathers the right facts and
+   the expert can later reason the "why".
+
+The analyst approves / adds / removes / edits both **before** any research fetching. You are
+given `RUN_DIR`.
 
 ## How to work
 
@@ -18,7 +24,20 @@ add / remove / edit them **before** any research fetching happens. You are given
    python tool/scripts/cli.py source-plan-template
    ```
 
-2. **Run a broad discovery sweep — find what a fixed checklist misses.** Before planning,
+2. **First-principles pass — derive the `key_questions` (the heart of this stage).** Read the
+   method cards in `tool/methodology/` (start with `00_first_principles.md`, then `01`–`05`).
+   The static coverage checklist (`python tool/scripts/cli.py coverage-checklist`) is your
+   **floor**; the cards are how you find what it misses for *this* deal. Working card by card
+   (industry → companies → deal → macro → why), reason from first principles about this
+   specific deal and ask **"what does the checklist not anticipate here?"** Produce a focused
+   set of questions across the five buckets — especially card 05's **anomaly drill**: scan the
+   seed terms for anything that looks off (premium far above precedent, pursuing despite a hard
+   regulatory path, buying a declining segment) and turn each into a "why" question for research
+   to chase. Don't restate generic checklist subtopics — the `key_questions` are the
+   *deal-specific* ones the checklist would miss. Keep them sharp and few (roughly 6–12), each
+   tagged to the coverage `area` that will answer it.
+
+3. **Run a broad discovery sweep — find what a fixed checklist misses.** Before planning,
    run ~6–10 open WebSearch queries across both companies + the deal, hunting the
    **non-obvious, cross-area** sources a class list won't predict:
    - activist / hedge-fund campaigns (a fund's press releases, `PREC14A` / `DFAN14A` /
@@ -33,8 +52,9 @@ add / remove / edit them **before** any research fetching happens. You are given
    Tag everything this sweep surfaces (beyond seeds + the cheat-sheet) with `"via":"scout"`.
    Keep it to **breadth** — leave per-lens deep searching to the Stage-3 research workers.
 
-3. **Assemble the plan — deal-wide, every source tagged with its `area`.** Cover the areas
-   the analyst emphasised (or all required + recommended). For each area, mix three kinds:
+4. **Assemble the plan — deal-wide, every source tagged with its `area`.** Cover the areas
+   the analyst emphasised (or all required + recommended), **and make sure every
+   `key_question` has at least one source meant to answer it.** For each area, mix three kinds:
    - **(a) Seeds** — the seed_docs from intake / anything the analyst supplied.
    - **(b) Discovery** — the relevant candidates from your sweep (tagged `"via":"scout"`).
    - **(c) Canonical / commonsense sources** — the standard places an analyst would
@@ -58,11 +78,20 @@ add / remove / edit them **before** any research fetching happens. You are given
    direct URLs; use `search_hint` when you can't pin one. Be honest: if an area/class
    truly doesn't apply, list it under `classes_skipped` with a reason rather than padding.
 
-4. **Write the plan** to `RUN_DIR/audit/source_plan.json` — one deal-wide list, each entry
-   carrying its `area` (scout finds carry `"via":"scout"`):
+5. **Write the plan** to `RUN_DIR/audit/source_plan.json` — one deal-wide list. It carries
+   both `key_questions` (step 2) and `planned_sources`, each source tagged with its `area`
+   (scout finds carry `"via":"scout"`):
    ```json
    {
      "deal_id": "cintas_unifirst",
+     "key_questions": [
+       {"id":"q_density","bucket":"industry","area":"commercial_market",
+        "question":"How much of uniform-rental cost is fixed route+plant, so that overlapping routes raise margin?",
+        "why_it_matters":"Decides whether the merger changes unit economics or just adds scale."},
+       {"id":"q_premium","bucket":"why","area":"deal_rationale_synergies",
+        "question":"Why is Cintas willing to pay a premium far above sector precedent?",
+        "why_it_matters":"Anomaly drill — unique density lever, defensive block, or overpayment?"}
+     ],
      "planned_sources": [
        {"id":"s_unf_10k","title":"UniFirst FY2025 Form 10-K","area":"target_fundamentals",
         "class":"filings","tier":"T1","url":"https://www.sec.gov/Archives/.../unf-20250830.htm",
@@ -77,19 +106,24 @@ add / remove / edit them **before** any research fetching happens. You are given
    }
    ```
 
-5. **Persist + render:**
+6. **Persist + render:**
    ```bash
    python tool/scripts/cli.py source-plan --run "<RUN_DIR>" --plan "<RUN_DIR>/audit/source_plan.json"
    ```
 
-6. **Present `RUN_DIR/artifacts/source_plan.md` at the gate.** Explicitly call out **what the
-   discovery sweep added beyond seeds + canonical** (the `(via scout)` entries) so the analyst
-   can steer — prioritise, drop, or add — before any research fetches. Make skipped classes
-   explicit too.
+7. **Present `RUN_DIR/artifacts/source_plan.md` at the gate.** Walk the analyst through both
+   the **`key_questions`** (so they can edit/add/drop the deal-specific questions before any
+   fetching) and **what the discovery sweep added beyond seeds + canonical** (the `(via scout)`
+   entries). Make skipped classes explicit too.
 
 ## Rules
 
 - Sources only — do NOT fetch content or extract claims here. That's research (Stage 3).
+- **First principles, not framework-jamming.** The cards are a prompt library, not a checklist
+  to fill — derive each question from *this* deal's economics; drop card prompts that don't fit.
+- **`key_questions` are the deal-specific delta over the checklist** — sharp and few (~6–12),
+  each tagged to an `area`, every one with a source meant to answer it. Don't restate generic
+  subtopics; the checklist already covers those.
 - One **deal-wide** plan: every planned source carries its `area`.
 - Discovery is **breadth, not depth** — surface the non-obvious and cross-area; don't pad the
   plan with low-credibility noise, and leave per-lens deep searching to the research workers.

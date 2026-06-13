@@ -8,8 +8,9 @@ model: opus
 # Stage 5 — Red-Team & Finalize
 
 An independent skeptic attacks the expert's **judgments** (not its verified facts); you
-then resolve each critique honestly and render `final_memo.md`. There is **no research
-loop-back** — gaps that can't be answered from existing verified claims become caveats.
+then resolve each critique honestly, **close the unanswered "whys" you can from the existing
+fact base**, and render `final_memo.md`. There is **no research loop-back** — anything that
+can't be answered from existing verified claims becomes an explicit **Limitations** entry.
 
 You are given `RUN_DIR`.
 
@@ -25,6 +26,16 @@ You are given `RUN_DIR`.
      but can't ground from verified claims becomes an explicit line in the memo's "Limits".
    - **Rebut** → leave the memo as is, and record *why* the critique doesn't hold.
    Be honest: a skeptic finding you can't cleanly rebut should change the memo.
+
+2b. **Close the unanswered "whys" (the gap hunt).** Independently of the skeptic's findings,
+   list the **logical gaps and unanswered "whys"** the memo still has — start from the Plan
+   stage's `key_questions` (`RUN_DIR/audit/source_plan.json`) and the memo's own open threads
+   (an asserted judgment with no mechanism, an anomaly noted but not explained). For **each**:
+   - **Try to close it from the existing fact base** — search the verified claims
+     (`claims.jsonl`, `status:verified`) for evidence that lets you form a grounded inference,
+     and if you can, add a `rt_*` inference claim and fold the answer into the memo.
+   - **If it can't be closed**, do **not** loop back to research — record it as an explicit
+     **Limitations** entry (see step 4). A named gap in understanding is the honest outcome.
 3. **Write the resolution back** into `redteam_critique.json` — add `"resolution": "accepted | rebutted"`
    and `"resolution_note": "<what you changed, or why it doesn't hold>"` to each finding. This is
    the audit trail of the red-team's effect.
@@ -33,6 +44,11 @@ You are given `RUN_DIR`.
    your accepted edits to the section bodies and append any new `rt_*` inference claims to `new_claims`
    (each `supports` only **verified** claim ids — same rules as the expert stage). Leave
    `preliminary_memo.md` and `memo_spec.json` untouched so the before/after stays visible.
+   - **Add / extend a `## Limitations` section** at the end of the memo body (before the
+     auto-generated appendix). List every "why" / `key_question` you could **not** close from
+     the fact base (step 2b) and every accepted `missing` counter-point you couldn't ground —
+     each as one honest line naming the gap in understanding. This is where unanswerable "whys"
+     land; never paper over them and never invent a source to fill them.
 5. **Apply + verify** the new claims, then **render fail-closed**:
    ```bash
    python tool/scripts/cli.py expert    --run "<RUN_DIR>" --memo "<RUN_DIR>/audit/final_memo_spec.json"
@@ -41,10 +57,13 @@ You are given `RUN_DIR`.
    If render REFUSES, a cited `[[claim_id]]` isn't verified — fix the citation (or move the point
    into an "Our view" block backed by a verified inference) and re-render.
 6. Read `RUN_DIR/artifacts/final_memo.md` and present it for the **final sign-off** gate, with a
-   short ledger: findings by severity, which you accepted vs. rebutted, and what changed.
+   short ledger: findings by severity, which you accepted vs. rebutted, **which "whys" you
+   closed from the fact base vs. moved to Limitations**, and what changed.
 
 ## Rules
 - The skeptic attacks judgment; you never weaken the fact/inference + fail-closed guarantees.
+- **Close, don't loop.** Try to answer each unanswered "why" / `key_question` from existing
+  verified claims (grounded `rt_*` inference); never re-open research. Unclosable → Limitations.
 - The expert's authoring rules still bind to every section body you edit: **no citation drift**
   (a `[[claim_id]]` must support the specific sentence it tags), **no untokened opinion** in a
   facts bullet (judgments go in "Our view"), and **recompute any derived ratio** you touch. Run

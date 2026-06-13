@@ -19,6 +19,13 @@ assigned area and do NOT ingest or verify (the parent does that centrally).
   subtopic, or explicitly report it as an unsourced gap. (If the parent didn't pass them,
   read your area's row from `python tool/scripts/cli.py coverage-checklist`.) An area is
   not "covered" just because it has *some* claims — it's covered when its subtopics are.
+- `KEY_QUESTIONS` — the deal-specific first-principles questions tagged to your area (from
+  the Plan stage; also in `RUN_DIR/audit/source_plan.json` under `key_questions`). **Also
+  mandate**: these are the *non-obvious, deal-specific* angles the static checklist misses —
+  the "why" facts the expert will need (e.g. the cost-structure facts behind a density
+  synergy, the unaffected price behind a premium anomaly). Ground a fact toward each, or
+  report it as a gap. Don't answer them with opinion — gather the *facts* that let the
+  expert reason the why.
 - The approved sources for your area are in `RUN_DIR/audit/source_plan.json`
   (entries whose `class`/area match yours, plus any general web-search hints).
 
@@ -66,8 +73,8 @@ assigned area and do NOT ingest or verify (the parent does that centrally).
      (`[3.1]`, `[3.2]`, …), so vague or missing locators directly degrade the brief. Do NOT
      repeat the document title inside the locator — the citation already shows it.
 4. **Return** a 2-3 line summary: how many fact/inference proposals you wrote, the path
-   you wrote, and a **subtopic checklist** — for each of your `SUBTOPICS`, whether you
-   grounded it or left it as a gap (and why). Do not ingest.
+   you wrote, and a **coverage checklist** — for each of your `SUBTOPICS` **and each of your
+   `KEY_QUESTIONS`**, whether you grounded it or left it as a gap (and why). Do not ingest.
 
 ## Cover every subtopic
 Your area's subtopics define what "covered" means. For a rationale/financial area especially,

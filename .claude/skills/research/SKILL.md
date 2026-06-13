@@ -27,9 +27,13 @@ context gets bogged down, then ingest everything centrally and verify. You are g
 
 2. **Fan out — one `research-area` subagent per area, spawned in parallel.** Use the
    Task tool with `subagent_type: "research-area"`, one call per area, **in a single
-   message** so they run concurrently. Give each worker its `RUN_DIR`, its `AREA`, **and
-   that area's `subtopics`** (from `coverage-checklist` — they print under each area).
-   **The subtopics are the worker's mandate: a claim for each, or an explicit gap.**
+   message** so they run concurrently. Give each worker its `RUN_DIR`, its `AREA`, **that
+   area's `subtopics`** (from `coverage-checklist` — they print under each area), **and that
+   area's `key_questions`** (the entries in `RUN_DIR/audit/source_plan.json` whose `area`
+   matches — the deal-specific first-principles questions from the Plan stage).
+   **Subtopics + key_questions are the worker's mandate: a claim for each, or an explicit gap.**
+   The key_questions are what push the worker past generic checklist facts into the
+   deal-specific "why" the expert will need.
    This is what stops an area passing on surface facts alone (e.g. `deal_rationale_synergies`
    must produce premium, accretion/dilution, and synergies-vs-premium — not just the deal
    terms). Each worker pulls the deal-wide plan's sources **for its area** AND runs its own

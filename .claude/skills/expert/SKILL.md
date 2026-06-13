@@ -39,6 +39,30 @@ cost us the project's guarantees, so:
     be explicitly prefixed as our read). E.g. "customer-attrition risk" is a *judgment*, not a
     disclosed fact — it belongs in "Our view", never in a facts bullet.
 
+## Build the why first (method cards) — before you write a word of the memo
+The memo's failure mode is reporting facts in isolation. Before drafting, **build the
+analytical spine** using the method cards in `tool/methodology/` (read `00_first_principles.md`,
+then `01`–`05`):
+
+1. **First-principles trace (card 00).** From the verified claims, reconstruct how this
+   business actually makes money — who the customer is and why they pay, who's in the supply
+   chain and where power sits, where the cost is fixed vs. variable, and the **binding
+   constraint on profit**. State the profit engine in one sentence (e.g. "a density business;
+   profit is dominated by route fill"). *Derive* it from this deal's facts — don't import a
+   framework's prefab boxes.
+2. **Work the buckets (cards 01–05):** industry economics → each company's position/advantage →
+   the **deal mechanism** (what the combination changes in the unit economics, through what
+   lever, and whether it's worth the premium) → macro/regulatory → **why this deal, why now**
+   (the buyer's real incentive vs. management's framing, and how hard they'll push).
+3. **Answer the `key_questions`.** Read `RUN_DIR/audit/source_plan.json` `key_questions` (the
+   Plan stage's deal-specific questions). Each is a "why" you must answer in the memo or
+   explicitly flag as unanswerable from the verified facts (→ Limits). Card 05's anomaly drills
+   (e.g. "why a premium far above precedent?") are the highest-value ones — chase the root cause
+   in the verified claims.
+
+Every link of this spine is an **inference grounded on verified claims** (the `supports`
+field) — a traceable "why", not speculation. The spine becomes §5/§6 and the "Our view" blocks.
+
 **Anchor sections 5 and 6 to the case brief.** Read `Nicholas_Kang_Case_Study_Brief.md`
 §1a (strategic & financial rationale) and §1b (tail risks) and answer what they ask.
 
@@ -57,10 +81,14 @@ cost us the project's guarantees, so:
 5. **Strategic & financial rationale** (~2 pg) — the analytical core; mirror brief §1a. Each
    point is a **must-answer**: answer it with the numbers, or state it's genuinely unsourced —
    don't skip it, and don't restate management's framing as the answer.
-   - *Strategic logic* — the deal **type** (horizontal / capability / geographic) and the
-     **specific** drivers; **quantify what changes** (relative scale of the parties, share /
-     customers / route density added). "Creates a leading platform" is not an answer; most
-     deals are empire-building.
+   - *Strategic logic* — **lead with the mechanism, not the taxonomy.** What does the combined
+     entity do to its unit economics that neither side could alone, and through what **operating
+     lever** (route density / asset utilization / cross-sell / scale)? **Quantify what changes**
+     (relative scale of the parties, share / customers / route density added), then name the
+     deal **type** (horizontal / capability / geographic) as a *consequence* of that lever. A
+     bare "horizontal" label or "creates a leading platform" is not an answer — the answer is the
+     causal chain from the merger to a cost or revenue line; most deals are empire-building, so
+     if you can't trace the lever to a number, say so.
    - *Financial rationale* — the **premium against every disclosed valuation anchor** (precedent
      premiums, comparables, DCF — not premium-alone); **accretion/dilution with the mechanism**
      (new-debt cost + shares issued vs. synergy phasing), not just the disclosed timing; the
@@ -107,9 +135,12 @@ cost us the project's guarantees, so:
 
 ## How to work
 1. **Read the verified material:** `RUN_DIR/artifacts/research_brief.md`,
-   `RUN_DIR/audit/claims.jsonl` (use only `"status":"verified"`), and the case brief §1a/§1b.
-2. **Form the expert's inference claims** — skeptical judgments, each building on verified
-   claim ids (`supports`). One per "Our view" block. Tag `module` `rationale` or `tailrisk`.
+   `RUN_DIR/audit/claims.jsonl` (use only `"status":"verified"`), the case brief §1a/§1b,
+   the **method cards** (`tool/methodology/`), and the Plan stage's **`key_questions`**
+   (`RUN_DIR/audit/source_plan.json`).
+2. **Build the why spine, then form the expert's inference claims** (see "Build the why first"
+   above) — skeptical judgments, each a grounded causal chain building on verified claim ids
+   (`supports`). One per "Our view" block. Tag `module` `rationale` or `tailrisk`.
 3. **Write `RUN_DIR/audit/memo_spec.json` — ONE file with BOTH** (a) the expert's new claims
    and (b) the narrative memo:
    ```json
@@ -155,6 +186,12 @@ cost us the project's guarantees, so:
 7. Read `RUN_DIR/artifacts/preliminary_memo.md` and hand it to the orchestrator for the gate.
 
 ## Rules
+- **Reason from first principles, not in isolation.** Build the why-spine (method cards) before
+  the memo; every load-bearing judgment is a *mechanism* — the causal chain from a verified fact
+  to a cost/revenue line — not a fact restated or a label asserted.
+- **Answer the `key_questions`.** Each Plan-stage question gets answered in the memo or named in
+  Limits as unanswerable from the verified facts. Card 05's anomalies (e.g. an extreme premium)
+  are must-answer "whys".
 - Skeptical by default: state management's claim vs your independent read where they differ.
 - Every load-bearing **fact** carries a `[[claim_id]]`; **judgment** lives in "Our view" blocks
   that cite an inference claim. Keep the separation visible — it's a graded requirement.
