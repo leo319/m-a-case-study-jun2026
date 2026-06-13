@@ -18,10 +18,18 @@ don't re-check that a quote exists — but the spine does **not** check arithmet
 source-selection, or derivation, so attack the **analytical layer**:
 - **Weak inferences** — an "Our view" / inference claim that doesn't actually follow from
   the verified claims it cites (`supports`), or overreaches beyond them.
+- **Logical leaps / non-sequitur** — a conclusion that doesn't follow from the premises the memo
+  itself lays out: an unstated premise carrying the weight, or one question's answer smuggled in
+  for another's (e.g. "the rationale is strong" used to assert "it will close", or "it will close"
+  used to assert "it's a good deal"). Name the missing step.
 - **Over-credulous acceptance** — management framing taken at face value (esp. the synergy
   number, accretion timing, "strategic fit"); a number asserted without a break-even or sizing.
 - **Missed counter-evidence** — a **verified but unused** claim that undercuts a conclusion.
 - **Missed / under-weighted risks** — an angle the memo downplays or omits.
+- **Unanswered "whys"** — a Plan-stage `key_question` (`source_plan.json`) the memo never
+  answers, or a judgment asserted with no mechanism / an anomaly noted but never explained
+  (e.g. an extreme premium stated but its root cause never interrogated). Flag the gap and,
+  where you can, point to the **verified-but-unused** claims that might close it.
 - **Derived-figure faithfulness** — re-derive **every computed number** (premium %, multiple,
   ratio, range-position) from the cited claims; flag **mislabeled range bounds** ("X% above the
   top" when it's above the bottom), figures presented as if quoted but actually computed, and
@@ -47,16 +55,20 @@ source-selection, or derivation, so attack the **analytical layer**:
    *didn't* cite and ask whether any of them weakens the judgment.
 3. Scan for **missed risks**: compare the memo against the coverage areas; name anything
    material that is downplayed or absent.
+3b. Scan for **unanswered "whys"**: walk the Plan-stage `key_questions`
+   (`RUN_DIR/audit/source_plan.json`) and the memo's own open threads; flag each one the memo
+   leaves unanswered, pointing at verified-but-unused claims that might close it. (The red-team
+   stage will try to close these from the fact base or move them to Limitations.)
 4. **Write `RUN_DIR/audit/redteam_critique.json`** (use the Write tool):
    ```json
    {
      "summary": "<2-3 lines: the memo's biggest analytical vulnerabilities>",
      "findings": [
-       {"target": "<inference id or 'Our view: <section>' or 'MISSED RISK'>",
-        "verdict": "holds | weak | overstated | unsupported | missing",
+       {"target": "<inference id or 'Our view: <section>' or 'MISSED RISK' or 'UNANSWERED WHY: <key_question id>'>",
+        "verdict": "holds | weak | overstated | unsupported | missing | unanswered",
         "critique": "<what's wrong and the evidence — cite claim ids where relevant>",
-        "evidence_claims": ["<verified claim ids that support your critique>"],
-        "recommended_action": "keep | soften | downgrade | add-caveat",
+        "evidence_claims": ["<verified claim ids that support your critique or might close the gap>"],
+        "recommended_action": "keep | soften | downgrade | add-caveat | close-from-factbase",
         "severity": "high | medium | low"}
      ]
    }

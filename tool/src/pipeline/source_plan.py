@@ -10,8 +10,16 @@ Stage-2 gate shows the analyst everything research will pull, grouped by area. A
 surfaced by the planner's open discovery sweep (beyond the canonical checklist) is
 tagged `via: "scout"` so the gate can call out what discovery added.
 
+The plan also carries `key_questions`: deal-specific first-principles questions the agent
+derives from the method cards (tool/methodology/) by asking "what does the static checklist
+miss for THIS deal?". They render at the top of source_plan.md so the analyst can steer them
+at the gate, and persist in source_plan.json so research (mandate), the expert (answer them),
+and the red-team (close unanswered ones, else caveat) can each read the ones they care about.
+
 A planned source:
   {id, title, area, class, tier, url?|search_hint?, rationale, via?}
+A key question:
+  {id, bucket, question, area, why_it_matters, source_ids?}
 
 CLI:
   python tool/scripts/cli.py source-plan-template          # baseline classes (for the agent)
@@ -60,12 +68,48 @@ def _area_order() -> tuple[list[str], dict[str, str]]:
         return [], {}
 
 
+# First-principles buckets (method cards 01-05); "_" catches anything off-list.
+_BUCKET_ORDER = ["industry", "companies", "deal", "macro", "why"]
+_BUCKET_TITLES = {
+    "industry": "Industry", "companies": "Companies", "deal": "Deal & synergies",
+    "macro": "Macro & exogenous", "why": "Why this deal, why now",
+}
+
+
+def _render_questions(questions: list) -> list[str]:
+    """Render the deal-specific first-principles key_questions, grouped by bucket, so the
+    analyst sees and can steer them at the gate. Empty list → render nothing (back-compat
+    with plans that predate key_questions)."""
+    if not questions:
+        return []
+    lines = ["## Key questions (first-principles)", "",
+             "_Deal-specific questions derived from the method cards beyond the static "
+             "checklist. These drive research, the expert's analysis, and the red-team's "
+             "gap hunt — edit/add/drop at the gate._", ""]
+    by_bucket: dict[str, list] = {}
+    for q in questions:
+        by_bucket.setdefault(q.get("bucket") or "_", []).append(q)
+    order = [b for b in _BUCKET_ORDER if b in by_bucket] + \
+            sorted(b for b in by_bucket if b not in _BUCKET_ORDER)
+    for bucket in order:
+        lines.append(f"### {_BUCKET_TITLES.get(bucket, bucket)}")
+        for q in by_bucket[bucket]:
+            area = f" _({q['area']})_" if q.get("area") else ""
+            lines.append(f"- {q.get('question', '?')}{area}")
+            if q.get("why_it_matters"):
+                lines.append(f"    - _why it matters:_ {q['why_it_matters']}")
+        lines.append("")
+    return lines
+
+
 def _render(plan: dict) -> str:
     deal = plan.get("deal_id") or plan.get("area") or "(deal)"
     lines = [f"# Source plan — {deal}", "",
              "_Proposed sources to research, grouped by area then class. Approve / add / "
              "remove / edit before research fans out. `(via scout)` = surfaced by open "
              "discovery, beyond the canonical checklist._", ""]
+
+    lines += _render_questions(plan.get("key_questions") or [])
 
     # Group by area (deal-wide). Sources with no area fall under one (unassigned) heading
     # so old single-area plans still render.

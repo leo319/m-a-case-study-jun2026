@@ -36,6 +36,13 @@ areas:
     default: required
     subtopics: [pro-forma leverage, debt, deal financing, liquidity]
 
+  - key: merger_agreement
+    title: Merger agreement & deal protections
+    lens: [rationale, tailrisk]
+    default: required
+    # Feeds the close-likelihood force balance (expert §7) and risk allocation (memo §4 Deal structure).
+    subtopics: [closing conditions, MAC / MAE clause, termination fees (both sides) & reverse break fee, deal protections (no-shop / go-shop / matching rights), regulatory-efforts covenant (e.g. hell-or-high-water / divestiture commitment), financing condition & specific performance, outside / drop-dead date]
+
   - key: antitrust_regulatory
     title: Antitrust & regulatory
     lens: [tailrisk]
