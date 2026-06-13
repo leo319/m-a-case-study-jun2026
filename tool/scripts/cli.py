@@ -115,7 +115,10 @@ def cmd_render_doc(args) -> int:
 
 
 def cmd_check_memo(args) -> int:
-    problems = check_memo.check(args.run, _load(args.memo))
+    memo_spec = _load(args.memo)
+    for w in check_memo.lint(memo_spec):  # non-fatal structural warnings
+        print(f"  ⚠ {w}", file=sys.stderr)
+    problems = check_memo.check(args.run, memo_spec)
     if not problems:
         print("check_memo: OK")
         return 0

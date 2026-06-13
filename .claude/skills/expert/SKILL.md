@@ -38,6 +38,9 @@ cost us the project's guarantees, so:
     risk/rationale sentence must either carry a `[[fact_id]]` or live in an "Our view" block (or
     be explicitly prefixed as our read). E.g. "customer-attrition risk" is a *judgment*, not a
     disclosed fact — it belongs in "Our view", never in a facts bullet.
+- **The memo must stand alone.** Assume the reader has NOT read the research brief. Every section,
+  tail risks especially, must restate the load-bearing facts (with citations) it relies on. A risk
+  stated as a bare "Our view" with no cited facts beneath it is incomplete.
 
 ## Build the why first (method cards) — before you write a word of the memo
 The memo's failure mode is reporting facts in isolation. Before drafting, **build the
@@ -82,12 +85,13 @@ field) — a traceable "why", not speculation. The spine becomes §5/§6 and the
 5. **Strategic & financial rationale** (~2 pg) — the analytical core; mirror brief §1a. Each
    point is a **must-answer**: answer it with the numbers, or state it's genuinely unsourced —
    don't skip it, and don't restate management's framing as the answer.
-   - *Strategic logic* — **lead with the mechanism, not the taxonomy.** What does the combined
-     entity do to its unit economics that neither side could alone, and through what **operating
-     lever** (route density / asset utilization / cross-sell / scale)? **Quantify what changes**
-     (relative scale of the parties, share / customers / route density added), then name the
-     deal **type** (horizontal / capability / geographic) as a *consequence* of that lever. A
-     bare "horizontal" label or "creates a leading platform" is not an answer — the answer is the
+   - *Strategic logic* — **explain the operating lever first, then name the deal type as a
+     consequence of it.** What does the combined entity do to its unit economics that neither
+     side could alone, and through what **operating lever** (route density / asset utilization /
+     cross-sell / scale)? **Quantify what changes** (relative scale of the parties, share /
+     customers / route density added), then name the deal **type** (horizontal / capability /
+     geographic) as a *consequence* of that lever. A bare "horizontal" label or "creates a leading
+     platform" is not an answer — the answer is the
      causal chain from the merger to a cost or revenue line, and whether that lever will *actually*
      move the line for *this* buyer, not just whether management says so; most deals are
      empire-building, so if you can't trace the lever to a number, say so.
@@ -95,6 +99,11 @@ field) — a traceable "why", not speculation. The spine becomes §5/§6 and the
      premiums, comparables, DCF — not premium-alone); **accretion/dilution with the mechanism**
      (new-debt cost + shares issued vs. synergy phasing), not just the disclosed timing; the
      consideration & financing mix and the leverage it implies.
+     - **Define every figure where you cite it.** When you cite a financial figure (a cost ratio,
+       margin, leverage, ownership/consideration split), say in plain words what it is and why it
+       matters to THIS deal in the same sentence. A bare percentage or ratio with no interpretation
+       is a dropped explanation (e.g. "96.6% / 3.4%" must be labeled as the pro-forma ownership of
+       the combined company).
      - **No cherry-picking:** when several verified claims give the *same* metric (e.g. two banks'
        DCF ranges), present the **full set** or say which you used and why — never pass one
        source's figure off as "the" range.
@@ -109,12 +118,17 @@ field) — a traceable "why", not speculation. The spine becomes §5/§6 and the
        deal facts and the valuation frameworks into one table behind a single "vs. offer" column —
        it forces non-comparable rows (a premium-vs-median ratio sitting under a "vs. $310" header
        reads as a defect). Use a small **deal-anchor** block first (offer price → unaffected price
-       → implied premium), then a **separate frameworks table** (precedent premiums, each bank's
-       comparables and DCF) where every row shows the *same* thing — where the offer lands vs.
-       that range. Keep the synergy-inclusive EV/EBITDA caveat in prose, not as a table row.
+       → implied premium), then a **separate frameworks table** where every row shows the *same*
+       thing. Give that table explicit columns: **Method** (advisor + method, with source token) |
+       **the multiple/assumption** | **the IMPLIED PER-SHARE value range** | **where the offer
+       lands vs. that range** (above/within/below, and by how much). Convert each multiple to an
+       implied per-share range so the offer is comparable across rows; if a range can't be computed
+       from verified claims, say so in that cell. Keep the synergy-inclusive EV/EBITDA caveat in
+       prose, not as a table row.
    - *Synergy credibility* — a verified synergy figure means management *asserted* it, not that
-     it's real: **test it, don't bank it.** Size it (vs. target revenue/EBITDA, vs. precedent-deal
-     synergy %, and against the cost base you built in the spine); if the headline multiple is
+     it's real: **treat a stated synergy figure as a management assertion to size and stress-test,
+     not a number to accept.** Size it (vs. target revenue/EBITDA, vs. precedent-deal synergy %,
+     and against the cost base you built in the spine); if the headline multiple is
      synergy-inclusive, give the **ex-synergy** multiple too.
    - *Deal-economics risks* — the few that matter, each with its transmission to returns.
      Cover **execution as well as systems**: not just IT/ERP integration but **people
@@ -146,6 +160,10 @@ field) — a traceable "why", not speculation. The spine becomes §5/§6 and the
      argued separately, never with one smuggled in as the answer to the other.
    - Then the **net call**, the specific **monitorables**, and what would flip each. (For a *tool*,
      this is the "recommendation" — an assessment, not trade advice.)
+   - **Scope the verdict.** State plainly what this assessment covers (e.g. strategic & financial
+     rationale and tail risks) and what it does NOT (e.g. a detailed merger-agreement/legal review,
+     tax, management projections), so the recommendation is not read as broader than the work behind
+     it. Tie this to Limitations.
 8. **Appendix** — **auto-generated** by the renderer (page-level Citations + Sources
    consulted). Do NOT hand-write it.
 
@@ -156,7 +174,10 @@ field) — a traceable "why", not speculation. The spine becomes §5/§6 and the
    (`RUN_DIR/audit/source_plan.json`).
 2. **Build the why spine, then form the expert's inference claims** (see "Build the why first"
    above) — skeptical judgments, each a grounded causal chain building on verified claim ids
-   (`supports`). One per "Our view" block. Tag `module` `rationale` or `tailrisk`.
+   (`supports`). Tag `module` `rationale` or `tailrisk`. Within each section, present the cited
+   facts in plain prose first, THEN a single "Our view" block that draws the inference from them.
+   Do not stack consecutive "Our view" blockquotes; consolidate adjacent judgments or separate
+   them with the facts they rest on. The reader meets the evidence before the opinion.
 3. **Write `RUN_DIR/audit/memo_spec.json` — ONE file with BOTH** (a) the expert's new claims
    and (b) the narrative memo:
    ```json
@@ -204,9 +225,15 @@ field) — a traceable "why", not speculation. The spine becomes §5/§6 and the
 7. Read `RUN_DIR/artifacts/preliminary_memo.md` and hand it to the orchestrator for the gate.
 
 ## Rules
+- **Write plainly and directly for a portfolio manager.** No taglines, slogans, or aphorisms as
+  section headers or sentence openers. State the point in normal language.
 - **Reason from first principles, not in isolation.** Build the why-spine (method cards) before
   the memo; every load-bearing judgment is a *mechanism* — the causal chain from a verified fact
   to a cost/revenue line — not a fact restated or a label asserted.
+- **Take the call where the facts support one.** When the facts decide a judgment question (is the
+  buyer after the target's plants or is that incidental? is the price defensible?), state your
+  answer plainly and give the reason. Skepticism means testing claims, not refusing to conclude.
+  Hedge only when the facts genuinely don't decide it — and then say what evidence would.
 - **Answer the `key_questions`.** Each Plan-stage question gets answered in the memo or named in
   Limits as unanswerable from the verified facts. Card 05's anomalies (e.g. an extreme premium)
   are must-answer "whys".

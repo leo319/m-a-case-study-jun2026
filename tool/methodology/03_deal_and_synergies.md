@@ -18,8 +18,9 @@ realizable than revenue synergies.
   bigger? Bigger is not better unless the lever moves a cost or price.
 
 ## Framework prompts (test the trace — adapt or discard)
-- **Deal type falls OUT of the mechanism**, not the other way: horizontal / capability /
-  geographic is a *consequence* of what the lever is — don't lead with the taxonomy label.
+- **Deal type follows from the mechanism**, not the other way: horizontal / capability /
+  geographic is a *consequence* of what the lever is. Explain the operating lever first, then
+  name the deal type as a consequence of it.
 - **Damodaran synergy split:** classify each claimed synergy as **cost** or **revenue** (or
   financial). **Discount revenue synergies by default** — studies put cost synergies at
   ~70–85% of realized value vs. ~25–35% for revenue. Credit a revenue synergy only with a
