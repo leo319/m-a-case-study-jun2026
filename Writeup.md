@@ -121,14 +121,14 @@ These split into **two evals**, because precision and recall have very different
 
 ### What it showed on Cintas/UniFirst — weaknesses included
 
-The run surfaced **81 claims (59 facts, 22 inferences)**, judged by an independent `opus-4-8` pass:
+The run surfaced **120 claims (99 facts, 21 inferences)**, judged by an independent `opus-4-8` pass against each claim's own cached source:
 
-- **Fact precision 93.2%**, with **fabrication 0.0%** — no dead or invented citations, the result that matters most against the cardinal sin.
-- **Misattribution 6.8%** — the failures that remain are over-reading, not invention.
-- **Inference validity 90.9%**, **separation discipline 100%** — the fact/inference line never broke.
-- **Coverage 81.8%** (macro/geopolitical and ESG unsearched, flagged in the memo), **utilization 66.1%**.
+- **Fact precision 95.0%** (94/99), with **fabrication 0.0%** (0/99) — no dead or invented citations, the result that matters most against the cardinal sin.
+- **Misattribution 5.1%** (5/99) — the remaining fact failures are over-reading, not invention.
+- **Inference validity 90.5%** (19/21), **separation discipline 100%** — the fact/inference line never broke.
+- **Coverage 83.3%** (10/12; macro/geopolitical and ESG unsearched, flagged in the memo). **Utilization 35.2%** (76/216) — a "did we use what we found" proxy, not a fabrication signal; it reads low because this run produced far more research claims than the memo cited directly (the expert distils many research-stage inferences into its own "Our view" blocks rather than citing them).
 
-The defects share one pattern: **the tool doesn't fabricate, it occasionally over-reads a real source** — stretching a genuine, correctly-quoted span to cover a slightly larger or adjacent claim. The cleanest example: the memo reports Cintas's organic growth as "~6.0%" when the cited 10-K says **8.0%** — a wrong number, left visible in the final memo. This is the harder failure to catch (a casual reader checking the link finds a real document and moves on), which is exactly why the evaluator judges *entailment*, not just resolution — and the fix belongs upstream, in tightening the research/expert re-grounding discipline, not in patching the memo.
+The defects share one pattern: **the tool doesn't fabricate, it occasionally over-reads a real source** — stretching a genuine, correctly-quoted span to cover slightly more than it says. The five misattributions are most often a **cross-source comparison crammed into a single claim that cites only one source**: a fact comparing UniFirst's ~4,813-vehicle fleet to "Cintas's ~22,900" cites only UniFirst's 10-K, which doesn't contain the Cintas figure; a precedent-transaction claim calls Aramark/AmeriPride the "second" deal in the advisor's list when it is the third; and the 62%-self-manufacture fact appends a distribution-center and plant detail its quote doesn't carry. The two weak inferences lean on a figure outside their cited supports — the "~4 wearers per customer" ratio (from the investor deck) and a "takeover-speculation" read of the unaffected price. These are the harder failures to catch — a casual reader clicking the link finds a real document and moves on — which is exactly why the evaluator judges *entailment and support*, not just resolution. The fix belongs upstream: tightening the "one claim = one source" rule and the re-grounding discipline at the research/expert stages, not patching the memo.
 
 ---
 
