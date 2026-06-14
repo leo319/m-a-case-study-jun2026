@@ -37,8 +37,6 @@ runs/<deal>/<ts>/  one run — artifacts/ (review) · audit/ (provenance) · eva
 
 The pipeline is driven by Claude Code skills in `../.claude/skills/` (the `merger-run` orchestrator + one skill per stage), which call this Python spine through `scripts/cli.py`.
 
-**Where to tune what.** One rule: _deal-specific → `deal_spec/`; deal-agnostic **data** (what to cover, which sources) → `config/`; deal-agnostic **reasoning** (the method cards + the stage prompts) → `methodology/` + `../.claude/`._ No tunable knob lives inside a `.py` file — the Python reads the YAML, it doesn't hardcode it. So to change what every deal must cover, edit `config/coverage_checklist.yaml`; to change the source taxonomy, edit `config/source_classes.yaml`; to change how the expert reasons, edit the cards/prompts.
-
 ## Getting started
 
 **Prerequisites:** Python 3.10+ and Claude Code (the pipeline runs as Claude Code skills). Then install the Python dependencies:
