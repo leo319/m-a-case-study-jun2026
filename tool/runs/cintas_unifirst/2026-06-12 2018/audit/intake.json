@@ -1,0 +1,60 @@
+{
+  "deal": {
+    "id": "cintas_unifirst",
+    "acquirer": {
+      "name": "Cintas Corporation",
+      "ticker": "CTAS",
+      "exchange": "NASDAQ"
+    },
+    "target": {
+      "name": "UniFirst Corporation",
+      "ticker": "UNF",
+      "exchange": "NYSE"
+    },
+    "announcement_date": null,
+    "status_note": "Cintas has publicly pursued UniFirst before (notably a rejected 2023 approach). Confirm in Stage 1 whether the deal under analysis is signed, proposed, or hypothetical before treating any term below as real.\n"
+  },
+  "seed_docs": [
+    {
+      "title": "Letter to shareholders of Unifirst on transaction proposed",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000114036126020376/ny20069194x3_424b3.htm",
+      "tier": "T1"
+    },
+    {
+      "title": "Cintas SEC filings (EDGAR)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CTAS&type=10-K&dateb=&owner=include&count=10",
+      "tier": "T1"
+    },
+    {
+      "title": "UniFirst SEC filings (EDGAR)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=UNF&type=10-K&dateb=&owner=include&count=10",
+      "tier": "T1"
+    },
+    {
+      "title": "Cintas investor relations",
+      "url": "https://www.cintas.com/company/investors",
+      "tier": "T2"
+    },
+    {
+      "title": "UniFirst investor relations",
+      "url": "https://unifirst.com/investors/",
+      "tier": "T2"
+    }
+  ],
+  "seed_terms": {
+    "consideration_type": null,
+    "offer_price_per_share": null,
+    "premium_pct": null,
+    "financing": null,
+    "stated_synergies": null
+  },
+  "run_config": {
+    "depth": "standard",
+    "emphasize_areas": null,
+    "steering": {
+      "notes": null,
+      "priorities": null
+    },
+    "max_redteam_loopbacks": 1
+  }
+}

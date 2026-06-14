@@ -1,0 +1,429 @@
+{
+  "deal_id": "cintas_unifirst",
+  "key_questions": [
+    {
+      "id": "q_family_flip",
+      "bucket": "why",
+      "area": "management_governance",
+      "question": "Why did the Croatti family / UniFirst board agree in Mar 2026 after unanimously rejecting Cintas's $275 cash bid ~14 months earlier \u2014 was it the Engine Capital activist campaign / proxy fight, the higher cash+stock price, or a governance/leadership change?",
+      "why_it_matters": "Determines whether this is a value-maximizing arm's-length outcome or a pressured one, and what that says about price adequacy and deal certainty.",
+      "source_ids": [
+        "s_defm14a_background",
+        "s_engine_prec14a",
+        "s_unf_defc14a"
+      ]
+    },
+    {
+      "id": "q_unaffected_price",
+      "bucket": "deal",
+      "area": "deal_rationale_synergies",
+      "question": "What is the true 'unaffected' price the ~$310 premium should be measured against, given a publicly-known prior approach (Jan 2025) and an active Engine Capital campaign that likely already embedded takeover/sale speculation into UNF's stock?",
+      "why_it_matters": "If the baseline is contaminated by prior bid + activist speculation, the headline premium overstates the real control premium \u2014 central to whether Cintas overpaid.",
+      "source_ids": [
+        "s_defm14a_background",
+        "s_defm14a_opinion",
+        "s_unf_unaffected_price"
+      ]
+    },
+    {
+      "id": "q_margin_lever",
+      "bucket": "deal",
+      "area": "deal_rationale_synergies",
+      "question": "Through what specific operating lever (route density, plant/branch utilization, SG&A, procurement) does Cintas close UniFirst's margin gap \u2014 UNF's operating margin (~7-8%) is roughly a third of Cintas's \u2014 and how much of the $375M synergy is cost vs revenue?",
+      "why_it_matters": "Cost synergies on a density lever are far more realizable than revenue synergies; the lever is the whole value case for paying up.",
+      "source_ids": [
+        "s_cintas_investor_deck",
+        "s_defm14a_background",
+        "s_cintas_10k",
+        "s_unf_10k"
+      ]
+    },
+    {
+      "id": "q_synergy_credibility",
+      "bucket": "deal",
+      "area": "deal_rationale_synergies",
+      "question": "Does the ~$375M cost-synergy target (run-rate within 4 years) hold up against UniFirst's own cost base \u2014 it is roughly 2x UNF's FY25 operating income (~$184M) \u2014 and what is the ex-synergy acquisition multiple?",
+      "why_it_matters": "A synergy figure that dwarfs the target's standalone profit needs a hard mechanism, or the deal only works on heroic execution.",
+      "source_ids": [
+        "s_cintas_pr_deal",
+        "s_cintas_investor_deck",
+        "s_unf_fy25_earnings"
+      ]
+    },
+    {
+      "id": "q_antitrust_remedy",
+      "bucket": "macro",
+      "area": "antitrust_regulatory",
+      "question": "Given a combined entity approaching ~half the U.S. uniform-rental market and the FTC Second Request (Jun 11, 2026) plus competitor outreach, what is the realistic remedy path \u2014 local route/branch divestitures vs. a block \u2014 and the base rate for route-based/facility-services deals?",
+      "why_it_matters": "Antitrust is the dominant close-risk; the remedy path drives both deal certainty and the economics of what Cintas actually keeps.",
+      "source_ids": [
+        "s_ftc_second_request_8k",
+        "s_ion_ftc_competitors",
+        "s_defm14a_regulatory"
+      ]
+    },
+    {
+      "id": "q_risk_allocation",
+      "bucket": "deal",
+      "area": "merger_agreement",
+      "question": "How does the merger agreement allocate the antitrust risk \u2014 is there a regulatory-efforts / 'hell or high water' covenant, a divestiture cap, a reverse termination fee payable if the FTC blocks it, and what is the outside / drop-dead date?",
+      "why_it_matters": "Sets who bears the Second-Request risk and how long Cintas is committed to fight \u2014 a key input to the close-likelihood force balance.",
+      "source_ids": [
+        "s_defm14a_merger_agreement",
+        "s_merger_8k"
+      ]
+    },
+    {
+      "id": "q_why_now_vestis",
+      "bucket": "industry",
+      "area": "commercial_market",
+      "question": "How did the 2023 Aramark\u2192Vestis spinoff and Vestis's subsequent struggles reshape the competitive landscape, and is Cintas's 2026 move offensive (extend its lead) or defensive (consolidate #3 before a weakened rival or PE buyer can)?",
+      "why_it_matters": "The 'why now' trigger; distinguishes a strategic density play from opportunistic empire-building.",
+      "source_ids": [
+        "s_industry_structure",
+        "s_vestis_10k",
+        "s_cintas_10k_competition"
+      ]
+    },
+    {
+      "id": "q_financing_accretion",
+      "bucket": "deal",
+      "area": "financing_balance_sheet",
+      "question": "What do the cash/stock mix and the $2.85B bridge + revolver do to Cintas's pro-forma leverage (~1.5x net debt/EBITDA cited) and EPS \u2014 is the deal accretive or dilutive once new-debt cost and the 0.7720x shares issued are weighed against synergy phasing?",
+      "why_it_matters": "Tests whether the financial structure is conservative or stretched, and whether accretion depends on the synergies actually landing.",
+      "source_ids": [
+        "s_cintas_financing_8k",
+        "s_cintas_s4",
+        "s_cintas_pr_deal"
+      ]
+    },
+    {
+      "id": "q_fixable_underperformance",
+      "bucket": "companies",
+      "area": "target_fundamentals",
+      "question": "Is UniFirst's underperformance (the Engine Capital thesis: weak TSR under family control) a fixable execution/operating gap Cintas can close, or a structural disadvantage \u2014 i.e., is the synergy case really 'UNF was under-managed'?",
+      "why_it_matters": "If the gap is fixable by a better operator, the synergy lever is credible; if structural, the premium is harder to justify.",
+      "source_ids": [
+        "s_unf_10k",
+        "s_engine_prec14a",
+        "s_unf_fy25_earnings"
+      ]
+    }
+  ],
+  "planned_sources": [
+    {
+      "id": "s_unf_edgar",
+      "title": "UniFirst SEC filings (EDGAR, CIK 0000717954)",
+      "area": "target_fundamentals",
+      "class": "filings",
+      "tier": "T1",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=UNF&type=10-K&dateb=&owner=include&count=10",
+      "rationale": "Seed: landing page for UniFirst's 10-K / 10-Q / 8-K \u2014 the primary financials."
+    },
+    {
+      "id": "s_unf_10k",
+      "title": "UniFirst FY2025 Form 10-K",
+      "area": "target_fundamentals",
+      "class": "filings",
+      "tier": "T1",
+      "search_hint": "UniFirst 10-K fiscal 2025 EDGAR CIK 717954 (revenue, Core Laundry operating margin, segment mix, strategy, footprint)",
+      "rationale": "Canonical: target fundamentals \u2014 revenue trend, margins, segment mix, retention, cash flow, strategy."
+    },
+    {
+      "id": "s_unf_fy25_earnings",
+      "title": "UniFirst FY2025 Q4 / full-year earnings 8-K (Ex-99.1)",
+      "area": "target_fundamentals",
+      "class": "filings",
+      "tier": "T1",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000095017025048883/unf-ex99.htm",
+      "via": "scout",
+      "rationale": "Discovery: FY25 revenue ~$2.43B and operating income ~$184.5M \u2014 the standalone earnings base the premium and synergy are measured against."
+    },
+    {
+      "id": "s_cintas_edgar",
+      "title": "Cintas SEC filings (EDGAR, CIK 0000723254)",
+      "area": "commercial_market",
+      "class": "filings",
+      "tier": "T1",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=CTAS&type=10-K&dateb=&owner=include&count=10",
+      "rationale": "Seed: acquirer's filings \u2014 profile, segment mix, margins, the operator's playbook behind the synergy lever."
+    },
+    {
+      "id": "s_cintas_10k",
+      "title": "Cintas FY2025 Form 10-K",
+      "area": "commercial_market",
+      "class": "filings",
+      "tier": "T1",
+      "search_hint": "Cintas 10-K fiscal 2025 EDGAR CIK 723254 (segment revenue mix, operating margin ~22%, strategy)",
+      "rationale": "Acquirer profile + the margin/operating benchmark UniFirst would be brought up to (the synergy lever)."
+    },
+    {
+      "id": "s_cintas_10k_competition",
+      "title": "Cintas + UniFirst 10-K 'Competition' sections",
+      "area": "commercial_market",
+      "class": "filings",
+      "tier": "T1",
+      "search_hint": "Cintas and UniFirst 10-K Competition / Industry section",
+      "rationale": "Canonical: each company's own description of market structure, players, and positioning."
+    },
+    {
+      "id": "s_industry_structure",
+      "title": "Uniform-rental market structure & shares (Cintas/Vestis/UniFirst/Alsco)",
+      "area": "commercial_market",
+      "class": "news_analyst",
+      "tier": "T2",
+      "search_hint": "US uniform rental market size ~$20B shares Cintas ~31% UniFirst ~12% Vestis Alsco regional tail",
+      "rationale": "Canonical: market size, concentration, and the regional long tail \u2014 context for both the synergy and the antitrust question. Corroborate share figures against filings.",
+      "via": "scout"
+    },
+    {
+      "id": "s_vestis_10k",
+      "title": "Vestis Corporation 10-K (post-2023 Aramark spinoff)",
+      "area": "commercial_market",
+      "class": "filings",
+      "tier": "T1",
+      "search_hint": "Vestis Corporation VSTS 10-K EDGAR (revenue ~$2.8B, spinoff 2023, competitive position)",
+      "rationale": "Discovery: primary read on the #2/#3 rival whose spinoff and struggles set the 'why now' timing.",
+      "via": "scout"
+    },
+    {
+      "id": "s_unf_424b3",
+      "title": "UniFirst 424B3 \u2014 letter to shareholders on the proposed transaction",
+      "area": "deal_rationale_synergies",
+      "class": "filings",
+      "tier": "T1",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000114036126020376/ny20069194x3_424b3.htm",
+      "rationale": "Seed: the prospectus/letter for the stock consideration \u2014 deal terms and rationale as presented to holders."
+    },
+    {
+      "id": "s_defm14a_background",
+      "title": "UniFirst DEFM14A \u2014 'Background of the Merger'",
+      "area": "deal_rationale_synergies",
+      "class": "filings",
+      "tier": "T1",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm",
+      "via": "scout",
+      "rationale": "Discovery: the single most load-bearing doc \u2014 full deal chronology (2025 rejection \u2192 activist \u2192 2026 agreement), price negotiation, and the board's process."
+    },
+    {
+      "id": "s_defm14a_opinion",
+      "title": "UniFirst DEFM14A \u2014 'Opinion of the Financial Advisor'",
+      "area": "deal_rationale_synergies",
+      "class": "filings",
+      "tier": "T1",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm",
+      "via": "scout",
+      "rationale": "Discovery: the fairness opinion \u2014 premium, comparable-companies / precedent-transactions / DCF ranges (every valuation anchor, no cherry-picking)."
+    },
+    {
+      "id": "s_unf_unaffected_price",
+      "title": "UniFirst unaffected pre-announcement share price",
+      "area": "deal_rationale_synergies",
+      "class": "news_analyst",
+      "tier": "T2",
+      "search_hint": "UniFirst UNF share price unaffected date before March 10 2026 announcement; and before Jan 7 2025 Cintas proposal",
+      "rationale": "Canonical: the baseline(s) for computing the real premium \u2014 note both the 2026 and 2025 reference points given the contaminated baseline."
+    },
+    {
+      "id": "s_cintas_pr_deal",
+      "title": "Cintas press release \u2014 'Cintas to Acquire UniFirst in $5.5 Billion Transaction' (Mar 11, 2026)",
+      "area": "deal_rationale_synergies",
+      "class": "news_analyst",
+      "tier": "T2",
+      "url": "https://www.cintas.com/about/newsroom/details/news/2026/03/11/cintas-to-acquire-unifirst-in-5.5-billion-transaction-that-expands-service-capabilities-enhances-workday-solutions-and-advances-industry-innovation/",
+      "via": "scout",
+      "rationale": "Discovery: acquirer's stated rationale, the ~$375M synergy claim, and headline terms (an interested-party framing to test, not bank)."
+    },
+    {
+      "id": "s_cintas_investor_deck",
+      "title": "Cintas\u2013UniFirst investor deck (Dec 2025)",
+      "area": "deal_rationale_synergies",
+      "class": "news_analyst",
+      "tier": "T2",
+      "url": "https://www.cintas.com/docs/default-source/investor-relations/cintas-unifirst---investor-deck---12-22-25%20.pdf",
+      "via": "scout",
+      "rationale": "Discovery: management's synergy bridge and strategic logic \u2014 the 'why this lever' framing to pressure-test against the cost base."
+    },
+    {
+      "id": "s_cintas_pr_2025_proposal",
+      "title": "Cintas press release \u2014 '$275.00 per share' proposal (Jan 7, 2025)",
+      "area": "commercial_market",
+      "class": "news_analyst",
+      "tier": "T2",
+      "url": "https://www.cintas.com/newsroom/details/news/2025/01/07/cintas-proposes-to-acquire-unifirst-for--275.00-per-share-in-cash/",
+      "via": "scout",
+      "rationale": "Discovery: precedent transaction \u2014 the rejected $275 cash bid (~46% premium, ~$5.3B), the comparison point for the 2026 price."
+    },
+    {
+      "id": "s_unf_rejection_pr",
+      "title": "UniFirst press release \u2014 rejection of the 2025 Cintas proposal",
+      "area": "commercial_market",
+      "class": "news_analyst",
+      "tier": "T2",
+      "search_hint": "UniFirst confirms rejection of unsolicited non-binding highly conditional Cintas proposal 2025 investors.unifirst.com",
+      "rationale": "Discovery: the board's stated reasons for rejecting in 2025 \u2014 to contrast with its 2026 acceptance.",
+      "via": "scout"
+    },
+    {
+      "id": "s_cintas_s4",
+      "title": "Cintas Form S-4 (registration of the stock consideration)",
+      "area": "financing_balance_sheet",
+      "class": "filings",
+      "tier": "T1",
+      "search_hint": "Cintas S-4 UniFirst merger 2026 EDGAR CIK 723254 (declared effective May 6 2026)",
+      "rationale": "Canonical: the stock-consideration registration with pro-forma and consideration mechanics."
+    },
+    {
+      "id": "s_cintas_financing_8k",
+      "title": "Cintas 8-K \u2014 bridge facility / revolving credit agreement (Mar 2026)",
+      "area": "financing_balance_sheet",
+      "class": "filings",
+      "tier": "T1",
+      "search_hint": "Cintas 8-K March 2026 $2.85 billion 364-day bridge Morgan Stanley KeyBank Wells Fargo $2.0B revolver",
+      "rationale": "Canonical: the actual financing commitment and terms \u2014 the source for pro-forma leverage (~1.5x cited).",
+      "via": "scout"
+    },
+    {
+      "id": "s_rating_actions",
+      "title": "Rating-agency actions on Cintas post-announcement",
+      "area": "financing_balance_sheet",
+      "class": "news_analyst",
+      "tier": "T2",
+      "search_hint": "Moody's / S&P rating action Cintas UniFirst acquisition debt 2026",
+      "rationale": "Canonical: independent read on the leverage/credit impact of the new debt."
+    },
+    {
+      "id": "s_defm14a_merger_agreement",
+      "title": "UniFirst DEFM14A \u2014 'The Merger Agreement' summary + agreement annex",
+      "area": "merger_agreement",
+      "class": "filings",
+      "tier": "T1",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm",
+      "via": "scout",
+      "rationale": "Canonical/discovery: closing conditions, termination & reverse break fees, MAC/MAE, regulatory-efforts covenant, outside date \u2014 the risk-allocation terms."
+    },
+    {
+      "id": "s_merger_8k",
+      "title": "8-K announcing the merger agreement (Mar 10, 2026) + agreement exhibit",
+      "area": "merger_agreement",
+      "class": "filings",
+      "tier": "T1",
+      "search_hint": "UniFirst or Cintas 8-K March 10 2026 Agreement and Plan of Merger exhibit 2.1; voting/support agreements Croatti",
+      "rationale": "Canonical: the executed agreement and the Croatti voting/support agreements (~2/3 voting lock-up)."
+    },
+    {
+      "id": "s_ftc_second_request_8k",
+      "title": "8-K / 425 disclosing the FTC HSR Second Request (Jun 11, 2026)",
+      "area": "antitrust_regulatory",
+      "class": "filings",
+      "tier": "T1",
+      "search_hint": "UniFirst Cintas 8-K June 2026 HSR Second Request FTC; April 8 HSR filing, pull-and-refile May 2026",
+      "rationale": "Canonical/primary: the official Second-Request disclosure and HSR timeline \u2014 the dominant close-risk event."
+    },
+    {
+      "id": "s_ion_ftc_competitors",
+      "title": "Dealreporter / ION Analytics \u2014 'FTC interviewing competitors in UniFirst/Cintas merger'",
+      "area": "antitrust_regulatory",
+      "class": "news_analyst",
+      "tier": "T2",
+      "url": "https://ionanalytics.com/insights/dealreporter/ftc-interviewing-competitors-in-unifirst-cintas-merger-source/",
+      "via": "scout",
+      "rationale": "Discovery: credible M&A trade reporting on the FTC's competitor outreach \u2014 colour on the investigation's intensity (corroborate the substance)."
+    },
+    {
+      "id": "s_defm14a_regulatory",
+      "title": "UniFirst DEFM14A \u2014 'Regulatory Approvals'",
+      "area": "antitrust_regulatory",
+      "class": "filings",
+      "tier": "T1",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm",
+      "via": "scout",
+      "rationale": "Canonical: the parties' own statement of required approvals and antitrust-efforts obligations."
+    },
+    {
+      "id": "s_antitrust_precedent",
+      "title": "Precedent antitrust outcomes in route-based / facility-services deals",
+      "area": "antitrust_regulatory",
+      "class": "news_analyst",
+      "tier": "T2",
+      "search_hint": "FTC DOJ uniform rental / linen / facility services merger antitrust divestiture precedent (e.g. prior Cintas, Aramark, UniFirst, linen-supply consolidations)",
+      "rationale": "Canonical: base-rate evidence on how comparable localized route-market deals cleared, were challenged, or required divestitures."
+    },
+    {
+      "id": "s_unf_legal",
+      "title": "UniFirst + Cintas 10-K 'Legal Proceedings'",
+      "area": "litigation_legal",
+      "class": "filings",
+      "tier": "T1",
+      "search_hint": "UniFirst and Cintas 10-K Legal Proceedings; plus any merger-objection shareholder suits 2026",
+      "rationale": "Canonical: material standalone litigation, plus any merger-related shareholder litigation disclosed around the proxy."
+    },
+    {
+      "id": "s_engine_prec14a",
+      "title": "Engine Capital PREC14A \u2014 activist proxy materials (Nov 2025)",
+      "area": "management_governance",
+      "class": "filings",
+      "tier": "T1",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000092189525003119/prec14a09488unf_11142025.htm",
+      "via": "scout",
+      "rationale": "Discovery: the activist thesis \u2014 dual-class/Croatti-control critique, governance conflicts, demand for a value-maximizing sale (the pressure behind the 'flip')."
+    },
+    {
+      "id": "s_unf_defc14a",
+      "title": "UniFirst DEFC14A \u2014 company's contested-proxy response (Nov 2025)",
+      "area": "management_governance",
+      "class": "filings",
+      "tier": "T1",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000092189525003212/defc14a09488unf_11262025.htm",
+      "via": "scout",
+      "rationale": "Discovery: the board's own defense \u2014 the other side of the governance fight that preceded the deal."
+    },
+    {
+      "id": "s_unf_def14a",
+      "title": "UniFirst annual DEF 14A (board, dual-class, compensation)",
+      "area": "management_governance",
+      "class": "filings",
+      "tier": "T1",
+      "search_hint": "UniFirst DEF 14A annual proxy EDGAR CIK 717954 (Class B super-voting, board independence, Croatti roles)",
+      "rationale": "Canonical: the standing governance structure \u2014 dual-class voting, board, key-person roles."
+    },
+    {
+      "id": "s_engine_dfan14a",
+      "title": "Engine Capital DFAN14A campaign communications",
+      "area": "short_activist",
+      "class": "activist_short",
+      "tier": "T4",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000092189525003303/dfan14a09488unf_12102025.htm",
+      "via": "scout",
+      "rationale": "Discovery: the activist campaign's public letters/presentations \u2014 bear case on standalone UniFirst (an interested-party view to weigh, not bank)."
+    },
+    {
+      "id": "s_macro_riskfactors",
+      "title": "UniFirst + Cintas 10-K risk factors (tariffs / FX / demand cyclicality)",
+      "area": "macro_geopolitical",
+      "class": "filings",
+      "tier": "T1",
+      "search_hint": "UniFirst Cintas 10-K risk factors garment sourcing tariffs FX employment-cyclicality",
+      "rationale": "Canonical (optional tail): macro transmission channels with a real link \u2014 imported-garment tariffs and employment-linked demand."
+    },
+    {
+      "id": "s_esg_environmental",
+      "title": "UniFirst + Cintas 10-K environmental disclosures (industrial laundry)",
+      "area": "esg_environmental",
+      "class": "filings",
+      "tier": "T2",
+      "search_hint": "UniFirst Cintas 10-K environmental wastewater hazardous waste industrial laundry compliance",
+      "rationale": "Canonical (optional tail): industrial-laundry wastewater / hazardous-waste exposure and compliance history."
+    }
+  ],
+  "classes_skipped": [
+    {
+      "class": "court_dockets",
+      "reason": "No material standalone litigation surfaced in discovery. Merger-objection shareholder suits (if any) will be captured via 8-K / proxy disclosure (see s_unf_legal); escalate to a dedicated docket pull only if research surfaces a material case."
+    },
+    {
+      "class": "trade_press",
+      "reason": "Not skipped as a source of facts, but down-weighted: industry trade outlets (TRSA, American Laundry News, Textile Rental Services Association) corroborate the deal narrative and industry colour; load-bearing facts are taken from the SEC primaries above rather than trade press."
+    }
+  ]
+}

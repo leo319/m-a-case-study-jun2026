@@ -1,0 +1,181 @@
+{
+  "area": "deal_rationale_synergies",
+  "proposals": [
+    {
+      "claim_id": "whycintas_1",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Cintas's pursuit of UniFirst dates to early 2022: on February 8, 2022 Cintas delivered a written preliminary indication of interest to acquire UniFirst at $255.00 per share for 100% of the outstanding common and Class B common stock.",
+      "source": {"id": "s_defm14a", "title": "UniFirst DEFM14A (Background of the Mergers)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "On February 8, 2022, Cintas delivered a written preliminary indication of interest to acquire UniFirst in a transaction in which UniFirst shareholders would receive $255.00 per share for 100% of the outstanding shares of UniFirst common stock and class B common stock.",
+      "locator": "The Mergers — Background of the Mergers (p. 49)"
+    },
+    {
+      "claim_id": "whycintas_2",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Cintas characterizes its February 7, 2022 $255.00-per-share indication of interest as a 43% premium to UniFirst's closing price that date, and states UniFirst 'summarily rejected that offer in February 2022 without any substantive engagement.'",
+      "source": {"id": "s_cintas_jan2025", "title": "Cintas press release: Cintas Proposes to Acquire UniFirst for $275.00 Per Share in Cash (Jan 7, 2025)", "url": "https://www.cintas.com/newsroom/details/news/2025/01/07/cintas-proposes-to-acquire-unifirst-for--275.00-per-share-in-cash/", "tier": "T2"},
+      "quote": "Cintas initially approached UniFirst and delivered an indication of interest to acquire UniFirst for $255 per share (the “Prior Proposal”) on February 7, 2022, an offer that represented a 43% premium to UniFirst’s closing price on that date.",
+      "locator": "Engagement History (press release dated Jan 7, 2025)"
+    },
+    {
+      "claim_id": "whycintas_3",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "After ~2.5 years, on November 8, 2024 Cintas delivered to UniFirst a renewed non-binding indication of interest at $275.00 per share for 100% of the outstanding common and Class B common stock.",
+      "source": {"id": "s_defm14a", "title": "UniFirst DEFM14A (Background of the Mergers)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "On November 8, 2024, Cintas delivered to UniFirst a non-binding indication of interest to acquire UniFirst in a transaction in which UniFirst shareholders would receive $275.00 per share for 100% of the outstanding shares of UniFirst common stock and class B common stock.",
+      "locator": "The Mergers — Background of the Mergers (p. 50)"
+    },
+    {
+      "claim_id": "whycintas_4",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Cintas reiterated the $275.00-per-share proposal on November 25, 2024, stressing there would be no financing condition and expressing a desire to meet in person to discuss deal terms.",
+      "source": {"id": "s_defm14a", "title": "UniFirst DEFM14A (Background of the Mergers)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "On November 25, 2024, Cintas delivered a letter to UniFirst reiterating its $275.00 per share proposal, noting that there would be no financing condition to the transaction, and expressing desire to meet in person to discuss the deal terms, including the mix of consideration, and the path to complete a transaction.",
+      "locator": "The Mergers — Background of the Mergers (p. 50)"
+    },
+    {
+      "claim_id": "whycintas_5",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Cintas reiterated the $275.00-per-share proposal again on December 20, 2024, responding to the UniFirst Board's considerations noted in a December 9, 2024 letter.",
+      "source": {"id": "s_defm14a", "title": "UniFirst DEFM14A (Background of the Mergers)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "On December 20, 2024, Cintas delivered a letter to UniFirst reiterating again its $275.00 per share proposal, which included a response to the considerations of the UniFirst Board that were noted in the December 9, 2024 letter.",
+      "locator": "The Mergers — Background of the Mergers (p. 50)"
+    },
+    {
+      "claim_id": "whycintas_6",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "On January 7, 2025, before market open, Cintas escalated to a public campaign, issuing a press release that publicly disclosed its proposal to acquire UniFirst for $275.00 per share.",
+      "source": {"id": "s_defm14a", "title": "UniFirst DEFM14A (Background of the Mergers)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "Before the opening of the market on January 7, 2025, Cintas issued a press release publicly disclosing its proposal to acquire UniFirst for $275.00 per share.",
+      "locator": "The Mergers — Background of the Mergers (p. 51)"
+    },
+    {
+      "claim_id": "whycintas_7",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Cintas's January 7, 2025 public proposal framed the transaction as a long-running internal priority, stating that 'the proposed transaction is a top priority within our organization, and we believe there is no better time than now to combine our companies.'",
+      "source": {"id": "s_cintas_jan2025", "title": "Cintas press release: Cintas Proposes to Acquire UniFirst for $275.00 Per Share in Cash (Jan 7, 2025)", "url": "https://www.cintas.com/newsroom/details/news/2025/01/07/cintas-proposes-to-acquire-unifirst-for--275.00-per-share-in-cash/", "tier": "T2"},
+      "quote": "I want to reiterate that the proposed transaction is a top priority within our organization, and we believe there is no better time than now to combine our companies and create a world class organization to even further benefit our customers, employees and shareholders.",
+      "locator": "Letter to UniFirst Board reproduced in press release (dated Jan 7, 2025)"
+    },
+    {
+      "claim_id": "whycintas_8",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "After UniFirst declined to engage, Cintas withdrew: on March 24, 2025 Cintas issued a press release announcing it had terminated discussions with UniFirst.",
+      "source": {"id": "s_defm14a", "title": "UniFirst DEFM14A (Background of the Mergers)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "On March 24, 2025, Cintas issued a press release announcing that it had terminated discussions with UniFirst.",
+      "locator": "The Mergers — Background of the Mergers (p. 52)"
+    },
+    {
+      "claim_id": "whycintas_9",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Roughly nine months after terminating, Cintas re-submitted: on December 12, 2025 it privately delivered to UniFirst a written non-binding proposal to acquire UniFirst at $275.00 in cash per share for 100% of the outstanding common and Class B common stock.",
+      "source": {"id": "s_defm14a", "title": "UniFirst DEFM14A (Background of the Mergers)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "On December 12, 2025, Cintas privately delivered to UniFirst a written non-binding proposal to acquire UniFirst in a transaction in which UniFirst shareholders would receive $275.00 in cash per share for 100% of the outstanding shares of UniFirst common stock and Class B common stock.",
+      "locator": "The Mergers — Background of the Mergers (p. 53)"
+    },
+    {
+      "claim_id": "whycintas_10",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Cintas again went public during the contest: on the morning of December 22, 2025 it issued a press release that included a copy of the December 12, 2025 letter, reiterating its proposal to acquire UniFirst at $275.00 per share in cash.",
+      "source": {"id": "s_defm14a", "title": "UniFirst DEFM14A (Background of the Mergers)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "On the morning of December 22, 2025, Cintas publicly issued a press release that included a copy of the December 12, 2025 letter delivered to UniFirst, reiterating its proposal to acquire UniFirst at $275.00 per share in cash.",
+      "locator": "The Mergers — Background of the Mergers (p. 53)"
+    },
+    {
+      "claim_id": "whycintas_11",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "The four-year pursuit culminated on February 8, 2026, when Cintas's advisor conveyed Cintas's agreement to a price of $310.00 per share (cash/equity mix to be determined) — $35 above the $275.00 it had insisted for over a year was a 'full and fair' price.",
+      "source": {"id": "s_defm14a", "title": "UniFirst DEFM14A (Background of the Mergers)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "On February 8, 2026, representatives of Morgan Stanley conveyed to representatives of UniFirst’s financial advisors the agreement of Cintas to a price of $310.00 per share, but cash and equity consideration to be determined.",
+      "locator": "The Mergers — Background of the Mergers (p. 58)"
+    },
+    {
+      "claim_id": "whycintas_12",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Cintas (interested party) frames the strategic rationale for UniFirst specifically around combining complementary networks, asserting that 'by integrating complementary processing capacity, route networks, service infrastructure, supply chains and technology investments, Cintas expects to create efficiencies and expand service capabilities.'",
+      "source": {"id": "s_cintas_dealpr", "title": "Cintas press release: Cintas to Acquire UniFirst in $5.5 Billion Transaction (Mar 11, 2026)", "url": "https://www.cintas.com/about/newsroom/details/news/2026/03/11/cintas-to-acquire-unifirst-in-5.5-billion-transaction-that-expands-service-capabilities-enhances-workday-solutions-and-advances-industry-innovation/", "tier": "T2"},
+      "quote": "By integrating complementary processing capacity, route networks, service infrastructure, supply chains and technology investments, Cintas expects to create efficiencies and expand service capabilities.",
+      "locator": "Cintas press release dated Mar 11, 2026 (deal announcement)"
+    },
+    {
+      "claim_id": "whycintas_13",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Cintas (interested party) frames the combined scale benefit as serving 'approximately 1.5 million business customers across North America,' versus Cintas's standalone base of 'more than one million businesses.'",
+      "source": {"id": "s_cintas_dealpr", "title": "Cintas press release: Cintas to Acquire UniFirst in $5.5 Billion Transaction (Mar 11, 2026)", "url": "https://www.cintas.com/about/newsroom/details/news/2026/03/11/cintas-to-acquire-unifirst-in-5.5-billion-transaction-that-expands-service-capabilities-enhances-workday-solutions-and-advances-industry-innovation/", "tier": "T2"},
+      "quote": "The combined company will deliver innovative products and outstanding services to approximately 1.5 million business customers across North America.",
+      "locator": "Cintas press release dated Mar 11, 2026 (deal announcement)"
+    },
+    {
+      "claim_id": "whycintas_14",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "In its January 2025 letter Cintas (interested party) cast the combination as a competitive necessity, asserting it 'would be able to better leverage our infrastructure and route networks to enhance service to our customers and prospects enabling us to better compete in an increasingly competitive environment.'",
+      "source": {"id": "s_cintas_jan2025", "title": "Cintas press release: Cintas Proposes to Acquire UniFirst for $275.00 Per Share in Cash (Jan 7, 2025)", "url": "https://www.cintas.com/newsroom/details/news/2025/01/07/cintas-proposes-to-acquire-unifirst-for--275.00-per-share-in-cash/", "tier": "T2"},
+      "quote": "In addition, we would be able to better leverage our infrastructure and route networks to enhance service to our customers and prospects enabling us to better compete in an increasingly competitive environment.",
+      "locator": "Letter to UniFirst Board reproduced in press release (dated Jan 7, 2025)"
+    },
+    {
+      "claim_id": "whycintas_15",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "UniFirst's FY2025 10-K names only three principal rental competitors — 'Our principal competitors offering uniform rental programs include Cintas Corporation, Alsco, and Vestis Corporation' — evidencing that scaled, national uniform-rental targets are scarce (Cintas, the acquirer, plus private Alsco and former-Aramark spinoff Vestis).",
+      "source": {"id": "s_unf_10k_fy2025", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "Our principal competitors offering uniform rental programs include Cintas Corporation, Alsco, and Vestis Corporation.",
+      "locator": "Item 1 Business — Competition (p. 5)"
+    },
+    {
+      "claim_id": "whycintas_16",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "UniFirst's FY2025 10-K characterizes the sector as 'highly competitive,' stating 'The uniform rental and sales industry is highly competitive' and that competition could result in price reductions, reduced gross margins and loss of market share.",
+      "source": {"id": "s_unf_10k_fy2025", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "The uniform rental and sales industry is highly competitive.",
+      "locator": "Item 1 Business — Competition (p. 5)"
+    },
+    {
+      "claim_id": "whycintas_17",
+      "type": "inference",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Cintas made at least five distinct documented approaches for UniFirst across roughly four years (Feb 2022 at $255; Nov 2024 at $275 with reiterations in Nov and Dec 2024; a public Jan 2025 $275 proposal; a Dec 2025 re-submission at $275 after a Mar 2025 walk-away; and the Feb 2026 agreement at $310) — a degree of persistence that establishes UniFirst as a strategically high-priority target rather than an opportunistic bid.",
+      "supports": ["whycintas_1", "whycintas_3", "whycintas_4", "whycintas_5", "whycintas_6", "whycintas_8", "whycintas_9", "whycintas_10", "whycintas_11"]
+    },
+    {
+      "claim_id": "whycintas_18",
+      "type": "inference",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "The final $310.00-per-share price is $55 (≈21.6%) above the original Feb 2022 $255.00 indication and $35 (≈12.7%) above the $275.00 Cintas had repeatedly insisted was a 'full and fair' price, indicating Cintas was willing to pay materially more over time to secure UniFirst — consistent with a scarcity-driven motivation given that UniFirst is one of only three named scaled rental competitors.",
+      "supports": ["whycintas_1", "whycintas_3", "whycintas_11", "whycintas_15"]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{"chunk": 3, "verdicts": [
+  {"claim_id": "commercial_market_11", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_aramark_vestis_8k", "span": "—", "reason": "quote present; press release context confirms completed spin-off, holds uniform/workplace supplies business, now independent public company, and VSTS regular-way trading Oct 2 2023"},
+  {"claim_id": "commercial_market_13", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_vestis_10k", "span": "—", "reason": "verbatim quote present; statement faithfully attributes the 'second largest provider' assertion to Vestis with same basis"},
+  {"claim_id": "commercial_market_14", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_vestis_10k", "span": "—", "reason": "verbatim quote present; all figures (~$2.7bn revenue, $64.4M op income/2.4%, $40.2M net loss/(1.5)%) entailed"},
+  {"claim_id": "commercial_market_16", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_vestis_10k", "span": "—", "reason": "verbatim quote present; statement entailed by the risk-factor span on rental revenue declines"},
+  {"claim_id": "rt_family_flip", "type": "inference", "verdict": "PASS",
+   "cited_source": "management_governance_18,whycintas_18,management_governance_23,management_governance_24", "span": "—", "reason": "supports verified; conclusion (sale under activist pressure at higher price, not loss of control) follows from defeated slate + $310 vs $275"},
+  {"claim_id": "ex_whynow", "type": "inference", "verdict": "PASS",
+   "cited_source": "whycintas_17,whycintas_18,whycintas_15,commercial_market_30,management_governance_23", "span": "—", "reason": "supports verified; scarcity/persistence read follows from ~4yr/5-approach pursuit, $255->$275->$310, three-player field, weakened Vestis"},
+  {"claim_id": "commercial_market_22", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_cintas_gk_pr", "span": "—", "reason": "full source confirms $97.50, ~$2.2bn EV incl net debt, ~19% premium to Aug 15 2016 close, $130-140M synergies realized in fourth full year"},
+  {"claim_id": "commercial_market_23", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_cintas_gk_pr", "span": "—", "reason": "full source confirms $130-140M annual synergies 'projected to be realized in their entirety in the fourth full year after closing'"},
+  {"claim_id": "antitrust_12", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_antitrust_precedent_gk", "span": "—", "reason": "quote present; Jones Day source confirms closed Mar 21 2017 no divestitures, eight-month FTC/Canadian probe, two of four largest, $2.2bn"},
+  {"claim_id": "commercial_market_20", "type": "fact", "verdict": "MISATTRIBUTION",
+   "cited_source": "s_defm14a_opinion", "span": "the second precedent transaction", "reason": "Aramark/AmeriPride (Oct 2017) is the THIRD transaction listed after Cintas/G&K (Aug 2016) and Elis/Lavebras (Dec 2016); the quote confirms the deal exists but does not establish it is 'second'"}
+]}

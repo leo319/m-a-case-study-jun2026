@@ -1,0 +1,186 @@
+{
+  "chunk": 3,
+  "claims": [
+    {
+      "id": "commercial_market_11",
+      "statement": "Vestis Corporation completed its spin-off from Aramark on the Distribution Date of September 30, 2023, becoming an independent public company holding Aramark's uniform and workplace supplies business; it began regular-way trading on the NYSE under 'VSTS' on October 2, 2023.",
+      "type": "fact",
+      "module": "research",
+      "status": "verified",
+      "area": "commercial_market",
+      "source_ids": [
+        "s_aramark_vestis_8k"
+      ],
+      "quote": "Aramark (NYSE: ARMK), today announced that it has completed the spin-off of Vestis Corporation (“Vestis”), which holds Aramark’s uniform and workplace supplies business.",
+      "locator": "8-K Ex-99.1 press release, Philadelphia PA, October 2, 2023",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "commercial_market_13",
+      "statement": "Vestis asserts that within the United States and Canada it is the second largest provider in its industry, based on publicly reported revenue, employee and facilities data for Cintas, Vestis and UniFirst.",
+      "type": "fact",
+      "module": "research",
+      "status": "verified",
+      "area": "commercial_market",
+      "source_ids": [
+        "s_vestis_10k"
+      ],
+      "quote": "Within the United States and Canada, we are the second largest provider in our industry, based on publicly reported information related to revenue, number of employees and facilities data for each of Cintas, Vestis and Unifirst.",
+      "locator": "Item 1 Business — Competitive Strengths",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "commercial_market_14",
+      "statement": "Vestis generated revenue of approximately $2.7 billion in fiscal year 2025, with operating income of $64.4 million (2.4% of revenue) and a net loss of $40.2 million ((1.5)% of revenue).",
+      "type": "fact",
+      "module": "research",
+      "status": "verified",
+      "area": "commercial_market",
+      "source_ids": [
+        "s_vestis_10k"
+      ],
+      "quote": "In fiscal year 2025, we generated revenue of approximately $2.7 billion, operating income of $64.4 million, or 2.4% of revenue, and a net loss of $40.2 million, or (1.5)% of revenue.",
+      "locator": "Item 1 Business / MD&A — Financial Profile",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "commercial_market_16",
+      "statement": "Vestis disclosed that in recent quarters it experienced rental revenue declines resulting from lost business in excess of new business, as well as declines in rental revenue related to existing business.",
+      "type": "fact",
+      "module": "research",
+      "status": "verified",
+      "area": "commercial_market",
+      "source_ids": [
+        "s_vestis_10k"
+      ],
+      "quote": "In recent quarters, we have experienced rental revenue declines resulting from lost business in excess of new business, as well as declines in rental revenue related to existing business.",
+      "locator": "Item 1A Risk Factors / MD&A",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "rt_family_flip",
+      "type": "inference",
+      "module": "rationale",
+      "statement": "The family did not lose control and then sell: its board defeated Engine Capital's slate on Dec 15 2025 with voting control intact, then agreed in Feb 2026 to $310 — about 13% above the $275 it had repeatedly called full and fair. The better-supported read is a sale agreed under activist pressure at a higher price, not a loss of control, so part of the premium reads as the price to resolve the activist situation rather than pure scarcity value.",
+      "supports": [
+        "management_governance_18",
+        "whycintas_18",
+        "management_governance_23",
+        "management_governance_24"
+      ],
+      "status": "verified",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "inference-support",
+        "reasons": []
+      }
+    },
+    {
+      "id": "ex_whynow",
+      "type": "inference",
+      "module": "rationale",
+      "statement": "The persistence is best explained by scarcity, not opportunism: Cintas pursued for ~4 years across at least five approaches, escalating $255 -> $275 -> $310, because UniFirst is the last scaled, independent, family-controlled operator among only three national players — so this reads primarily as offensive consolidation of a scarce asset to extend a structural lead, with a plausible defensive element (locking it up before a weakened Vestis recovers or a financial buyer scales) that the activist opening made possible now.",
+      "supports": [
+        "whycintas_17",
+        "whycintas_18",
+        "whycintas_15",
+        "commercial_market_30",
+        "management_governance_23"
+      ],
+      "status": "verified",
+      "verification": {
+        "checked_at": "2026-06-13T04:55:21.298413+00:00",
+        "mode": "inference-support",
+        "reasons": []
+      }
+    },
+    {
+      "id": "commercial_market_22",
+      "statement": "Cintas agreed in August 2016 to acquire G&K Services for $97.50 per share in cash, a total enterprise value of approximately $2.2 billion (including acquired net debt), representing a premium of about 19 percent to G&K's closing price on August 15, 2016, with anticipated annual synergies of $130 million to $140 million realized in full in the fourth full year after closing.",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "commercial_market",
+      "source_ids": [
+        "s_cintas_gk_pr"
+      ],
+      "quote": "Cintas will acquire all outstanding shares of G&K Services for $97.50 per share in cash, for a total enterprise value of approximately $2.2 billion, including acquired net debt.",
+      "locator": "Press release dated August 17, 2016, deal terms",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "url-quote",
+        "reasons": []
+      }
+    },
+    {
+      "id": "commercial_market_23",
+      "statement": "In the Cintas/G&K Services precedent, Cintas anticipated realizing annual synergies in the range of $130 million to $140 million, projected to be realized in their entirety in the fourth full year after closing.",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "commercial_market",
+      "source_ids": [
+        "s_cintas_gk_pr"
+      ],
+      "quote": "Additionally, Cintas anticipates realizing annual synergies in the range of $130 million to $140 million.",
+      "locator": "Press release dated August 17, 2016, synergy guidance",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "url-quote",
+        "reasons": []
+      }
+    },
+    {
+      "id": "antitrust_12",
+      "statement": "PRECEDENT (BASE RATE): Cintas's prior 2017 acquisition of G&K Services ($2.2bn) — a combination of two of the four largest U.S. workwear-rental suppliers — drew an eight-month FTC/Canadian Competition Bureau investigation but ultimately closed on March 21, 2017 WITH NO DIVESTITURES, per deal counsel Jones Day.",
+      "type": "fact",
+      "module": "tailrisk",
+      "status": "verified",
+      "area": "antitrust_regulatory",
+      "source_ids": [
+        "s_antitrust_precedent_gk"
+      ],
+      "quote": "Cintas closed the transaction on March 21, 2017, with no divestitures, after complying with a eight-month antitrust investigation by the Federal Trade Commission and Canadian Competition Bureau.",
+      "locator": "Cases & Deals, March 2017",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "url-quote",
+        "reasons": []
+      }
+    },
+    {
+      "id": "commercial_market_20",
+      "statement": "The second precedent transaction in J.P. Morgan's Selected Transactions Analysis is Aramark's October 2017 acquisition of AmeriPride Services Inc.",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "commercial_market",
+      "source_ids": [
+        "s_defm14a_opinion"
+      ],
+      "quote": "October 2017 Aramark AmeriPride Services Inc.",
+      "locator": "Opinion of J.P. Morgan — Selected Transactions Analysis",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    }
+  ]
+}

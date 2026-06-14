@@ -1,0 +1,190 @@
+{
+  "chunk": 11,
+  "claims": [
+    {
+      "id": "litigation_5",
+      "statement": "Cintas discloses that, beyond ordinary-course claims, it is also party to litigation not considered in the ordinary course of business, detailed in its Litigation and Other Contingencies note.",
+      "type": "fact",
+      "module": "tailrisk",
+      "status": "verified",
+      "area": "litigation_legal",
+      "source_ids": [
+        "s_cintas_10k"
+      ],
+      "quote": "Cintas is also party to additional litigation not considered in the ordinary course of business.",
+      "locator": "Item 3, Legal Proceedings (cross-referencing Note 15) (p. 24)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "rt_financing_risk",
+      "type": "inference",
+      "module": "tailrisk",
+      "statement": "Financing risk is low on the cash leg but not zero: Cintas had not secured the c. $2.8B of permanent debt as of the S-4, and because its obligation to close is not financing-conditioned yet is specifically enforceable, adverse credit markets could force reliance on the costlier bridge or expose it to specific performance rather than a walk-away.",
+      "supports": [
+        "merger_agreement_21",
+        "financing_19",
+        "merger_agreement_14"
+      ],
+      "status": "verified",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "inference-support",
+        "reasons": []
+      }
+    },
+    {
+      "id": "management_governance_9",
+      "statement": "Engine Capital (which owns ~3.2% of UniFirst) asserts that the company has delivered deeply disappointing total shareholder returns across every relevant period since leadership changes, framing weak TSR as its core critique of management.",
+      "type": "fact",
+      "module": "tailrisk",
+      "status": "verified",
+      "area": "management_governance",
+      "source_ids": [
+        "s_engine_prec14a"
+      ],
+      "quote": "We believe the stock performance tells the story unmistakably: Since these leadership changes, the Company has delivered deeply disappointing total shareholder returns across every relevant time period, as shown in the table below:",
+      "locator": "Reasons for the Solicitation — stock performance discussion (p. 7)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "management_governance_10",
+      "statement": "Engine Capital asserts UniFirst's operating margins declined from 12.8% in 2019 to an expected 6.4% in FY2026 — roughly a 50% drop — while Cintas' margins expanded over the same period.",
+      "type": "fact",
+      "module": "tailrisk",
+      "status": "verified",
+      "area": "management_governance",
+      "source_ids": [
+        "s_engine_prec14a"
+      ],
+      "quote": "Operating margins declined from 12.8% in 2019 to an expected 6.4% in FY2026, roughly a 50% drop, while Cintas’ operating margins expanded materially over the same period.",
+      "locator": "Reasons for the Solicitation — operating performance (p. 8)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "short_activist_10",
+      "statement": "Engine Capital's campaign won the endorsement of all three leading independent proxy advisors — ISS, Glass Lewis, and Egan-Jones — each recommending UniFirst shareholders vote FOR Engine's nominees (Arnaud Ajdler and Michael A. Croatti) on the BLUE universal proxy card at the December 15, 2025 annual meeting, lending independent third-party validation to Engine's governance critique.",
+      "type": "fact",
+      "module": "tailrisk",
+      "status": "verified",
+      "area": "short_activist",
+      "source_ids": [
+        "s_engine_dfan_proxyadvisors"
+      ],
+      "quote": "ISS, Glass Lewis, and Egan-Jones Send Strong Message to Independent Directors",
+      "locator": "Item 1, press release dated December 10, 2025 (headline/subheadline)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "short_activist_11",
+      "statement": "The Engine Capital campaign is an activist proxy contest (PREC14A / DFAN14A), not a short-seller report: its thesis is that standalone UniFirst is mismanaged and value-destructive under entrenched family control, and that a sale is the only reliable path to value — which directly reinforces the acquirer-side narrative that UniFirst was under-managed and that an owner like Cintas could close the operational/margin gap.",
+      "type": "inference",
+      "module": "tailrisk",
+      "status": "verified",
+      "area": "short_activist",
+      "supports": [
+        "short_activist_1",
+        "short_activist_2",
+        "short_activist_3",
+        "short_activist_4",
+        "short_activist_5",
+        "short_activist_7"
+      ],
+      "verification": {
+        "checked_at": "2026-06-13T04:04:55.441154+00:00",
+        "mode": "inference-support",
+        "reasons": []
+      }
+    },
+    {
+      "id": "management_governance_6",
+      "statement": "Because the Croatti family holds over two-thirds of the voting power and signed the voting and support agreement, the DEFM14A states approval of the merger is expected at the special meeting subject to that agreement's terms.",
+      "type": "fact",
+      "module": "tailrisk",
+      "status": "verified",
+      "area": "management_governance",
+      "source_ids": [
+        "s_defm14a"
+      ],
+      "quote": "As a result, and subject to the terms of the voting and support agreement and certain exceptions therein, the approval of the merger proposal is expected at the special meeting.",
+      "locator": "The Voting and Support Agreement (p. 97)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "whycintas_11",
+      "statement": "The four-year pursuit culminated on February 8, 2026, when Cintas's advisor conveyed Cintas's agreement to a price of $310.00 per share (cash/equity mix to be determined) — $35 above the $275.00 it had insisted for over a year was a 'full and fair' price.",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "deal_rationale_synergies",
+      "source_ids": [
+        "s_defm14a"
+      ],
+      "quote": "On February 8, 2026, representatives of Morgan Stanley conveyed to representatives of UniFirst’s financial advisors the agreement of Cintas to a price of $310.00 per share, but cash and equity consideration to be determined.",
+      "locator": "The Mergers — Background of the Mergers (p. 58)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "merger_agreement_17",
+      "statement": "Cintas's proposal provided for a $350.0 million reverse termination fee payable by Cintas to UniFirst if the merger was blocked on antitrust grounds, plus an obligation for Cintas and UniFirst to litigate any challenge by antitrust authorities, if necessary.",
+      "type": "fact",
+      "module": "tailrisk",
+      "status": "verified",
+      "area": "merger_agreement",
+      "source_ids": [
+        "s_unf_defm14a"
+      ],
+      "quote": "The Cintas proposal also provided for a $350.0 million reverse termination fee payable by Cintas to UniFirst if the merger was blocked on antitrust grounds, and an obligation for Cintas and UniFirst to litigate any challenge by antitrust authorities, if necessary.",
+      "locator": "The Mergers—Background of the Mergers",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "ex_close",
+      "type": "inference",
+      "module": "tailrisk",
+      "statement": "WILL IT CLOSE (a balance of forces, not a coin-flip): pushing toward completion are a four-year strategic imperative and the buyer determination it implies, the family vote lock-up, a $350M reverse fee plus an obligation to litigate antitrust challenges, committed financing with no financing condition, and a favorable clearance base rate; pulling against are the FTC Second Request, a ~half-market 3-to-2 structure, an impaired divestiture buyer, and a long pendency. On balance the deal is more-likely-than-not to close, but conditioned on an antitrust remedy (most likely divestitures) — not a sure thing, with a genuine block/timing tail.",
+      "supports": [
+        "whycintas_17",
+        "management_governance_6",
+        "merger_agreement_20",
+        "merger_agreement_4",
+        "antitrust_17",
+        "antitrust_18",
+        "antitrust_4"
+      ],
+      "status": "verified",
+      "verification": {
+        "checked_at": "2026-06-13T04:55:21.298413+00:00",
+        "mode": "inference-support",
+        "reasons": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "area": "commercial_market",
+  "proposals": [
+    {
+      "claim_id": "commercial_market_1",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Cintas reports two reportable operating segments — Uniform Rental and Facility Services, and First Aid and Safety Services — with its Fire Protection Services and Uniform Direct Sale operating segments grouped in an All Other category; the majority of total company revenue comes from the Uniform Rental and Facility Services segment.",
+      "source": {"id": "s_cintas_10k", "title": "Cintas Corporation FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000072325425000017/ctas-20250531.htm", "tier": "T1"},
+      "quote": "Cintas’ reportable operating segments are the Uniform Rental and Facility Services operating segment and the First Aid and Safety Services operating segment.",
+      "locator": "Item 1 Business — Business Segments (p. 2-3)"
+    },
+    {
+      "claim_id": "commercial_market_2",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Cintas's total revenue for fiscal year ended May 31, 2025 was $10,340,181 thousand (an increase of 7.7% over fiscal 2024), of which the Uniform Rental and Facility Services segment contributed $7,976,073 thousand (roughly 77% of total) versus $7,465,199 thousand in fiscal 2024.",
+      "source": {"id": "s_cintas_fy25_er", "title": "Cintas Corporation FY2025 Q4 earnings release (8-K Ex-99.1)", "url": "https://www.sec.gov/Archives/edgar/data/723254/000072325425000013/ex992025-5x31.htm", "tier": "T1"},
+      "quote": "Change Revenue: Uniform rental and facility services $ 7,976,073 $ 7,465,199 6.8%",
+      "locator": "Ex-99.1 earnings release, condensed income statement — twelve months ended May 31, 2025"
+    },
+    {
+      "claim_id": "commercial_market_3",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Cintas's total revenue for fiscal 2025 was $10,340,181 thousand versus $9,596,615 thousand in fiscal 2024, up 7.7%.",
+      "source": {"id": "s_cintas_fy25_er", "title": "Cintas Corporation FY2025 Q4 earnings release (8-K Ex-99.1)", "url": "https://www.sec.gov/Archives/edgar/data/723254/000072325425000013/ex992025-5x31.htm", "tier": "T1"},
+      "quote": "Total revenue 10,340,181 9,596,615 7.7%",
+      "locator": "Ex-99.1 earnings release, condensed income statement — twelve months ended May 31, 2025"
+    },
+    {
+      "claim_id": "commercial_market_4",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Cintas reports operating income for fiscal 2025 of $2.36 billion (up 14.1% from $2.07 billion in fiscal 2024), which on $10.34 billion of revenue implies an operating margin of approximately 22.8%.",
+      "source": {"id": "s_cintas_fy25_er", "title": "Cintas Corporation FY2025 Q4 earnings release (8-K Ex-99.1)", "url": "https://www.sec.gov/Archives/edgar/data/723254/000072325425000013/ex992025-5x31.htm", "tier": "T1"},
+      "quote": "Operating income for fiscal 2025 increased to $2.36 billion compared to $2.07 billion for fiscal 2024, an increase of 14.1%.",
+      "locator": "Ex-99.1 earnings release, fiscal year summary"
+    },
+    {
+      "claim_id": "commercial_market_5",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Cintas describes itself as North America's leading provider of corporate identity uniforms through rental and sales programs, and a significant provider of related business services including entrance mats, restroom cleaning, first aid and safety services, and fire protection.",
+      "source": {"id": "s_cintas_10k", "title": "Cintas Corporation FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000072325425000017/ctas-20250531.htm", "tier": "T1"},
+      "quote": "We are North America's leading provider of corporate identity uniforms through rental and sales programs, as well as a significant provider of related business services, including entrance mats, restroom cleaning services and supplies, first aid and safety services and fire protection products and services.",
+      "locator": "Item 1 Business — overview (p. 3)"
+    },
+    {
+      "claim_id": "commercial_market_6",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Cintas employed approximately 48,300 employee-partners in its global workforce at May 31, 2025, of which approximately 900 were represented by labor unions.",
+      "source": {"id": "s_cintas_10k", "title": "Cintas Corporation FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000072325425000017/ctas-20250531.htm", "tier": "T1"},
+      "quote": "At May 31, 2025, Cintas employed approximately 48,300 employee-partners in our global workforce, of which approximately 900 were represented by labor unions.",
+      "locator": "Item 1 Business — Human Capital (p. 5)"
+    },
+    {
+      "claim_id": "commercial_market_7",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Cintas characterizes the primary markets served by each of its operating segments as local in nature and highly fragmented, with competition from national, regional and local providers, large national retailers, small local retailers, and online-focused companies.",
+      "source": {"id": "s_cintas_10k", "title": "Cintas Corporation FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000072325425000017/ctas-20250531.htm", "tier": "T1"},
+      "quote": "The primary markets served by each of the Cintas operating segments are local in nature and highly fragmented.",
+      "locator": "Item 1 Business — Competition (p. 4)"
+    },
+    {
+      "claim_id": "commercial_market_8",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Cintas states that its diverse customer base results in no individual customer accounting for greater than one percent of total revenue — i.e., very low customer concentration.",
+      "source": {"id": "s_cintas_10k", "title": "Cintas Corporation FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000072325425000017/ctas-20250531.htm", "tier": "T1"},
+      "quote": "This diversity in customer base results in no individual customer accounting for greater than one percent of Cintas' total revenue.",
+      "locator": "Item 1 Business — Customers (p. 4)"
+    },
+    {
+      "claim_id": "commercial_market_9",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "UniFirst describes the uniform rental and sales industry as highly competitive and names its principal competitors offering uniform rental programs as Cintas Corporation, Alsco, and Vestis Corporation.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst Corporation FY2025 Form 10-K (year ended Aug 30, 2025)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "Our principal competitors offering uniform rental programs include Cintas Corporation, Alsco, and Vestis Corporation.",
+      "locator": "Item 1 Business — Competition (p. 4-5)"
+    },
+    {
+      "claim_id": "commercial_market_10",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "UniFirst provides its products and services to over 300,000 customer locations in the United States, Canada and Europe, marketing to a diverse customer base across virtually all industry segments.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst Corporation FY2025 Form 10-K (year ended Aug 30, 2025)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "We provide our products and services to over 300,000 customer locations in the United States (“U.S.”), Canada and Europe.",
+      "locator": "Item 1 Business — overview (p. 2)"
+    },
+    {
+      "claim_id": "commercial_market_11",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Vestis Corporation completed its spin-off from Aramark on the Distribution Date of September 30, 2023, becoming an independent public company holding Aramark's uniform and workplace supplies business; it began regular-way trading on the NYSE under 'VSTS' on October 2, 2023.",
+      "source": {"id": "s_aramark_vestis_8k", "title": "Aramark 8-K Ex-99.1 — 'Aramark Completes Spin-Off of Vestis' (Oct 2, 2023)", "url": "https://www.sec.gov/Archives/edgar/data/0001584509/000162828023033364/exhibit991-aramarkclosing8.htm", "tier": "T1"},
+      "quote": "Aramark (NYSE: ARMK), today announced that it has completed the spin-off of Vestis Corporation (“Vestis”), which holds Aramark’s uniform and workplace supplies business.",
+      "locator": "8-K Ex-99.1 press release, Philadelphia PA, October 2, 2023"
+    },
+    {
+      "claim_id": "commercial_market_12",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Vestis describes its industry as local in nature, fragmented and highly competitive, identifying Cintas Corporation and UniFirst Corporation as notable competitors of size alongside numerous local and regional competitors.",
+      "source": {"id": "s_vestis_10k", "title": "Vestis Corporation FY2025 Form 10-K (year ended Oct 3, 2025)", "url": "https://www.sec.gov/Archives/edgar/data/1967649/000162828025054597/vsts-20251003.htm", "tier": "T1"},
+      "quote": "Cintas Corporation and UniFirst Corporation are notable competitors of size, and we also have numerous local and regional competitors.",
+      "locator": "Item 1 Business — Competition"
+    },
+    {
+      "claim_id": "commercial_market_13",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Vestis asserts that within the United States and Canada it is the second largest provider in its industry, based on publicly reported revenue, employee and facilities data for Cintas, Vestis and UniFirst.",
+      "source": {"id": "s_vestis_10k", "title": "Vestis Corporation FY2025 Form 10-K (year ended Oct 3, 2025)", "url": "https://www.sec.gov/Archives/edgar/data/1967649/000162828025054597/vsts-20251003.htm", "tier": "T1"},
+      "quote": "Within the United States and Canada, we are the second largest provider in our industry, based on publicly reported information related to revenue, number of employees and facilities data for each of Cintas, Vestis and Unifirst.",
+      "locator": "Item 1 Business — Competitive Strengths"
+    },
+    {
+      "claim_id": "commercial_market_14",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Vestis generated revenue of approximately $2.7 billion in fiscal year 2025, with operating income of $64.4 million (2.4% of revenue) and a net loss of $40.2 million ((1.5)% of revenue).",
+      "source": {"id": "s_vestis_10k", "title": "Vestis Corporation FY2025 Form 10-K (year ended Oct 3, 2025)", "url": "https://www.sec.gov/Archives/edgar/data/1967649/000162828025054597/vsts-20251003.htm", "tier": "T1"},
+      "quote": "In fiscal year 2025, we generated revenue of approximately $2.7 billion, operating income of $64.4 million, or 2.4% of revenue, and a net loss of $40.2 million, or (1.5)% of revenue.",
+      "locator": "Item 1 Business / MD&A — Financial Profile"
+    },
+    {
+      "claim_id": "commercial_market_15",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Vestis's net loss of $40.2 million in fiscal 2025 was a decrease of $61.2 million, or 291.8%, compared to net income of $21.0 million in the prior fiscal year.",
+      "source": {"id": "s_vestis_10k", "title": "Vestis Corporation FY2025 Form 10-K (year ended Oct 3, 2025)", "url": "https://www.sec.gov/Archives/edgar/data/1967649/000162828025054597/vsts-20251003.htm", "tier": "T1"},
+      "quote": "Net loss of $40.2 million in fiscal 2025 represented a decrease of $61.2 million, or 291.8% compared to net income of $21.0 million in the prior fiscal year",
+      "locator": "Item 7 MD&A — Results of Operations"
+    },
+    {
+      "claim_id": "commercial_market_16",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Vestis disclosed that in recent quarters it experienced rental revenue declines resulting from lost business in excess of new business, as well as declines in rental revenue related to existing business.",
+      "source": {"id": "s_vestis_10k", "title": "Vestis Corporation FY2025 Form 10-K (year ended Oct 3, 2025)", "url": "https://www.sec.gov/Archives/edgar/data/1967649/000162828025054597/vsts-20251003.htm", "tier": "T1"},
+      "quote": "In recent quarters, we have experienced rental revenue declines resulting from lost business in excess of new business, as well as declines in rental revenue related to existing business.",
+      "locator": "Item 1A Risk Factors / MD&A"
+    },
+    {
+      "claim_id": "commercial_market_17",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Vestis attributes its rental revenue decline in part to a $89.0 million decline, of which $69.9 million was from lost business in excess of new business, plus a $26.5 million direct-sales decline driven largely by a $15.6 million unfavorable impact from the loss of a national account customer.",
+      "source": {"id": "s_vestis_10k", "title": "Vestis Corporation FY2025 Form 10-K (year ended Oct 3, 2025)", "url": "https://www.sec.gov/Archives/edgar/data/1967649/000162828025054597/vsts-20251003.htm", "tier": "T1"},
+      "quote": "The $89.0 million decline in rental revenue was primarily due to a $69.9 million decline from lost business in excess of new business, a $13.9 million decline in revenue associated with inventory recovery charges, and a $5.2 million decline in revenue associated with our first aid supply business.",
+      "locator": "Item 7 MD&A — Results of Operations"
+    },
+    {
+      "claim_id": "commercial_market_18",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Vestis reports low customer concentration: revenue from its 10 largest customers accounted for less than 10% of total revenue in fiscal 2025; recurring rental business comprised 95% of total revenue (5% direct sales), and 91% of revenue was U.S.-based.",
+      "source": {"id": "s_vestis_10k", "title": "Vestis Corporation FY2025 Form 10-K (year ended Oct 3, 2025)", "url": "https://www.sec.gov/Archives/edgar/data/1967649/000162828025054597/vsts-20251003.htm", "tier": "T1"},
+      "quote": "Our revenue is diversified across our many customers as demonstrated by the revenue generated from our 10 largest customers accounting for less than 10% of total revenue in fiscal year 2025.",
+      "locator": "Item 1 Business — Customers"
+    },
+    {
+      "claim_id": "commercial_market_19",
+      "type": "fact",
+      "module": "rationale",
+      "area": "commercial_market",
+      "statement": "J.P. Morgan's Selected Transactions Analysis for the UniFirst/Cintas merger identified two precedent uniform-services deals: Cintas Corporation's August 2016 acquisition of G&K Services, Inc., and Aramark's October 2017 acquisition of AmeriPride Services Inc.",
+      "source": {"id": "s_defm14a_opinion", "title": "Cintas/UniFirst Form 424B3 (merger proxy/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000114036126020376/ny20069194x3_424b3.htm", "tier": "T1"},
+      "quote": "Announcement Date Acquiror Target August 2016 Cintas Corporation G&K Services, Inc.",
+      "locator": "Opinion of J.P. Morgan — Selected Transactions Analysis"
+    },
+    {
+      "claim_id": "commercial_market_20",
+      "type": "fact",
+      "module": "rationale",
+      "area": "commercial_market",
+      "statement": "The second precedent transaction in J.P. Morgan's Selected Transactions Analysis is Aramark's October 2017 acquisition of AmeriPride Services Inc.",
+      "source": {"id": "s_defm14a_opinion", "title": "Cintas/UniFirst Form 424B3 (merger proxy/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000114036126020376/ny20069194x3_424b3.htm", "tier": "T1"},
+      "quote": "October 2017 Aramark AmeriPride Services Inc.",
+      "locator": "Opinion of J.P. Morgan — Selected Transactions Analysis"
+    },
+    {
+      "claim_id": "commercial_market_21",
+      "type": "fact",
+      "module": "rationale",
+      "area": "commercial_market",
+      "statement": "Goldman Sachs's Selected Precedent Transactions Analysis for the merger analyzed selected transactions in the uniform services industry since 2015.",
+      "source": {"id": "s_defm14a_opinion", "title": "Cintas/UniFirst Form 424B3 (merger proxy/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000114036126020376/ny20069194x3_424b3.htm", "tier": "T1"},
+      "quote": "Goldman Sachs analyzed certain information relating to the following selected transactions in the uniform services industry since 2015.",
+      "locator": "Opinion of Goldman Sachs — Selected Precedent Transactions Analysis"
+    },
+    {
+      "claim_id": "commercial_market_22",
+      "type": "fact",
+      "module": "rationale",
+      "area": "commercial_market",
+      "statement": "Cintas agreed in August 2016 to acquire G&K Services for $97.50 per share in cash, a total enterprise value of approximately $2.2 billion (including acquired net debt), representing a premium of about 19 percent to G&K's closing price on August 15, 2016, with anticipated annual synergies of $130 million to $140 million realized in full in the fourth full year after closing.",
+      "source": {"id": "s_cintas_gk_pr", "title": "Cintas press release — 'Cintas Corporation to Acquire G&K Services' (Aug 17, 2016)", "url": "https://www.cintas.com/newsroom/details/news/2016/08/17/cintas-corporation-to-acquire-g-k-services/", "tier": "T2"},
+      "quote": "Cintas will acquire all outstanding shares of G&K Services for $97.50 per share in cash, for a total enterprise value of approximately $2.2 billion, including acquired net debt.",
+      "locator": "Press release dated August 17, 2016, deal terms"
+    },
+    {
+      "claim_id": "commercial_market_23",
+      "type": "fact",
+      "module": "rationale",
+      "area": "commercial_market",
+      "statement": "In the Cintas/G&K Services precedent, Cintas anticipated realizing annual synergies in the range of $130 million to $140 million, projected to be realized in their entirety in the fourth full year after closing.",
+      "source": {"id": "s_cintas_gk_pr", "title": "Cintas press release — 'Cintas Corporation to Acquire G&K Services' (Aug 17, 2016)", "url": "https://www.cintas.com/newsroom/details/news/2016/08/17/cintas-corporation-to-acquire-g-k-services/", "tier": "T2"},
+      "quote": "Additionally, Cintas anticipates realizing annual synergies in the range of $130 million to $140 million.",
+      "locator": "Press release dated August 17, 2016, synergy guidance"
+    },
+    {
+      "claim_id": "commercial_market_24",
+      "type": "fact",
+      "module": "rationale",
+      "area": "commercial_market",
+      "statement": "Cintas's January 7, 2025 unsolicited proposal to acquire UniFirst for $275.00 per share in cash implied a total value of approximately $5.3 billion and a 46% premium to UniFirst's ninety-day average closing price as of January 6, 2025; the proposal had first been delivered to UniFirst's board on November 8, 2024.",
+      "source": {"id": "s_cintas_pr_2025_proposal", "title": "Cintas press release — '$275.00 Per Share' proposal (Jan 7, 2025)", "url": "https://www.cintas.com/newsroom/details/news/2025/01/07/cintas-proposes-to-acquire-unifirst-for--275.00-per-share-in-cash/", "tier": "T2"},
+      "quote": "The Proposal implies a total value for UniFirst of approximately $5.3 billion and offers UniFirst shareholders a 46% premium to UniFirst’s ninety-day average closing price as of January 6, 2025.",
+      "locator": "Press release dated January 7, 2025, deal terms"
+    },
+    {
+      "claim_id": "commercial_market_25",
+      "type": "fact",
+      "module": "rationale",
+      "area": "commercial_market",
+      "statement": "Cintas disclosed an earlier rebuffed approach: it first delivered an indication of interest to acquire UniFirst for $255 per share on February 7, 2022 (a 43% premium to that day's close), and UniFirst rejected the $275/share proposal on November 27, 2024 and again on December 9, 2024 without further engagement.",
+      "source": {"id": "s_cintas_pr_2025_proposal", "title": "Cintas press release — '$275.00 Per Share' proposal (Jan 7, 2025)", "url": "https://www.cintas.com/newsroom/details/news/2025/01/07/cintas-proposes-to-acquire-unifirst-for--275.00-per-share-in-cash/", "tier": "T2"},
+      "quote": "Cintas initially approached UniFirst and delivered an indication of interest to acquire UniFirst for $255 per share (the “Prior Proposal”) on February 7, 2022, an offer that represented a 43% premium to UniFirst’s closing price on that date.",
+      "locator": "Press release dated January 7, 2025, Engagement History"
+    },
+    {
+      "claim_id": "commercial_market_26",
+      "type": "fact",
+      "module": "rationale",
+      "area": "commercial_market",
+      "statement": "Under the March 2026 definitive agreement, UniFirst shareholders will receive $155.00 in cash and 0.7720 shares of Cintas stock per UniFirst share — a combined $310.00 per share based on Cintas's $200.77 close on March 9, 2026 — implying a total enterprise value of approximately $5.5 billion, a multiple of 8.0x run-rate trailing-12-month EBITDA including approximately $375 million of operating cost synergies.",
+      "source": {"id": "s_merger_pr_2026", "title": "Cintas/UniFirst joint press release (8-K Ex-99.1, Mar 2026)", "url": "https://www.sec.gov/Archives/edgar/data/723254/000095010326003567/dp243132_ex9901.htm", "tier": "T1"},
+      "quote": "The implied total enterprise value of the transaction is approximately $5.5 billion, which represents a multiple of 8.0x run-rate trailing 12 months EBITDA, including approximately $375 million of operating cost synergies.",
+      "locator": "8-K Ex-99.1 joint press release — Transaction Details"
+    },
+    {
+      "claim_id": "commercial_market_27",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Cintas and UniFirst state that the combined company will serve approximately 1.5 million business customers across North America, integrating complementary processing capacity, route networks, service infrastructure, supply chains and technology investments to create efficiencies and expand service capabilities.",
+      "source": {"id": "s_merger_pr_2026", "title": "Cintas/UniFirst joint press release (8-K Ex-99.1, Mar 2026)", "url": "https://www.sec.gov/Archives/edgar/data/723254/000095010326003567/dp243132_ex9901.htm", "tier": "T1"},
+      "quote": "The combined company will deliver innovative products and outstanding services to approximately 1.5 million business customers across North America.",
+      "locator": "8-K Ex-99.1 joint press release — overview"
+    },
+    {
+      "claim_id": "commercial_market_28",
+      "type": "inference",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "The US/Canada uniform-rental industry is a three-national-player oligopoly over a fragmented local-route base: all three public participants (Cintas, UniFirst, Vestis) independently name the same short list of national rivals — Cintas, UniFirst/Alsco, Vestis — while describing their served markets as 'local in nature, fragmented and highly competitive', confirming a structure of a few national consolidators over a long regional/local tail.",
+      "supports": ["commercial_market_7", "commercial_market_9", "commercial_market_12", "commercial_market_13"]
+    },
+    {
+      "claim_id": "commercial_market_29",
+      "type": "inference",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Cintas dwarfs its named rivals in scale: its fiscal 2025 total revenue of ~$10.34 billion is roughly 4.3x UniFirst's ~$2.43 billion and roughly 3.8x Vestis's ~$2.7 billion (10.34 / 2.43 ≈ 4.3x; 10.34 / 2.7 ≈ 3.8x), making the target (UniFirst) and the spun-off #2 (Vestis) each less than a quarter of the acquirer's size.",
+      "supports": ["commercial_market_3", "commercial_market_14"]
+    },
+    {
+      "claim_id": "commercial_market_30",
+      "type": "inference",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "The 'why now' is materially shaped by a weakened post-spin #2: Vestis, spun out of Aramark on Sept 30, 2023, swung from $21.0 million net income to a $40.2 million net loss in fiscal 2025 with operating margin compressed to 2.4% amid rental revenue declines from 'lost business in excess of new business' — a sharp contrast to Cintas's ~22.8% operating margin — so Cintas's 2026 bid to absorb the #3 (UniFirst) consolidates the field while the principal rival is impaired, consistent with both an offensive lead-extension and a defensive 'consolidate before a weakened rival recovers or a buyer emerges' reading.",
+      "supports": ["commercial_market_4", "commercial_market_11", "commercial_market_13", "commercial_market_14", "commercial_market_15", "commercial_market_16"]
+    },
+    {
+      "claim_id": "commercial_market_31",
+      "type": "inference",
+      "module": "rationale",
+      "area": "commercial_market",
+      "statement": "The sector's recent M&A is a steady consolidation/realignment pattern — Cintas/G&K Services (2016, ~$2.2B), Aramark/AmeriPride (2017), Aramark→Vestis spin-off (2023), Cintas's rejected $275/share UniFirst approach (2025, ~$5.3B), and the current $310/share Cintas/UniFirst deal (2026, ~$5.5B) — showing repeated attempts to roll up national-scale players, with the 2025 UniFirst rejection serving as the immediate failed-precedent before the 2026 agreement.",
+      "supports": ["commercial_market_11", "commercial_market_19", "commercial_market_20", "commercial_market_22", "commercial_market_24", "commercial_market_25", "commercial_market_26"]
+    },
+    {
+      "claim_id": "commercial_market_32",
+      "type": "inference",
+      "module": "rationale",
+      "area": "commercial_market",
+      "statement": "Customer concentration risk is low and broadly similar across the three national players, supporting pricing stability on a diversified recurring-rental base: Cintas reports no single customer above 1% of revenue, UniFirst serves over 300,000 customer locations, and Vestis's 10 largest customers are under 10% of revenue.",
+      "supports": ["commercial_market_8", "commercial_market_10", "commercial_market_18"]
+    }
+  ]
+}

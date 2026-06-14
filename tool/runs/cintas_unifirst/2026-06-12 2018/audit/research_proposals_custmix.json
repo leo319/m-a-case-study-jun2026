@@ -1,0 +1,24 @@
+{
+  "area": "commercial_market",
+  "_note": "Gap-fill for the analyst's wearers-to-customers ratio question. Grounds the customer-base size mix and the multi-service (non-uniform) revenue mix that explain why uniform wearers per customer is structurally low. The deck's <8M wearers / <2M customers figures are image-PDF / management framing and are NOT grounded here.",
+  "proposals": [
+    {"claim_id": "custmix_1", "type": "fact", "module": "research", "area": "commercial_market",
+     "statement": "Cintas serves over one million businesses of all types, from small service and manufacturing companies to major corporations employing thousands of people — i.e., a customer base spanning the full size range but dominated by small businesses by count.",
+     "source": {"id": "s_cintas_10k_cust", "title": "Cintas FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000072325425000017/ctas-20250531.htm", "tier": "T1"},
+     "quote": "We provide our products and services to over one million businesses of all types, from small service and manufacturing companies to major corporations that employ thousands of people.",
+     "locator": "Item 1 Business — Customers (p. 4)", "confidence": 0.95},
+    {"claim_id": "custmix_2", "type": "fact", "module": "research", "area": "commercial_market",
+     "statement": "Approximately 95% of Cintas's revenue is from route servicing across Uniform Rental & Facility Services, First Aid & Safety Services and Fire Protection Services — so a large share of customers buy facility, first-aid or fire offerings, not necessarily rented uniforms.",
+     "source": {"id": "s_cintas_10k_cust", "title": "Cintas FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000072325425000017/ctas-20250531.htm", "tier": "T1"},
+     "quote": "Approximately 95% of the Company's revenue is derived from fees for route servicing of Uniform Rental and Facility Services, First Aid and Safety Services and Fire Protection Services customers, performed by a Cintas employee-partner, at the customer's location of business.",
+     "locator": "Item 1 Business — Operations (p. 3)", "confidence": 0.9},
+    {"claim_id": "custmix_3", "type": "fact", "module": "research", "area": "commercial_market",
+     "statement": "UniFirst likewise serves businesses of all sizes across multiple industries and sectors, confirming a broad, size-diverse customer base rather than a concentration of large accounts.",
+     "source": {"id": "s_unf_10k_cust", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+     "quote": "We serve businesses of all sizes across multiple industries and sectors.",
+     "locator": "Item 1 Business — Customers (p. 4)", "confidence": 0.95},
+    {"claim_id": "custmix_4", "type": "inference", "module": "research", "area": "commercial_market",
+     "statement": "Because the combined base spans over a million customers dominated by small businesses and a large share buy facility-services / first-aid / fire offerings rather than (or alongside) rented uniforms, the average number of uniform wearers per customer is structurally low — the base is broad and shallow, not a few large uniformed accounts.",
+     "supports": ["custmix_1", "custmix_2", "custmix_3"], "confidence": 0.75}
+  ]
+}

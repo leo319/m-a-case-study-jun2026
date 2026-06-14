@@ -1,0 +1,259 @@
+{
+  "area": "target_fundamentals",
+  "proposals": [
+    {
+      "claim_id": "target_fundamentals_1",
+      "type": "fact",
+      "module": "research",
+      "area": "target_fundamentals",
+      "statement": "UniFirst is one of the leading providers of workplace uniforms and protective clothing in North America, providing its products and services to over 300,000 customer locations in the U.S., Canada and Europe.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "We provide our products and services to over 300,000 customer locations in the United States (“U.S.”), Canada and Europe.",
+      "locator": "Item 1 Business (p. 4)"
+    },
+    {
+      "claim_id": "target_fundamentals_2",
+      "type": "fact",
+      "module": "research",
+      "area": "target_fundamentals",
+      "statement": "As of August 30, 2025 UniFirst employed approximately 16,000 team partners across its operations, with less than 1% of its U.S. employees represented by a union.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "As of August 30, 2025, we employed approximately 16,000 persons and less than 1% of our U.S. employees are represented by a union pursuant to a collective bargaining agreement.",
+      "locator": "Item 1 Business, Human Capital (p. 6)"
+    },
+    {
+      "claim_id": "target_fundamentals_3",
+      "type": "fact",
+      "module": "research",
+      "area": "target_fundamentals",
+      "statement": "UniFirst is vertically integrated: during fiscal 2025 it manufactured approximately 62% of the garments placed in service, and its facilities include a 325,000 square foot Owensboro, Kentucky distribution center plus almost all of its industrial laundry processing plants.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "During the fiscal year ended August 30, 2025 (“fiscal 2025”), we manufactured approximately 62% of the garments placed in service.",
+      "locator": "Item 1 Business, Products and Services (p. 3)"
+    },
+    {
+      "claim_id": "target_fundamentals_4",
+      "type": "fact",
+      "module": "research",
+      "area": "target_fundamentals",
+      "statement": "UniFirst total consolidated revenues were essentially flat in fiscal 2025 at $2,432.4 million versus $2,427.4 million in fiscal 2024, an increase of $4.9 million or 0.2%; fiscal 2024 included an extra 53rd week of operations.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "Total consolidated revenues $ 2,432,352 $ 2,427,431 $ 4,921 0.2 %",
+      "locator": "Item 7 MD&A, Results of Operations — Revenues (p. 39)"
+    },
+    {
+      "claim_id": "target_fundamentals_5",
+      "type": "fact",
+      "module": "research",
+      "area": "target_fundamentals",
+      "statement": "UniFirst consolidated operating income was $184.5 million in fiscal 2025 versus $183.6 million in fiscal 2024, up $0.9 million or 0.5%.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "Operating income $ 184,498 $ 183,578 $ 920 0.5 %",
+      "locator": "Item 7 MD&A, Results of Operations (p. 40)"
+    },
+    {
+      "claim_id": "target_fundamentals_6",
+      "type": "inference",
+      "module": "research",
+      "area": "target_fundamentals",
+      "statement": "UniFirst's consolidated operating margin in fiscal 2025 was approximately 7.6% ($184.5M operating income / $2,432.4M revenue = 7.58%), far below Cintas's reported ~22% operating margin, framing the central margin-gap thesis of the deal.",
+      "supports": ["target_fundamentals_4", "target_fundamentals_5"]
+    },
+    {
+      "claim_id": "target_fundamentals_7",
+      "type": "fact",
+      "module": "research",
+      "area": "target_fundamentals",
+      "statement": "Excluding the extra week in fiscal 2024, UniFirst's Uniform & Facility Service Solutions revenues rose $36.4 million in fiscal 2025, representing organic growth of 1.7%.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "On a normalized basis, excluding the effect of the additional week, Uniform & Facility Service Solutions revenues increased $36.4 million, representing organic growth of 1.7%.",
+      "locator": "Item 7 MD&A, Results of Operations — Revenues (p. 39)"
+    },
+    {
+      "claim_id": "target_fundamentals_8",
+      "type": "fact",
+      "module": "research",
+      "area": "target_fundamentals",
+      "statement": "Excluding the estimated impact of the extra week in fiscal 2024, UniFirst's First Aid & Safety Solutions revenues increased 10.0% in fiscal 2025 versus fiscal 2024.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "Excluding the estimated impact of the extra week of operations in fiscal 2024, First Aid & Safety Solutions revenues increased 10.0% compared to fiscal 2024.",
+      "locator": "Item 7 MD&A, Results of Operations — Revenues (p. 39)"
+    },
+    {
+      "claim_id": "target_fundamentals_9",
+      "type": "fact",
+      "module": "research",
+      "area": "target_fundamentals",
+      "statement": "UniFirst's Uniform & Facility Service Solutions segment generated $2,218.6 million of revenue in fiscal 2025 (down $5.5 million or 0.2% from $2,224.0 million in fiscal 2024), and represented approximately 91.2% of total revenues.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "Uniform & Facility Service Solutions $ 2,218,562 $ 2,224,030 $ (5,468 ) (0.2 )%",
+      "locator": "Item 7 MD&A, Results of Operations — Revenues by segment (p. 39)"
+    },
+    {
+      "claim_id": "target_fundamentals_10",
+      "type": "fact",
+      "module": "research",
+      "area": "target_fundamentals",
+      "statement": "Approximately 91.2% of UniFirst's revenues in fiscal 2025 were derived from its Uniform & Facility Service Solutions segment.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "Approximately 91.2% of our revenues in fiscal 2025 were derived from our Uniform & Facility Service Solutions segment.",
+      "locator": "Item 7 MD&A, Business Overview (p. 38)"
+    },
+    {
+      "claim_id": "target_fundamentals_11",
+      "type": "fact",
+      "module": "research",
+      "area": "target_fundamentals",
+      "statement": "UniFirst's First Aid & Safety Solutions segment generated $114.6 million of revenue in fiscal 2025 (up $8.3 million or 7.8% from $106.3 million in fiscal 2024), representing approximately 4.7% of total revenues.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "First Aid & Safety Solutions 114,586 106,271 8,315 7.8 %",
+      "locator": "Item 7 MD&A, Results of Operations — Revenues by segment (p. 39)"
+    },
+    {
+      "claim_id": "target_fundamentals_12",
+      "type": "fact",
+      "module": "research",
+      "area": "target_fundamentals",
+      "statement": "UniFirst's First Aid & Safety Solutions segment represented approximately 4.7% of total revenues in fiscal 2025.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "First Aid & Safety Solutions 114,586 4.7 %",
+      "locator": "Item 7 MD&A, disaggregated revenue by segment (p. 38)"
+    },
+    {
+      "claim_id": "target_fundamentals_13",
+      "type": "fact",
+      "module": "research",
+      "area": "target_fundamentals",
+      "statement": "UniFirst's third reportable segment, Other, generated $99.2 million of revenue in fiscal 2025 (up $2.1 million or 2.1% from $97.1 million in fiscal 2024).",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "Other 99,204 97,130 2,074 2.1 %",
+      "locator": "Item 7 MD&A, Results of Operations — Revenues by segment (p. 39)"
+    },
+    {
+      "claim_id": "target_fundamentals_14",
+      "type": "fact",
+      "module": "research",
+      "area": "target_fundamentals",
+      "statement": "UniFirst's revenue is geographically concentrated in the U.S. ($2,245.9 million in fiscal 2025) with Europe and Canada contributing $186.5 million; total revenue grew from $2,233.0 million in fiscal 2023 to $2,427.4 million in fiscal 2024 to $2,432.4 million in fiscal 2025.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "$ 2,245,894 $ 2,237,295 $ 2,054,601 Europe and Canada (1) 186,458 190,136 178,446 Total $ 2,432,352 $ 2,427,431 $ 2,233,047",
+      "locator": "Item 8 Financial Statements, Segment Reporting — revenues by geography (p. F-section)"
+    },
+    {
+      "claim_id": "target_fundamentals_15",
+      "type": "fact",
+      "module": "research",
+      "area": "target_fundamentals",
+      "statement": "Approximately 7.0% of UniFirst's total consolidated revenues in fiscal 2025 were denominated in currencies other than the U.S. dollar.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "Revenue denominated in currencies other than the U.S. dollar represented approximately 7.0%, 6.9% and 7.0% of total consolidated revenues for fiscal 2025, the fiscal year ended August 31, 2024 (“fiscal 2024”) and the fiscal year ended August 26, 2023 (“fiscal 2023”), respectively.",
+      "locator": "Item 7A Quantitative and Qualitative Disclosures (p. 47)"
+    },
+    {
+      "claim_id": "target_fundamentals_16",
+      "type": "fact",
+      "module": "research",
+      "area": "target_fundamentals",
+      "statement": "UniFirst generated net cash from operating activities of $296.9 million in fiscal 2025 (up $1.6 million or 0.5% from $295.3 million in fiscal 2024), driven by improved profitability and favorable working-capital changes.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "Net cash provided by operating activities $ 296,872 $ 295,269 $ 1,603 0.5 %",
+      "locator": "Item 7 MD&A, Liquidity and Capital Resources (p. 43)"
+    },
+    {
+      "claim_id": "target_fundamentals_17",
+      "type": "fact",
+      "module": "research",
+      "area": "target_fundamentals",
+      "statement": "UniFirst invested $154.3 million in capital expenditures in fiscal 2025.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "During fiscal 2025, we continued to invest in our business with capital expenditures totaling $154.3 million.",
+      "locator": "Item 7 MD&A, Liquidity and Capital Resources (p. 43)"
+    },
+    {
+      "claim_id": "target_fundamentals_18",
+      "type": "inference",
+      "module": "research",
+      "area": "target_fundamentals",
+      "statement": "UniFirst's fiscal 2025 capital intensity is high: capital expenditures of $154.3 million consumed roughly 52% of its $296.9 million of operating cash flow ($154.3M / $296.9M), leaving comparatively modest free cash flow generation.",
+      "supports": ["target_fundamentals_16", "target_fundamentals_17"]
+    },
+    {
+      "claim_id": "target_fundamentals_19",
+      "type": "fact",
+      "module": "research",
+      "area": "target_fundamentals",
+      "statement": "UniFirst attributes its fiscal 2025 Uniform & Facility Service Solutions organic growth to new account sales and improved customer retention, and states fourth-quarter results reflected additional investments in accelerating growth and improving customer retention.",
+      "source": {"id": "s_unf_fy25_earnings", "title": "UniFirst FY2025 Q4/full-year earnings 8-K (Ex-99.1)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525245773/unf-ex99.htm", "tier": "T1"},
+      "quote": "The Uniform & Facility Service Solutions' organic growth rate was primarily the result of solid new account sales and improved customer retention.",
+      "locator": "FY2025 full-year/Q4 earnings release (Oct 22, 2025), Uniform & Facility Service Solutions segment commentary"
+    },
+    {
+      "claim_id": "target_fundamentals_20",
+      "type": "fact",
+      "module": "research",
+      "area": "target_fundamentals",
+      "statement": "UniFirst typically serves customers under written service contracts ranging in duration from three to five years, which underpins recurring route-based revenue.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "We primarily serve our customers pursuant to written service contracts that range in duration from three to five years.",
+      "locator": "Item 1 Business, Products and Services (p. 3)"
+    },
+    {
+      "claim_id": "target_fundamentals_21",
+      "type": "fact",
+      "module": "research",
+      "area": "target_fundamentals",
+      "statement": "UniFirst's stated growth strategy includes continuing to actively pursue additional acquisition opportunities, and the company warns that failure to successfully implement its acquisition strategy could adversely affect revenue growth and profitability.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "As part of our growth strategy, we intend to continue to actively pursue additional acquisition opportunities.",
+      "locator": "Item 1A Risk Factors / Business (p. 12)"
+    },
+    {
+      "claim_id": "target_fundamentals_22",
+      "type": "fact",
+      "module": "research",
+      "area": "target_fundamentals",
+      "statement": "UniFirst describes its CRM and ERP technology projects collectively as its 'Key Initiatives' and expensed $6.8 million of non-recurring costs related to them in fiscal 2025 (down from $11.8 million in fiscal 2024), primarily relating to its ERP project.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "We expensed $6.8 million and $11.8 million of non-recurring costs related to our Key Initiatives, primarily relating to our ERP project, in fiscal 2025 and fiscal 2024, respectively.",
+      "locator": "Item 7 MD&A / Notes — Key Initiatives (p. 41)"
+    },
+    {
+      "claim_id": "target_fundamentals_23",
+      "type": "fact",
+      "module": "research",
+      "area": "target_fundamentals",
+      "statement": "UniFirst CEO Steven Sintros stated that the company's investments in the business are starting to show returns in several areas, including improved profitability, cash flow and overall operational execution — management's framing of the underperformance as a fixable execution gap.",
+      "source": {"id": "s_unf_fy25_earnings", "title": "UniFirst FY2025 Q4/full-year earnings 8-K (Ex-99.1)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000095017025048883/unf-ex99.htm", "tier": "T1"},
+      "quote": "We are excited that our investments in the business are starting to show returns in several areas, including improved profitability, cash flow and overall operational execution.",
+      "locator": "Q2 FY2025 earnings release (Apr 2025), CEO commentary"
+    },
+    {
+      "claim_id": "target_fundamentals_24",
+      "type": "fact",
+      "module": "research",
+      "area": "target_fundamentals",
+      "statement": "For fiscal 2026 UniFirst guided to revenues of between $2.475 billion and $2.495 billion and fully diluted earnings per share of between $6.58 and $6.98 (standalone outlook, pre-close).",
+      "source": {"id": "s_unf_fy25_earnings", "title": "UniFirst FY2025 Q4/full-year earnings 8-K (Ex-99.1)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525245773/unf-ex99.htm", "tier": "T1"},
+      "quote": "For fiscal 2026, we expect our revenues to be between $2.475 billion and $2.495 billion and fully diluted earnings per share to be between $6.58 and $6.98.",
+      "locator": "FY2025 full-year/Q4 earnings release (Oct 22, 2025), fiscal 2026 outlook (CEO Sintros)"
+    },
+    {
+      "claim_id": "target_fundamentals_25",
+      "type": "fact",
+      "module": "research",
+      "area": "target_fundamentals",
+      "statement": "UniFirst's Uniform & Facility Service Solutions segment operating margin was 8.3% in fiscal 2025, down from 8.7% in the prior year, with Adjusted EBITDA margin of 14.8% versus 15.3%, indicating margin pressure at the core segment despite investment.",
+      "source": {"id": "s_unf_fy25_earnings", "title": "UniFirst FY2025 Q4/full-year earnings 8-K (Ex-99.1)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525245773/unf-ex99.htm", "tier": "T1"},
+      "quote": "Operating margin was 8.3% compared to 8.7% in the prior year. • Adjusted EBITDA margin was 14.8% compared to 15.3% in the prior year.",
+      "locator": "FY2025 full-year/Q4 earnings release (Oct 22, 2025), Uniform & Facility Service Solutions segment commentary"
+    },
+    {
+      "claim_id": "target_fundamentals_26",
+      "type": "inference",
+      "module": "research",
+      "area": "target_fundamentals",
+      "statement": "The facts cut both ways on whether UniFirst's underperformance is fixable: management cites improving profitability, cash flow and operational execution from its Key Initiatives investments and its core segment posted 1.7% organic growth, yet consolidated operating margin (~7.6%) remained roughly flat year-over-year and the core segment's operating margin actually declined (8.7% to 8.3%), so the operating-leverage gap to Cintas (~22%) had not yet narrowed materially on a standalone basis.",
+      "supports": ["target_fundamentals_6", "target_fundamentals_7", "target_fundamentals_23", "target_fundamentals_25"]
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "chunk": 0,
+  "claims": [
+    {
+      "id": "deal_rationale_synergies_1",
+      "statement": "Cintas agreed to acquire UniFirst for $310.00 per share in cash and stock, an enterprise value of approximately $5.5 billion, bringing together two family-founded companies.",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "deal_rationale_synergies",
+      "source_ids": [
+        "s_cintas_pr_deal"
+      ],
+      "quote": "Cintas Corporation (Nasdaq: CTAS) (“Cintas” or the “Company”) and UniFirst Corporation (NYSE: UNF) (“UniFirst”) today announced that they have entered into a definitive agreement under which Cintas will acquire UniFirst for $310.00 per share in cash and stock, representing an enterprise value of approximately $5.5 billion.",
+      "locator": "Press release headline para., dated March 11, 2026",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "url-quote",
+        "reasons": []
+      }
+    },
+    {
+      "id": "deal_rationale_synergies_2",
+      "statement": "Under the merger consideration, each UniFirst share is converted into the right to receive $155.00 in cash plus 0.7720 of a share of Cintas common stock; the exchange ratio is fixed and will not be adjusted for changes in either company's stock price.",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "deal_rationale_synergies",
+      "source_ids": [
+        "s_unf_424b3"
+      ],
+      "quote": "each share of UniFirst common stock and UniFirst class B common stock (collectively, “UniFirst stock”) will be converted into the right to receive $155.00 in cash, without interest, and 0.7720 of validly issued, fully paid and non-assessable shares of Cintas common stock (with, if applicable, cash in lieu of fractional shares) (the “merger consideration”), less any applicable withholding taxes.",
+      "locator": "Letter to shareholders / Q&A, 'Merger Consideration' (p. 1)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "litigation_11",
+      "statement": "On June 12, 2026 UniFirst announced that at its Special Meeting of Shareholders, shareholders voted to approve the pending acquisition by Cintas — the vote cleared without any disclosed merger-objection litigation or mooting supplemental disclosure.",
+      "type": "fact",
+      "module": "tailrisk",
+      "status": "verified",
+      "area": "litigation_legal",
+      "source_ids": [
+        "s_ctas_8k_vote"
+      ],
+      "quote": "On June 12, 2026, UniFirst announced that at UniFirst’s Special Meeting of Shareholders, UniFirst’s shareholders voted to approve the pending acquisition by Cintas.",
+      "locator": "Item 8.01 Other Events (8-K dated June 11, 2026)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "antitrust_4",
+      "statement": "Per the DEFM14A, upon refiling, the HSR waiting period was set to expire on June 11, 2026 at 11:59 p.m. — the deadline at which the FTC issued its Second Request.",
+      "type": "fact",
+      "module": "tailrisk",
+      "status": "verified",
+      "area": "antitrust_regulatory",
+      "source_ids": [
+        "s_defm14a_regulatory"
+      ],
+      "quote": "Accordingly, upon refiling the notification and report form under the HSR Act, the HSR waiting period for the transaction will expire on June 11, 2026, at 11:59 p.m.",
+      "locator": "Regulatory Approvals — HSR Act",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "deal_rationale_synergies_5",
+      "statement": "UniFirst's financial advisors used $153.05 (the closing price on November 11, 2025, the day prior to UniFirst's disclosure that a shareholder had nominated directors to its Board) as the unaffected/undisturbed share price against which the $310.00 merger consideration was compared.",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "deal_rationale_synergies",
+      "source_ids": [
+        "s_defm14a_opinion"
+      ],
+      "quote": "the unaffected closing share price of UniFirst common stock of $153.05 on November 11, 2025, the day prior to UniFirst’s disclosure that a shareholder had nominated directors to the UniFirst Board and (ii) the value of the merger consideration of $310.00 per share of UniFirst stock.",
+      "locator": "The Mergers — Opinion of J.P. Morgan, Public Trading Multiples (p. 55)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "ex_premium",
+      "type": "inference",
+      "module": "rationale",
+      "statement": "The $310 price is full-to-aggressive: it sits above the high end of every standalone valuation method from both advisors, and the c. 102.5% premium to the clean post-termination unaffected price of $153.05 is c. 2.85x the 36% median of Goldman's 568-deal sample — among the steepest premia in the precedent set.",
+      "supports": [
+        "deal_rationale_synergies_19",
+        "deal_rationale_synergies_20",
+        "deal_rationale_synergies_5"
+      ],
+      "status": "verified",
+      "verification": {
+        "checked_at": "2026-06-13T04:55:21.298413+00:00",
+        "mode": "inference-support",
+        "reasons": []
+      }
+    },
+    {
+      "id": "ex_antitrust",
+      "type": "inference",
+      "module": "tailrisk",
+      "statement": "Antitrust is the dominant close-risk: the FTC issued a Second Request on a combination estimated at ~45-50% of the market (a 3-to-2 of the 'Big Three'); the base rate is favorable (Cintas/G&K and Aramark/AmeriPride both cleared), but the natural national divestiture buyer, Vestis, is impaired (downgraded to 'B') — the exact condition that can push the FTC from accepting divestitures toward challenging — so the realistic path is local route/branch divestitures, with a real (not negligible) block-or-abandon tail.",
+      "supports": [
+        "antitrust_4",
+        "antitrust_10",
+        "antitrust_11",
+        "antitrust_12",
+        "antitrust_13",
+        "antitrust_9",
+        "antitrust_18"
+      ],
+      "status": "verified",
+      "verification": {
+        "checked_at": "2026-06-13T04:55:21.298413+00:00",
+        "mode": "inference-support",
+        "reasons": []
+      }
+    },
+    {
+      "id": "ex_overpay",
+      "type": "inference",
+      "module": "tailrisk",
+      "statement": "The dominant economic risk is overpayment: the price is above every standalone valuation method and the value case rests on synergies, so if synergy capture underdelivers or antitrust divestitures shrink the prize, Cintas has overpaid — with EPS accretion already back-end-loaded to year two and dependent on the synergies landing.",
+      "supports": [
+        "deal_rationale_synergies_19",
+        "deal_rationale_synergies_21",
+        "financing_18"
+      ],
+      "status": "verified",
+      "verification": {
+        "checked_at": "2026-06-13T04:55:21.298413+00:00",
+        "mode": "inference-support",
+        "reasons": []
+      }
+    },
+    {
+      "id": "ex_fundamentals",
+      "type": "inference",
+      "module": "tailrisk",
+      "statement": "The highest-consequence tail is deterioration of the target during pendency: UniFirst's revenue is already flat and its margin roughly a third of Cintas's, the activist argues the franchise is losing ground to Cintas, and a route-based business under a multi-quarter Second Request is exactly where customers and people bleed — if fundamentals erode before close, both the synergy base and the standalone value Cintas agreed to pay shrink together.",
+      "supports": [
+        "target_fundamentals_4",
+        "target_fundamentals_6",
+        "short_activist_4",
+        "operational_integration_9",
+        "antitrust_4"
+      ],
+      "status": "verified",
+      "verification": {
+        "checked_at": "2026-06-13T04:55:21.298413+00:00",
+        "mode": "inference-support",
+        "reasons": []
+      }
+    },
+    {
+      "id": "target_fundamentals_1",
+      "statement": "UniFirst is one of the leading providers of workplace uniforms and protective clothing in North America, providing its products and services to over 300,000 customer locations in the U.S., Canada and Europe.",
+      "type": "fact",
+      "module": "research",
+      "status": "verified",
+      "area": "target_fundamentals",
+      "source_ids": [
+        "s_unf_10k"
+      ],
+      "quote": "We provide our products and services to over 300,000 customer locations in the United States (“U.S.”), Canada and Europe.",
+      "locator": "Item 1 Business (p. 4)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    }
+  ]
+}

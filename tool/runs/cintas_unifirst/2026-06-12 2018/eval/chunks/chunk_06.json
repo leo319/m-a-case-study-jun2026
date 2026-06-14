@@ -1,0 +1,189 @@
+{
+  "chunk": 6,
+  "claims": [
+    {
+      "id": "costnat_1",
+      "statement": "UniFirst's cost of revenues is the cost of physically running the rental service: as part of its rental business it picks up a customer's soiled uniforms and other items on a periodic basis (usually weekly) and delivers back cleaned and processed replacement items, so the cost line is dominated by in-plant processing (laundering) labor, route pick-up/delivery, and the merchandise it places in service.",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "deal_rationale_synergies",
+      "source_ids": [
+        "s_unf_10k"
+      ],
+      "quote": "soiled uniforms and/or other items on a periodic basis (usually weekly) and deliver back cleaned and processed replacement items.",
+      "locator": "Item 1 Business — Overview / Products and Services (p. 3-4)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "operational_integration_8",
+      "statement": "Route servicing dominates UniFirst's revenue: in fiscal 2025 approximately 83.8% of UniFirst's revenues were derived from fees for route servicing of Uniform & Facility Service Solutions and Other segment services performed at the customer's location.",
+      "type": "fact",
+      "module": "tailrisk",
+      "status": "verified",
+      "area": "operational_integration",
+      "source_ids": [
+        "s_unf_10k"
+      ],
+      "quote": "In fiscal 2025, approximately 83.8 % of the Company’s revenues are derived from fees for route servicing of Uniform & Facility Service Solutions and Other segment services performed by the Company’s employees at the customer’s location of business.",
+      "locator": "Item 8 Notes to Consolidated Financial Statements — Revenue Recognition (p. F-9)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "custmix_2",
+      "statement": "Approximately 95% of Cintas's revenue is from route servicing across Uniform Rental & Facility Services, First Aid & Safety Services and Fire Protection Services — so a large share of customers buy facility, first-aid or fire offerings, not necessarily rented uniforms.",
+      "type": "fact",
+      "module": "research",
+      "status": "verified",
+      "area": "commercial_market",
+      "source_ids": [
+        "s_cintas_10k_cust"
+      ],
+      "quote": "Approximately 95% of the Company's revenue is derived from fees for route servicing of Uniform Rental and Facility Services, First Aid and Safety Services and Fire Protection Services customers, performed by a Cintas employee-partner, at the customer's location of business.",
+      "locator": "Item 1 Business — Operations (p. 3)",
+      "confidence": 0.9,
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "synmech_1",
+      "statement": "UniFirst's cost of revenues was $1,542.4 million in fiscal 2025 (63.4% of revenues), the company's single largest cost line.",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "deal_rationale_synergies",
+      "source_ids": [
+        "s_unf_10k_fy2025"
+      ],
+      "quote": "Cost of revenues (In thousands, except percentages) Fiscal 2025 Fiscal 2024 Dollar Change Percent Change Cost of revenues $ 1,542,400 $ 1,579,835 $ (37,435 ) (2.4 )% % of Revenues 63.4 %",
+      "locator": "Item 7 MD&A, Results of Operations — Cost of revenues (p. 38)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "costnat_2",
+      "statement": "Energy and labor are core inputs to UniFirst's processing-and-delivery cost base: it discloses that inflation has at times pressured operating margins through increased energy costs for its vehicles and plants and increased wages in the labor markets in which it competes.",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "deal_rationale_synergies",
+      "source_ids": [
+        "s_unf_10k"
+      ],
+      "quote": "increased energy costs for our vehicles and plants and increased wages in the labor markets in which we compete.",
+      "locator": "Item 1A Risk Factors — inflation / energy and labor costs (p. 11)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "synmech_4",
+      "statement": "UniFirst amortizes rental merchandise in service on a straight-line basis over estimated service lives of six to thirty-six months, with that amortization included in cost of revenues — a cost line driven by merchandise volume and reuse efficiency.",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "deal_rationale_synergies",
+      "source_ids": [
+        "s_unf_10k_fy2025"
+      ],
+      "quote": "Rental merchandise in service is being amortized on a straight-line basis over the estimated service lives of the merchandise, which range from six to thirty-six months.",
+      "locator": "Item 8 Notes — Inventories and Rental Merchandise in Service (p. 56)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "synmech_5",
+      "statement": "UniFirst selling and administrative expenses were $565.1 million in fiscal 2025 (23.2% of revenues), a cost line that overlapping public-company and corporate functions in a combination could reduce.",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "deal_rationale_synergies",
+      "source_ids": [
+        "s_unf_10k_fy2025"
+      ],
+      "quote": "Selling and administrative expenses (In thousands, except percentages) Fiscal 2025 Fiscal 2024 Dollar Change Percent Change Selling and administrative expenses $ 565,099 $ 522,586 $ 42,513 8.1 % % of Revenues 23.2 %",
+      "locator": "Item 7 MD&A, Results of Operations — Selling and administrative expenses (p. 38)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "synmech_9",
+      "statement": "Cintas discloses that its selling and administrative expenses consist primarily of sales labor and commissions, management and administrative labor, payroll taxes, medical expense, insurance expense, legal and professional costs and amortization of finite-lived intangibles — corporate/overhead functions that a merger of overlapping organizations could consolidate.",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "deal_rationale_synergies",
+      "source_ids": [
+        "s_ctas_10k_fy2025"
+      ],
+      "quote": "Selling and administrative expenses consist primarily of sales labor and commissions, management and administrative labor, payroll taxes, medical expense, insurance expense, legal and professional costs and amortization of finite-lived intangible assets and capitalized contract costs.",
+      "locator": "Item 8 Notes — Summary of Significant Accounting Policies, Selling and administrative expenses (p. 41)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "ex_profit_engine",
+      "type": "inference",
+      "module": "rationale",
+      "statement": "The profit engine of this business is route density: it is recurring weekly route servicing of a broad, shallow base of mostly small accounts, where the dominant costs are local delivery, processing-plant labor and merchandise amortization — so per-stop cost falls as more stops are served per route and plant.",
+      "supports": [
+        "synmech_6",
+        "synmech_1",
+        "synmech_18",
+        "custmix_2",
+        "operational_integration_8",
+        "operational_integration_3"
+      ],
+      "status": "verified",
+      "verification": {
+        "checked_at": "2026-06-13T04:55:21.298413+00:00",
+        "mode": "inference-support",
+        "reasons": []
+      }
+    },
+    {
+      "id": "custmix_1",
+      "statement": "Cintas serves over one million businesses of all types, from small service and manufacturing companies to major corporations employing thousands of people — i.e., a customer base spanning the full size range but dominated by small businesses by count.",
+      "type": "fact",
+      "module": "research",
+      "status": "verified",
+      "area": "commercial_market",
+      "source_ids": [
+        "s_cintas_10k_cust"
+      ],
+      "quote": "We provide our products and services to over one million businesses of all types, from small service and manufacturing companies to major corporations that employ thousands of people.",
+      "locator": "Item 1 Business — Customers (p. 4)",
+      "confidence": 0.95,
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    }
+  ]
+}

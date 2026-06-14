@@ -3,6 +3,7 @@ name: skeptic
 description: Red-team a preliminary IC memo — attack the expert's JUDGMENTS (not its verified facts) and emit a structured critique. Spawned once by the red-team stage.
 tools: Bash, Read, Grep, Write
 model: opus
+effort: high
 ---
 
 # Skeptic — Red-Team Worker

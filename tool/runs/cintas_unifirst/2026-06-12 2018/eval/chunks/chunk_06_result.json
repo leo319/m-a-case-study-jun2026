@@ -1,0 +1,22 @@
+{"chunk": 6, "verdicts": [
+  {"claim_id": "costnat_1", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_10k", "span": "—", "reason": "quote present for the rental cycle; source separately states cost of revenues comprises amortization of rental merchandise, labor, production, service and delivery costs, supporting the cost-composition framing"},
+  {"claim_id": "operational_integration_8", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_10k", "span": "—", "reason": "quote present; 83.8% route-servicing revenue figure verbatim from Revenue Recognition note"},
+  {"claim_id": "custmix_2", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_cintas_10k_cust", "span": "—", "reason": "quote present; ~95% route-servicing revenue statement entailed by the revenue recognition span"},
+  {"claim_id": "synmech_1", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_10k_fy2025", "span": "—", "reason": "quote present; $1,542.4M / 63.4% of revenues verbatim from MD&A cost-of-revenues table"},
+  {"claim_id": "costnat_2", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_10k", "span": "—", "reason": "quote present; energy/labor inflation disclosure entailed by Risk Factors span"},
+  {"claim_id": "synmech_4", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_10k_fy2025", "span": "—", "reason": "quote present; source explicitly states amortization expense is included in cost of revenues on the Consolidated Statements of Income"},
+  {"claim_id": "synmech_5", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_10k_fy2025", "span": "—", "reason": "quote present; $565.1M / 23.2% of revenues verbatim from MD&A SG&A table"},
+  {"claim_id": "synmech_9", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_ctas_10k_fy2025", "span": "—", "reason": "quote present; SG&A composition statement entailed verbatim by significant-accounting-policies span"},
+  {"claim_id": "ex_profit_engine", "type": "inference", "verdict": "PASS",
+   "cited_source": "synmech_6,synmech_1,synmech_18,custmix_2,operational_integration_8,operational_integration_3", "span": "—", "reason": "supports verified; route-based fleet + dominant local-delivery/processing/merchandise cost lines + 83.8%/95% route-servicing revenue license the route-density per-stop economics conclusion"},
+  {"claim_id": "custmix_1", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_cintas_10k_cust", "span": "—", "reason": "quote present; over one million businesses of all types from small to major corporations entailed by Customers span"}
+]}

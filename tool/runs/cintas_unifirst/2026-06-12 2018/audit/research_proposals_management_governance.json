@@ -1,0 +1,241 @@
+{
+  "area": "management_governance",
+  "proposals": [
+    {
+      "claim_id": "management_governance_1",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "The Croatti family controls UniFirst through a dual-class structure: each Class B share carries 10 votes, and as of the record date there were ~14,532,640 common shares and ~3,551,265 Class B shares outstanding.",
+      "source": {"id": "s_defm14a", "title": "UniFirst DEFM14A (merger proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "As of the close of business on the record date, there were approximately 14,532,640 shares of UniFirst common stock and approximately 3,551,265 shares of UniFirst class B common stock issued and outstanding.",
+      "locator": "Questions and Answers About the Special Meeting — Record Date / Voting (p. 11)"
+    },
+    {
+      "claim_id": "management_governance_2",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "Each share of UniFirst Class B common stock carries 10 votes per share, giving the family-held super-voting class outsized voting power relative to its economic stake.",
+      "source": {"id": "s_defm14a", "title": "UniFirst DEFM14A (merger proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "Each share of UniFirst class B common stock is entitled to 10 votes per share.",
+      "locator": "Questions and Answers About the Special Meeting — Voting Power (p. 11)"
+    },
+    {
+      "claim_id": "management_governance_3",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "By virtue of their Class B ownership, the Croatti family owns in aggregate over two-thirds of UniFirst's combined voting power and, when acting together, effectively controls most matters requiring shareholder approval, including a company sale.",
+      "source": {"id": "s_defm14a", "title": "UniFirst DEFM14A (merger proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "By virtue of their ownership of UniFirst class B common stock the members of the Croatti family own, directly or indirectly, in the aggregate over two-thirds of the combined voting power of the outstanding shares of UniFirst common stock and UniFirst class B common stock.",
+      "locator": "The Mergers — Interests of UniFirst's Directors and Executive Officers (p. 76)"
+    },
+    {
+      "claim_id": "management_governance_4",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "Approval of the merger requires the affirmative vote of two-thirds of UniFirst's combined voting power, meaning the family's >two-thirds control of voting power is effectively determinative of the outcome.",
+      "source": {"id": "s_defm14a", "title": "UniFirst DEFM14A (merger proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "The mergers cannot be completed without the approval of the merger agreement by the affirmative vote of two-thirds of the combined voting power of the outstanding shares of UniFirst common stock and UniFirst class B common stock, voting together as a single class.",
+      "locator": "Questions and Answers About the Special Meeting — Required Vote (p. 12)"
+    },
+    {
+      "claim_id": "management_governance_5",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "Cintas entered a voting and support agreement (Annex B) with certain holders affiliated with the Croatti family, under which the supporting shareholders agreed not to initiate, seek, solicit, facilitate or encourage a competing transaction.",
+      "source": {"id": "s_defm14a", "title": "UniFirst DEFM14A (merger proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "Pursuant to the voting and support agreement, the supporting shareholders agreed not to initiate, seek, solicit, facilitate or encourage a competing transaction.",
+      "locator": "The Voting and Support Agreement (p. 97)"
+    },
+    {
+      "claim_id": "management_governance_6",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "Because the Croatti family holds over two-thirds of the voting power and signed the voting and support agreement, the DEFM14A states approval of the merger is expected at the special meeting subject to that agreement's terms.",
+      "source": {"id": "s_defm14a", "title": "UniFirst DEFM14A (merger proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "As a result, and subject to the terms of the voting and support agreement and certain exceptions therein, the approval of the merger proposal is expected at the special meeting.",
+      "locator": "The Voting and Support Agreement (p. 97)"
+    },
+    {
+      "claim_id": "management_governance_7",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "Cynthia Croatti is the only Croatti-family member on the UniFirst board; Steven Sintros is President and CEO; UniFirst's General Counsel — who participated in most board meetings — is Cynthia Croatti's stepson, a key-person/governance-conflict point.",
+      "source": {"id": "s_defm14a", "title": "UniFirst DEFM14A (merger proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "Cynthia Croatti’s stepson and also participated in most UniFirst Board meetings in his capacity as General Counsel of UniFirst.",
+      "locator": "The Mergers — Background of the Mergers (p. 38)"
+    },
+    {
+      "claim_id": "management_governance_8",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "Steven Sintros is President and Chief Executive Officer of UniFirst and personally led the deal contact with Cintas, underscoring CEO key-person centrality to the process.",
+      "source": {"id": "s_defm14a", "title": "UniFirst DEFM14A (merger proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "Steven Sintros, President and Chief Executive Officer of UniFirst, contacted Mr.",
+      "locator": "The Mergers — Background of the Mergers (p. 39)"
+    },
+    {
+      "claim_id": "management_governance_9",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "Engine Capital (which owns ~3.2% of UniFirst) asserts that the company has delivered deeply disappointing total shareholder returns across every relevant period since leadership changes, framing weak TSR as its core critique of management.",
+      "source": {"id": "s_engine_prec14a", "title": "Engine Capital PREC14A (activist preliminary proxy)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000092189525003119/prec14a09488unf_11142025.htm", "tier": "T1"},
+      "quote": "We believe the stock performance tells the story unmistakably: Since these leadership changes, the Company has delivered deeply disappointing total shareholder returns across every relevant time period, as shown in the table below:",
+      "locator": "Reasons for the Solicitation — stock performance discussion (p. 7)"
+    },
+    {
+      "claim_id": "management_governance_10",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "Engine Capital asserts UniFirst's operating margins declined from 12.8% in 2019 to an expected 6.4% in FY2026 — roughly a 50% drop — while Cintas' margins expanded over the same period.",
+      "source": {"id": "s_engine_prec14a", "title": "Engine Capital PREC14A (activist preliminary proxy)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000092189525003119/prec14a09488unf_11142025.htm", "tier": "T1"},
+      "quote": "Operating margins declined from 12.8% in 2019 to an expected 6.4% in FY2026, roughly a 50% drop, while Cintas’ operating margins expanded materially over the same period.",
+      "locator": "Reasons for the Solicitation — operating performance (p. 8)"
+    },
+    {
+      "claim_id": "management_governance_11",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "Engine Capital asserts the board's rejection of Cintas' $275-per-share offer squandered a golden opportunity to realize extraordinary value, shocking investors and analysts — its central governance grievance against the family-controlled board.",
+      "source": {"id": "s_engine_prec14a", "title": "Engine Capital PREC14A (activist preliminary proxy)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000092189525003119/prec14a09488unf_11142025.htm", "tier": "T1"},
+      "quote": "We believe the Board’s rejection of Cintas’ acquisition offer of $275 per share squandered a golden opportunity to realize extraordinary value for shareholders, shocking investors and analysts alike.",
+      "locator": "Reasons for the Solicitation — The Rejection of a Golden Opportunity to Realize Value (p. 9)"
+    },
+    {
+      "claim_id": "management_governance_12",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "Engine Capital asserts serious concerns about the independence and effectiveness of the board's leadership, citing long-standing personal and professional ties to the company and the controlling family and unusually long board tenures.",
+      "source": {"id": "s_engine_prec14a", "title": "Engine Capital PREC14A (activist preliminary proxy)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000092189525003119/prec14a09488unf_11142025.htm", "tier": "T1"},
+      "quote": "We have serious concerns about the independence and effectiveness of the Board’s leadership given long-standing personal and professional ties to the Company and the controlling family, and unusually long Board tenures that run counter to governance best practices.",
+      "locator": "Reasons for the Solicitation — board independence (p. 10)"
+    },
+    {
+      "claim_id": "management_governance_13",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "Engine Capital directly beneficially owns 355,115 UniFirst common shares (its affiliates collectively ~3.2% of common stock), establishing it as a minority activist with no Class B super-voting shares.",
+      "source": {"id": "s_engine_prec14a", "title": "Engine Capital PREC14A (activist preliminary proxy)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000092189525003119/prec14a09488unf_11142025.htm", "tier": "T1"},
+      "quote": "As of the date hereof, Engine Capital directly beneficially owns 355,115 shares of Common Stock.",
+      "locator": "Information About the Participants — beneficial ownership (p. 21)"
+    },
+    {
+      "claim_id": "management_governance_14",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "Engine Capital's two director nominees were Arnaud Ajdler (Engine's Managing Partner) and Michael A. Croatti — a member of the controlling family running against the rest of the family — to be elected at the December 15, 2025 annual meeting.",
+      "source": {"id": "s_engine_prec14a", "title": "Engine Capital PREC14A (activist preliminary proxy)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000092189525003119/prec14a09488unf_11142025.htm", "tier": "T1"},
+      "quote": "To elect Engine Capital’s two (2) director nominees, Arnaud Ajdler and Michael A.",
+      "locator": "Reasons for the Solicitation — proposals (p. 5)"
+    },
+    {
+      "claim_id": "management_governance_15",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "Engine Capital announced that ISS, an independent proxy advisory firm, recommended UniFirst shareholders vote FOR Engine's nominees Arnaud Ajdler and Michael Croatti and replace directors Joseph Nowicki and Steven Sintros — independent third-party support for the activist's thesis (an interested-party press release reporting ISS's recommendation).",
+      "source": {"id": "s_engine_dfan14a_1208", "title": "Engine Capital DFAN14A (Dec 8, 2025 press release re ISS)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000092189525003294/dfan14a09488unf_12082025.htm", "tier": "T1"},
+      "quote": "Institutional Shareholder Services Inc. (“ISS”), a leading independent proxy advisory firm, has recommended that UniFirst shareholders send a clear message to the Company’s Board of Directors (the “Board”) that the status quo is untenable by voting “ FOR ” the election of Engine’s director candidates, Arnaud Ajdler and Michael Croatti , on the BLUE universal proxy card at the 2026 Annual Meeting of Shareholders to be held on December 15, 2025.",
+      "locator": "Item 1 — ISS press release (single page)"
+    },
+    {
+      "claim_id": "management_governance_16",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "UniFirst's board, after engagement with Engine Capital, recommended shareholders vote AGAINST Engine's candidates and FOR the company's directors on the WHITE proxy card — the company's direct rebuttal of the activist.",
+      "source": {"id": "s_unf_defa14a", "title": "UniFirst DEFA14A (company solicitation materials)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525276006/unf-defa14a-2026.htm", "tier": "T1"},
+      "quote": "After engagement with Engine Capital and a thoughtful and thorough evaluation of both nominees, the Board recommends that shareholders vote AGAINST Engine Capital’s candidates by voting FOR each of the Company’s highly skilled and dedicated directors on the WHITE proxy card.",
+      "locator": "Board recommendation statement (single page)"
+    },
+    {
+      "claim_id": "management_governance_17",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "UniFirst's board defended management against the activist, stating it had a clear strategy focused on investing in people, technology and infrastructure to drive growth, profitability and value.",
+      "source": {"id": "s_unf_defa14a", "title": "UniFirst DEFA14A (company solicitation materials)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525276006/unf-defa14a-2026.htm", "tier": "T1"},
+      "quote": "We have a clear strategy in place – focused on investing in our people, technology and infrastructure – to drive growth, profitability and value for our shareholders, employees, customers and the communities the Company serves.",
+      "locator": "Board statement on strategy (single page)"
+    },
+    {
+      "claim_id": "management_governance_18",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "At the December 15, 2025 annual meeting, the company's nominees Steven S. Sintros and Joseph M. Nowicki were re-elected to the UniFirst board — meaning the family-controlled slate defeated Engine's nominees despite ISS support, yet the board agreed to the Cintas sale less than three months later.",
+      "source": {"id": "s_unf_8k_results", "title": "UniFirst 8-K Ex-99.1 (annual meeting voting results, Dec 15, 2025)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525319176/unf-ex99_1.htm", "tier": "T1"},
+      "quote": "the Company’s nominees, Steven S. Sintros and Joseph M. Nowicki, were re-elected to the UniFirst Board of Directors (the “Board”) at the Company’s Annual Meeting of Shareholders.",
+      "locator": "Press release dated December 15, 2025 (single page)"
+    },
+    {
+      "claim_id": "management_governance_19",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "On January 7, 2025, Cintas publicly disclosed a $275.00-per-share proposal that the UniFirst board rejected in favor of its stand-alone strategy — the same offer the board accepted economics far above ~14 months later.",
+      "source": {"id": "s_defm14a", "title": "UniFirst DEFM14A (merger proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "Before the opening of the market on January 7, 2025, Cintas issued a press release publicly disclosing its proposal to acquire UniFirst for $275.00 per share.",
+      "locator": "The Mergers — Background of the Mergers (p. 40)"
+    },
+    {
+      "claim_id": "management_governance_20",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "The final agreed merger consideration was $310.00 per share (vs. an unaffected price of $153.05 on November 11, 2025, the day before disclosure that a shareholder had nominated directors) — locating the deal's timing immediately after the Engine Capital nomination.",
+      "source": {"id": "s_defm14a", "title": "UniFirst DEFM14A (merger proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "the unaffected closing share price of UniFirst common stock of $153.05 on November 11, 2025, the day prior to UniFirst’s disclosure that a shareholder had nominated directors to the UniFirst Board and (ii) the value of the merger consideration of $310.00 per share of UniFirst stock.",
+      "locator": "The Mergers — Opinion of J.P. Morgan (Premiums Paid Analysis) (p. 60)"
+    },
+    {
+      "claim_id": "management_governance_21",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "On February 8, 2026, Cintas agreed to a price of $310.00 per share (cash/equity mix to be determined), and the merger and voting/support agreements were executed on the evening of March 10, 2026 — fixing the board's flip to a price 12.7% above the previously rejected $275.",
+      "source": {"id": "s_defm14a", "title": "UniFirst DEFM14A (merger proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "On February 8, 2026, representatives of Morgan Stanley conveyed to representatives of UniFirst’s financial advisors the agreement of Cintas to a price of $310.00 per share, but cash and equity consideration to be determined.",
+      "locator": "The Mergers — Background of the Mergers (p. 46)"
+    },
+    {
+      "claim_id": "management_governance_22",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "The final per-share consideration was set as $155.00 in cash plus 0.7720 of a Cintas share — a cash-and-stock structure, contrasting with the all-cash $275 proposals the family had earlier rejected.",
+      "source": {"id": "s_defm14a", "title": "UniFirst DEFM14A (merger proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "each share of UniFirst stock will be converted into the right to receive $155.00 in cash, and 0.7720 of a validly issued, fully paid and non-assessable share of Cintas common stock, in each case, without interest and subject to any required tax withholding.",
+      "locator": "Summary — The Merger Consideration (p. 2)"
+    },
+    {
+      "claim_id": "management_governance_23",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "The 'why did the family flip' is best explained by price and structure, not loss of control: the board defeated Engine's slate at the Dec 15, 2025 meeting (control intact), yet agreed in March 2026 to $310/share — 12.7% above the $275 it had rejected ($310/$275 = 1.127) — in a cash-and-stock structure, with the family signing a voting/support agreement and a no-solicit covenant. The activist campaign (and ISS support) plausibly raised the pressure and reset the price bar, but the deal was struck only once the economics improved materially over the rejected offer.",
+      "supports": ["management_governance_11", "management_governance_15", "management_governance_18", "management_governance_19", "management_governance_20", "management_governance_21", "management_governance_22", "management_governance_5"]
+    },
+    {
+      "claim_id": "management_governance_24",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "Deal certainty on the vote is structurally high but is a related-party / interested-controller dynamic: the same Croatti family that the activist accused of using the dual-class structure 'to the detriment of common shareholders' holds >two-thirds of voting power, signed the voting and support agreement, and thereby effectively delivers the two-thirds approval threshold — so the minority common shareholders cannot block (or independently approve) the deal.",
+      "supports": ["management_governance_3", "management_governance_4", "management_governance_5", "management_governance_6", "management_governance_12"]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{"chunk": 10, "verdicts": [
+  {"claim_id": "antitrust_8", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_ion_ftc_competitors", "span": "—", "reason": "quote present; statement (source's view that finding divestiture buyers may be challenging) entailed by the quoted span"},
+  {"claim_id": "deal_rationale_synergies_9", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_cintas_pr_deal", "span": "—", "reason": "quote present in PR transaction-benefits; EPS accretion by end of second full year stated verbatim"},
+  {"claim_id": "short_activist_4", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_engine_prec14a", "span": "—", "reason": "quote present; statement restates Engine's assertion under 'A Sale Represents the Best Path Forward', conclusion supported by surrounding context"},
+  {"claim_id": "operational_integration_9", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_10k", "span": "—", "reason": "quote present; three-to-five-year written service contracts entailed; attrition-as-non-renewal framing is a fair gloss"},
+  {"claim_id": "operational_integration_12", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_10k", "span": "—", "reason": "quote present; ITGC material weakness on manage change/manage access stated; 'unremediated' supported by 'if not remediated' and prior-year carryover in context"},
+  {"claim_id": "operational_integration_14", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_10k", "span": "—", "reason": "quote present for ERP initiated FY2022 through 2027; $45.3 million capitalized in fiscal 2025 confirmed in same Key Initiatives section of source"},
+  {"claim_id": "operational_integration_21", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_424b3", "span": "—", "reason": "quote present verbatim in merger-risk-factors; key-person/retention risk entailed"},
+  {"claim_id": "ex_integration", "type": "inference", "verdict": "PASS",
+   "cited_source": "supplychain_16,operational_integration_12,operational_integration_14,operational_integration_21,operational_integration_9", "span": "—", "reason": "all five supports verified; above-normal integration/execution risk conclusion follows from different supply models, IT weakness, mid-flight ERP, multi-year contracts and retention risk"},
+  {"claim_id": "litigation_8", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_defm14a", "span": "—", "reason": "quote present; 'no pending lawsuits challenging the mergers as of date hereof' entailed (demand letters noted in context are not lawsuits)"},
+  {"claim_id": "litigation_3", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_10k", "span": "—", "reason": "quote present for Q1 FY2025 partial favorable ruling; the authority's subsequent appeal ('federal tax authority appealed the determination of the Federal Tax Court') confirmed in same Note in source"}
+]}

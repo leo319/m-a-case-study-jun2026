@@ -1,0 +1,184 @@
+{
+  "chunk": 1,
+  "claims": [
+    {
+      "id": "target_fundamentals_2",
+      "statement": "As of August 30, 2025 UniFirst employed approximately 16,000 team partners across its operations, with less than 1% of its U.S. employees represented by a union.",
+      "type": "fact",
+      "module": "research",
+      "status": "verified",
+      "area": "target_fundamentals",
+      "source_ids": [
+        "s_unf_10k"
+      ],
+      "quote": "As of August 30, 2025, we employed approximately 16,000 persons and less than 1% of our U.S. employees are represented by a union pursuant to a collective bargaining agreement.",
+      "locator": "Item 1 Business, Human Capital (p. 6)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "target_fundamentals_3",
+      "statement": "UniFirst is vertically integrated: during fiscal 2025 it manufactured approximately 62% of the garments placed in service, and its facilities include a 325,000 square foot Owensboro, Kentucky distribution center plus almost all of its industrial laundry processing plants.",
+      "type": "fact",
+      "module": "research",
+      "status": "verified",
+      "area": "target_fundamentals",
+      "source_ids": [
+        "s_unf_10k"
+      ],
+      "quote": "During the fiscal year ended August 30, 2025 (“fiscal 2025”), we manufactured approximately 62% of the garments placed in service.",
+      "locator": "Item 1 Business, Products and Services (p. 3)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "target_fundamentals_4",
+      "statement": "UniFirst total consolidated revenues were essentially flat in fiscal 2025 at $2,432.4 million versus $2,427.4 million in fiscal 2024, an increase of $4.9 million or 0.2%; fiscal 2024 included an extra 53rd week of operations.",
+      "type": "fact",
+      "module": "research",
+      "status": "verified",
+      "area": "target_fundamentals",
+      "source_ids": [
+        "s_unf_10k"
+      ],
+      "quote": "Total consolidated revenues $ 2,432,352 $ 2,427,431 $ 4,921 0.2 %",
+      "locator": "Item 7 MD&A, Results of Operations — Revenues (p. 39)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "target_fundamentals_5",
+      "statement": "UniFirst consolidated operating income was $184.5 million in fiscal 2025 versus $183.6 million in fiscal 2024, up $0.9 million or 0.5%.",
+      "type": "fact",
+      "module": "research",
+      "status": "verified",
+      "area": "target_fundamentals",
+      "source_ids": [
+        "s_unf_10k"
+      ],
+      "quote": "Operating income $ 184,498 $ 183,578 $ 920 0.5 %",
+      "locator": "Item 7 MD&A, Results of Operations (p. 40)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "target_fundamentals_6",
+      "statement": "UniFirst's consolidated operating margin in fiscal 2025 was approximately 7.6% ($184.5M operating income / $2,432.4M revenue = 7.58%), far below Cintas's reported ~22% operating margin, framing the central margin-gap thesis of the deal.",
+      "type": "inference",
+      "module": "research",
+      "status": "verified",
+      "area": "target_fundamentals",
+      "supports": [
+        "target_fundamentals_4",
+        "target_fundamentals_5"
+      ],
+      "verification": {
+        "checked_at": "2026-06-13T04:02:32.862841+00:00",
+        "mode": "inference-support",
+        "reasons": []
+      }
+    },
+    {
+      "id": "commercial_market_4",
+      "statement": "Cintas reports operating income for fiscal 2025 of $2.36 billion (up 14.1% from $2.07 billion in fiscal 2024), which on $10.34 billion of revenue implies an operating margin of approximately 22.8%.",
+      "type": "fact",
+      "module": "research",
+      "status": "verified",
+      "area": "commercial_market",
+      "source_ids": [
+        "s_cintas_fy25_er"
+      ],
+      "quote": "Operating income for fiscal 2025 increased to $2.36 billion compared to $2.07 billion for fiscal 2024, an increase of 14.1%.",
+      "locator": "Ex-99.1 earnings release, fiscal year summary",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "target_fundamentals_14",
+      "statement": "UniFirst's revenue is geographically concentrated in the U.S. ($2,245.9 million in fiscal 2025) with Europe and Canada contributing $186.5 million; total revenue grew from $2,233.0 million in fiscal 2023 to $2,427.4 million in fiscal 2024 to $2,432.4 million in fiscal 2025.",
+      "type": "fact",
+      "module": "research",
+      "status": "verified",
+      "area": "target_fundamentals",
+      "source_ids": [
+        "s_unf_10k"
+      ],
+      "quote": "$ 2,245,894 $ 2,237,295 $ 2,054,601 Europe and Canada (1) 186,458 190,136 178,446 Total $ 2,432,352 $ 2,427,431 $ 2,233,047",
+      "locator": "Item 8 Financial Statements, Segment Reporting — revenues by geography (p. F-section)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "target_fundamentals_9",
+      "statement": "UniFirst's Uniform & Facility Service Solutions segment generated $2,218.6 million of revenue in fiscal 2025 (down $5.5 million or 0.2% from $2,224.0 million in fiscal 2024), and represented approximately 91.2% of total revenues.",
+      "type": "fact",
+      "module": "research",
+      "status": "verified",
+      "area": "target_fundamentals",
+      "source_ids": [
+        "s_unf_10k"
+      ],
+      "quote": "Uniform & Facility Service Solutions $ 2,218,562 $ 2,224,030 $ (5,468 ) (0.2 )%",
+      "locator": "Item 7 MD&A, Results of Operations — Revenues by segment (p. 39)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "target_fundamentals_10",
+      "statement": "Approximately 91.2% of UniFirst's revenues in fiscal 2025 were derived from its Uniform & Facility Service Solutions segment.",
+      "type": "fact",
+      "module": "research",
+      "status": "verified",
+      "area": "target_fundamentals",
+      "source_ids": [
+        "s_unf_10k"
+      ],
+      "quote": "Approximately 91.2% of our revenues in fiscal 2025 were derived from our Uniform & Facility Service Solutions segment.",
+      "locator": "Item 7 MD&A, Business Overview (p. 38)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "target_fundamentals_11",
+      "statement": "UniFirst's First Aid & Safety Solutions segment generated $114.6 million of revenue in fiscal 2025 (up $8.3 million or 7.8% from $106.3 million in fiscal 2024), representing approximately 4.7% of total revenues.",
+      "type": "fact",
+      "module": "research",
+      "status": "verified",
+      "area": "target_fundamentals",
+      "source_ids": [
+        "s_unf_10k"
+      ],
+      "quote": "First Aid & Safety Solutions 114,586 106,271 8,315 7.8 %",
+      "locator": "Item 7 MD&A, Results of Operations — Revenues by segment (p. 39)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    }
+  ]
+}

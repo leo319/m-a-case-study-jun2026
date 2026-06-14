@@ -2,7 +2,8 @@
 name: research-area
 description: Researches ONE coverage area of a merger deal and writes grounded claim proposals (proposals only — does not ingest). Spawned in parallel, one per area, by the research stage.
 tools: Bash, Read, Write, WebSearch
-model: sonnet
+model: opus
+effort: high
 ---
 
 # Research-Area Worker

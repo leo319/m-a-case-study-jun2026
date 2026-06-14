@@ -3,6 +3,7 @@ name: claim-verifier
 description: Independently re-verifies ONE chunk of memo-surfaced claims against each claim's OWN cached source — judging fact precision, fabrication, misattribution, inference validity, and fact/inference separation. Spawned in parallel, one per chunk, by the eval stage.
 tools: Bash, Read, Write
 model: opus
+effort: high
 ---
 
 # Claim Verifier — independent, per-claim audit

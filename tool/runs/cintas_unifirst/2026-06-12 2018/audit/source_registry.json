@@ -1,0 +1,412 @@
+{
+  "s_unf_10k": {
+    "id": "s_unf_10k",
+    "title": "UniFirst FY2025 Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-13T16:39:48.119626+00:00",
+    "content_hash": "46ec889214ae5e91766aab3f4f91fc4330ec83c7d1b314cad0948c421b94e6fb",
+    "local_path": "46/46ec889214ae5e91766aab3f4f91fc4330ec83c7d1b314cad0948c421b94e6fb",
+    "media_type": "text/html"
+  },
+  "s_unf_fy25_earnings": {
+    "id": "s_unf_fy25_earnings",
+    "title": "UniFirst FY2025 Q4/full-year earnings 8-K (Ex-99.1)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000095017025048883/unf-ex99.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-13T04:02:32.785620+00:00",
+    "content_hash": "c378267aa178fa427f50bd53fdc7af1b261193485414e9f9844e86917fb4e739",
+    "local_path": "c3/c378267aa178fa427f50bd53fdc7af1b261193485414e9f9844e86917fb4e739",
+    "media_type": "text/html"
+  },
+  "s_cintas_10k": {
+    "id": "s_cintas_10k",
+    "title": "Cintas FY2025 Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000072325425000017/ctas-20250531.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-13T04:05:12.445094+00:00",
+    "content_hash": "78495a5265b6b3e93c5ceb5f11f5e699db5e5f873b6db40aa400dc2f394fdf27",
+    "local_path": "78/78495a5265b6b3e93c5ceb5f11f5e699db5e5f873b6db40aa400dc2f394fdf27",
+    "media_type": "text/html"
+  },
+  "s_cintas_fy25_er": {
+    "id": "s_cintas_fy25_er",
+    "title": "Cintas Corporation FY2025 Q4 earnings release (8-K Ex-99.1)",
+    "url": "https://www.sec.gov/Archives/edgar/data/723254/000072325425000013/ex992025-5x31.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-13T04:02:39.657083+00:00",
+    "content_hash": "d0681605160472c6a2eeed7b2a42cf0685c1fd9b6cc41e20f5fe46b43af73eb9",
+    "local_path": "d0/d0681605160472c6a2eeed7b2a42cf0685c1fd9b6cc41e20f5fe46b43af73eb9",
+    "media_type": "text/html"
+  },
+  "s_aramark_vestis_8k": {
+    "id": "s_aramark_vestis_8k",
+    "title": "Aramark 8-K Ex-99.1 — 'Aramark Completes Spin-Off of Vestis' (Oct 2, 2023)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001584509/000162828023033364/exhibit991-aramarkclosing8.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-13T04:02:40.682213+00:00",
+    "content_hash": "3179b2425581f68786a128075893dd79377b4d8fd28ed61d74ed5b7c19534549",
+    "local_path": "31/3179b2425581f68786a128075893dd79377b4d8fd28ed61d74ed5b7c19534549",
+    "media_type": "text/html"
+  },
+  "s_vestis_10k": {
+    "id": "s_vestis_10k",
+    "title": "Vestis Corporation FY2025 Form 10-K (year ended Oct 3, 2025)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1967649/000162828025054597/vsts-20251003.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-13T04:02:41.120204+00:00",
+    "content_hash": "564655bd76edf7bbeea5ce64d8d34686f9ae0c0ca4ae6f513aed6c6156f0e591",
+    "local_path": "56/564655bd76edf7bbeea5ce64d8d34686f9ae0c0ca4ae6f513aed6c6156f0e591",
+    "media_type": "text/html"
+  },
+  "s_defm14a_opinion": {
+    "id": "s_defm14a_opinion",
+    "title": "UniFirst DEFM14A — Opinion of UniFirst's Financial Advisors",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-13T04:03:06.039922+00:00",
+    "content_hash": "a112a65f95db127aadce56c9a9138c06359f7ee0d540394bea1d8454cea7f9f3",
+    "local_path": "a1/a112a65f95db127aadce56c9a9138c06359f7ee0d540394bea1d8454cea7f9f3",
+    "media_type": "text/html"
+  },
+  "s_cintas_gk_pr": {
+    "id": "s_cintas_gk_pr",
+    "title": "Cintas press release — 'Cintas Corporation to Acquire G&K Services' (Aug 17, 2016)",
+    "url": "https://www.cintas.com/newsroom/details/news/2016/08/17/cintas-corporation-to-acquire-g-k-services/",
+    "tier": "T2",
+    "retrieved_at": "2026-06-13T04:02:51.416672+00:00",
+    "content_hash": "f62da049bb2da5539652596fa14d361defbdf96c674df218bf78509a5052f0fc",
+    "local_path": "f6/f62da049bb2da5539652596fa14d361defbdf96c674df218bf78509a5052f0fc",
+    "media_type": "text/html"
+  },
+  "s_cintas_pr_2025_proposal": {
+    "id": "s_cintas_pr_2025_proposal",
+    "title": "Cintas press release — '$275.00 Per Share' proposal (Jan 7, 2025)",
+    "url": "https://www.cintas.com/newsroom/details/news/2025/01/07/cintas-proposes-to-acquire-unifirst-for--275.00-per-share-in-cash/",
+    "tier": "T2",
+    "retrieved_at": "2026-06-13T04:02:53.334806+00:00",
+    "content_hash": "db81de2397ab9f30ec9f42ffb399071a43a9553415f023414f55500a32eac9cb",
+    "local_path": "db/db81de2397ab9f30ec9f42ffb399071a43a9553415f023414f55500a32eac9cb",
+    "media_type": "text/html"
+  },
+  "s_merger_pr_2026": {
+    "id": "s_merger_pr_2026",
+    "title": "Cintas/UniFirst joint press release (8-K Ex-99.1, Mar 2026)",
+    "url": "https://www.sec.gov/Archives/edgar/data/723254/000095010326003567/dp243132_ex9901.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-13T04:02:53.710641+00:00",
+    "content_hash": "bcbaa72fa34dec9fd1a1c954c83f0c5adbaaaf28062fee00bb8f39c0274613f6",
+    "local_path": "bc/bcbaa72fa34dec9fd1a1c954c83f0c5adbaaaf28062fee00bb8f39c0274613f6",
+    "media_type": "text/html"
+  },
+  "s_cintas_pr_deal": {
+    "id": "s_cintas_pr_deal",
+    "title": "Cintas press release — 'Cintas to Acquire UniFirst in $5.5 Billion Transaction' (Mar 11, 2026)",
+    "url": "https://www.cintas.com/about/newsroom/details/news/2026/03/11/cintas-to-acquire-unifirst-in-5.5-billion-transaction-that-expands-service-capabilities-enhances-workday-solutions-and-advances-industry-innovation/",
+    "tier": "T2",
+    "retrieved_at": "2026-06-13T04:05:14.609172+00:00",
+    "content_hash": "b9589100123584d6f8f04a07c9b7370614a770419c528e83e172d730cc0897f6",
+    "local_path": "b9/b9589100123584d6f8f04a07c9b7370614a770419c528e83e172d730cc0897f6",
+    "media_type": "text/html"
+  },
+  "s_unf_424b3": {
+    "id": "s_unf_424b3",
+    "title": "Cintas/UniFirst 424B3 (Form S-4 prospectus / merger proxy)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000114036126020376/ny20069194x3_424b3.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-13T04:05:16.603773+00:00",
+    "content_hash": "294e6176dfdcbaac47f749d9c01d4c227943b4988602d40f371d7ca302a23d9c",
+    "local_path": "29/294e6176dfdcbaac47f749d9c01d4c227943b4988602d40f371d7ca302a23d9c",
+    "media_type": "text/html"
+  },
+  "s_merger_8k": {
+    "id": "s_merger_8k",
+    "title": "Cintas Form 8-K (merger agreement)",
+    "url": "https://www.sec.gov/Archives/edgar/data/723254/000095010326003567/dp243132_8k.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-13T04:03:13.334516+00:00",
+    "content_hash": "df5611c401d37af8cb0fde9b24ce7c1dea0046b69d12fba7d37f9504c4a45024",
+    "local_path": "df/df5611c401d37af8cb0fde9b24ce7c1dea0046b69d12fba7d37f9504c4a45024",
+    "media_type": "text/html"
+  },
+  "s_cintas_financing_8k": {
+    "id": "s_cintas_financing_8k",
+    "title": "Cintas Form 8-K (Revolving Credit Agreement)",
+    "url": "https://www.sec.gov/Archives/edgar/data/723254/000072325426000010/ctas-20260327.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-13T04:03:13.528698+00:00",
+    "content_hash": "1a8bd31a9a8f517fe47403b08f6313da302ced1755c85a21dd1967a44dedb680",
+    "local_path": "1a/1a8bd31a9a8f517fe47403b08f6313da302ced1755c85a21dd1967a44dedb680",
+    "media_type": "text/html"
+  },
+  "s_cintas_s4": {
+    "id": "s_cintas_s4",
+    "title": "Cintas Form S-4 (proxy statement/prospectus)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000114036126016785/ny20069194x1_s4.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-13T04:03:14.537510+00:00",
+    "content_hash": "484fcd0d2703eb089f1efbb2b07aedb765d085d3a55048274541777f0fc17bec",
+    "local_path": "48/484fcd0d2703eb089f1efbb2b07aedb765d085d3a55048274541777f0fc17bec",
+    "media_type": "text/html"
+  },
+  "s_unf_defm14a": {
+    "id": "s_unf_defm14a",
+    "title": "UniFirst DEFM14A (proxy statement/prospectus)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-13T04:03:25.863152+00:00",
+    "content_hash": "a112a65f95db127aadce56c9a9138c06359f7ee0d540394bea1d8454cea7f9f3",
+    "local_path": "a1/a112a65f95db127aadce56c9a9138c06359f7ee0d540394bea1d8454cea7f9f3",
+    "media_type": "text/html"
+  },
+  "s_unf_8k_20260311": {
+    "id": "s_unf_8k_20260311",
+    "title": "UniFirst Form 8-K (Mar 11, 2026) reporting Agreement and Plan of Merger",
+    "url": "https://www.sec.gov/Archives/edgar/data/717954/000119312526101128/d55520d8k.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-13T04:03:26.399935+00:00",
+    "content_hash": "09e2dcb7303ce3890448be612a119eaece54b95180e36ecd5c65f417bd4c5835",
+    "local_path": "09/09e2dcb7303ce3890448be612a119eaece54b95180e36ecd5c65f417bd4c5835",
+    "media_type": "text/html"
+  },
+  "s_defm14a_regulatory": {
+    "id": "s_defm14a_regulatory",
+    "title": "UniFirst DEFM14A — Regulatory Approvals",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-13T04:03:39.619858+00:00",
+    "content_hash": "a112a65f95db127aadce56c9a9138c06359f7ee0d540394bea1d8454cea7f9f3",
+    "local_path": "a1/a112a65f95db127aadce56c9a9138c06359f7ee0d540394bea1d8454cea7f9f3",
+    "media_type": "text/html"
+  },
+  "s_ftc_second_request_8k": {
+    "id": "s_ftc_second_request_8k",
+    "title": "UniFirst 8-K Ex-99.1 — Shareholders Approve Transaction with Cintas",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126025000/ef20075767_ex99-1.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-13T04:03:39.977563+00:00",
+    "content_hash": "5bf2e24f0c8fa354b1602b9d95d97817c2e327b660b3ac42c175a2a4f876c8ed",
+    "local_path": "5b/5bf2e24f0c8fa354b1602b9d95d97817c2e327b660b3ac42c175a2a4f876c8ed",
+    "media_type": "text/html"
+  },
+  "s_ion_ftc_competitors": {
+    "id": "s_ion_ftc_competitors",
+    "title": "FTC interviewing competitors in Unifirst/Cintas merger – source (ION Analytics / Dealreporter)",
+    "url": "https://ionanalytics.com/insights/dealreporter/ftc-interviewing-competitors-in-unifirst-cintas-merger-source/",
+    "tier": "T2",
+    "retrieved_at": "2026-06-13T04:03:40.287921+00:00",
+    "content_hash": "804538bf78ba1fd93916d02c93f3a0f25cadc8ff254ce6a96cafbacb5707fc0a",
+    "local_path": "80/804538bf78ba1fd93916d02c93f3a0f25cadc8ff254ce6a96cafbacb5707fc0a",
+    "media_type": "text/html"
+  },
+  "s_antitrust_precedent": {
+    "id": "s_antitrust_precedent",
+    "title": "Cintas' $5.5 Billion Acquisition of UniFirst Likely To Hinge on Divestitures (Antitrust Intelligence)",
+    "url": "https://antitrust-intelligence.com/cintas-5-5-billion-acquisition-of-unifirst-likely-to-hinge-on-divestitures/",
+    "tier": "T2",
+    "retrieved_at": "2026-06-13T04:03:42.225567+00:00",
+    "content_hash": "23b949856bebef1a59c87a0834d9d376d6ed21e386668b31ff3a5f96da80b9d2",
+    "local_path": "23/23b949856bebef1a59c87a0834d9d376d6ed21e386668b31ff3a5f96da80b9d2",
+    "media_type": "text/html"
+  },
+  "s_antitrust_precedent_gk": {
+    "id": "s_antitrust_precedent_gk",
+    "title": "Cintas secures antitrust clearance for $2.2 billion purchase of G&K Services (Jones Day)",
+    "url": "https://www.jonesday.com/en/practices/experience/2017/03/cintas-secures-antitrust-clearance-for-22-billion-purchase-of-gk-services",
+    "tier": "T2",
+    "retrieved_at": "2026-06-13T04:03:42.650584+00:00",
+    "content_hash": "627158151d77bf7fe5108a36977a1419847bd4b49d44c4d9497ba8b7ff3e263c",
+    "local_path": "62/627158151d77bf7fe5108a36977a1419847bd4b49d44c4d9497ba8b7ff3e263c",
+    "media_type": "text/html"
+  },
+  "s_antitrust_precedent_aramark": {
+    "id": "s_antitrust_precedent_aramark",
+    "title": "FTC Early Termination Notice 20180159: Aramark; AmeriPride Services Inc.",
+    "url": "https://www.ftc.gov/legal-library/browse/early-termination-notices/20180159",
+    "tier": "T1",
+    "retrieved_at": "2026-06-13T04:03:45.301128+00:00",
+    "content_hash": "3039c977fa5efc0c3a8856679e6091238d44b11386987b22c2ec29a97c259a0f",
+    "local_path": "30/3039c977fa5efc0c3a8856679e6091238d44b11386987b22c2ec29a97c259a0f",
+    "media_type": "text/html"
+  },
+  "s_defm14a": {
+    "id": "s_defm14a",
+    "title": "UniFirst DEFM14A (Background of the Mergers)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-13T04:35:06.940769+00:00",
+    "content_hash": "a112a65f95db127aadce56c9a9138c06359f7ee0d540394bea1d8454cea7f9f3",
+    "local_path": "a1/a112a65f95db127aadce56c9a9138c06359f7ee0d540394bea1d8454cea7f9f3",
+    "media_type": "text/html"
+  },
+  "s_ctas_8k_vote": {
+    "id": "s_ctas_8k_vote",
+    "title": "Cintas Corporation Form 8-K (special meeting vote results)",
+    "url": "https://www.sec.gov/Archives/edgar/data/723254/000095010326008890/dp248355_8k.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-13T04:04:04.456953+00:00",
+    "content_hash": "03f73792380e8ca302233e7f338afe23fc4318b945bddfbc3a35cf9a625423e2",
+    "local_path": "03/03f73792380e8ca302233e7f338afe23fc4318b945bddfbc3a35cf9a625423e2",
+    "media_type": "text/html"
+  },
+  "s_engine_prec14a": {
+    "id": "s_engine_prec14a",
+    "title": "Engine Capital PREC14A (UniFirst 2026 Annual Meeting)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000092189525003119/prec14a09488unf_11142025.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-13T04:04:54.489844+00:00",
+    "content_hash": "b3a4ee62726af3d711a35fbb4aee6a98c97083d62e7fe000e8e49629c83eb3d4",
+    "local_path": "b3/b3a4ee62726af3d711a35fbb4aee6a98c97083d62e7fe000e8e49629c83eb3d4",
+    "media_type": "text/html"
+  },
+  "s_engine_dfan14a_1208": {
+    "id": "s_engine_dfan14a_1208",
+    "title": "Engine Capital DFAN14A (Dec 8, 2025 press release re ISS)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000092189525003294/dfan14a09488unf_12082025.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-13T04:04:22.845798+00:00",
+    "content_hash": "3a8254a6125ec2e77b92c352502e0307ca1e51395c14e28112bd0ce0007fde2a",
+    "local_path": "3a/3a8254a6125ec2e77b92c352502e0307ca1e51395c14e28112bd0ce0007fde2a",
+    "media_type": "text/html"
+  },
+  "s_unf_defa14a": {
+    "id": "s_unf_defa14a",
+    "title": "UniFirst DEFA14A (company solicitation materials)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525276006/unf-defa14a-2026.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-13T04:04:23.229213+00:00",
+    "content_hash": "05e83882321791b01279c0d1e2e9c35a347ff6e0ab8e25c695d40a543da9a8f8",
+    "local_path": "05/05e83882321791b01279c0d1e2e9c35a347ff6e0ab8e25c695d40a543da9a8f8",
+    "media_type": "text/html"
+  },
+  "s_unf_8k_results": {
+    "id": "s_unf_8k_results",
+    "title": "UniFirst 8-K Ex-99.1 (annual meeting voting results, Dec 15, 2025)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525319176/unf-ex99_1.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-13T04:04:23.519088+00:00",
+    "content_hash": "95550f3280ced847212f6d74bf9ca94a5fcdd4b6b47896f462f29d5d264b1197",
+    "local_path": "95/95550f3280ced847212f6d74bf9ca94a5fcdd4b6b47896f462f29d5d264b1197",
+    "media_type": "text/html"
+  },
+  "s_engine_openletter": {
+    "id": "s_engine_openletter",
+    "title": "Engine Capital Open Letter to UniFirst Independent Directors (DFAN14A, EX-99.1)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000092189525003225/ex991dfan14a09488unf_120125.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-13T04:04:54.843942+00:00",
+    "content_hash": "6694ef48918cf21d6f1663970283ced153c9166e5d2bc7813c6cd5ba0540d6dc",
+    "local_path": "66/6694ef48918cf21d6f1663970283ced153c9166e5d2bc7813c6cd5ba0540d6dc",
+    "media_type": "text/html"
+  },
+  "s_engine_dfan_proxyadvisors": {
+    "id": "s_engine_dfan_proxyadvisors",
+    "title": "Engine Capital DFAN14A — Proxy Advisor Recommendations Press Release (Dec 10, 2025)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000092189525003303/dfan14a09488unf_12102025.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-13T04:04:55.277079+00:00",
+    "content_hash": "390fbe33f26965614d8c7c46f94ca4cccf2f3cb3c04d7ed163b07944b19bc9f6",
+    "local_path": "39/390fbe33f26965614d8c7c46f94ca4cccf2f3cb3c04d7ed163b07944b19bc9f6",
+    "media_type": "text/html"
+  },
+  "s_unf_10k_fy2025": {
+    "id": "s_unf_10k_fy2025",
+    "title": "UniFirst FY2025 Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-13T04:35:10.032869+00:00",
+    "content_hash": "46ec889214ae5e91766aab3f4f91fc4330ec83c7d1b314cad0948c421b94e6fb",
+    "local_path": "46/46ec889214ae5e91766aab3f4f91fc4330ec83c7d1b314cad0948c421b94e6fb",
+    "media_type": "text/html"
+  },
+  "s_ctas_10k_fy2025": {
+    "id": "s_ctas_10k_fy2025",
+    "title": "Cintas FY2025 Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000072325425000017/ctas-20250531.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-13T04:34:42.752099+00:00",
+    "content_hash": "78495a5265b6b3e93c5ceb5f11f5e699db5e5f873b6db40aa400dc2f394fdf27",
+    "local_path": "78/78495a5265b6b3e93c5ceb5f11f5e699db5e5f873b6db40aa400dc2f394fdf27",
+    "media_type": "text/html"
+  },
+  "s_ctas_pr_20260311": {
+    "id": "s_ctas_pr_20260311",
+    "title": "Cintas to Acquire UniFirst — press release (Mar 11, 2026)",
+    "url": "https://www.cintas.com/about/newsroom/details/news/2026/03/11/cintas-to-acquire-unifirst-in-5.5-billion-transaction-that-expands-service-capabilities-enhances-workday-solutions-and-advances-industry-innovation/",
+    "tier": "T2",
+    "retrieved_at": "2026-06-13T04:34:43.294740+00:00",
+    "content_hash": "456144c5ae736db0192ab36daabe5e8a8374bd95719b26baf26a8b6696498cef",
+    "local_path": "45/456144c5ae736db0192ab36daabe5e8a8374bd95719b26baf26a8b6696498cef",
+    "media_type": "text/html"
+  },
+  "s_ctas_425_dec2025": {
+    "id": "s_ctas_425_dec2025",
+    "title": "Cintas/UniFirst Form 425 — Cintas Dec 2025 communication",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000095010325000223/dp223194_ex9901.htm",
+    "tier": "T2",
+    "retrieved_at": "2026-06-13T04:34:43.616799+00:00",
+    "content_hash": "9e4bd1993f9a5a5f2b8c87d317999979e08d5f7c782f3118c73c9f097ea6328e",
+    "local_path": "9e/9e4bd1993f9a5a5f2b8c87d317999979e08d5f7c782f3118c73c9f097ea6328e",
+    "media_type": "text/html"
+  },
+  "s_ctas_gk_pr_2016": {
+    "id": "s_ctas_gk_pr_2016",
+    "title": "Cintas to Acquire G&K Services — press release (Aug 16, 2016)",
+    "url": "https://www.sec.gov/Archives/edgar/data/39648/000110465916140052/a16-16841_1ex99d1.htm",
+    "tier": "T2",
+    "retrieved_at": "2026-06-13T04:34:43.801635+00:00",
+    "content_hash": "1f8918bd01d997f37447e5ff96d8d729db7b5e42a777f7ec605f628002c390a3",
+    "local_path": "1f/1f8918bd01d997f37447e5ff96d8d729db7b5e42a777f7ec605f628002c390a3",
+    "media_type": "text/html"
+  },
+  "s_ctas_fy2019_q2_8k": {
+    "id": "s_ctas_fy2019_q2_8k",
+    "title": "Cintas FY2019 Q2 earnings — Form 8-K Exhibit",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000072325419000037/ex9912-19.htm",
+    "tier": "T2",
+    "retrieved_at": "2026-06-13T04:34:44.313765+00:00",
+    "content_hash": "87ef107b6c186d42582b53030c25b3c8f82b992e8ac40f7798d6e8711c3d2dd4",
+    "local_path": "87/87ef107b6c186d42582b53030c25b3c8f82b992e8ac40f7798d6e8711c3d2dd4",
+    "media_type": "text/html"
+  },
+  "s_cintas_jan2025": {
+    "id": "s_cintas_jan2025",
+    "title": "Cintas press release: Cintas Proposes to Acquire UniFirst for $275.00 Per Share in Cash (Jan 7, 2025)",
+    "url": "https://www.cintas.com/newsroom/details/news/2025/01/07/cintas-proposes-to-acquire-unifirst-for--275.00-per-share-in-cash/",
+    "tier": "T2",
+    "retrieved_at": "2026-06-13T04:35:08.950087+00:00",
+    "content_hash": "6f84612626c2b86ca59a8448179e5a8111e6345f11e0627b1cd4f829a0f88531",
+    "local_path": "6f/6f84612626c2b86ca59a8448179e5a8111e6345f11e0627b1cd4f829a0f88531",
+    "media_type": "text/html"
+  },
+  "s_cintas_dealpr": {
+    "id": "s_cintas_dealpr",
+    "title": "Cintas press release: Cintas to Acquire UniFirst in $5.5 Billion Transaction (Mar 11, 2026)",
+    "url": "https://www.cintas.com/about/newsroom/details/news/2026/03/11/cintas-to-acquire-unifirst-in-5.5-billion-transaction-that-expands-service-capabilities-enhances-workday-solutions-and-advances-industry-innovation/",
+    "tier": "T2",
+    "retrieved_at": "2026-06-13T04:35:09.295850+00:00",
+    "content_hash": "4fc3b42856467372951021d51a92aaa8d65d27ecf551563aabd19175e3ee747a",
+    "local_path": "4f/4fc3b42856467372951021d51a92aaa8d65d27ecf551563aabd19175e3ee747a",
+    "media_type": "text/html"
+  },
+  "s_cintas_10k_cust": {
+    "id": "s_cintas_10k_cust",
+    "title": "Cintas FY2025 Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000072325425000017/ctas-20250531.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-13T04:45:45.021694+00:00",
+    "content_hash": "78495a5265b6b3e93c5ceb5f11f5e699db5e5f873b6db40aa400dc2f394fdf27",
+    "local_path": "78/78495a5265b6b3e93c5ceb5f11f5e699db5e5f873b6db40aa400dc2f394fdf27",
+    "media_type": "text/html"
+  },
+  "s_unf_10k_cust": {
+    "id": "s_unf_10k_cust",
+    "title": "UniFirst FY2025 Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-13T04:45:45.728172+00:00",
+    "content_hash": "46ec889214ae5e91766aab3f4f91fc4330ec83c7d1b314cad0948c421b94e6fb",
+    "local_path": "46/46ec889214ae5e91766aab3f4f91fc4330ec83c7d1b314cad0948c421b94e6fb",
+    "media_type": "text/html"
+  }
+}

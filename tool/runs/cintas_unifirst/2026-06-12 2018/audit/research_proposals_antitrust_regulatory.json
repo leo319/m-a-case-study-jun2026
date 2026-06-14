@@ -1,0 +1,181 @@
+{
+  "area": "antitrust_regulatory",
+  "proposals": [
+    {
+      "claim_id": "antitrust_1",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "UniFirst's FY2025 Form 10-K states that the uniform rental and sales industry is highly competitive and identifies its principal competitors in uniform rental programs as Cintas Corporation, Alsco, and Vestis Corporation — establishing that Cintas and UniFirst are two of only three named national players, with the acquisition removing the #3 from the field.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "Our principal competitors offering uniform rental programs include Cintas Corporation, Alsco, and Vestis Corporation.",
+      "locator": "Item 1, Competition (p. 6)"
+    },
+    {
+      "claim_id": "antitrust_2",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "Per UniFirst's DEFM14A, Cintas and UniFirst each filed their HSR notification forms with the DOJ and FTC on April 8, 2026.",
+      "source": {"id": "s_defm14a_regulatory", "title": "UniFirst DEFM14A — Regulatory Approvals", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "On April 8, 2026, Cintas and UniFirst each filed their respective requisite notification and report forms under the HSR Act with the DOJ and the FTC.",
+      "locator": "Regulatory Approvals — HSR Act"
+    },
+    {
+      "claim_id": "antitrust_3",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "Per the DEFM14A, Cintas executed a 'pull-and-refile' of its HSR notification — voluntarily withdrawing it effective May 8, 2026 and intending to refile on May 12, 2026 — which restarted and extended the antitrust waiting period (a common precursor to a second request).",
+      "source": {"id": "s_defm14a_regulatory", "title": "UniFirst DEFM14A — Regulatory Approvals", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "Cintas voluntarily withdrew its notification and report form effective May 8, 2026 in accordance with the HSR Act and intends to subsequently refile on May 12, 2026.",
+      "locator": "Regulatory Approvals — HSR Act"
+    },
+    {
+      "claim_id": "antitrust_4",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "Per the DEFM14A, upon refiling, the HSR waiting period was set to expire on June 11, 2026 at 11:59 p.m. — the deadline at which the FTC issued its Second Request.",
+      "source": {"id": "s_defm14a_regulatory", "title": "UniFirst DEFM14A — Regulatory Approvals", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "Accordingly, upon refiling the notification and report form under the HSR Act, the HSR waiting period for the transaction will expire on June 11, 2026, at 11:59 p.m.",
+      "locator": "Regulatory Approvals — HSR Act"
+    },
+    {
+      "claim_id": "antitrust_5",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "Per the DEFM14A, closing is also conditioned on a foreign antitrust regulator's clearance and on consents for certain of UniFirst's permits — confirming a second-front antitrust review beyond the U.S. FTC (Canada, where UniFirst operates as 'Canadian Linen').",
+      "source": {"id": "s_defm14a_regulatory", "title": "UniFirst DEFM14A — Other Approvals", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "The mergers are also conditioned upon (i) the expiration of applicable waiting periods and authorization or consent from a certain foreign regulator under its antitrust laws and (ii) the authorization or consent of the applicable governmental authorities in respect of certain of UniFirst’s permits.",
+      "locator": "Regulatory Approvals — Other Approvals"
+    },
+    {
+      "claim_id": "antitrust_6",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "UniFirst's June 12, 2026 shareholder-approval press release confirms the deal still 'continues to expect' to close in the second half of calendar 2026 subject to regulatory approvals — the company's stated post-Second-Request timeline.",
+      "source": {"id": "s_ftc_second_request_8k", "title": "UniFirst 8-K Ex-99.1 — Shareholders Approve Transaction with Cintas", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126025000/ef20075767_ex99-1.htm", "tier": "T1"},
+      "quote": "The Company continues to expect the transaction to close in the second half of calendar 2026, subject to customary closing conditions and the receipt of certain regulatory approvals.",
+      "locator": "Press release dated June 12, 2026 (Wilmington, MA)"
+    },
+    {
+      "claim_id": "antitrust_7",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "INTERESTED-PARTY/TRADE-PRESS: ION Analytics (Dealreporter) reports, citing a source familiar with the matter, that the FTC began interviewing independent and regional uniform rental companies 'all over' the U.S. in late March/early April 2026, and that the source identified Nashville, Atlanta, Miami and Los Angeles as regions that could become highly concentrated if the deal closes.",
+      "source": {"id": "s_ion_ftc_competitors", "title": "FTC interviewing competitors in Unifirst/Cintas merger – source (ION Analytics / Dealreporter)", "url": "https://ionanalytics.com/insights/dealreporter/ftc-interviewing-competitors-in-unifirst-cintas-merger-source/", "tier": "T2"},
+      "quote": "If Cintas acquires Unifirst, it could lead to highly concentrated markets in regions including Nashville, Atlanta, Miami and Los Angeles, the source said.",
+      "locator": "Article dated 6 May 2026, by Serafina Smith"
+    },
+    {
+      "claim_id": "antitrust_8",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "TRADE-PRESS: ION Analytics reports the source's view that if the FTC sought divestitures as a remedy, finding suitable buyers may be challenging — a remedy-feasibility concern central to whether the deal clears via divestiture rather than being blocked.",
+      "source": {"id": "s_ion_ftc_competitors", "title": "FTC interviewing competitors in Unifirst/Cintas merger – source (ION Analytics / Dealreporter)", "url": "https://ionanalytics.com/insights/dealreporter/ftc-interviewing-competitors-in-unifirst-cintas-merger-source/", "tier": "T2"},
+      "quote": "If the FTC were interested in divestitures as a possible remedy to clear the deal, finding suitable buyers may be challenging, the source added.",
+      "locator": "Article dated 6 May 2026, by Serafina Smith"
+    },
+    {
+      "claim_id": "antitrust_9",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "TRADE-PRESS: ION Analytics reports that Vestis — the most plausible national divestiture buyer — was downgraded by S&P Global to 'B' in December 2025 citing customer losses and operating challenges, and a source called it 'an unlikely buyer' 'not really capable of growth' — weakening the divestiture-remedy path.",
+      "source": {"id": "s_ion_ftc_competitors", "title": "FTC interviewing competitors in Unifirst/Cintas merger – source (ION Analytics / Dealreporter)", "url": "https://ionanalytics.com/insights/dealreporter/ftc-interviewing-competitors-in-unifirst-cintas-merger-source/", "tier": "T2"},
+      "quote": "S&P Global downgraded Vestis’ credit rating to B in December 2025, citing customer losses and persistent operating challenges.",
+      "locator": "Article dated 6 May 2026, by Serafina Smith"
+    },
+    {
+      "claim_id": "antitrust_10",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "TRADE-PRESS/ANALYSIS: Antitrust Intelligence estimates the combined Cintas-UniFirst entity would control an estimated 45% to 50% of the total North American market for uniform rentals and facility services, leaving only Vestis as a viable national alternative.",
+      "source": {"id": "s_antitrust_precedent", "title": "Cintas' $5.5 Billion Acquisition of UniFirst Likely To Hinge on Divestitures (Antitrust Intelligence)", "url": "https://antitrust-intelligence.com/cintas-5-5-billion-acquisition-of-unifirst-likely-to-hinge-on-divestitures/", "tier": "T2"},
+      "quote": "However, a combined entity would control an estimated 45% to 50% of the total North American market for uniform rentals and facility services.",
+      "locator": "Analysis dated March 16, 2026, 'Antitrust Hurdles'"
+    },
+    {
+      "claim_id": "antitrust_11",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "TRADE-PRESS/ANALYSIS: Antitrust Intelligence characterizes the deal as a '3-to-2' merger of the historical 'Big Three' (Cintas ~35% share absorbing UniFirst ~14%), and warns that in hubs such as Boston or Chicago the local HHI could spike by 800 to 1,000 points, creating a 'highly concentrated' market presumed illegal under current guidelines.",
+      "source": {"id": "s_antitrust_precedent", "title": "Cintas' $5.5 Billion Acquisition of UniFirst Likely To Hinge on Divestitures (Antitrust Intelligence)", "url": "https://antitrust-intelligence.com/cintas-5-5-billion-acquisition-of-unifirst-likely-to-hinge-on-divestitures/", "tier": "T2"},
+      "quote": "In hubs such as Boston or Chicago, the HHI could spike by 800 to 1,000 points, creating a “highly concentrated” market presumed illegal under current guidelines.",
+      "locator": "Analysis dated March 16, 2026, 'Antitrust Hurdles'"
+    },
+    {
+      "claim_id": "antitrust_12",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "PRECEDENT (BASE RATE): Cintas's prior 2017 acquisition of G&K Services ($2.2bn) — a combination of two of the four largest U.S. workwear-rental suppliers — drew an eight-month FTC/Canadian Competition Bureau investigation but ultimately closed on March 21, 2017 WITH NO DIVESTITURES, per deal counsel Jones Day.",
+      "source": {"id": "s_antitrust_precedent_gk", "title": "Cintas secures antitrust clearance for $2.2 billion purchase of G&K Services (Jones Day)", "url": "https://www.jonesday.com/en/practices/experience/2017/03/cintas-secures-antitrust-clearance-for-22-billion-purchase-of-gk-services", "tier": "T2"},
+      "quote": "Cintas closed the transaction on March 21, 2017, with no divestitures, after complying with a eight-month antitrust investigation by the Federal Trade Commission and Canadian Competition Bureau.",
+      "locator": "Cases & Deals, March 2017"
+    },
+    {
+      "claim_id": "antitrust_13",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "PRECEDENT (BASE RATE): Aramark's ~$1.0bn acquisition of uniform/linen rental peer AmeriPride Services received HSR early termination (Transaction No. 20180159, granted December 22, 2017) — i.e., it cleared WITHOUT a second request — per the FTC's Early Termination Notices.",
+      "source": {"id": "s_antitrust_precedent_aramark", "title": "FTC Early Termination Notice 20180159: Aramark; AmeriPride Services Inc.", "url": "https://www.ftc.gov/legal-library/browse/early-termination-notices/20180159", "tier": "T1"},
+      "quote": "Date December 22, 2017 Transaction Number 20180159 Acquiring Party Aramark Acquired Party AmeriPride Services Inc.",
+      "locator": "Early Termination Notice 20180159 (Granting Status: Granted)"
+    },
+    {
+      "claim_id": "antitrust_14",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "DEAL-NEGOTIATION RECORD: Per the DEFM14A 'Background of the Merger', UniFirst pressed Cintas for an 'above market' reverse termination fee and a 'hell or high water' regulatory-efforts covenant, and Cintas earlier terminated discussions partly over its refusal to accept the 'hell or high water' covenant — evidencing how heavily the parties contested who bears antitrust risk.",
+      "source": {"id": "s_defm14a_background", "title": "UniFirst DEFM14A — Background of the Merger", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "Cintas decided to terminate the discussions due to, among other things, UniFirst’s position with respect to the “hell or high water” regulatory efforts covenant, the above market regulatory termination fee and the “high 300s” per share price.",
+      "locator": "Background of the Mergers"
+    },
+    {
+      "claim_id": "antitrust_15",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "DEAL-NEGOTIATION RECORD: Per the DEFM14A, Cintas's proposal provided for a $350.0 million reverse termination fee payable to UniFirst if the merger were blocked on antitrust grounds, plus an obligation for both parties to litigate any antitrust challenge if necessary — the antitrust-risk-allocation framework underpinning deal certainty.",
+      "source": {"id": "s_defm14a_background", "title": "UniFirst DEFM14A — Background of the Merger", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "The Cintas proposal also provided for a $350.0 million reverse termination fee payable by Cintas to UniFirst if the merger was blocked on antitrust grounds, and an obligation for Cintas and UniFirst to litigate any challenge by antitrust authorities, if necessary.",
+      "locator": "Background of the Mergers"
+    },
+    {
+      "claim_id": "antitrust_16",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "DEAL-NEGOTIATION RECORD: Per the DEFM14A, Cintas reaffirmed it would agree to a reverse termination fee of no more than $350.0 million and required two four-month extensions at the end of a 10-month termination date to the extent needed to clear antitrust approvals — fixing the maximum time Cintas committed to fighting for clearance.",
+      "source": {"id": "s_defm14a_background", "title": "UniFirst DEFM14A — Background of the Merger", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "Following the above discussions, Cintas reaffirmed its position that it would agree to a reverse termination fee of no more than $350.0 million, and that it would require two four-months extensions at the end of a 10 months termination date to the extent needed to clear antitrust approvals.",
+      "locator": "Background of the Mergers"
+    },
+    {
+      "claim_id": "antitrust_17",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "The base rate for Cintas-style route-based uniform/linen-rental deals clearing without structural relief is favorable: both directly comparable recent precedents — Cintas/G&K (2017, second request, cleared with NO divestitures) and Aramark/AmeriPride (2017, HSR early termination, no second request) — closed without a block and G&K without divestitures, so a negotiated local-divestiture clearance is the more historically supported outcome than an outright block, even though this 3-to-2 deal is materially more concentrative and faces a tougher 2026 enforcement posture.",
+      "supports": ["antitrust_12", "antitrust_13", "antitrust_11"]
+    },
+    {
+      "claim_id": "antitrust_18",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "The realistic remedy path skews toward localized route/branch divestitures rather than an outright block, but with elevated execution risk: the combination removes the #3 of only three named national players (antitrust_1) to reach ~45-50% share (antitrust_10), and the FTC's competitor outreach plus local-concentration concerns (antitrust_7) point to a localized-overlap theory addressable by divestitures — yet the leading national divestiture buyer (Vestis) is financially impaired (antitrust_9) and a buyer may be hard to find (antitrust_8), which is precisely the condition under which the FTC moves from a divestiture remedy to a block.",
+      "supports": ["antitrust_1", "antitrust_10", "antitrust_7", "antitrust_8", "antitrust_9"]
+    }
+  ]
+}

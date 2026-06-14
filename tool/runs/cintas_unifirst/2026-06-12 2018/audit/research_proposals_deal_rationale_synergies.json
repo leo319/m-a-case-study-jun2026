@@ -1,0 +1,255 @@
+{
+  "area": "deal_rationale_synergies",
+  "proposals": [
+    {
+      "claim_id": "deal_rationale_synergies_1",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Cintas agreed to acquire UniFirst for $310.00 per share in cash and stock, an enterprise value of approximately $5.5 billion, bringing together two family-founded companies.",
+      "source": {"id": "s_cintas_pr_deal", "title": "Cintas to Acquire UniFirst in $5.5 Billion Transaction (press release)", "url": "https://www.cintas.com/about/newsroom/details/news/2026/03/11/cintas-to-acquire-unifirst-in-5.5-billion-transaction-that-expands-service-capabilities-enhances-workday-solutions-and-advances-industry-innovation/", "tier": "T1"},
+      "quote": "Cintas Corporation (Nasdaq: CTAS) (“Cintas” or the “Company”) and UniFirst Corporation (NYSE: UNF) (“UniFirst”) today announced that they have entered into a definitive agreement under which Cintas will acquire UniFirst for $310.00 per share in cash and stock, representing an enterprise value of approximately $5.5 billion.",
+      "locator": "Press release headline para., dated March 11, 2026"
+    },
+    {
+      "claim_id": "deal_rationale_synergies_2",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Under the merger consideration, each UniFirst share is converted into the right to receive $155.00 in cash plus 0.7720 of a share of Cintas common stock; the exchange ratio is fixed and will not be adjusted for changes in either company's stock price.",
+      "source": {"id": "s_unf_424b3", "title": "UniFirst 424B3 (proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000114036126020376/ny20069194x3_424b3.htm", "tier": "T1"},
+      "quote": "each share of UniFirst common stock and UniFirst class B common stock (collectively, “UniFirst stock”) will be converted into the right to receive $155.00 in cash, without interest, and 0.7720 of validly issued, fully paid and non-assessable shares of Cintas common stock (with, if applicable, cash in lieu of fractional shares) (the “merger consideration”), less any applicable withholding taxes.",
+      "locator": "Letter to shareholders / Q&A, 'Merger Consideration' (p. 1)"
+    },
+    {
+      "claim_id": "deal_rationale_synergies_3",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "The fixed exchange ratio implies approximately 14,261,683 Cintas shares issued as stock consideration, leaving former UniFirst shareholders with approximately 3.4% of fully diluted Cintas common stock (as of April 16, 2026).",
+      "source": {"id": "s_unf_424b3", "title": "UniFirst 424B3 (proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000114036126020376/ny20069194x3_424b3.htm", "tier": "T1"},
+      "quote": "the estimated number of shares of Cintas common stock issuable as the stock consideration is approximately 14,261,683 shares, which will result in former UniFirst shareholders holding approximately 3.4% of the outstanding fully diluted Cintas common stock based on the number of outstanding shares of common stock and outstanding long-term incentive awards of Cintas and UniFirst as of April 16, 2026, the most recent practicable date for which such information was available.",
+      "locator": "Letter to shareholders / Q&A, stock-consideration discussion (p. 1)"
+    },
+    {
+      "claim_id": "deal_rationale_synergies_4",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "The $310.00 combined value was based on Cintas' closing share price of $200.77 on March 9, 2026 ($155.00 cash plus 0.7720 x $200.77).",
+      "source": {"id": "s_cintas_pr_deal", "title": "Cintas to Acquire UniFirst in $5.5 Billion Transaction (press release)", "url": "https://www.cintas.com/about/newsroom/details/news/2026/03/11/cintas-to-acquire-unifirst-in-5.5-billion-transaction-that-expands-service-capabilities-enhances-workday-solutions-and-advances-industry-innovation/", "tier": "T1"},
+      "quote": "This represents a combined value of $310.00 per share based on Cintas’ closing share price of $200.77 on March 9, 2026.",
+      "locator": "Press release, 'Transaction Details' section, dated March 11, 2026"
+    },
+    {
+      "claim_id": "deal_rationale_synergies_5",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "UniFirst's financial advisors used $153.05 (the closing price on November 11, 2025, the day prior to UniFirst's disclosure that a shareholder had nominated directors to its Board) as the unaffected/undisturbed share price against which the $310.00 merger consideration was compared.",
+      "source": {"id": "s_defm14a_opinion", "title": "UniFirst DEFM14A — Opinion of UniFirst's Financial Advisors", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "the unaffected closing share price of UniFirst common stock of $153.05 on November 11, 2025, the day prior to UniFirst’s disclosure that a shareholder had nominated directors to the UniFirst Board and (ii) the value of the merger consideration of $310.00 per share of UniFirst stock.",
+      "locator": "The Mergers — Opinion of J.P. Morgan, Public Trading Multiples (p. 55)"
+    },
+    {
+      "claim_id": "deal_rationale_synergies_6",
+      "type": "inference",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "The $310.00 consideration represents a premium of approximately 102.5% to the proxy's stated unaffected price of $153.05 (310.00 / 153.05 - 1 = 1.025), i.e. roughly a double-up; this headline premium is measured against a Nov 11, 2025 price that itself post-dates Cintas's publicly-disclosed Jan 2025 $275 approach, so the unaffected baseline may already embed takeover speculation.",
+      "supports": ["deal_rationale_synergies_1", "deal_rationale_synergies_5"]
+    },
+    {
+      "claim_id": "deal_rationale_synergies_7",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Cintas asserts it expects to realize approximately $375 million of operating cost synergies — including material cost, production expense, service expense and selling, general and administrative expense — within four years.",
+      "source": {"id": "s_cintas_pr_deal", "title": "Cintas to Acquire UniFirst in $5.5 Billion Transaction (press release)", "url": "https://www.cintas.com/about/newsroom/details/news/2026/03/11/cintas-to-acquire-unifirst-in-5.5-billion-transaction-that-expands-service-capabilities-enhances-workday-solutions-and-advances-industry-innovation/", "tier": "T1"},
+      "quote": "Cintas expects to benefit from the addition of UniFirst’s talented workforce while also realizing approximately $375 million of operating cost synergies, including material cost, production expense, service expense and selling, general and administrative expense, within four years.",
+      "locator": "Press release, 'Unlocks Additional Resources and Cost Synergies' bullet, dated March 11, 2026"
+    },
+    {
+      "claim_id": "deal_rationale_synergies_8",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Cintas states the ~$5.5 billion enterprise value represents a multiple of 8.0x run-rate trailing-twelve-month EBITDA including approximately $375 million of operating cost synergies.",
+      "source": {"id": "s_cintas_pr_deal", "title": "Cintas to Acquire UniFirst in $5.5 Billion Transaction (press release)", "url": "https://www.cintas.com/about/newsroom/details/news/2026/03/11/cintas-to-acquire-unifirst-in-5.5-billion-transaction-that-expands-service-capabilities-enhances-workday-solutions-and-advances-industry-innovation/", "tier": "T1"},
+      "quote": "The implied total enterprise value of the transaction is approximately $5.5 billion, which represents a multiple of 8.0x run-rate trailing 12 months EBITDA, including approximately $375 million of operating cost synergies.",
+      "locator": "Press release, 'Transaction Details' section, dated March 11, 2026"
+    },
+    {
+      "claim_id": "deal_rationale_synergies_9",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Cintas states the transaction is expected to be accretive to Cintas' earnings per share by the end of the second full year after closing.",
+      "source": {"id": "s_cintas_pr_deal", "title": "Cintas to Acquire UniFirst in $5.5 Billion Transaction (press release)", "url": "https://www.cintas.com/about/newsroom/details/news/2026/03/11/cintas-to-acquire-unifirst-in-5.5-billion-transaction-that-expands-service-capabilities-enhances-workday-solutions-and-advances-industry-innovation/", "tier": "T1"},
+      "quote": "Expected to be accretive to Cintas’ earnings per share by the end of the second full year after closing.",
+      "locator": "Press release, transaction-benefits bullets, dated March 11, 2026"
+    },
+    {
+      "claim_id": "deal_rationale_synergies_10",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Cintas states net leverage at close is expected to be 1.5x debt to EBITDA, with the cash consideration funded from cash on hand, committed lines of credit and/or other available financing, and not subject to any financing contingency.",
+      "source": {"id": "s_cintas_pr_deal", "title": "Cintas to Acquire UniFirst in $5.5 Billion Transaction (press release)", "url": "https://www.cintas.com/about/newsroom/details/news/2026/03/11/cintas-to-acquire-unifirst-in-5.5-billion-transaction-that-expands-service-capabilities-enhances-workday-solutions-and-advances-industry-innovation/", "tier": "T1"},
+      "quote": "The cash consideration will be funded with Cintas’ cash on hand, committed lines of credit and/or other available sources of financing, and is not subject to any contingencies.",
+      "locator": "Press release, 'Transaction Details' financing para., dated March 11, 2026"
+    },
+    {
+      "claim_id": "deal_rationale_synergies_11",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "J.P. Morgan's Public Trading Multiples analysis applied a reference range of 8.0x – 10.0x EV/2026E Adjusted EBITDA (Pre-Stock Based Compensation) for UniFirst and indicated an implied per-share equity value range of $147.00 to $182.00.",
+      "source": {"id": "s_defm14a_opinion", "title": "UniFirst DEFM14A — Opinion of J.P. Morgan", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "EBITDA (Pre-Stock Based Compensation) $147.00 $182.00 The range of implied per share equity values for UniFirst common stock was compared to (i) the unaffected closing share price of UniFirst common stock of $153.05 on November 11, 2025",
+      "locator": "The Mergers — Opinion of J.P. Morgan, Public Trading Multiples (p. 55)"
+    },
+    {
+      "claim_id": "deal_rationale_synergies_12",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "J.P. Morgan's Selected Transactions analysis applied a FV/LTM EBITDA reference range of 11.7x to 14.2x for UniFirst, indicating an implied equity value range of approximately $215.50 to $260.00 per share.",
+      "source": {"id": "s_defm14a_opinion", "title": "UniFirst DEFM14A — Opinion of J.P. Morgan", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "The analysis indicated a range of implied equity value per share of UniFirst common stock (rounded to the nearest $0.50) of approximately $215.50 to $260.00, which J.P.",
+      "locator": "The Mergers — Opinion of J.P. Morgan, Selected Transactions Analysis (p. 56)"
+    },
+    {
+      "claim_id": "deal_rationale_synergies_13",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "J.P. Morgan's Discounted Cash Flow analysis (discount rates 7.50%–8.50%, present value as of February 28, 2026) indicated an implied per-share equity value range of $193.00 to $266.50 for UniFirst common stock.",
+      "source": {"id": "s_defm14a_opinion", "title": "UniFirst DEFM14A — Opinion of J.P. Morgan", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "this analysis indicated the following ranges of implied per share equity value (rounded to the nearest $0.50) for UniFirst common stock: Implied Per Share Equity Value Low High UniFirst Discounted Cash Flow $193.00 $266.50",
+      "locator": "The Mergers — Opinion of J.P. Morgan, Discounted Cash Flow Analysis (p. 57)"
+    },
+    {
+      "claim_id": "deal_rationale_synergies_14",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Goldman Sachs' Illustrative Discounted Cash Flow analysis (discount rate 9.0%, equal to its CAPM estimate of UniFirst's cost of equity) resulted in a range of illustrative present values of $160.00 to $218.00 per share of UniFirst stock.",
+      "source": {"id": "s_defm14a_opinion", "title": "UniFirst DEFM14A — Opinion of Goldman Sachs", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "This analysis resulted in a range of illustrative present values per share of UniFirst stock of $160.00 to $218.00.",
+      "locator": "The Mergers — Opinion of Goldman Sachs, Illustrative Discounted Cash Flow Analysis (p. 60)"
+    },
+    {
+      "claim_id": "deal_rationale_synergies_15",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Goldman Sachs' Selected Precedent Transactions analysis (uniform-services deals since 2015) applied an EV/LTM adjusted EBITDA reference range of 11.7x to 14.2x to UniFirst's LTM adjusted EBITDA as of February 26, 2026, deriving a range of implied per-share values of $216.00 to $260.00.",
+      "source": {"id": "s_defm14a_opinion", "title": "UniFirst DEFM14A — Opinion of Goldman Sachs", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "to derive a reference range of implied values per share of UniFirst stock of $216.00 to $260.00.",
+      "locator": "The Mergers — Opinion of Goldman Sachs, Selected Precedent Transactions Analysis (p. 60)"
+    },
+    {
+      "claim_id": "deal_rationale_synergies_16",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Goldman Sachs' selected precedent transactions in the uniform-services industry comprised October 2017 Aramark/AmeriPride at 14.2x LTM EV/EBITDA, December 2016 Elis/Lavebras at 11.7x, and August 2016 Cintas/G&K Services at 14.0x.",
+      "source": {"id": "s_defm14a_opinion", "title": "UniFirst DEFM14A — Opinion of Goldman Sachs", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "Selected Transactions LTM EV/EBITDA Announcement Date Acquiror Target October 2017 Aramark AmeriPride 14.2x December 2016 Elis Lavebras 11.7x August 2016 Cintas G&K Services 14.0x",
+      "locator": "The Mergers — Opinion of Goldman Sachs, Selected Precedent Transactions Analysis (p. 60)"
+    },
+    {
+      "claim_id": "deal_rationale_synergies_17",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Goldman Sachs' Premia Paid analysis of 568 all-cash U.S. public-target transactions ($1B–$10B EV, Jan 1 2015–Mar 9 2026, excluding finance/real estate) found a median premium of 36%, a 25th-percentile premium of 21% and a 75th-percentile premium of 59% to the target's last undisturbed closing price.",
+      "source": {"id": "s_defm14a_opinion", "title": "UniFirst DEFM14A — Opinion of Goldman Sachs", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "This analysis indicated a median premium of 36%, 25th percentile premium of 21% and 75th percentile premium of 59% across the period.",
+      "locator": "The Mergers — Opinion of Goldman Sachs, Premia Paid Analysis (p. 61)"
+    },
+    {
+      "claim_id": "deal_rationale_synergies_18",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Applying its 21% to 59% illustrative premium range to the $153.05 undisturbed price (Nov 11, 2025), Goldman Sachs derived implied per-share equity values of $185.00 to $243.00 for UniFirst.",
+      "source": {"id": "s_defm14a_opinion", "title": "UniFirst DEFM14A — Opinion of Goldman Sachs", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "Goldman Sachs applied a reference range of illustrative premiums of 21% to 59% to the undisturbed closing price per share of UniFirst stock of $153.05 as of November 11, 2025 to derive a range of implied equity values per share of UniFirst stock of $185.00 to $243.00.",
+      "locator": "The Mergers — Opinion of Goldman Sachs, Premia Paid Analysis (p. 61)"
+    },
+    {
+      "claim_id": "deal_rationale_synergies_19",
+      "type": "inference",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "The $310.00 deal price sits above the high end of every standalone-value methodology produced by both advisors (J.P. Morgan: trading-comps $147–$182, DCF $193–$266.50, selected-transactions $215.50–$260; Goldman: DCF $160–$218, precedent-transactions $216–$260, premia-implied $185–$243) — i.e. the price is only reachable on the strength of synergies/control value beyond UniFirst's standalone case.",
+      "supports": ["deal_rationale_synergies_11", "deal_rationale_synergies_12", "deal_rationale_synergies_13", "deal_rationale_synergies_14", "deal_rationale_synergies_15", "deal_rationale_synergies_18", "deal_rationale_synergies_1"]
+    },
+    {
+      "claim_id": "deal_rationale_synergies_20",
+      "type": "inference",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "The ~102.5% headline premium is nearly triple the 36% median premium in Goldman's 568-deal premia-paid sample (102.5 / 36 ≈ 2.85x) and well above its 59% 75th-percentile, underscoring that the premium is an outlier relative to comparable U.S. mid-cap M&A.",
+      "supports": ["deal_rationale_synergies_6", "deal_rationale_synergies_17"]
+    },
+    {
+      "claim_id": "deal_rationale_synergies_21",
+      "type": "inference",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Cintas's asserted ~$375M run-rate cost synergies are roughly double UniFirst's ~$184.5M FY2025 operating income (375 / 184.5 ≈ 2.03x), so the entire value case for the ~102.5% premium rests on synergies exceeding the target's standalone operating profit — a heroic-execution flag absent a hard density/cost mechanism.",
+      "supports": ["deal_rationale_synergies_7", "deal_rationale_synergies_6"]
+    },
+    {
+      "claim_id": "deal_rationale_synergies_22",
+      "type": "inference",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Cintas's stated 8.0x EV/EBITDA multiple is explicitly computed INCLUDING the ~$375M synergies; backing the synergies out raises the effective ex-synergy entry multiple materially, so the headline 8.0x understates what Cintas pays for UniFirst as-is and the deal economics depend on the synergies actually landing.",
+      "supports": ["deal_rationale_synergies_8", "deal_rationale_synergies_7"]
+    },
+    {
+      "claim_id": "deal_rationale_synergies_23",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Cintas had publicly proposed acquiring UniFirst for $275.00 per share (all cash, no financing condition) in a January 7, 2025 press release after private approaches in November–December 2024, and the UniFirst Board unanimously concluded that proposal was not in the best interests of UniFirst and its shareholders.",
+      "source": {"id": "s_defm14a_background", "title": "UniFirst DEFM14A — Background of the Mergers", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "Following the meeting, at the direction of the UniFirst Board, UniFirst delivered a letter to Cintas reiterating that the UniFirst Board carefully considered Cintas’ $275.00 per share proposal and unanimously concluded that the proposal was not in the best interests of UniFirst, its shareholders, and other stakeholders.",
+      "locator": "The Mergers — Background of the Mergers (negotiation history)"
+    },
+    {
+      "claim_id": "deal_rationale_synergies_24",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "During negotiations Cintas's advisor Morgan Stanley characterized $275.00 per share as a 'full and fair price' and a 'very full offer', stated $275.00 was the maximum Cintas would deliver in cash, and noted any additional consideration would be delivered in Cintas equity — explaining the cash-plus-stock structure of the final $310 deal.",
+      "source": {"id": "s_defm14a_background", "title": "UniFirst DEFM14A — Background of the Mergers", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "They further noted that $275.00 per share was the maximum value that Cintas would want to deliver in cash; any additional consideration would be delivered in Cintas equity.",
+      "locator": "The Mergers — Background of the Mergers (Jan 2026 negotiations)"
+    },
+    {
+      "claim_id": "deal_rationale_synergies_25",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "J.P. Morgan's selected publicly traded comparable companies for UniFirst were Vestis Corporation and Elis SA.",
+      "source": {"id": "s_defm14a_opinion", "title": "UniFirst DEFM14A — Opinion of J.P. Morgan", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "Morgan were as follows: • Vestis Corporation • Elis SA These companies were selected, among other reasons, because they are publicly traded companies with operations and businesses that, for the purposes of J.P.",
+      "locator": "The Mergers — Opinion of J.P. Morgan, Public Trading Multiples (p. 55)"
+    },
+    {
+      "claim_id": "deal_rationale_synergies_26",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "J.P. Morgan's selected precedent transactions relevant to evaluating the mergers included August 2016 Cintas/G&K Services and October 2017 Aramark/AmeriPride Services.",
+      "source": {"id": "s_defm14a_opinion", "title": "UniFirst DEFM14A — Opinion of J.P. Morgan", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "Morgan as relevant to the evaluation of the mergers: Announcement Date Acquiror Target August 2016 Cintas Corporation G&K Services, Inc.",
+      "locator": "The Mergers — Opinion of J.P. Morgan, Selected Transactions Analysis (p. 56)"
+    }
+  ]
+}

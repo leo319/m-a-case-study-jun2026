@@ -1,0 +1,189 @@
+{
+  "area": "financing_balance_sheet",
+  "proposals": [
+    {
+      "claim_id": "financing_1",
+      "type": "fact",
+      "module": "rationale",
+      "area": "financing_balance_sheet",
+      "statement": "Cintas stated that the cash portion of the UniFirst merger consideration will be funded with Cintas' cash on hand, committed lines of credit and/or other available sources of financing, and is not subject to any financing contingencies.",
+      "source": {"id": "s_cintas_pr_deal", "title": "Cintas / UniFirst Joint Press Release", "url": "https://www.sec.gov/Archives/edgar/data/723254/000095010326003567/dp243132_ex9901.htm", "tier": "T1"},
+      "quote": "The cash consideration will be funded with Cintas’ cash on hand, committed lines of credit and/or other available sources of financing, and is not subject to any contingencies.",
+      "locator": "8-K Ex-99.1 Joint Press Release, dated Mar 11, 2026 (Transaction Details)"
+    },
+    {
+      "claim_id": "financing_2",
+      "type": "fact",
+      "module": "rationale",
+      "area": "financing_balance_sheet",
+      "statement": "Cintas asserts the net leverage ratio at close of the UniFirst acquisition is expected to be 1.5x debt to EBITDA.",
+      "source": {"id": "s_cintas_pr_deal", "title": "Cintas / UniFirst Joint Press Release", "url": "https://www.sec.gov/Archives/edgar/data/723254/000095010326003567/dp243132_ex9901.htm", "tier": "T1"},
+      "quote": "Net leverage ratio at close is expected to be 1.5x debt to EBITDA.",
+      "locator": "8-K Ex-99.1 Joint Press Release, dated Mar 11, 2026 (Compelling Financial Profile)"
+    },
+    {
+      "claim_id": "financing_3",
+      "type": "fact",
+      "module": "rationale",
+      "area": "financing_balance_sheet",
+      "statement": "Cintas expects the UniFirst acquisition to be accretive to its earnings per share by the end of the second full year after closing.",
+      "source": {"id": "s_cintas_pr_deal", "title": "Cintas / UniFirst Joint Press Release", "url": "https://www.sec.gov/Archives/edgar/data/723254/000095010326003567/dp243132_ex9901.htm", "tier": "T1"},
+      "quote": "Expected to be accretive to Cintas’ earnings per share by the end of the second full year after closing.",
+      "locator": "8-K Ex-99.1 Joint Press Release, dated Mar 11, 2026 (Compelling Financial Profile)"
+    },
+    {
+      "claim_id": "financing_4",
+      "type": "fact",
+      "module": "rationale",
+      "area": "financing_balance_sheet",
+      "statement": "Cintas stated the implied total enterprise value of the transaction is approximately $5.5 billion, representing a multiple of 8.0x run-rate trailing-12-months EBITDA inclusive of approximately $375 million of operating cost synergies.",
+      "source": {"id": "s_cintas_pr_deal", "title": "Cintas / UniFirst Joint Press Release", "url": "https://www.sec.gov/Archives/edgar/data/723254/000095010326003567/dp243132_ex9901.htm", "tier": "T1"},
+      "quote": "The implied total enterprise value of the transaction is approximately $5.5 billion, which represents a multiple of 8.0x run-rate trailing 12 months EBITDA, including approximately $375 million of operating cost synergies.",
+      "locator": "8-K Ex-99.1 Joint Press Release, dated Mar 11, 2026 (Transaction Details)"
+    },
+    {
+      "claim_id": "financing_5",
+      "type": "fact",
+      "module": "rationale",
+      "area": "financing_balance_sheet",
+      "statement": "Cintas stated it has secured fully committed bridge financing from Morgan Stanley Senior Funding, Inc., KeyBank National Association and Wells Fargo Bank N.A.",
+      "source": {"id": "s_cintas_pr_deal", "title": "Cintas / UniFirst Joint Press Release", "url": "https://www.sec.gov/Archives/edgar/data/723254/000095010326003567/dp243132_ex9901.htm", "tier": "T1"},
+      "quote": "Cintas has secured fully committed bridge financing from Morgan Stanley Senior Funding, Inc., KeyBank National Association and Wells Fargo Bank N.A.",
+      "locator": "8-K Ex-99.1 Joint Press Release, dated Mar 11, 2026 (Transaction Details)"
+    },
+    {
+      "claim_id": "financing_6",
+      "type": "fact",
+      "module": "rationale",
+      "area": "financing_balance_sheet",
+      "statement": "Per the merger 8-K, the net proceeds of the debt financing will be used to pay all or a portion of the costs of the merger, to refinance certain existing indebtedness of UniFirst, and to pay related fees and expenses.",
+      "source": {"id": "s_merger_8k", "title": "Cintas Form 8-K (merger agreement)", "url": "https://www.sec.gov/Archives/edgar/data/723254/000095010326003567/dp243132_8k.htm", "tier": "T1"},
+      "quote": "The net proceeds of the debt financing will be used to pay all or a portion of the costs associated with the transactions contemplated under the Merger Agreement, to refinance certain existing indebtedness of UniFirst and to pay any related fees and expenses.",
+      "locator": "8-K, Item 1.01 Debt Financing"
+    },
+    {
+      "claim_id": "financing_7",
+      "type": "fact",
+      "module": "rationale",
+      "area": "financing_balance_sheet",
+      "statement": "On March 27, 2026, Cintas Corporation No. 2 entered into a $2.0 billion revolving credit facility (with a $300.0 million letter-of-credit sub-facility and a $150.0 million swing-line sub-facility) under a Credit Agreement with KeyBank National Association as Administrative Agent, maturing March 27, 2031.",
+      "source": {"id": "s_cintas_financing_8k", "title": "Cintas Form 8-K (Revolving Credit Agreement)", "url": "https://www.sec.gov/Archives/edgar/data/723254/000072325426000010/ctas-20260327.htm", "tier": "T1"},
+      "quote": "entered into a $2.0 billion revolving credit facility (the “Revolving Credit Facility”), which contains a letter of credit sub-facility of up to $300.0 million and a swing line sub-facility of up to $150.0 million pursuant to the terms and conditions of a Credit Agreement (the “Credit Agreement”) among Cintas No.",
+      "locator": "8-K, Item 1.01 Entry into Credit Agreement"
+    },
+    {
+      "claim_id": "financing_8",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "financing_balance_sheet",
+      "statement": "The Revolving Credit Agreement contains a financial covenant requiring Cintas to maintain a leverage ratio of consolidated indebtedness to consolidated EBITDA of no more than 3.50 to 1.00, which may be increased to 4.00 to 1.00 for four quarters in connection with certain material acquisitions.",
+      "source": {"id": "s_cintas_financing_8k", "title": "Cintas Form 8-K (Revolving Credit Agreement)", "url": "https://www.sec.gov/Archives/edgar/data/723254/000072325426000010/ctas-20260327.htm", "tier": "T1"},
+      "quote": "the Credit Agreement contains a financial covenant that requires the Corporation to maintain a leverage ratio of consolidated indebtedness to consolidated EBITDA of no more than 3.50 to 1.00 (which may be increased to 4.00 to 1.00 for four quarters in connection with certain material acquisitions).",
+      "locator": "8-K, Item 1.01 Entry into Credit Agreement"
+    },
+    {
+      "claim_id": "financing_9",
+      "type": "fact",
+      "module": "rationale",
+      "area": "financing_balance_sheet",
+      "statement": "The revolver bears interest, for non-Swing-Loan borrowings, at the relevant Term SOFR rate plus an applicable margin of between 70 and 114 basis points (or the Base Rate at Cintas No. 2's option).",
+      "source": {"id": "s_cintas_financing_8k", "title": "Cintas Form 8-K (Revolving Credit Agreement)", "url": "https://www.sec.gov/Archives/edgar/data/723254/000072325426000010/ctas-20260327.htm", "tier": "T1"},
+      "quote": "equal to either (i) the relevant Term SOFR rate for the selected interest rate period plus an applicable margin of between 70 basis points and 114 basis points (as determined pursuant to the Credit Agreement) or (ii) the Base Rate.",
+      "locator": "8-K, Item 1.01 Entry into Credit Agreement"
+    },
+    {
+      "claim_id": "financing_10",
+      "type": "fact",
+      "module": "rationale",
+      "area": "financing_balance_sheet",
+      "statement": "Per the S-4, on March 10, 2026 Cintas entered into a commitment letter (the Debt Letter) under which the Debt Commitment Parties committed to provide the Bridge Facility, consisting of two separate tranches; the commitments under Tranche B of the Bridge Facility were subsequently replaced by the $2.0 billion Revolving Facility, leaving remaining Bridge Facility commitments of $1.6 billion.",
+      "source": {"id": "s_cintas_s4", "title": "Cintas Form S-4 (proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000114036126016785/ny20069194x1_s4.htm", "tier": "T1"},
+      "quote": "The commitments under Tranche B of the Bridge Facility were replaced by the Revolving Facility.",
+      "locator": "S-4, Description of the Financing (p. 105-106)"
+    },
+    {
+      "claim_id": "financing_11",
+      "type": "fact",
+      "module": "rationale",
+      "area": "financing_balance_sheet",
+      "statement": "Per the S-4, after Tranche B was replaced by the Revolving Facility, the remaining commitments under the Bridge Facility are $1.6 billion.",
+      "source": {"id": "s_cintas_s4", "title": "Cintas Form S-4 (proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000114036126016785/ny20069194x1_s4.htm", "tier": "T1"},
+      "quote": "As a result, the remaining commitments under the Bridge Facility are $1.6 billion.",
+      "locator": "S-4, Description of the Financing (p. 105-106)"
+    },
+    {
+      "claim_id": "financing_12",
+      "type": "fact",
+      "module": "rationale",
+      "area": "financing_balance_sheet",
+      "statement": "Per the S-4, prior to closing Cintas expects to execute permanent financing of $2.8 billion (the Permanent Debt Financing) that will eliminate the need to draw down on the Bridge Facility, and the pro forma financials assume the Bridge Facility is terminated at closing.",
+      "source": {"id": "s_cintas_s4", "title": "Cintas Form S-4 (proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000114036126016785/ny20069194x1_s4.htm", "tier": "T1"},
+      "quote": "Prior to closing of the mergers, Cintas expects to execute permanent financing of $2.8 billion (the “Permanent Debt Financing”) that will eliminate the need to draw down on the Bridge Facility.",
+      "locator": "S-4, Description of the Financing (p. 105-106)"
+    },
+    {
+      "claim_id": "financing_13",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "financing_balance_sheet",
+      "statement": "Per the S-4, upon completion of the mergers Cintas expects to incur approximately $2.8 billion in additional indebtedness and will have consolidated indebtedness of approximately $5.44 billion, greater than its current indebtedness.",
+      "source": {"id": "s_cintas_s4", "title": "Cintas Form S-4 (proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000114036126016785/ny20069194x1_s4.htm", "tier": "T1"},
+      "quote": "Upon completion of the mergers, Cintas expects to incur approximately $2.8 billion in additional indebtedness and will have consolidated indebtedness of approximately $5.44 billion, which is greater than the current indebtedness of Cintas.",
+      "locator": "S-4, Risk Factors / Description of the Financing"
+    },
+    {
+      "claim_id": "financing_14",
+      "type": "fact",
+      "module": "rationale",
+      "area": "financing_balance_sheet",
+      "statement": "Per the S-4 pro forma assumptions, the assumed interest rate on the $2.8 billion Permanent Debt Financing is 5% per annum based on current market conditions and management's expectations.",
+      "source": {"id": "s_cintas_s4", "title": "Cintas Form S-4 (proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000114036126016785/ny20069194x1_s4.htm", "tier": "T1"},
+      "quote": "For purposes of the unaudited pro forma condensed combined financial information, the assumed interest rate on the Permanent Debt Financing is 5% per annum based on current market conditions and management’s expectations.",
+      "locator": "S-4, Description of the Financing (p. 106)"
+    },
+    {
+      "claim_id": "financing_15",
+      "type": "fact",
+      "module": "rationale",
+      "area": "financing_balance_sheet",
+      "statement": "Per the S-4, current Cintas shareholders and UniFirst shareholders are expected to hold approximately 96.6% and 3.4%, respectively, of the outstanding Cintas common stock immediately following completion of the mergers.",
+      "source": {"id": "s_cintas_s4", "title": "Cintas Form S-4 (proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000114036126016785/ny20069194x1_s4.htm", "tier": "T1"},
+      "quote": "current Cintas shareholders and UniFirst shareholders are expected to hold approximately 96.6% and 3.4%, respectively, of the outstanding shares of Cintas common stock immediately following completion of the mergers.",
+      "locator": "S-4, Q&A / The Mergers"
+    },
+    {
+      "claim_id": "financing_16",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "financing_balance_sheet",
+      "statement": "Per the S-4, Cintas had not secured the Permanent Debt Financing or drawn on the Bridge Facility, and although Cintas' obligation to consummate the mergers is not conditioned on the debt financing, if it is unable to obtain the financing the mergers could be delayed or not completed, in which case Cintas may be in breach of the merger agreement.",
+      "source": {"id": "s_cintas_s4", "title": "Cintas Form S-4 (proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000114036126016785/ny20069194x1_s4.htm", "tier": "T1"},
+      "quote": "Although Cintas’ obligation to consummate the mergers is not conditioned upon consummation of the debt financing, if Cintas is unable to obtain the debt financing, the mergers could be delayed or not completed, in which case Cintas may be in breach of its obligations under the merger agreement.",
+      "locator": "S-4, Risk Factors (financing risk)"
+    },
+    {
+      "claim_id": "financing_17",
+      "type": "inference",
+      "module": "rationale",
+      "area": "financing_balance_sheet",
+      "statement": "The financing is structured conservatively for an investment-grade acquirer: the ~$2.8B of new (Permanent) debt sits well inside the revolver's 3.50x (up to 4.00x for acquisitions) leverage covenant, consistent with the company's asserted ~1.5x net-debt/EBITDA at close, leaving substantial covenant headroom rather than a stretched balance sheet.",
+      "supports": ["financing_2", "financing_8", "financing_12", "financing_13"]
+    },
+    {
+      "claim_id": "financing_18",
+      "type": "inference",
+      "module": "rationale",
+      "area": "financing_balance_sheet",
+      "statement": "Accretion is back-end loaded and synergy-dependent: Cintas only expects EPS accretion by the end of the second full year after closing, after ~$2.8B of new debt at an assumed 5% rate (~$140M/yr pre-tax interest) and 3.4% share dilution from the 0.7720x stock issuance are absorbed — i.e., near-term EPS impact is roughly neutral-to-dilutive until the ~$375M cost synergies phase in.",
+      "supports": ["financing_3", "financing_4", "financing_13", "financing_14", "financing_15"]
+    },
+    {
+      "claim_id": "financing_19",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "financing_balance_sheet",
+      "statement": "Financing/liquidity close-risk is low but not zero: the cash leg is not subject to a financing condition and is backstopped by a fully committed bridge plus a closed $2.0B revolver, yet Cintas had not secured the targeted $2.8B Permanent Debt Financing as of the S-4, so adverse credit-market moves could force reliance on the costlier remaining $1.6B bridge or delay the merger.",
+      "supports": ["financing_1", "financing_5", "financing_7", "financing_11", "financing_12", "financing_16"]
+    }
+  ]
+}

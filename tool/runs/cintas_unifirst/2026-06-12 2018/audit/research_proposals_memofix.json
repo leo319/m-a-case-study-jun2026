@@ -1,0 +1,35 @@
+{
+  "area": "deal_rationale_synergies",
+  "proposals": [
+    {
+      "claim_id": "costnat_1",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "UniFirst's cost of revenues is the cost of physically running the rental service: as part of its rental business it picks up a customer's soiled uniforms and other items on a periodic basis (usually weekly) and delivers back cleaned and processed replacement items, so the cost line is dominated by in-plant processing (laundering) labor, route pick-up/delivery, and the merchandise it places in service.",
+      "source": {
+        "id": "s_unf_10k",
+        "title": "UniFirst FY2025 Form 10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm",
+        "tier": "T1"
+      },
+      "quote": "soiled uniforms and/or other items on a periodic basis (usually weekly) and deliver back cleaned and processed replacement items.",
+      "locator": "Item 1 Business — Overview / Products and Services (p. 3-4)"
+    },
+    {
+      "claim_id": "costnat_2",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Energy and labor are core inputs to UniFirst's processing-and-delivery cost base: it discloses that inflation has at times pressured operating margins through increased energy costs for its vehicles and plants and increased wages in the labor markets in which it competes.",
+      "source": {
+        "id": "s_unf_10k",
+        "title": "UniFirst FY2025 Form 10-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm",
+        "tier": "T1"
+      },
+      "quote": "increased energy costs for our vehicles and plants and increased wages in the labor markets in which we compete.",
+      "locator": "Item 1A Risk Factors — inflation / energy and labor costs (p. 11)"
+    }
+  ]
+}
