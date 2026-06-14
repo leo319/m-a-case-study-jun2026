@@ -1,0 +1,185 @@
+{
+  "chunk": 2,
+  "claims": [
+    {
+      "id": "target_fundamentals_12",
+      "statement": "UniFirst's First Aid & Safety Solutions segment represented approximately 4.7% of total revenues in fiscal 2025.",
+      "type": "fact",
+      "module": "research",
+      "status": "verified",
+      "area": "target_fundamentals",
+      "source_ids": [
+        "s_unf_10k"
+      ],
+      "quote": "First Aid & Safety Solutions 114,586 4.7 %",
+      "locator": "Item 7 MD&A, disaggregated revenue by segment (p. 38)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "target_fundamentals_13",
+      "statement": "UniFirst's third reportable segment, Other, generated $99.2 million of revenue in fiscal 2025 (up $2.1 million or 2.1% from $97.1 million in fiscal 2024).",
+      "type": "fact",
+      "module": "research",
+      "status": "verified",
+      "area": "target_fundamentals",
+      "source_ids": [
+        "s_unf_10k"
+      ],
+      "quote": "Other 99,204 97,130 2,074 2.1 %",
+      "locator": "Item 7 MD&A, Results of Operations — Revenues by segment (p. 39)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "commercial_market_5",
+      "statement": "Cintas describes itself as North America's leading provider of corporate identity uniforms through rental and sales programs, and a significant provider of related business services including entrance mats, restroom cleaning, first aid and safety services, and fire protection.",
+      "type": "fact",
+      "module": "research",
+      "status": "verified",
+      "area": "commercial_market",
+      "source_ids": [
+        "s_cintas_10k"
+      ],
+      "quote": "We are North America's leading provider of corporate identity uniforms through rental and sales programs, as well as a significant provider of related business services, including entrance mats, restroom cleaning services and supplies, first aid and safety services and fire protection products and services.",
+      "locator": "Item 1 Business — overview (p. 3)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "commercial_market_2",
+      "statement": "Cintas's total revenue for fiscal year ended May 31, 2025 was $10,340,181 thousand (an increase of 7.7% over fiscal 2024), of which the Uniform Rental and Facility Services segment contributed $7,976,073 thousand (roughly 77% of total) versus $7,465,199 thousand in fiscal 2024.",
+      "type": "fact",
+      "module": "research",
+      "status": "verified",
+      "area": "commercial_market",
+      "source_ids": [
+        "s_cintas_fy25_er"
+      ],
+      "quote": "Change Revenue: Uniform rental and facility services $ 7,976,073 $ 7,465,199 6.8%",
+      "locator": "Ex-99.1 earnings release, condensed income statement — twelve months ended May 31, 2025",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "commercial_market_6",
+      "statement": "Cintas employed approximately 48,300 employee-partners in its global workforce at May 31, 2025, of which approximately 900 were represented by labor unions.",
+      "type": "fact",
+      "module": "research",
+      "status": "verified",
+      "area": "commercial_market",
+      "source_ids": [
+        "s_cintas_10k"
+      ],
+      "quote": "At May 31, 2025, Cintas employed approximately 48,300 employee-partners in our global workforce, of which approximately 900 were represented by labor unions.",
+      "locator": "Item 1 Business — Human Capital (p. 5)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "operational_integration_1",
+      "statement": "Cintas operates a far larger route network than UniFirst: at May 31, 2025 Cintas had approximately 12,100 local delivery routes, 478 operational facilities and 12 distribution centers across its segments.",
+      "type": "fact",
+      "module": "tailrisk",
+      "status": "verified",
+      "area": "operational_integration",
+      "source_ids": [
+        "s_cintas_10k"
+      ],
+      "quote": "At May 31, 2025, Cintas, in total, had approximately 12,100 local delivery routes, 478 operational facilities and 12 distribution centers.",
+      "locator": "Part I, Item 1 Business — Operations and Distribution (p. 3)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "operational_integration_7",
+      "statement": "UniFirst's delivery fleet is roughly 4,813 delivery vans, trucks and other vehicles — about one-fifth the size of Cintas's ~22,900-vehicle fleet — indicating Cintas's route network materially dwarfs UniFirst's.",
+      "type": "fact",
+      "module": "tailrisk",
+      "status": "verified",
+      "area": "operational_integration",
+      "source_ids": [
+        "s_unf_10k"
+      ],
+      "quote": "We also own a fleet of approximately 4,813 delivery vans, trucks and other vehicles.",
+      "locator": "Part I, Item 2 Properties (p. 19)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "commercial_market_7",
+      "statement": "Cintas characterizes the primary markets served by each of its operating segments as local in nature and highly fragmented, with competition from national, regional and local providers, large national retailers, small local retailers, and online-focused companies.",
+      "type": "fact",
+      "module": "research",
+      "status": "verified",
+      "area": "commercial_market",
+      "source_ids": [
+        "s_cintas_10k"
+      ],
+      "quote": "The primary markets served by each of the Cintas operating segments are local in nature and highly fragmented.",
+      "locator": "Item 1 Business — Competition (p. 4)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "commercial_market_9",
+      "statement": "UniFirst describes the uniform rental and sales industry as highly competitive and names its principal competitors offering uniform rental programs as Cintas Corporation, Alsco, and Vestis Corporation.",
+      "type": "fact",
+      "module": "research",
+      "status": "verified",
+      "area": "commercial_market",
+      "source_ids": [
+        "s_unf_10k"
+      ],
+      "quote": "Our principal competitors offering uniform rental programs include Cintas Corporation, Alsco, and Vestis Corporation.",
+      "locator": "Item 1 Business — Competition (p. 4-5)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "commercial_market_8",
+      "statement": "Cintas states that its diverse customer base results in no individual customer accounting for greater than one percent of total revenue — i.e., very low customer concentration.",
+      "type": "fact",
+      "module": "research",
+      "status": "verified",
+      "area": "commercial_market",
+      "source_ids": [
+        "s_cintas_10k"
+      ],
+      "quote": "This diversity in customer base results in no individual customer accounting for greater than one percent of Cintas' total revenue.",
+      "locator": "Item 1 Business — Customers (p. 4)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    }
+  ]
+}

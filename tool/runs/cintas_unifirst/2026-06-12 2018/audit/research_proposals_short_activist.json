@@ -1,0 +1,171 @@
+{
+  "area": "short_activist",
+  "proposals": [
+    {
+      "claim_id": "short_activist_1",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "short_activist",
+      "statement": "Engine Capital asserts that since the May 2017 passing of former CEO Ronald Croatti, UniFirst — \"a once-thriving company with a strong culture\" — has stagnated and consistently surrendered market share, framing the company's decline as a leadership/succession failure under continued family control.",
+      "source": {
+        "id": "s_engine_prec14a",
+        "title": "Engine Capital PREC14A (UniFirst 2026 Annual Meeting)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000092189525003119/prec14a09488unf_11142025.htm",
+        "tier": "T1"
+      },
+      "quote": "Since the passing of former CEO Ronald Croatti in May 2017, we believe UniFirst, a once-thriving company with a strong culture, has stagnated and consistently surrendered market share.",
+      "locator": "Reasons for the Solicitation, “Mishandled Leadership Succession and Disappointing Shareholder Returns”"
+    },
+    {
+      "claim_id": "short_activist_2",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "short_activist",
+      "statement": "Engine Capital asserts that UniFirst's sustained underperformance stems from poor operational execution, excessive costs, and misguided capital allocation — the core operational bear thesis on standalone UniFirst.",
+      "source": {
+        "id": "s_engine_prec14a",
+        "title": "Engine Capital PREC14A (UniFirst 2026 Annual Meeting)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000092189525003119/prec14a09488unf_11142025.htm",
+        "tier": "T1"
+      },
+      "quote": "We believe the Company’s sustained underperformance stems from poor operational execution, excessive costs, and misguided capital allocation.",
+      "locator": "Reasons for the Solicitation, “Poor Execution, Excess Costs, and Misguided Capital Allocation”"
+    },
+    {
+      "claim_id": "short_activist_3",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "short_activist",
+      "statement": "Engine Capital asserts that even after years of heavy investment in technology, personnel, and adjacencies (Direct Sales and First Aid & Safety), management's longer-term plan of high-teens EBITDA margins merely aims to return to levels achieved six years ago — i.e., that UniFirst's own plan implies a lost decade of margin progress.",
+      "source": {
+        "id": "s_engine_prec14a",
+        "title": "Engine Capital PREC14A (UniFirst 2026 Annual Meeting)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000092189525003119/prec14a09488unf_11142025.htm",
+        "tier": "T1"
+      },
+      "quote": "Even after years of heavy investment in technology, personnel, and adjacent initiatives such as Direct Sales and First Aid & Safety, management’s longer-term plan of high-teens EBITDA margins merely aims to return to levels achieved six (6) years ago.",
+      "locator": "Reasons for the Solicitation, “Poor Execution, Excess Costs, and Misguided Capital Allocation”"
+    },
+    {
+      "claim_id": "short_activist_4",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "short_activist",
+      "statement": "Engine Capital asserts that UniFirst can no longer close the widening competitive gap with Cintas and that continued market share losses will inevitably drive layoffs, employee departures, and declining morale, further eroding intrinsic value over time — the basis for its conclusion that a sale, not a standalone plan, is the best path.",
+      "source": {
+        "id": "s_engine_prec14a",
+        "title": "Engine Capital PREC14A (UniFirst 2026 Annual Meeting)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000092189525003119/prec14a09488unf_11142025.htm",
+        "tier": "T1"
+      },
+      "quote": "We believe UniFirst can no longer close the widening competitive gap with Cintas, and continued market share losses will inevitably drive layoffs, employee departures, and declining morale – further eroding the Company's intrinsic value over time.",
+      "locator": "Reasons for the Solicitation, “A Sale Represents the Best Path Forward”"
+    },
+    {
+      "claim_id": "short_activist_5",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "short_activist",
+      "statement": "Engine Capital asserts the Board's rejection of Cintas' acquisition offer of $275 per share squandered a golden opportunity to realize extraordinary value for shareholders, shocking investors and analysts alike.",
+      "source": {
+        "id": "s_engine_prec14a",
+        "title": "Engine Capital PREC14A (UniFirst 2026 Annual Meeting)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000092189525003119/prec14a09488unf_11142025.htm",
+        "tier": "T1"
+      },
+      "quote": "We believe the Board’s rejection of Cintas’ acquisition offer of $275 per share squandered a golden opportunity to realize extraordinary value for shareholders, shocking investors and analysts alike.",
+      "locator": "Reasons for the Solicitation, “The Rejection of a Golden Opportunity to Realize Value”"
+    },
+    {
+      "claim_id": "short_activist_6",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "short_activist",
+      "statement": "Engine Capital asserts that on February 7, 2022, Cintas offered $255 per share — a 43% premium at the time — and that had the Board accepted and the Croatti family taken Cintas stock, those shares would today be worth the equivalent of roughly $518 per UniFirst share given Cintas' 103% total shareholder return; this quantifies the opportunity cost of the family's refusal to sell.",
+      "source": {
+        "id": "s_engine_openletter",
+        "title": "Engine Capital Open Letter to UniFirst Independent Directors (DFAN14A, EX-99.1)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000092189525003225/ex991dfan14a09488unf_120125.htm",
+        "tier": "T1"
+      },
+      "quote": "On February 7, 2022, Cintas offered $255 per share – a 43% premium at the time.",
+      "locator": "Open Letter to the Independent Directors, dated December 1, 2025 (single-page press release exhibit)"
+    },
+    {
+      "claim_id": "short_activist_7",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "short_activist",
+      "statement": "Engine Capital asserts it is troubled by the Board's longstanding refusal to engage constructively with potential buyers — including Cintas Corporation and Elis SA — despite the absence of a credible standalone plan that would deliver superior value.",
+      "source": {
+        "id": "s_engine_openletter",
+        "title": "Engine Capital Open Letter to UniFirst Independent Directors (DFAN14A, EX-99.1)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000092189525003225/ex991dfan14a09488unf_120125.htm",
+        "tier": "T1"
+      },
+      "quote": "We are also troubled by the Board’s longstanding refusal to engage constructively with potential buyers, including Cintas Corporation (“Cintas”) and Elis SA, despite the absence of a credible standalone plan that would deliver superior value.",
+      "locator": "Open Letter to the Independent Directors, dated December 1, 2025 (single-page press release exhibit), footnote 1"
+    },
+    {
+      "claim_id": "short_activist_8",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "short_activist",
+      "statement": "UniFirst's dual-class structure entitles each Class B Common Stock share to ten votes per share; as of November 5, 2025, of 18,096,684 total shares outstanding, 14,545,419 were one-vote Common Stock and 3,551,265 were ten-vote Class B Common Stock — the structural basis of family voting control that Engine Capital attacks.",
+      "source": {
+        "id": "s_engine_prec14a",
+        "title": "Engine Capital PREC14A (UniFirst 2026 Annual Meeting)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000092189525003119/prec14a09488unf_11142025.htm",
+        "tier": "T1"
+      },
+      "quote": "As of November 5, 2025, a total of 18,096,684 shares were outstanding, of which 14,545,419 were shares of Common Stock entitled to one vote per share and 3,551,265 were shares of Class B Common Stock entitled to ten votes per share.",
+      "locator": "Questions and Answers About the Annual Meeting (voting securities / record date disclosure)"
+    },
+    {
+      "claim_id": "short_activist_9",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "short_activist",
+      "statement": "Engine Capital asserts that a Barclays report discusses Barclays' belief that a strategic sale is the optimal path given UniFirst's disappointing prospects as a standalone entity — Engine citing third-party advisory support for its sale thesis.",
+      "source": {
+        "id": "s_engine_openletter",
+        "title": "Engine Capital Open Letter to UniFirst Independent Directors (DFAN14A, EX-99.1)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000092189525003225/ex991dfan14a09488unf_120125.htm",
+        "tier": "T1"
+      },
+      "quote": "The report discusses Barclays’ belief that a strategic sale is the optimal path given the Company’s disappointing prospects as a standalone entity.",
+      "locator": "Open Letter to the Independent Directors, dated December 1, 2025 (single-page press release exhibit)"
+    },
+    {
+      "claim_id": "short_activist_10",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "short_activist",
+      "statement": "Engine Capital's campaign won the endorsement of all three leading independent proxy advisors — ISS, Glass Lewis, and Egan-Jones — each recommending UniFirst shareholders vote FOR Engine's nominees (Arnaud Ajdler and Michael A. Croatti) on the BLUE universal proxy card at the December 15, 2025 annual meeting, lending independent third-party validation to Engine's governance critique.",
+      "source": {
+        "id": "s_engine_dfan_proxyadvisors",
+        "title": "Engine Capital DFAN14A — Proxy Advisor Recommendations Press Release (Dec 10, 2025)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000092189525003303/dfan14a09488unf_12102025.htm",
+        "tier": "T1"
+      },
+      "quote": "ISS, Glass Lewis, and Egan-Jones Send Strong Message to Independent Directors",
+      "locator": "Item 1, press release dated December 10, 2025 (headline/subheadline)"
+    },
+    {
+      "claim_id": "short_activist_11",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "short_activist",
+      "statement": "The Engine Capital campaign is an activist proxy contest (PREC14A / DFAN14A), not a short-seller report: its thesis is that standalone UniFirst is mismanaged and value-destructive under entrenched family control, and that a sale is the only reliable path to value — which directly reinforces the acquirer-side narrative that UniFirst was under-managed and that an owner like Cintas could close the operational/margin gap.",
+      "supports": ["short_activist_1", "short_activist_2", "short_activist_3", "short_activist_4", "short_activist_5", "short_activist_7"]
+    },
+    {
+      "claim_id": "short_activist_12",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "short_activist",
+      "statement": "No dedicated short-seller report on UniFirst (UNF) or Cintas (CTAS) was located; the only public bear thesis on standalone UniFirst is Engine Capital's interested-party activist case, and it is constructive (push for a sale at a premium) rather than a downside-target short thesis. This should be flagged as a sourcing gap for any 'short report' subtopic.",
+      "supports": ["short_activist_11"]
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "chunk": 10,
+  "claims": [
+    {
+      "id": "antitrust_8",
+      "statement": "TRADE-PRESS: ION Analytics reports the source's view that if the FTC sought divestitures as a remedy, finding suitable buyers may be challenging — a remedy-feasibility concern central to whether the deal clears via divestiture rather than being blocked.",
+      "type": "fact",
+      "module": "tailrisk",
+      "status": "verified",
+      "area": "antitrust_regulatory",
+      "source_ids": [
+        "s_ion_ftc_competitors"
+      ],
+      "quote": "If the FTC were interested in divestitures as a possible remedy to clear the deal, finding suitable buyers may be challenging, the source added.",
+      "locator": "Article dated 6 May 2026, by Serafina Smith",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "url-quote",
+        "reasons": []
+      }
+    },
+    {
+      "id": "deal_rationale_synergies_9",
+      "statement": "Cintas states the transaction is expected to be accretive to Cintas' earnings per share by the end of the second full year after closing.",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "deal_rationale_synergies",
+      "source_ids": [
+        "s_cintas_pr_deal"
+      ],
+      "quote": "Expected to be accretive to Cintas’ earnings per share by the end of the second full year after closing.",
+      "locator": "Press release, transaction-benefits bullets, dated March 11, 2026",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "url-quote",
+        "reasons": []
+      }
+    },
+    {
+      "id": "short_activist_4",
+      "statement": "Engine Capital asserts that UniFirst can no longer close the widening competitive gap with Cintas and that continued market share losses will inevitably drive layoffs, employee departures, and declining morale, further eroding intrinsic value over time — the basis for its conclusion that a sale, not a standalone plan, is the best path.",
+      "type": "fact",
+      "module": "tailrisk",
+      "status": "verified",
+      "area": "short_activist",
+      "source_ids": [
+        "s_engine_prec14a"
+      ],
+      "quote": "We believe UniFirst can no longer close the widening competitive gap with Cintas, and continued market share losses will inevitably drive layoffs, employee departures, and declining morale – further eroding the Company's intrinsic value over time.",
+      "locator": "Reasons for the Solicitation, “A Sale Represents the Best Path Forward”",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "operational_integration_9",
+      "statement": "UniFirst serves customers primarily under written service contracts of three-to-five-year duration, so customer attrition through an integration shows up as non-renewal of multi-year route accounts.",
+      "type": "fact",
+      "module": "tailrisk",
+      "status": "verified",
+      "area": "operational_integration",
+      "source_ids": [
+        "s_unf_10k"
+      ],
+      "quote": "We primarily serve our customers pursuant to written service contracts that range in duration from three to five years.",
+      "locator": "Part I, Item 1 Business — Customers/Contracts (p. 4)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "operational_integration_12",
+      "statement": "UniFirst entered the deal with an unremediated IT material weakness: it disclosed a material weakness in internal control over financial reporting related to IT general controls supporting its 'manage change' and 'manage access' processes.",
+      "type": "fact",
+      "module": "tailrisk",
+      "status": "verified",
+      "area": "operational_integration",
+      "source_ids": [
+        "s_unf_10k"
+      ],
+      "quote": "We identified material weakness in our internal control over financial reporting related to certain information technology general controls ( “ ITGCs ” ) supporting the manage change and manage access processes.",
+      "locator": "Part I, Item 1A Risk Factors (p. 11)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "operational_integration_14",
+      "statement": "UniFirst is mid-stream on a multiyear ERP program initiated in fiscal 2022 and planned to continue through 2027, with $45.3 million capitalized as of fiscal 2025 — i.e., its core systems are still in flux as the deal closes.",
+      "type": "fact",
+      "module": "tailrisk",
+      "status": "verified",
+      "area": "operational_integration",
+      "source_ids": [
+        "s_unf_10k"
+      ],
+      "quote": "In fiscal 2022, we initiated a multiyear ERP project that we plan to continue through 2027, with early phases focused on master data management and finance capabilities followed by subsequent phases with a strong focus on supply chain, procurement, automation and technology.",
+      "locator": "Part II, Item 7 MD&A — Key Initiatives (p. 26)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "operational_integration_21",
+      "statement": "Key-person and workforce retention is a named risk: the proxy states the success of Cintas after the mergers will depend in part on the ability of Cintas and UniFirst to attract, motivate and retain key management personnel and other key employees.",
+      "type": "fact",
+      "module": "tailrisk",
+      "status": "verified",
+      "area": "operational_integration",
+      "source_ids": [
+        "s_unf_424b3"
+      ],
+      "quote": "The success of Cintas after the completion of the mergers will depend in part upon the ability of Cintas and UniFirst to attract, motivate and retain key management personnel and other key employees.",
+      "locator": "Risk Factors — Risks Relating to the Mergers (p. 41)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "ex_integration",
+      "type": "inference",
+      "module": "tailrisk",
+      "statement": "Integration/execution risk runs above a normal bolt-on: the two run different supply-chain models, UniFirst carries an unremediated IT material weakness and a mid-flight ERP program (to 2027), and a long regulatory pendency stretches the window over which route drivers, sales force and customers can be lost — and attrition erodes the very synergy base and revenue Cintas is paying for.",
+      "supports": [
+        "supplychain_16",
+        "operational_integration_12",
+        "operational_integration_14",
+        "operational_integration_21",
+        "operational_integration_9"
+      ],
+      "status": "verified",
+      "verification": {
+        "checked_at": "2026-06-13T04:55:21.298413+00:00",
+        "mode": "inference-support",
+        "reasons": []
+      }
+    },
+    {
+      "id": "litigation_8",
+      "statement": "As of the DEFM14A date (filed May 11, 2026), there were no pending lawsuits challenging the Cintas/UniFirst mergers.",
+      "type": "fact",
+      "module": "tailrisk",
+      "status": "verified",
+      "area": "litigation_legal",
+      "source_ids": [
+        "s_defm14a"
+      ],
+      "quote": "Litigation Related to the Mergers As of the date hereof, there are no pending lawsuits challenging the mergers.",
+      "locator": "Litigation Related to the Mergers (p. 76)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "litigation_3",
+      "statement": "UniFirst has an unresolved Mexican tax assessment that it appealed; in Q1 fiscal 2025 the Federal Tax Court in Mexico ruled partially in UniFirst's favor, and the Mexican federal tax authority then appealed that determination.",
+      "type": "fact",
+      "module": "tailrisk",
+      "status": "verified",
+      "area": "litigation_legal",
+      "source_ids": [
+        "s_unf_10k"
+      ],
+      "quote": "In the first quarter of fiscal 2025, the Federal Tax Court in Mexico made a determination partially in our favor.",
+      "locator": "Note 11, Commitments and Contingencies — tax assessment matter in Mexico (p. F-22)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{"chunk": 7, "verdicts": [
+  {"claim_id": "custmix_3", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_10k_cust", "span": "—", "reason": "quote present verbatim; 'all sizes / no customer >10% of revenue' in context entails the broad, non-concentrated base"},
+  {"claim_id": "whycintas_15", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_10k_fy2025", "span": "—", "reason": "quote present verbatim; 'principal competitors include [three named]' entails the three-name scarcity statement"},
+  {"claim_id": "ex_wearers", "type": "inference", "verdict": "WEAK-INFERENCE",
+   "cited_source": "custmix_1,custmix_2,custmix_3", "span": "The strikingly low ~4 uniform-wearers-per-customer ratio", "reason": "the ~4 wearers-per-customer ratio appears in no support; new figure smuggled into the premise and the route-density-not-account-size conclusion overreaches what supports license"},
+  {"claim_id": "deal_rationale_synergies_7", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_cintas_pr_deal", "span": "—", "reason": "quote present verbatim; statement is a faithful restatement of the $375M synergy bullet"},
+  {"claim_id": "synmech_11", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_ctas_pr_20260311", "span": "—", "reason": "quote present verbatim; ~$5.5B EV / 8.0x EBITDA incl. ~$375M synergies entailed; 'interested-party-asserted / embedded in multiple' faithful gloss"},
+  {"claim_id": "rt_divestiture_synergy", "type": "inference", "verdict": "PASS",
+   "cited_source": "antitrust_18,antitrust_10", "span": "—", "reason": "supports verified; localized-overlap divestiture theory + 45-50% local shares support that a remedy cuts into the overlapping route density driving the synergy"},
+  {"claim_id": "ex_lever", "type": "inference", "verdict": "PASS",
+   "cited_source": "synmech_1,synmech_5,synmech_6,synmech_10,synmech_18,operational_integration_1", "span": "—", "reason": "supports verified (63.4% CoR, 23.2% SG&A, route fleet, overlapping route networks); $375M-from-these-lines plausibility conclusion follows"},
+  {"claim_id": "operational_integration_10", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_10k", "span": "—", "reason": "quote present; Mexico plants and 325,000 sq ft Owensboro KY DC also confirmed verbatim in same source; statement entailed"},
+  {"claim_id": "supplychain_3", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_10k_fy2025", "span": "—", "reason": "quote present verbatim; statement is a faithful restatement of the manufacturing/sourcing span"},
+  {"claim_id": "operational_integration_11", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_cintas_10k", "span": "—", "reason": "quote present verbatim; 'sources from many outside suppliers + five manufacturing facilities' entails the more-outsourced characterization"}
+]}

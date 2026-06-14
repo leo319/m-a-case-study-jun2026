@@ -1,0 +1,185 @@
+{
+  "chunk": 7,
+  "claims": [
+    {
+      "id": "custmix_3",
+      "statement": "UniFirst likewise serves businesses of all sizes across multiple industries and sectors, confirming a broad, size-diverse customer base rather than a concentration of large accounts.",
+      "type": "fact",
+      "module": "research",
+      "status": "verified",
+      "area": "commercial_market",
+      "source_ids": [
+        "s_unf_10k_cust"
+      ],
+      "quote": "We serve businesses of all sizes across multiple industries and sectors.",
+      "locator": "Item 1 Business — Customers (p. 4)",
+      "confidence": 0.95,
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "whycintas_15",
+      "statement": "UniFirst's FY2025 10-K names only three principal rental competitors — 'Our principal competitors offering uniform rental programs include Cintas Corporation, Alsco, and Vestis Corporation' — evidencing that scaled, national uniform-rental targets are scarce (Cintas, the acquirer, plus private Alsco and former-Aramark spinoff Vestis).",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "deal_rationale_synergies",
+      "source_ids": [
+        "s_unf_10k_fy2025"
+      ],
+      "quote": "Our principal competitors offering uniform rental programs include Cintas Corporation, Alsco, and Vestis Corporation.",
+      "locator": "Item 1 Business — Competition (p. 5)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "ex_wearers",
+      "type": "inference",
+      "module": "rationale",
+      "statement": "The strikingly low ~4 uniform-wearers-per-customer ratio is not an anomaly but the structural signature of the model: an SMB-dominated base where a large share of accounts buy facility/first-aid/fire services with few or no uniformed staff — and that broad-shallow, many-small-stops structure is exactly what makes route density (not account size) the cost lever.",
+      "supports": [
+        "custmix_1",
+        "custmix_2",
+        "custmix_3"
+      ],
+      "status": "verified",
+      "verification": {
+        "checked_at": "2026-06-13T04:55:21.298413+00:00",
+        "mode": "inference-support",
+        "reasons": []
+      }
+    },
+    {
+      "id": "deal_rationale_synergies_7",
+      "statement": "Cintas asserts it expects to realize approximately $375 million of operating cost synergies — including material cost, production expense, service expense and selling, general and administrative expense — within four years.",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "deal_rationale_synergies",
+      "source_ids": [
+        "s_cintas_pr_deal"
+      ],
+      "quote": "Cintas expects to benefit from the addition of UniFirst’s talented workforce while also realizing approximately $375 million of operating cost synergies, including material cost, production expense, service expense and selling, general and administrative expense, within four years.",
+      "locator": "Press release, 'Unlocks Additional Resources and Cost Synergies' bullet, dated March 11, 2026",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "url-quote",
+        "reasons": []
+      }
+    },
+    {
+      "id": "synmech_11",
+      "statement": "Cintas states the deal's implied enterprise value of approximately $5.5 billion represents 8.0x run-rate trailing-12-months EBITDA including approximately $375 million of operating cost synergies — i.e., the synergies are interested-party-asserted and already embedded in the deal's stated multiple.",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "deal_rationale_synergies",
+      "source_ids": [
+        "s_ctas_pr_20260311"
+      ],
+      "quote": "The implied total enterprise value of the transaction is approximately $5.5 billion, which represents a multiple of 8.0x run-rate trailing 12 months EBITDA, including approximately $375 million of operating cost synergies.",
+      "locator": "Press release, Mar 11, 2026 (headline: Cintas to Acquire UniFirst in $5.5 Billion Transaction)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "url-quote",
+        "reasons": []
+      }
+    },
+    {
+      "id": "rt_divestiture_synergy",
+      "type": "inference",
+      "module": "tailrisk",
+      "statement": "The route overlap that creates the density synergy is the same overlap that gives the combined entity its highest local shares, which is what the FTC is most likely to require Cintas to divest — so an antitrust remedy would cut directly into the local route density the synergies depend on, not merely trim the deal generically.",
+      "supports": [
+        "antitrust_18",
+        "antitrust_10"
+      ],
+      "status": "verified",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "inference-support",
+        "reasons": []
+      }
+    },
+    {
+      "id": "ex_lever",
+      "type": "inference",
+      "module": "rationale",
+      "statement": "The cost-synergy lever is therefore structurally plausible: ~$375M must come from UniFirst's route delivery, plant labor, merchandise and overhead (cost of revenues 63.4% + SG&A 23.2% of revenue), and because the two carriers run overlapping local route networks, combining them raises stops per route, utilizes plants harder, scales procurement and removes duplicate overhead.",
+      "supports": [
+        "synmech_1",
+        "synmech_5",
+        "synmech_6",
+        "synmech_10",
+        "synmech_18",
+        "operational_integration_1"
+      ],
+      "status": "verified",
+      "verification": {
+        "checked_at": "2026-06-13T04:55:21.298413+00:00",
+        "mode": "inference-support",
+        "reasons": []
+      }
+    },
+    {
+      "id": "operational_integration_10",
+      "statement": "The two companies have different supply-chain models: UniFirst manufactured approximately 62% of all garments it placed in service during fiscal 2025 and operates its own manufacturing facilities in Mexico, plus a 325,000-square-foot Owensboro, Kentucky distribution center.",
+      "type": "fact",
+      "module": "tailrisk",
+      "status": "verified",
+      "area": "operational_integration",
+      "source_ids": [
+        "s_unf_10k"
+      ],
+      "quote": "We manufactured approximately 62% of all garments we placed in service during fiscal 2025.",
+      "locator": "Part I, Item 1 Business — Manufacturing and Sourcing (p. 4)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "supplychain_3",
+      "statement": "UniFirst's self-manufactured garments are primarily work pants and shirts produced at two of its plants in San Luis Potosi, Mexico and one plant in Managua, Nicaragua, plus subcontracted manufacturers used to balance demand and optimize costs.",
+      "type": "fact",
+      "module": "tailrisk",
+      "status": "verified",
+      "area": "operational_integration",
+      "source_ids": [
+        "s_unf_10k_fy2025"
+      ],
+      "quote": "These garments were primarily work pants and shirts manufactured at two of our plants located in San Luis Potosi, Mexico, one plant located in Managua, Nicaragua, as well as at subcontracted manufacturers that we utilize within our sourcing strategy to balance demand and optimize costs.",
+      "locator": "Item 1 Business, Manufacturing and Sourcing (p. 5)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "operational_integration_11",
+      "statement": "By contrast, Cintas sources finished products from many outside suppliers and operates five manufacturing facilities for standard uniform needs — a more outsourced model than UniFirst's largely in-house manufacturing.",
+      "type": "fact",
+      "module": "tailrisk",
+      "status": "verified",
+      "area": "operational_integration",
+      "source_ids": [
+        "s_cintas_10k"
+      ],
+      "quote": "In addition to sourcing from third-party suppliers, Cintas operates five manufacturing facilities that provide for standard uniform needs.",
+      "locator": "Part I, Item 1 Business — Manufacturing and Sourcing (p. 4)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    }
+  ]
+}

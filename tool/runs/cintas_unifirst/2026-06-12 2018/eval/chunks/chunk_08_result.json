@@ -1,0 +1,22 @@
+{"chunk": 8, "verdicts": [
+  {"claim_id": "supplychain_6", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_10k_fy2025", "span": "—", "reason": "quote present verbatim in Item 1A risk factors; statement entailed by the quoted span"},
+  {"claim_id": "ex_supplychain", "type": "inference", "verdict": "PASS",
+   "cited_source": "supplychain_1,supplychain_3,supplychain_10,supplychain_11,supplychain_17,operational_integration_12", "span": "—", "reason": "all supports verified; opposite-supply-model / captive manufacturing / inherited tariff + IT-stack conclusion follows from the supports"},
+  {"claim_id": "deal_rationale_synergies_4", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_cintas_pr_deal", "span": "—", "reason": "quote present; $155 cash + 0.7720 x $200.77 = $310.00 entailed by quoted span"},
+  {"claim_id": "deal_rationale_synergies_6", "type": "inference", "verdict": "WEAK-INFERENCE",
+   "cited_source": "deal_rationale_synergies_1,deal_rationale_synergies_5", "span": "post-dates Cintas's publicly-disclosed Jan 2025 $275 approach, so the unaffected baseline may already embed takeover speculation", "reason": "premium math (102.5%) follows, but the Jan 2025 $275 approach and the takeover-speculation conclusion are a new fact not grounded in either support (support_5 ties $153.05 only to the Nov 11 2025 director-nomination disclosure)"},
+  {"claim_id": "deal_rationale_synergies_11", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_defm14a_opinion", "span": "—", "reason": "quote present; 8.0x-10.0x EV/2026E Adj. EBITDA and $147.00-$182.00 range entailed by quoted span and surrounding context"},
+  {"claim_id": "deal_rationale_synergies_12", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_defm14a_opinion", "span": "—", "reason": "quote present; 11.7x-14.2x FV/LTM EBITDA and $215.50-$260.00 implied range entailed by quoted span and context"},
+  {"claim_id": "deal_rationale_synergies_13", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_defm14a_opinion", "span": "—", "reason": "quote present; 7.50%-8.50% discount, PV as of Feb 28 2026, $193.00-$266.50 all entailed by quoted span"},
+  {"claim_id": "deal_rationale_synergies_14", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_defm14a_opinion", "span": "—", "reason": "quote present; 9.0% discount = CAPM estimate of cost of equity and $160.00-$218.00 illustrative PVs entailed by quoted span and context"},
+  {"claim_id": "deal_rationale_synergies_15", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_defm14a_opinion", "span": "—", "reason": "cached source confirms GS applied 11.7x-14.2x EV/LTM adj EBITDA as of Feb 26 2026 to derive $216.00-$260.00; statement entailed"},
+  {"claim_id": "deal_rationale_synergies_18", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_defm14a_opinion", "span": "—", "reason": "quote present; 21%-59% illustrative premia on $153.05 (Nov 11 2025) deriving $185.00-$243.00 entailed by quoted span"}
+]}

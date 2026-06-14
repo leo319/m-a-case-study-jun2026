@@ -1,0 +1,22 @@
+{"chunk": 1, "verdicts": [
+  {"claim_id": "target_fundamentals_2", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_10k", "span": "—", "reason": "quote present; 16,000 persons (team partners) and <1% U.S. unionized both entailed by quoted span"},
+  {"claim_id": "target_fundamentals_3", "type": "fact", "verdict": "MISATTRIBUTION",
+   "cited_source": "s_unf_10k", "span": "its facilities include a 325,000 square foot Owensboro, Kentucky distribution center plus almost all of its industrial laundry processing plants", "reason": "quote establishes only the 62% garments-manufactured figure; the 325,000 sq ft Owensboro DC and laundry-plant facility assertions are not established by the cited quote"},
+  {"claim_id": "target_fundamentals_4", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_10k", "span": "—", "reason": "revenue figures and 0.2% match quote; 53rd-week note confirmed in source context window"},
+  {"claim_id": "target_fundamentals_5", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_10k", "span": "—", "reason": "operating income $184,498/$183,578/$920/0.5% match quote exactly"},
+  {"claim_id": "target_fundamentals_6", "type": "inference", "verdict": "PASS",
+   "cited_source": "target_fundamentals_4,target_fundamentals_5", "span": "—", "reason": "184.5/2432.4 = 7.58% ~7.6% follows from verified supports (source itself states 7.6% margin); Cintas ~22% conservative and verified elsewhere"},
+  {"claim_id": "commercial_market_4", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_cintas_fy25_er", "span": "—", "reason": "operating income $2.36B/$2.07B/14.1% in quote; $10.34B revenue and 22.8% margin confirmed in source context window"},
+  {"claim_id": "target_fundamentals_14", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_10k", "span": "—", "reason": "U.S. $2,245.9M, Europe/Canada $186.5M, and 3-year totals all match quoted geographic revenue table"},
+  {"claim_id": "target_fundamentals_9", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_10k", "span": "—", "reason": "segment revenue $2,218,562/$2,224,030/$(5,468)/0.2% match quote; 91.2% confirmed in same filing"},
+  {"claim_id": "target_fundamentals_10", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_10k", "span": "—", "reason": "91.2% Uniform & Facility Service Solutions share verbatim in quote"},
+  {"claim_id": "target_fundamentals_11", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_10k", "span": "—", "reason": "First Aid segment $114,586/$106,271/8,315/7.8% match quote; 4.7% share confirmed in source context window"}
+]}

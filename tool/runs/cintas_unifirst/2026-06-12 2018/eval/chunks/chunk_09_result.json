@@ -1,0 +1,22 @@
+{"chunk": 9, "verdicts": [
+  {"claim_id": "whycintas_8", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_defm14a", "span": "—", "reason": "quote present verbatim in DEFM14A Background; statement entailed by the quoted span"},
+  {"claim_id": "financing_13", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_cintas_s4", "span": "—", "reason": "quote present in S-4; ~$2.8B additional / ~$5.44B consolidated / greater than current all entailed"},
+  {"claim_id": "financing_14", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_cintas_s4", "span": "—", "reason": "quote present; 5% assumed rate on $2.8B Permanent Debt Financing entailed (the $2.8B is established in adjacent context)"},
+  {"claim_id": "financing_3", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_cintas_pr_deal", "span": "—", "reason": "quote present in deal press release; EPS accretion by end of second full year entailed"},
+  {"claim_id": "rt_synergy_magnitude", "type": "inference", "verdict": "PASS",
+   "cited_source": "deal_rationale_synergies_21,synmech_17,synmech_14,synmech_15,financing_3", "span": "—", "reason": "supports verified; 2.0x op income, 24% cost of rev, yr2 accretion vs yr4 run-rate all follow"},
+  {"claim_id": "ex_synergy_test", "type": "inference", "verdict": "PASS",
+   "cited_source": "deal_rationale_synergies_19,deal_rationale_synergies_21,deal_rationale_synergies_22,synmech_11,synmech_17,synmech_13,synmech_15", "span": "—", "reason": "supports verified; price>standalone, 8.0x incl synergies, ex-synergy higher, G&K base rate all follow"},
+  {"claim_id": "ex_margin_gap", "type": "inference", "verdict": "PASS",
+   "cited_source": "target_fundamentals_6,commercial_market_4,management_governance_10,management_governance_15", "span": "—", "reason": "supports verified; 7.6% vs 22.8% gap, activist 12.8%->6.4% case, ISS endorsement all grounded"},
+  {"claim_id": "antitrust_10", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_antitrust_precedent", "span": "—", "reason": "quote present; 45-50% share and 'only Vestis as viable national alternative' both in cited span"},
+  {"claim_id": "antitrust_11", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_antitrust_precedent", "span": "—", "reason": "quote present; HHI 800-1000 in quote, 3-to-2/Big Three/35%+14% in adjacent cited context"},
+  {"claim_id": "antitrust_9", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_ion_ftc_competitors", "span": "—", "reason": "quote present; S&P downgrade to B Dec 2025 plus 'unlikely buyer'/'not really capable of growth' in cited span"}
+]}

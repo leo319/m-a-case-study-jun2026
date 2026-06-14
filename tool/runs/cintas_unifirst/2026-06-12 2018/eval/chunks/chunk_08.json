@@ -1,0 +1,186 @@
+{
+  "chunk": 8,
+  "claims": [
+    {
+      "id": "supplychain_6",
+      "statement": "UniFirst flags as a risk that U.S. and foreign trade policies, including the assessment of tariffs and other impositions on imported goods, may have a material adverse impact on its business.",
+      "type": "fact",
+      "module": "tailrisk",
+      "status": "verified",
+      "area": "operational_integration",
+      "source_ids": [
+        "s_unf_10k_fy2025"
+      ],
+      "quote": "U.S. and foreign trade policies, including the assessment of tariffs and other impositions on imported goods, may have a material adverse impact on our business.",
+      "locator": "Item 1A Risk Factors (p. 12)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "ex_supplychain",
+      "type": "inference",
+      "module": "rationale",
+      "statement": "This is not a clean operational bolt-on: the two run opposite supply models — UniFirst self-manufactures ~62% of garments at owned Mexico/Nicaragua plants while Cintas outsources and runs only five plants — so Cintas would acquire captive manufacturing it deliberately chose not to own, plus inherited tariff/import exposure and a second sourcing-and-IT stack to integrate.",
+      "supports": [
+        "supplychain_1",
+        "supplychain_3",
+        "supplychain_10",
+        "supplychain_11",
+        "supplychain_17",
+        "operational_integration_12"
+      ],
+      "status": "verified",
+      "verification": {
+        "checked_at": "2026-06-13T04:55:21.298413+00:00",
+        "mode": "inference-support",
+        "reasons": []
+      }
+    },
+    {
+      "id": "deal_rationale_synergies_4",
+      "statement": "The $310.00 combined value was based on Cintas' closing share price of $200.77 on March 9, 2026 ($155.00 cash plus 0.7720 x $200.77).",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "deal_rationale_synergies",
+      "source_ids": [
+        "s_cintas_pr_deal"
+      ],
+      "quote": "This represents a combined value of $310.00 per share based on Cintas’ closing share price of $200.77 on March 9, 2026.",
+      "locator": "Press release, 'Transaction Details' section, dated March 11, 2026",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "url-quote",
+        "reasons": []
+      }
+    },
+    {
+      "id": "deal_rationale_synergies_6",
+      "statement": "The $310.00 consideration represents a premium of approximately 102.5% to the proxy's stated unaffected price of $153.05 (310.00 / 153.05 - 1 = 1.025), i.e. roughly a double-up; this headline premium is measured against a Nov 11, 2025 price that itself post-dates Cintas's publicly-disclosed Jan 2025 $275 approach, so the unaffected baseline may already embed takeover speculation.",
+      "type": "inference",
+      "module": "rationale",
+      "status": "verified",
+      "area": "deal_rationale_synergies",
+      "supports": [
+        "deal_rationale_synergies_1",
+        "deal_rationale_synergies_5"
+      ],
+      "verification": {
+        "checked_at": "2026-06-13T04:03:06.133100+00:00",
+        "mode": "inference-support",
+        "reasons": []
+      }
+    },
+    {
+      "id": "deal_rationale_synergies_11",
+      "statement": "J.P. Morgan's Public Trading Multiples analysis applied a reference range of 8.0x – 10.0x EV/2026E Adjusted EBITDA (Pre-Stock Based Compensation) for UniFirst and indicated an implied per-share equity value range of $147.00 to $182.00.",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "deal_rationale_synergies",
+      "source_ids": [
+        "s_defm14a_opinion"
+      ],
+      "quote": "EBITDA (Pre-Stock Based Compensation) $147.00 $182.00 The range of implied per share equity values for UniFirst common stock was compared to (i) the unaffected closing share price of UniFirst common stock of $153.05 on November 11, 2025",
+      "locator": "The Mergers — Opinion of J.P. Morgan, Public Trading Multiples (p. 55)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "deal_rationale_synergies_12",
+      "statement": "J.P. Morgan's Selected Transactions analysis applied a FV/LTM EBITDA reference range of 11.7x to 14.2x for UniFirst, indicating an implied equity value range of approximately $215.50 to $260.00 per share.",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "deal_rationale_synergies",
+      "source_ids": [
+        "s_defm14a_opinion"
+      ],
+      "quote": "The analysis indicated a range of implied equity value per share of UniFirst common stock (rounded to the nearest $0.50) of approximately $215.50 to $260.00, which J.P.",
+      "locator": "The Mergers — Opinion of J.P. Morgan, Selected Transactions Analysis (p. 56)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "deal_rationale_synergies_13",
+      "statement": "J.P. Morgan's Discounted Cash Flow analysis (discount rates 7.50%–8.50%, present value as of February 28, 2026) indicated an implied per-share equity value range of $193.00 to $266.50 for UniFirst common stock.",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "deal_rationale_synergies",
+      "source_ids": [
+        "s_defm14a_opinion"
+      ],
+      "quote": "this analysis indicated the following ranges of implied per share equity value (rounded to the nearest $0.50) for UniFirst common stock: Implied Per Share Equity Value Low High UniFirst Discounted Cash Flow $193.00 $266.50",
+      "locator": "The Mergers — Opinion of J.P. Morgan, Discounted Cash Flow Analysis (p. 57)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "deal_rationale_synergies_14",
+      "statement": "Goldman Sachs' Illustrative Discounted Cash Flow analysis (discount rate 9.0%, equal to its CAPM estimate of UniFirst's cost of equity) resulted in a range of illustrative present values of $160.00 to $218.00 per share of UniFirst stock.",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "deal_rationale_synergies",
+      "source_ids": [
+        "s_defm14a_opinion"
+      ],
+      "quote": "This analysis resulted in a range of illustrative present values per share of UniFirst stock of $160.00 to $218.00.",
+      "locator": "The Mergers — Opinion of Goldman Sachs, Illustrative Discounted Cash Flow Analysis (p. 60)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "deal_rationale_synergies_15",
+      "statement": "Goldman Sachs' Selected Precedent Transactions analysis (uniform-services deals since 2015) applied an EV/LTM adjusted EBITDA reference range of 11.7x to 14.2x to UniFirst's LTM adjusted EBITDA as of February 26, 2026, deriving a range of implied per-share values of $216.00 to $260.00.",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "deal_rationale_synergies",
+      "source_ids": [
+        "s_defm14a_opinion"
+      ],
+      "quote": "to derive a reference range of implied values per share of UniFirst stock of $216.00 to $260.00.",
+      "locator": "The Mergers — Opinion of Goldman Sachs, Selected Precedent Transactions Analysis (p. 60)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "deal_rationale_synergies_18",
+      "statement": "Applying its 21% to 59% illustrative premium range to the $153.05 undisturbed price (Nov 11, 2025), Goldman Sachs derived implied per-share equity values of $185.00 to $243.00 for UniFirst.",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "deal_rationale_synergies",
+      "source_ids": [
+        "s_defm14a_opinion"
+      ],
+      "quote": "Goldman Sachs applied a reference range of illustrative premiums of 21% to 59% to the undisturbed closing price per share of UniFirst stock of $153.05 as of November 11, 2025 to derive a range of implied equity values per share of UniFirst stock of $185.00 to $243.00.",
+      "locator": "The Mergers — Opinion of Goldman Sachs, Premia Paid Analysis (p. 61)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    }
+  ]
+}

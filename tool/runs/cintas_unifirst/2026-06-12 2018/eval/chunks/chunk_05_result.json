@@ -1,0 +1,22 @@
+{"chunk": 5, "verdicts": [
+  {"claim_id": "merger_agreement_7", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_defm14a", "span": "—", "reason": "quote present; statement entailed by the Other Approvals span (foreign antitrust + permits conditions)"},
+  {"claim_id": "merger_agreement_8", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_defm14a", "span": "—", "reason": "quote present; verbatim restatement that shareholder approval is required for completion"},
+  {"claim_id": "merger_agreement_9", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_defm14a", "span": "—", "reason": "quote present; NASDAQ listing condition entailed by quoted span"},
+  {"claim_id": "merger_agreement_10", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_defm14a", "span": "—", "reason": "quote present; Company-side MAE bring-down since Aug 30, 2025 matches Sec 3 rep"},
+  {"claim_id": "merger_agreement_11", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_defm14a", "span": "—", "reason": "quote present; Parent-side MAE bring-down since May 31, 2025 matches Sec 4.7 rep"},
+  {"claim_id": "merger_agreement_12", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_defm14a", "span": "—", "reason": "quote present; no-shop restriction on solicit/seek/facilitate/discuss entailed"},
+  {"claim_id": "merger_agreement_2", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_8k_20260311", "span": "—", "reason": "quote present; $213.3M target fee and $350M reverse fee both stated verbatim"},
+  {"claim_id": "merger_agreement_14", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_defm14a", "span": "—", "reason": "quote present; specific-performance non-opposition covenant entailed by Sec 8.10"},
+  {"claim_id": "merger_agreement_18", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_defm14a", "span": "—", "reason": "quote present; $350M reverse fee cap and two four-month extensions on 10-month date entailed"},
+  {"claim_id": "ex_governance_vote", "type": "inference", "verdict": "PASS",
+   "cited_source": "management_governance_3,management_governance_6,management_governance_24", "span": "—", "reason": "all supports verified; low vote-risk-on-related-party-footing conclusion follows from >2/3 control + support agreement + activist entrenchment dynamic"}
+]}

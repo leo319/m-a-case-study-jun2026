@@ -1,0 +1,234 @@
+{
+  "deal": "cintas_unifirst",
+  "run": "2026-06-12 2018",
+  "generated_from": "final_memo_spec.json",
+  "total_surfaced": 120,
+  "facts": 99,
+  "inferences": 21,
+  "chunk_size": 10,
+  "n_chunks": 12,
+  "missing_surfaced_ids": [],
+  "snapshot": {
+    "claims_sha256": "c51baf0c8edff32b0862a7df872027c3ec305c5f4d88cd13aa25a9a84a7342b3",
+    "registry_sha256": "edd0badd31cd884ecf36c1e4c46f466fbf97df91bf697c1526084486ac457cc6"
+  },
+  "verifier_model": "opus-4-8",
+  "chunks": [
+    {
+      "chunk": 0,
+      "file": "eval/chunks/chunk_00.json",
+      "result_file": "eval/chunks/chunk_00_result.json",
+      "n_claims": 10,
+      "claim_ids": [
+        "deal_rationale_synergies_1",
+        "deal_rationale_synergies_2",
+        "litigation_11",
+        "antitrust_4",
+        "deal_rationale_synergies_5",
+        "ex_premium",
+        "ex_antitrust",
+        "ex_overpay",
+        "ex_fundamentals",
+        "target_fundamentals_1"
+      ]
+    },
+    {
+      "chunk": 1,
+      "file": "eval/chunks/chunk_01.json",
+      "result_file": "eval/chunks/chunk_01_result.json",
+      "n_claims": 10,
+      "claim_ids": [
+        "target_fundamentals_2",
+        "target_fundamentals_3",
+        "target_fundamentals_4",
+        "target_fundamentals_5",
+        "target_fundamentals_6",
+        "commercial_market_4",
+        "target_fundamentals_14",
+        "target_fundamentals_9",
+        "target_fundamentals_10",
+        "target_fundamentals_11"
+      ]
+    },
+    {
+      "chunk": 2,
+      "file": "eval/chunks/chunk_02.json",
+      "result_file": "eval/chunks/chunk_02_result.json",
+      "n_claims": 10,
+      "claim_ids": [
+        "target_fundamentals_12",
+        "target_fundamentals_13",
+        "commercial_market_5",
+        "commercial_market_2",
+        "commercial_market_6",
+        "operational_integration_1",
+        "operational_integration_7",
+        "commercial_market_7",
+        "commercial_market_9",
+        "commercial_market_8"
+      ]
+    },
+    {
+      "chunk": 3,
+      "file": "eval/chunks/chunk_03.json",
+      "result_file": "eval/chunks/chunk_03_result.json",
+      "n_claims": 10,
+      "claim_ids": [
+        "commercial_market_11",
+        "commercial_market_13",
+        "commercial_market_14",
+        "commercial_market_16",
+        "rt_family_flip",
+        "ex_whynow",
+        "commercial_market_22",
+        "commercial_market_23",
+        "antitrust_12",
+        "commercial_market_20"
+      ]
+    },
+    {
+      "chunk": 4,
+      "file": "eval/chunks/chunk_04.json",
+      "result_file": "eval/chunks/chunk_04_result.json",
+      "n_claims": 10,
+      "claim_ids": [
+        "antitrust_13",
+        "commercial_market_25",
+        "commercial_market_24",
+        "commercial_market_26",
+        "deal_rationale_synergies_3",
+        "financing_15",
+        "merger_agreement_4",
+        "financing_5",
+        "financing_2",
+        "merger_agreement_6"
+      ]
+    },
+    {
+      "chunk": 5,
+      "file": "eval/chunks/chunk_05.json",
+      "result_file": "eval/chunks/chunk_05_result.json",
+      "n_claims": 10,
+      "claim_ids": [
+        "merger_agreement_7",
+        "merger_agreement_8",
+        "merger_agreement_9",
+        "merger_agreement_10",
+        "merger_agreement_11",
+        "merger_agreement_12",
+        "merger_agreement_2",
+        "merger_agreement_14",
+        "merger_agreement_18",
+        "ex_governance_vote"
+      ]
+    },
+    {
+      "chunk": 6,
+      "file": "eval/chunks/chunk_06.json",
+      "result_file": "eval/chunks/chunk_06_result.json",
+      "n_claims": 10,
+      "claim_ids": [
+        "costnat_1",
+        "operational_integration_8",
+        "custmix_2",
+        "synmech_1",
+        "costnat_2",
+        "synmech_4",
+        "synmech_5",
+        "synmech_9",
+        "ex_profit_engine",
+        "custmix_1"
+      ]
+    },
+    {
+      "chunk": 7,
+      "file": "eval/chunks/chunk_07.json",
+      "result_file": "eval/chunks/chunk_07_result.json",
+      "n_claims": 10,
+      "claim_ids": [
+        "custmix_3",
+        "whycintas_15",
+        "ex_wearers",
+        "deal_rationale_synergies_7",
+        "synmech_11",
+        "rt_divestiture_synergy",
+        "ex_lever",
+        "operational_integration_10",
+        "supplychain_3",
+        "operational_integration_11"
+      ]
+    },
+    {
+      "chunk": 8,
+      "file": "eval/chunks/chunk_08.json",
+      "result_file": "eval/chunks/chunk_08_result.json",
+      "n_claims": 10,
+      "claim_ids": [
+        "supplychain_6",
+        "ex_supplychain",
+        "deal_rationale_synergies_4",
+        "deal_rationale_synergies_6",
+        "deal_rationale_synergies_11",
+        "deal_rationale_synergies_12",
+        "deal_rationale_synergies_13",
+        "deal_rationale_synergies_14",
+        "deal_rationale_synergies_15",
+        "deal_rationale_synergies_18"
+      ]
+    },
+    {
+      "chunk": 9,
+      "file": "eval/chunks/chunk_09.json",
+      "result_file": "eval/chunks/chunk_09_result.json",
+      "n_claims": 10,
+      "claim_ids": [
+        "whycintas_8",
+        "financing_13",
+        "financing_14",
+        "financing_3",
+        "rt_synergy_magnitude",
+        "ex_synergy_test",
+        "ex_margin_gap",
+        "antitrust_10",
+        "antitrust_11",
+        "antitrust_9"
+      ]
+    },
+    {
+      "chunk": 10,
+      "file": "eval/chunks/chunk_10.json",
+      "result_file": "eval/chunks/chunk_10_result.json",
+      "n_claims": 10,
+      "claim_ids": [
+        "antitrust_8",
+        "deal_rationale_synergies_9",
+        "short_activist_4",
+        "operational_integration_9",
+        "operational_integration_12",
+        "operational_integration_14",
+        "operational_integration_21",
+        "ex_integration",
+        "litigation_8",
+        "litigation_3"
+      ]
+    },
+    {
+      "chunk": 11,
+      "file": "eval/chunks/chunk_11.json",
+      "result_file": "eval/chunks/chunk_11_result.json",
+      "n_claims": 10,
+      "claim_ids": [
+        "litigation_5",
+        "rt_financing_risk",
+        "management_governance_9",
+        "management_governance_10",
+        "short_activist_10",
+        "short_activist_11",
+        "management_governance_6",
+        "whycintas_11",
+        "merger_agreement_17",
+        "ex_close"
+      ]
+    }
+  ]
+}

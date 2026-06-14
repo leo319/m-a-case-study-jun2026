@@ -1,0 +1,185 @@
+{
+  "chunk": 4,
+  "claims": [
+    {
+      "id": "antitrust_13",
+      "statement": "PRECEDENT (BASE RATE): Aramark's ~$1.0bn acquisition of uniform/linen rental peer AmeriPride Services received HSR early termination (Transaction No. 20180159, granted December 22, 2017) — i.e., it cleared WITHOUT a second request — per the FTC's Early Termination Notices.",
+      "type": "fact",
+      "module": "tailrisk",
+      "status": "verified",
+      "area": "antitrust_regulatory",
+      "source_ids": [
+        "s_antitrust_precedent_aramark"
+      ],
+      "quote": "Date December 22, 2017 Transaction Number 20180159 Acquiring Party Aramark Acquired Party AmeriPride Services Inc.",
+      "locator": "Early Termination Notice 20180159 (Granting Status: Granted)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "commercial_market_25",
+      "statement": "Cintas disclosed an earlier rebuffed approach: it first delivered an indication of interest to acquire UniFirst for $255 per share on February 7, 2022 (a 43% premium to that day's close), and UniFirst rejected the $275/share proposal on November 27, 2024 and again on December 9, 2024 without further engagement.",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "commercial_market",
+      "source_ids": [
+        "s_cintas_pr_2025_proposal"
+      ],
+      "quote": "Cintas initially approached UniFirst and delivered an indication of interest to acquire UniFirst for $255 per share (the “Prior Proposal”) on February 7, 2022, an offer that represented a 43% premium to UniFirst’s closing price on that date.",
+      "locator": "Press release dated January 7, 2025, Engagement History",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "url-quote",
+        "reasons": []
+      }
+    },
+    {
+      "id": "commercial_market_24",
+      "statement": "Cintas's January 7, 2025 unsolicited proposal to acquire UniFirst for $275.00 per share in cash implied a total value of approximately $5.3 billion and a 46% premium to UniFirst's ninety-day average closing price as of January 6, 2025; the proposal had first been delivered to UniFirst's board on November 8, 2024.",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "commercial_market",
+      "source_ids": [
+        "s_cintas_pr_2025_proposal"
+      ],
+      "quote": "The Proposal implies a total value for UniFirst of approximately $5.3 billion and offers UniFirst shareholders a 46% premium to UniFirst’s ninety-day average closing price as of January 6, 2025.",
+      "locator": "Press release dated January 7, 2025, deal terms",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "url-quote",
+        "reasons": []
+      }
+    },
+    {
+      "id": "commercial_market_26",
+      "statement": "Under the March 2026 definitive agreement, UniFirst shareholders will receive $155.00 in cash and 0.7720 shares of Cintas stock per UniFirst share — a combined $310.00 per share based on Cintas's $200.77 close on March 9, 2026 — implying a total enterprise value of approximately $5.5 billion, a multiple of 8.0x run-rate trailing-12-month EBITDA including approximately $375 million of operating cost synergies.",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "commercial_market",
+      "source_ids": [
+        "s_merger_pr_2026"
+      ],
+      "quote": "The implied total enterprise value of the transaction is approximately $5.5 billion, which represents a multiple of 8.0x run-rate trailing 12 months EBITDA, including approximately $375 million of operating cost synergies.",
+      "locator": "8-K Ex-99.1 joint press release — Transaction Details",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "deal_rationale_synergies_3",
+      "statement": "The fixed exchange ratio implies approximately 14,261,683 Cintas shares issued as stock consideration, leaving former UniFirst shareholders with approximately 3.4% of fully diluted Cintas common stock (as of April 16, 2026).",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "deal_rationale_synergies",
+      "source_ids": [
+        "s_unf_424b3"
+      ],
+      "quote": "the estimated number of shares of Cintas common stock issuable as the stock consideration is approximately 14,261,683 shares, which will result in former UniFirst shareholders holding approximately 3.4% of the outstanding fully diluted Cintas common stock based on the number of outstanding shares of common stock and outstanding long-term incentive awards of Cintas and UniFirst as of April 16, 2026, the most recent practicable date for which such information was available.",
+      "locator": "Letter to shareholders / Q&A, stock-consideration discussion (p. 1)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "financing_15",
+      "statement": "Per the S-4, current Cintas shareholders and UniFirst shareholders are expected to hold approximately 96.6% and 3.4%, respectively, of the outstanding Cintas common stock immediately following completion of the mergers.",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "financing_balance_sheet",
+      "source_ids": [
+        "s_cintas_s4"
+      ],
+      "quote": "current Cintas shareholders and UniFirst shareholders are expected to hold approximately 96.6% and 3.4%, respectively, of the outstanding shares of Cintas common stock immediately following completion of the mergers.",
+      "locator": "S-4, Q&A / The Mergers",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "merger_agreement_4",
+      "statement": "Cintas's obligation to complete the mergers is not conditioned on its obtaining financing for the mergers (no financing condition).",
+      "type": "fact",
+      "module": "tailrisk",
+      "status": "verified",
+      "area": "merger_agreement",
+      "source_ids": [
+        "s_unf_defm14a"
+      ],
+      "quote": "Financing of the Mergers Cintas’ obligation to complete the mergers is not conditioned upon its obtaining financing for the mergers.",
+      "locator": "The Mergers—Financing of the Mergers (p. 53)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    },
+    {
+      "id": "financing_5",
+      "statement": "Cintas stated it has secured fully committed bridge financing from Morgan Stanley Senior Funding, Inc., KeyBank National Association and Wells Fargo Bank N.A.",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "financing_balance_sheet",
+      "source_ids": [
+        "s_cintas_pr_deal"
+      ],
+      "quote": "Cintas has secured fully committed bridge financing from Morgan Stanley Senior Funding, Inc., KeyBank National Association and Wells Fargo Bank N.A.",
+      "locator": "8-K Ex-99.1 Joint Press Release, dated Mar 11, 2026 (Transaction Details)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "url-quote",
+        "reasons": []
+      }
+    },
+    {
+      "id": "financing_2",
+      "statement": "Cintas asserts the net leverage ratio at close of the UniFirst acquisition is expected to be 1.5x debt to EBITDA.",
+      "type": "fact",
+      "module": "rationale",
+      "status": "verified",
+      "area": "financing_balance_sheet",
+      "source_ids": [
+        "s_cintas_pr_deal"
+      ],
+      "quote": "Net leverage ratio at close is expected to be 1.5x debt to EBITDA.",
+      "locator": "8-K Ex-99.1 Joint Press Release, dated Mar 11, 2026 (Compelling Financial Profile)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "url-quote",
+        "reasons": []
+      }
+    },
+    {
+      "id": "merger_agreement_6",
+      "statement": "The mergers are conditioned on the expiration or termination of any waiting period (and any extension thereof) under the HSR Act.",
+      "type": "fact",
+      "module": "tailrisk",
+      "status": "verified",
+      "area": "merger_agreement",
+      "source_ids": [
+        "s_unf_defm14a"
+      ],
+      "quote": "Regulatory Matters US Antitrust The mergers are conditioned upon the expiration or termination of any waiting period (and any extension thereof) under the HSR Act.",
+      "locator": "The Mergers—Regulatory Matters (p. 75)",
+      "verification": {
+        "checked_at": "2026-06-13T17:20:42.498233+00:00",
+        "mode": "filing-locator",
+        "reasons": []
+      }
+    }
+  ]
+}

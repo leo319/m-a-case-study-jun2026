@@ -1,0 +1,22 @@
+{"chunk": 0, "verdicts": [
+  {"claim_id": "deal_rationale_synergies_1", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_cintas_pr_deal", "span": "—", "reason": "quote present; $310/share, ~$5.5B EV and 'two family-founded companies' all entailed by the quoted span and its immediate context"},
+  {"claim_id": "deal_rationale_synergies_2", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_424b3", "span": "—", "reason": "quote present for $155 + 0.7720; 'exchange ratio is fixed and will not be adjusted... stock price' verified verbatim elsewhere in the same 424B3 source"},
+  {"claim_id": "litigation_11", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_ctas_8k_vote", "span": "the vote cleared without any disclosed merger-objection litigation or mooting supplemental disclosure", "reason": "load-bearing fact (June 12 approval) entailed; the negative clause is a reasonable status characterization of the cited deal 8-K, which discloses no such litigation"},
+  {"claim_id": "antitrust_4", "type": "fact", "verdict": "MISATTRIBUTION",
+   "cited_source": "s_defm14a_regulatory", "span": "the deadline at which the FTC issued its Second Request", "reason": "quote establishes the refiling HSR expiry of June 11 2026 11:59 p.m. but does NOT establish that the FTC issued its Second Request at/on that deadline; appended clause is not supported by the cited span"},
+  {"claim_id": "deal_rationale_synergies_5", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_defm14a_opinion", "span": "—", "reason": "quote present; $153.05 unaffected price (Nov 11 2025, day prior to nomination disclosure) vs $310.00 consideration entailed verbatim"},
+  {"claim_id": "ex_premium", "type": "inference", "verdict": "PASS",
+   "cited_source": "deal_rationale_synergies_19,deal_rationale_synergies_20,deal_rationale_synergies_5", "span": "—", "reason": "supports verified; price above all method highs and 102.5%/36 = 2.85x median both follow from supports"},
+  {"claim_id": "ex_antitrust", "type": "inference", "verdict": "PASS",
+   "cited_source": "antitrust_4,antitrust_10,antitrust_11,antitrust_12,antitrust_13,antitrust_9,antitrust_18", "span": "—", "reason": "supports verified; Second Request + ~45-50% share + favorable base rate + impaired Vestis support the localized-divestiture-with-real-tail conclusion"},
+  {"claim_id": "ex_overpay", "type": "inference", "verdict": "PASS",
+   "cited_source": "deal_rationale_synergies_19,deal_rationale_synergies_21,financing_18", "span": "—", "reason": "supports verified; price-above-standalone + synergy-dependent value + back-end-loaded accretion support the overpayment-risk conclusion"},
+  {"claim_id": "ex_fundamentals", "type": "inference", "verdict": "PASS",
+   "cited_source": "target_fundamentals_4,target_fundamentals_6,short_activist_4,operational_integration_9,antitrust_4", "span": "—", "reason": "supports verified; flat revenue, ~1/3 margin, activist gap thesis, multi-year route contracts under a multi-quarter Second Request support the deterioration-during-pendency conclusion"},
+  {"claim_id": "target_fundamentals_1", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_10k", "span": "—", "reason": "quote present for 'over 300,000 customer locations in the U.S., Canada and Europe'; 'leading provider' is a generic Item 1 self-descriptor consistent with the 10-K"}
+]}

@@ -1,0 +1,131 @@
+{
+  "area": "litigation_legal",
+  "proposals": [
+    {
+      "claim_id": "litigation_1",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "litigation_legal",
+      "statement": "UniFirst discloses no material standalone litigation: its Item 3 Legal Proceedings section addresses only environmental investigation, monitoring and remediation activities at certain sites, with other matters being ordinary-course claims.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst Corporation FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "We are involved with environmental investigation, monitoring and remediation activities at certain sites.",
+      "locator": "Item 3, Legal Proceedings (p. 16)"
+    },
+    {
+      "claim_id": "litigation_2",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "litigation_legal",
+      "statement": "UniFirst characterizes its legal exposure as routine, business-operations claims (environmental, personal injury, customer contract and employment claims), per the Commitments and Contingencies note.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst Corporation FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "The Company is subject to legal proceedings and claims arising from the conduct of its business operations, including but not limited to, environmental matters, personal injury, customer contract matters and employment claims.",
+      "locator": "Note 11, Commitments and Contingencies — Environmental and Legal Contingencies (p. F-22)"
+    },
+    {
+      "claim_id": "litigation_3",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "litigation_legal",
+      "statement": "UniFirst has an unresolved Mexican tax assessment that it appealed; in Q1 fiscal 2025 the Federal Tax Court in Mexico ruled partially in UniFirst's favor, and the Mexican federal tax authority then appealed that determination.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst Corporation FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "In the first quarter of fiscal 2025, the Federal Tax Court in Mexico made a determination partially in our favor.",
+      "locator": "Note 11, Commitments and Contingencies — tax assessment matter in Mexico (p. F-22)"
+    },
+    {
+      "claim_id": "litigation_4",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "litigation_legal",
+      "statement": "On the Mexican tax assessment, UniFirst discloses that the Mexican federal tax authority appealed the Federal Tax Court's determination, leaving the matter unresolved.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst Corporation FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "In addition, the federal tax authority appealed the determination of the Federal Tax Court.",
+      "locator": "Note 11, Commitments and Contingencies — tax assessment matter in Mexico (p. F-22)"
+    },
+    {
+      "claim_id": "litigation_5",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "litigation_legal",
+      "statement": "Cintas discloses that, beyond ordinary-course claims, it is also party to litigation not considered in the ordinary course of business, detailed in its Litigation and Other Contingencies note.",
+      "source": {"id": "s_cintas_10k", "title": "Cintas Corporation FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/723254/000072325425000017/ctas-20250531.htm", "tier": "T1"},
+      "quote": "Cintas is also party to additional litigation not considered in the ordinary course of business.",
+      "locator": "Item 3, Legal Proceedings (cross-referencing Note 15) (p. 24)"
+    },
+    {
+      "claim_id": "litigation_6",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "litigation_legal",
+      "statement": "Cintas characterizes its core legal exposure as ordinary-course claims spanning personal injury, customer contract, environmental and employment matters, per Note 15.",
+      "source": {"id": "s_cintas_10k", "title": "Cintas Corporation FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/723254/000072325425000017/ctas-20250531.htm", "tier": "T1"},
+      "quote": "Note 15 - Litigation and Other Contingencies Cintas is subject to legal proceedings, insurance receipts, legal settlements and claims arising from the ordinary course of its business, including personal injury, customer contract, environmental and employment claims.",
+      "locator": "Note 15, Litigation and Other Contingencies (p. 61)"
+    },
+    {
+      "claim_id": "litigation_7",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "litigation_legal",
+      "statement": "Cintas management opines that the aggregate liability from its ordinary-course actions will not be material to its financial position, results of operations or cash flows.",
+      "source": {"id": "s_cintas_10k", "title": "Cintas Corporation FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/723254/000072325425000017/ctas-20250531.htm", "tier": "T1"},
+      "quote": "In the opinion of management, the aggregate liability, if any, with respect to such ordinary course of business actions will not have a material adverse effect on the consolidated financial position, consolidated results of operations or consolidated cash flows of Cintas.",
+      "locator": "Note 15, Litigation and Other Contingencies (p. 61)"
+    },
+    {
+      "claim_id": "litigation_8",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "litigation_legal",
+      "statement": "As of the DEFM14A date (filed May 11, 2026), there were no pending lawsuits challenging the Cintas/UniFirst mergers.",
+      "source": {"id": "s_defm14a", "title": "UniFirst Corporation DEFM14A (proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "Litigation Related to the Mergers As of the date hereof, there are no pending lawsuits challenging the mergers.",
+      "locator": "Litigation Related to the Mergers (p. 76)"
+    },
+    {
+      "claim_id": "litigation_9",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "litigation_legal",
+      "statement": "As of the DEFM14A date, neither Cintas nor UniFirst was aware of any securities class action or derivative lawsuits having been filed in connection with the mergers.",
+      "source": {"id": "s_defm14a", "title": "UniFirst Corporation DEFM14A (proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "Currently, neither Cintas nor UniFirst is aware of any securities class action lawsuits or derivative lawsuits having been filed in connection with the mergers.",
+      "locator": "Litigation Related to the Mergers (p. 76)"
+    },
+    {
+      "claim_id": "litigation_10",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "litigation_legal",
+      "statement": "The DEFM14A flags that securities class action and derivative lawsuits are commonly brought against public companies that have signed merger agreements, framing future merger litigation as a contingent (not yet realized) risk.",
+      "source": {"id": "s_defm14a", "title": "UniFirst Corporation DEFM14A (proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "Securities class action lawsuits and derivative lawsuits are often brought against public companies that have entered into merger agreements.",
+      "locator": "Litigation Related to the Mergers (p. 76)"
+    },
+    {
+      "claim_id": "litigation_11",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "litigation_legal",
+      "statement": "On June 12, 2026 UniFirst announced that at its Special Meeting of Shareholders, shareholders voted to approve the pending acquisition by Cintas — the vote cleared without any disclosed merger-objection litigation or mooting supplemental disclosure.",
+      "source": {"id": "s_ctas_8k_vote", "title": "Cintas Corporation Form 8-K (special meeting vote results)", "url": "https://www.sec.gov/Archives/edgar/data/723254/000095010326008890/dp248355_8k.htm", "tier": "T1"},
+      "quote": "On June 12, 2026, UniFirst announced that at UniFirst’s Special Meeting of Shareholders, UniFirst’s shareholders voted to approve the pending acquisition by Cintas.",
+      "locator": "Item 8.01 Other Events (8-K dated June 11, 2026)"
+    },
+    {
+      "claim_id": "litigation_12",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "litigation_legal",
+      "statement": "Litigation is a low tail-risk for this deal: both companies report only routine, ordinary-course claims (no material standalone proceedings beyond environmental/Mexico-tax items), and as of the May 2026 proxy no merger-objection suits, securities class actions or derivative suits had been filed — and the shareholder vote then cleared on June 12, 2026.",
+      "supports": ["litigation_1", "litigation_2", "litigation_5", "litigation_7", "litigation_8", "litigation_9", "litigation_11"]
+    },
+    {
+      "claim_id": "litigation_13",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "litigation_legal",
+      "statement": "The two open watch-items are non-merger and contingent: (i) UniFirst's unresolved Mexican tax assessment, still on appeal by the Mexican tax authority after a partial UniFirst win, and (ii) Cintas's undisclosed-detail 'litigation not considered in the ordinary course of business' — neither is sized in the filings, so residual quantitative exposure cannot be grounded from the primaries.",
+      "supports": ["litigation_3", "litigation_4", "litigation_5"]
+    }
+  ]
+}

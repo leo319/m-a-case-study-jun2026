@@ -1,0 +1,109 @@
+{"area":"deal_rationale_synergies","proposals":[
+  {"claim_id":"synmech_1","type":"fact","module":"rationale","area":"deal_rationale_synergies",
+   "statement":"UniFirst's cost of revenues was $1,542.4 million in fiscal 2025 (63.4% of revenues), the company's single largest cost line.",
+   "source":{"id":"s_unf_10k_fy2025","title":"UniFirst FY2025 Form 10-K","url":"https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm","tier":"T1"},
+   "quote":"Cost of revenues (In thousands, except percentages) Fiscal 2025 Fiscal 2024 Dollar Change Percent Change Cost of revenues $ 1,542,400 $ 1,579,835 $ (37,435 ) (2.4 )% % of Revenues 63.4 %",
+   "locator":"Item 7 MD&A, Results of Operations — Cost of revenues (p. 38)"},
+
+  {"claim_id":"synmech_2","type":"fact","module":"rationale","area":"deal_rationale_synergies",
+   "statement":"UniFirst total revenues were $2,432.4 million in fiscal 2025, the base against which its cost of revenues (63.4%) and selling and administrative expenses (23.2%) are measured.",
+   "source":{"id":"s_unf_10k_fy2025","title":"UniFirst FY2025 Form 10-K","url":"https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm","tier":"T1"},
+   "quote":"Total consolidated revenues $ 2,432,352 $ 2,427,431 $ 4,921 0.2 %",
+   "locator":"Item 7 MD&A, Results of Operations — Revenues (p. 37)"},
+
+  {"claim_id":"synmech_3","type":"fact","module":"rationale","area":"deal_rationale_synergies",
+   "statement":"UniFirst attributes part of its fiscal 2025 cost-of-revenues decrease to lower merchandise and production payroll costs as a percentage of revenues, identifying merchandise amortization and production payroll as material components of its cost of revenues.",
+   "source":{"id":"s_unf_10k_fy2025","title":"UniFirst FY2025 Form 10-K","url":"https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm","tier":"T1"},
+   "quote":"Also contributing to the decrease were the effects of the one fewer week of operations in fiscal 2025 compared to fiscal 2024, and lower merchandise and production payroll costs as a percentage of revenues.",
+   "locator":"Item 7 MD&A, Results of Operations — Cost of revenues (p. 38)"},
+
+  {"claim_id":"synmech_4","type":"fact","module":"rationale","area":"deal_rationale_synergies",
+   "statement":"UniFirst amortizes rental merchandise in service on a straight-line basis over estimated service lives of six to thirty-six months, with that amortization included in cost of revenues — a cost line driven by merchandise volume and reuse efficiency.",
+   "source":{"id":"s_unf_10k_fy2025","title":"UniFirst FY2025 Form 10-K","url":"https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm","tier":"T1"},
+   "quote":"Rental merchandise in service is being amortized on a straight-line basis over the estimated service lives of the merchandise, which range from six to thirty-six months.",
+   "locator":"Item 8 Notes — Inventories and Rental Merchandise in Service (p. 56)"},
+
+  {"claim_id":"synmech_5","type":"fact","module":"rationale","area":"deal_rationale_synergies",
+   "statement":"UniFirst selling and administrative expenses were $565.1 million in fiscal 2025 (23.2% of revenues), a cost line that overlapping public-company and corporate functions in a combination could reduce.",
+   "source":{"id":"s_unf_10k_fy2025","title":"UniFirst FY2025 Form 10-K","url":"https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm","tier":"T1"},
+   "quote":"Selling and administrative expenses (In thousands, except percentages) Fiscal 2025 Fiscal 2024 Dollar Change Percent Change Selling and administrative expenses $ 565,099 $ 522,586 $ 42,513 8.1 % % of Revenues 23.2 %",
+   "locator":"Item 7 MD&A, Results of Operations — Selling and administrative expenses (p. 38)"},
+
+  {"claim_id":"synmech_6","type":"fact","module":"rationale","area":"deal_rationale_synergies",
+   "statement":"UniFirst owns a fleet of approximately 4,813 delivery vans, trucks and other vehicles, indicating a route-based local delivery network whose per-stop cost is sensitive to route density.",
+   "source":{"id":"s_unf_10k_fy2025","title":"UniFirst FY2025 Form 10-K","url":"https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm","tier":"T1"},
+   "quote":"We also own a fleet of approximately 4,813 delivery vans, trucks and other vehicles.",
+   "locator":"Item 2 Properties (p. 20)"},
+
+  {"claim_id":"synmech_7","type":"fact","module":"rationale","area":"deal_rationale_synergies",
+   "statement":"Cintas discloses that its cost of uniform rental and facility services consists primarily of production expenses, delivery expenses and the amortization of in-service inventory (uniforms, mats, shop towels and other items), identifying the cost lines a route-density and plant-utilization lever would act on.",
+   "source":{"id":"s_ctas_10k_fy2025","title":"Cintas FY2025 Form 10-K","url":"https://www.sec.gov/Archives/edgar/data/0000723254/000072325425000017/ctas-20250531.htm","tier":"T1"},
+   "quote":"Cost of uniform rental and facility services consists primarily of production expenses, delivery expenses and the amortization of in-service inventory, including uniforms, mats, shop towels and other ancillary items.",
+   "locator":"Item 7 MD&A, Results of Operations — Cost of uniform rental and facility services (p. 24)"},
+
+  {"claim_id":"synmech_8","type":"fact","module":"rationale","area":"deal_rationale_synergies",
+   "statement":"Cintas's cost of uniform rental and facility services as a percent of revenue improved from 51.8% to 50.7% in fiscal 2025, which Cintas attributes to efficiency gains in energy usage, more efficient use of in-service inventory and production efficiency gains — the same operating-efficiency levers a larger combined route/plant network would target.",
+   "source":{"id":"s_ctas_10k_fy2025","title":"Cintas FY2025 Form 10-K","url":"https://www.sec.gov/Archives/edgar/data/0000723254/000072325425000017/ctas-20250531.htm","tier":"T1"},
+   "quote":"The cost of uniform rental and facility services as a percent of revenue improved compared to fiscal 2024 from 51.8% to 50.7% primarily due to efficiency gains in energy usage, more efficient use of in-service inventory and production efficiency gains.",
+   "locator":"Item 7 MD&A, Results of Operations — Cost of uniform rental and facility services (p. 24)"},
+
+  {"claim_id":"synmech_9","type":"fact","module":"rationale","area":"deal_rationale_synergies",
+   "statement":"Cintas discloses that its selling and administrative expenses consist primarily of sales labor and commissions, management and administrative labor, payroll taxes, medical expense, insurance expense, legal and professional costs and amortization of finite-lived intangibles — corporate/overhead functions that a merger of overlapping organizations could consolidate.",
+   "source":{"id":"s_ctas_10k_fy2025","title":"Cintas FY2025 Form 10-K","url":"https://www.sec.gov/Archives/edgar/data/0000723254/000072325425000017/ctas-20250531.htm","tier":"T1"},
+   "quote":"Selling and administrative expenses consist primarily of sales labor and commissions, management and administrative labor, payroll taxes, medical expense, insurance expense, legal and professional costs and amortization of finite-lived intangible assets and capitalized contract costs.",
+   "locator":"Item 8 Notes — Summary of Significant Accounting Policies, Selling and administrative expenses (p. 41)"},
+
+  {"claim_id":"synmech_10","type":"fact","module":"rationale","area":"deal_rationale_synergies",
+   "statement":"Cintas states the combination creates value by integrating complementary processing capacity, route networks, service infrastructure, supply chains and technology investments to create efficiencies — framing the synergy mechanism as plant capacity and route-network consolidation.",
+   "source":{"id":"s_ctas_pr_20260311","title":"Cintas to Acquire UniFirst — press release (Mar 11, 2026)","url":"https://www.cintas.com/about/newsroom/details/news/2026/03/11/cintas-to-acquire-unifirst-in-5.5-billion-transaction-that-expands-service-capabilities-enhances-workday-solutions-and-advances-industry-innovation/","tier":"T2"},
+   "quote":"By integrating complementary processing capacity, route networks, service infrastructure, supply chains and technology investments, Cintas expects to create efficiencies and expand service capabilities.",
+   "locator":"Press release, Mar 11, 2026 (headline: Cintas to Acquire UniFirst in $5.5 Billion Transaction)"},
+
+  {"claim_id":"synmech_11","type":"fact","module":"rationale","area":"deal_rationale_synergies",
+   "statement":"Cintas states the deal's implied enterprise value of approximately $5.5 billion represents 8.0x run-rate trailing-12-months EBITDA including approximately $375 million of operating cost synergies — i.e., the synergies are interested-party-asserted and already embedded in the deal's stated multiple.",
+   "source":{"id":"s_ctas_pr_20260311","title":"Cintas to Acquire UniFirst — press release (Mar 11, 2026)","url":"https://www.cintas.com/about/newsroom/details/news/2026/03/11/cintas-to-acquire-unifirst-in-5.5-billion-transaction-that-expands-service-capabilities-enhances-workday-solutions-and-advances-industry-innovation/","tier":"T2"},
+   "quote":"The implied total enterprise value of the transaction is approximately $5.5 billion, which represents a multiple of 8.0x run-rate trailing 12 months EBITDA, including approximately $375 million of operating cost synergies.",
+   "locator":"Press release, Mar 11, 2026 (headline: Cintas to Acquire UniFirst in $5.5 Billion Transaction)"},
+
+  {"claim_id":"synmech_12","type":"fact","module":"rationale","area":"deal_rationale_synergies",
+   "statement":"In its December 2025 public proposal communication, Cintas asserted that a combination would let it better leverage its infrastructure and route networks, restating route-network optimization as the operational basis for the deal's cost synergies.",
+   "source":{"id":"s_ctas_425_dec2025","title":"Cintas/UniFirst Form 425 — Cintas Dec 2025 communication","url":"https://www.sec.gov/Archives/edgar/data/0000717954/000095010325000223/dp223194_ex9901.htm","tier":"T2"},
+   "quote":"A combination would accelerate the benefits of the companies’ investments in technology and create opportunities to leverage the combined infrastructure and route networks.",
+   "locator":"Form 425, Cintas communication (Dec 22, 2025), Exhibit 99.1"},
+
+  {"claim_id":"synmech_13","type":"fact","module":"rationale","area":"deal_rationale_synergies",
+   "statement":"PRECEDENT BASE RATE — at announcement of its 2016 acquisition of G&K Services, Cintas stated it anticipated realizing annual synergies in the range of $130 million to $140 million, to be realized in their entirety in the fourth full year after closing.",
+   "source":{"id":"s_ctas_gk_pr_2016","title":"Cintas to Acquire G&K Services — press release (Aug 16, 2016)","url":"https://www.sec.gov/Archives/edgar/data/39648/000110465916140052/a16-16841_1ex99d1.htm","tier":"T2"},
+   "quote":"Additionally, Cintas anticipates realizing annual synergies in the range of $130 million to $140 million.",
+   "locator":"Form 8-K Exhibit 99.1, Cintas to Acquire G&K Services (Aug 16, 2016)"},
+
+  {"claim_id":"synmech_14","type":"fact","module":"rationale","area":"deal_rationale_synergies",
+   "statement":"PRECEDENT BASE RATE — Cintas stated the G&K synergies were projected to be realized in their entirety in the fourth full year after closing, the same four-year realization horizon Cintas attaches to the UniFirst $375 million synergy target.",
+   "source":{"id":"s_ctas_gk_pr_2016","title":"Cintas to Acquire G&K Services — press release (Aug 16, 2016)","url":"https://www.sec.gov/Archives/edgar/data/39648/000110465916140052/a16-16841_1ex99d1.htm","tier":"T2"},
+   "quote":"Synergies are projected to be realized in their entirety in the fourth full year after closing.",
+   "locator":"Form 8-K Exhibit 99.1, Cintas to Acquire G&K Services (Aug 16, 2016)"},
+
+  {"claim_id":"synmech_15","type":"fact","module":"rationale","area":"deal_rationale_synergies",
+   "statement":"PRECEDENT BASE RATE — by its fiscal 2019 second quarter (Nov 30, 2018), Cintas reported only $7.8 million of non-recurring G&K integration expenses (50 basis points of operating income), and its fiscal 2020 guidance carried only $0.10 of residual G&K integration EPS, indicating the G&K integration was substantially complete roughly two years after the March 2017 close.",
+   "source":{"id":"s_ctas_fy2019_q2_8k","title":"Cintas FY2019 Q2 earnings — Form 8-K Exhibit","url":"https://www.sec.gov/Archives/edgar/data/0000723254/000072325419000037/ex9912-19.htm","tier":"T2"},
+   "quote":"Operating income in the second quarter of fiscal 2019 was impacted by non-recurring integration expenses related to the G&K Services, Inc.",
+   "locator":"Form 8-K Exhibit 99.12, Cintas FY2019 Q2 results — non-recurring items"},
+
+  {"claim_id":"synmech_16","type":"fact","module":"rationale","area":"deal_rationale_synergies",
+   "statement":"PRECEDENT BASE RATE — in its fiscal 2020 second quarter (Nov 30, 2019), Cintas reported Uniform Rental and Facility Services segment gross margin of 46.6%, up 130 basis points year over year, evidence that the G&K consolidation period coincided with sustained rental-segment margin expansion.",
+   "source":{"id":"s_ctas_fy2020_q2_8k","title":"Cintas FY2020 Q2 earnings — Form 8-K Exhibit","url":"https://www.sec.gov/Archives/edgar/data/0000723254/000072325419000037/ex9912-19.htm","tier":"T2"},
+   "quote":"Uniform Rental and Facility Services operating segment gross margin as a percentage of revenue improved 130 basis points from last year’s second quarter to 46.6% , and the First Aid and Safety Services operating segment gross margin as a percentage of revenue improved 40 basis points to 48.4% .",
+   "locator":"Form 8-K Exhibit, Cintas FY2020 Q2 results (Nov 30, 2019) — Gross Margin Results"},
+
+  {"claim_id":"synmech_17","type":"inference","module":"rationale","area":"deal_rationale_synergies",
+   "statement":"Cintas's ~$375 million asserted operating cost synergies equal roughly 15.4% of UniFirst's fiscal 2025 total revenues (375 / 2,432 ≈ 0.154) and roughly 24.3% of UniFirst's fiscal 2025 cost of revenues (375 / 1,542 ≈ 0.243); since UniFirst's cost of revenues (63.4% of revenue) and SG&A (23.2% of revenue) are its two largest cost pools, the synergy target is sized against the very cost lines (production/processing, merchandise amortization, delivery, and corporate SG&A) the combination would target.",
+   "supports":["synmech_1","synmech_2","synmech_5","synmech_11"]},
+
+  {"claim_id":"synmech_18","type":"inference","module":"rationale","area":"deal_rationale_synergies",
+   "statement":"Both companies disclose the same route-based cost structure — production/processing expenses, merchandise amortization, and local delivery expenses dominate cost of revenues, on top of overlapping corporate SG&A — so Cintas's stated lever of consolidating processing capacity and route networks (synmech_10, synmech_12) is directed at the cost lines that are in fact largest for the target (synmech_3, synmech_4, synmech_6, synmech_7), making the mechanism internally consistent (this is the mechanism's plausibility, not a judgment that the $375M is achievable).",
+   "supports":["synmech_3","synmech_4","synmech_6","synmech_7","synmech_9","synmech_10","synmech_12"]},
+
+  {"claim_id":"synmech_19","type":"inference","module":"rationale","area":"deal_rationale_synergies",
+   "statement":"On the directly comparable prior deal, Cintas appears to have executed its laundry-consolidation synergy plan on the timeline it set: it targeted $130–140M of G&K synergies over four full years (synmech_13, synmech_14), and integration spend had fallen to ~$7.8M by FY2019 Q2 with only $0.10 residual EPS impact guided for FY2020 (synmech_15) while rental-segment gross margin expanded 130bps to 46.6% in the consolidation window (synmech_16) — a base rate that the same four-year, route/plant-consolidation playbook is now being applied to the larger ~$375M UniFirst target.",
+   "supports":["synmech_13","synmech_14","synmech_15","synmech_16","synmech_11"]}
+]}

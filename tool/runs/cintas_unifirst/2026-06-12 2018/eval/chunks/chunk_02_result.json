@@ -1,0 +1,22 @@
+{"chunk": 2, "verdicts": [
+  {"claim_id": "target_fundamentals_12", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_10k", "span": "—", "reason": "quote present; 4.7% of revenues for First Aid & Safety Solutions in fiscal 2025 entailed by disaggregated-revenue table"},
+  {"claim_id": "target_fundamentals_13", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_10k", "span": "—", "reason": "quote present; Other 99,204 vs 97,130, +2,074 (2.1%) matches MD&A revenues-by-segment table"},
+  {"claim_id": "commercial_market_5", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_cintas_10k", "span": "—", "reason": "quote present verbatim; statement paraphrases the Item 1 overview self-description accurately"},
+  {"claim_id": "commercial_market_2", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_cintas_fy25_er", "span": "—", "reason": "quote present; total revenue 10,340,181 (+7.7%) and Uniform rental 7,976,073 vs 7,465,199 confirmed in income statement; ~77% share holds"},
+  {"claim_id": "commercial_market_6", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_cintas_10k", "span": "—", "reason": "quote present verbatim; 48,300 employee-partners and 900 union-represented entailed"},
+  {"claim_id": "operational_integration_1", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_cintas_10k", "span": "—", "reason": "quote present verbatim; 12,100 routes, 478 facilities, 12 distribution centers at May 31 2025 entailed"},
+  {"claim_id": "operational_integration_7", "type": "fact", "verdict": "MISATTRIBUTION",
+   "cited_source": "s_unf_10k", "span": "about one-fifth the size of Cintas's ~22,900-vehicle fleet", "reason": "cited source (UniFirst 10-K) only establishes UniFirst's 4,813-vehicle fleet; the Cintas ~22,900-vehicle figure and the one-fifth comparison appear nowhere in this source"},
+  {"claim_id": "commercial_market_7", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_cintas_10k", "span": "—", "reason": "quote present; full Competition paragraph in context window supports local/fragmented plus national, regional, local, retailer and online competitor enumeration"},
+  {"claim_id": "commercial_market_9", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_10k", "span": "—", "reason": "quote present; industry described highly competitive and principal competitors Cintas, Alsco, Vestis confirmed in context"},
+  {"claim_id": "commercial_market_8", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_cintas_10k", "span": "—", "reason": "quote present verbatim; no customer over one percent of total revenue entailed; low concentration is fair restatement"}
+]}

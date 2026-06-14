@@ -1,0 +1,171 @@
+{
+  "area": "operational_integration",
+  "proposals": [
+    {
+      "claim_id": "supplychain_1",
+      "type": "fact",
+      "module": "rationale",
+      "area": "operational_integration",
+      "statement": "UniFirst is vertically integrated into garment manufacturing: during fiscal 2025 it manufactured approximately 62% of the garments it placed in service.",
+      "source": {"id": "s_unf_10k_fy2025", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "During the fiscal year ended August 30, 2025 (“fiscal 2025”), we manufactured approximately 62% of the garments placed in service.",
+      "locator": "Item 1 Business, Overview (p. 4)"
+    },
+    {
+      "claim_id": "supplychain_2",
+      "type": "fact",
+      "module": "rationale",
+      "area": "operational_integration",
+      "statement": "UniFirst states that because it designs and manufactures a majority of its own uniforms and protective clothes, it can produce custom garment programs for larger customers and better control the quality, price and speed at which it services such garments (a self-asserted benefit of self-manufacture).",
+      "source": {"id": "s_unf_10k_fy2025", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "Because we design and manufacture a majority of our own uniforms and protective clothes, we can produce custom garment programs for our larger customers, offer a diverse range of such designs within our standard line of garments and better control the quality, price and speed at which we service such garments.",
+      "locator": "Item 1 Business, Overview (p. 4)"
+    },
+    {
+      "claim_id": "supplychain_3",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "UniFirst's self-manufactured garments are primarily work pants and shirts produced at two of its plants in San Luis Potosi, Mexico and one plant in Managua, Nicaragua, plus subcontracted manufacturers used to balance demand and optimize costs.",
+      "source": {"id": "s_unf_10k_fy2025", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "These garments were primarily work pants and shirts manufactured at two of our plants located in San Luis Potosi, Mexico, one plant located in Managua, Nicaragua, as well as at subcontracted manufacturers that we utilize within our sourcing strategy to balance demand and optimize costs.",
+      "locator": "Item 1 Business, Manufacturing and Sourcing (p. 5)"
+    },
+    {
+      "claim_id": "supplychain_4",
+      "type": "fact",
+      "module": "rationale",
+      "area": "operational_integration",
+      "statement": "UniFirst also manufactures approximately 99% of the mats it places in service at its plant in Cave City, Arkansas.",
+      "source": {"id": "s_unf_10k_fy2025", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "Currently, we also manufacture approximately 99% of the mats we place in service at our plant in Cave City, Arkansas.",
+      "locator": "Item 1 Business, Manufacturing and Sourcing (p. 5)"
+    },
+    {
+      "claim_id": "supplychain_5",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "UniFirst acquires the raw materials with which it produces its garments from a limited number of suppliers, though it believes such materials are generally readily available from other sources.",
+      "source": {"id": "s_unf_10k_fy2025", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "While we currently acquire the raw materials with which we produce our garments from a limited number of suppliers, we believe that such materials are generally readily available from other sources.",
+      "locator": "Item 1 Business, Manufacturing and Sourcing (p. 5)"
+    },
+    {
+      "claim_id": "supplychain_6",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "UniFirst flags as a risk that U.S. and foreign trade policies, including the assessment of tariffs and other impositions on imported goods, may have a material adverse impact on its business.",
+      "source": {"id": "s_unf_10k_fy2025", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "U.S. and foreign trade policies, including the assessment of tariffs and other impositions on imported goods, may have a material adverse impact on our business.",
+      "locator": "Item 1A Risk Factors (p. 12)"
+    },
+    {
+      "claim_id": "supplychain_7",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "UniFirst warns that if tariffs were to increase its cost or difficulty of obtaining raw materials or products from suppliers and it were unable to mitigate the impacts, it could have a material adverse impact on its business and results of operations.",
+      "source": {"id": "s_unf_10k_fy2025", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "If any such tariffs were to increase our cost or difficulty of obtaining raw materials or products from suppliers and we were unable to mitigate the impacts of any such increased costs or difficulties, it could have a material adverse impact on our business and our results of operations.",
+      "locator": "Item 1A Risk Factors (p. 12)"
+    },
+    {
+      "claim_id": "supplychain_8",
+      "type": "fact",
+      "module": "rationale",
+      "area": "operational_integration",
+      "statement": "UniFirst owned or leased 281 facilities containing approximately 8.3 million square feet located in the U.S., Canada, Mexico, Europe and Nicaragua as of August 30, 2025, owning 148 of these facilities (approximately 6.6 million square feet).",
+      "source": {"id": "s_unf_10k_fy2025", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "As of August 30, 2025, we owned or leased 281 facilities containing an aggregate of approximately 8.3 million square feet located in the U.S., Canada, Mexico, Europe and Nicaragua.",
+      "locator": "Item 2 Properties (p. 14)"
+    },
+    {
+      "claim_id": "supplychain_9",
+      "type": "fact",
+      "module": "rationale",
+      "area": "operational_integration",
+      "statement": "UniFirst amortizes its rental merchandise in service on a straight-line basis over estimated service lives ranging from six to thirty-six months, reflecting the working-capital intensity of carrying garments produced and placed in service.",
+      "source": {"id": "s_unf_10k_fy2025", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "Rental merchandise in service is being amortized on a straight-line basis over the estimated service lives of the merchandise, which range from six to thirty-six months.",
+      "locator": "Item 7 MD&A, Critical Accounting Estimates — Inventories and Rental Merchandise in Service (p. 22)"
+    },
+    {
+      "claim_id": "supplychain_10",
+      "type": "fact",
+      "module": "rationale",
+      "area": "operational_integration",
+      "statement": "In contrast to UniFirst's vertical integration, Cintas sources finished products from many outside suppliers.",
+      "source": {"id": "s_ctas_10k_fy2025", "title": "Cintas FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000072325425000017/ctas-20250531.htm", "tier": "T1"},
+      "quote": "Cintas sources finished products from many outside suppliers.",
+      "locator": "Item 1 Business, Suppliers (p. 5)"
+    },
+    {
+      "claim_id": "supplychain_11",
+      "type": "fact",
+      "module": "rationale",
+      "area": "operational_integration",
+      "statement": "In addition to sourcing from third-party suppliers, Cintas operates five manufacturing facilities that provide for standard uniform needs.",
+      "source": {"id": "s_ctas_10k_fy2025", "title": "Cintas FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000072325425000017/ctas-20250531.htm", "tier": "T1"},
+      "quote": "In addition to sourcing from third-party suppliers, Cintas operates five manufacturing facilities that provide for standard uniform needs.",
+      "locator": "Item 1 Business, Suppliers (p. 5)"
+    },
+    {
+      "claim_id": "supplychain_12",
+      "type": "fact",
+      "module": "rationale",
+      "area": "operational_integration",
+      "statement": "Cintas purchases fabric, used in the manufacturing of its products, from several suppliers.",
+      "source": {"id": "s_ctas_10k_fy2025", "title": "Cintas FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000072325425000017/ctas-20250531.htm", "tier": "T1"},
+      "quote": "Cintas purchases fabric, used in the manufacturing of its products, from several suppliers.",
+      "locator": "Item 1 Business, Suppliers (p. 5)"
+    },
+    {
+      "claim_id": "supplychain_13",
+      "type": "fact",
+      "module": "rationale",
+      "area": "operational_integration",
+      "statement": "Cintas operates 12 distribution centers and five manufacturing facilities, of which all but one of the manufacturing facilities are owned by Cintas.",
+      "source": {"id": "s_ctas_10k_fy2025", "title": "Cintas FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000072325425000017/ctas-20250531.htm", "tier": "T1"},
+      "quote": "Cintas operates 12 distribution centers and five manufacturing facilities.",
+      "locator": "Item 2 Properties (p. 11)"
+    },
+    {
+      "claim_id": "supplychain_14",
+      "type": "fact",
+      "module": "rationale",
+      "area": "operational_integration",
+      "statement": "Cintas' cost of uniform rental and facility services consists primarily of production expenses, delivery expenses and the amortization of in-service inventory, including uniforms, mats, shop towels and other ancillary items.",
+      "source": {"id": "s_ctas_10k_fy2025", "title": "Cintas FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000072325425000017/ctas-20250531.htm", "tier": "T1"},
+      "quote": "Cost of uniform rental and facility services consists primarily of production expenses, delivery expenses and the amortization of in-service inventory, including uniforms, mats, shop towels and other ancillary items.",
+      "locator": "Item 7 MD&A, Results of Operations — Cost of Sales (p. 16)"
+    },
+    {
+      "claim_id": "supplychain_15",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "Cintas flags that geopolitical developments and changes in trade agreements (alongside other economic factors) could adversely affect demand for its products and services.",
+      "source": {"id": "s_ctas_10k_fy2025", "title": "Cintas FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000072325425000017/ctas-20250531.htm", "tier": "T1"},
+      "quote": "Higher levels of unemployment, inflation, recessionary conditions, geopolitical developments, changes in trade agreements, tax rates and other changes in tax laws and other economic factors could adversely affect the demand for Cintas’ products and services.",
+      "locator": "Item 1A Risk Factors (p. 7)"
+    },
+    {
+      "claim_id": "supplychain_16",
+      "type": "inference",
+      "module": "rationale",
+      "area": "operational_integration",
+      "statement": "The two companies run structurally different uniform supply models: UniFirst self-manufactures roughly 62% of garments placed in service (primarily at owned plants in Mexico and Nicaragua), whereas Cintas sources finished products from many outside suppliers and runs only five own manufacturing facilities — so acquiring UniFirst would add in-house garment manufacturing capacity that Cintas's outsourced model does not have.",
+      "supports": ["supplychain_1", "supplychain_3", "supplychain_10", "supplychain_11", "supplychain_13"]
+    },
+    {
+      "claim_id": "supplychain_17",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "Because UniFirst's self-manufactured garments are produced primarily at owned plants in San Luis Potosi, Mexico and Managua, Nicaragua, and both companies cite trade-policy/tariff exposure as a business risk, the combined entity would inherit UniFirst's Mexico/Nicaragua manufacturing footprint and its stated tariff sensitivity on imported goods and raw materials.",
+      "supports": ["supplychain_3", "supplychain_6", "supplychain_7", "supplychain_15"]
+    }
+  ]
+}

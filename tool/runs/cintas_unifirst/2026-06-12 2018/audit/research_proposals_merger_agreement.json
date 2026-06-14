@@ -1,0 +1,211 @@
+{
+  "area": "merger_agreement",
+  "proposals": [
+    {
+      "claim_id": "merger_agreement_1",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "UniFirst must pay Cintas a termination fee of $213,300,000 if the merger agreement is terminated in circumstances relating to UniFirst entering into an agreement for an alternative transaction or a change in the UniFirst Board's recommendation.",
+      "source": {"id": "s_unf_defm14a", "title": "UniFirst DEFM14A (proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "In some circumstances relating to UniFirst’s entry into an agreement for an alternative transaction or a change in the recommendation of the UniFirst Board with respect to the mergers, upon termination of the merger agreement, UniFirst will be required to pay a termination fee of $213,300,000 to Cintas.",
+      "locator": "Risk Factors — provisions limiting UniFirst's ability to pursue alternatives (cross-ref. The Merger Agreement—Termination Fees, p. 95)"
+    },
+    {
+      "claim_id": "merger_agreement_2",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "The merger agreement provides for a target-side termination fee of $213.3 million payable by UniFirst to Cintas and a reverse termination fee of $350 million payable by Cintas to UniFirst, each in specified termination circumstances.",
+      "source": {"id": "s_unf_8k_20260311", "title": "UniFirst Form 8-K (Mar 11, 2026) reporting Agreement and Plan of Merger", "url": "https://www.sec.gov/Archives/edgar/data/717954/000119312526101128/d55520d8k.htm", "tier": "T1"},
+      "quote": "The Merger Agreement provides for the payment by UniFirst to Cintas of a termination fee of $213.3 million if the Merger Agreement is terminated in specified circumstances, and for payment by Cintas to UniFirst of a termination fee of $350 million if the Merger Agreement is terminated in specified circumstances.",
+      "locator": "Item 1.01 Entry into a Material Definitive Agreement — Termination Fees"
+    },
+    {
+      "claim_id": "merger_agreement_3",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "Neither party can be required to pay its termination fee on more than one occasion: in no event will UniFirst pay the UniFirst termination fee more than once, and in no event will Cintas pay the Cintas termination fee more than once.",
+      "source": {"id": "s_unf_defm14a", "title": "UniFirst DEFM14A (proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "The merger agreement provides that the parties agree that (i) in no event will UniFirst be required to pay the UniFirst termination fee on more than one occasion and (ii) in no event will Cintas be required to pay the Cintas termination fee on more than one occasion.",
+      "locator": "The Merger Agreement—Termination Fees (p. 95)"
+    },
+    {
+      "claim_id": "merger_agreement_4",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "Cintas's obligation to complete the mergers is not conditioned on its obtaining financing for the mergers (no financing condition).",
+      "source": {"id": "s_unf_defm14a", "title": "UniFirst DEFM14A (proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "Financing of the Mergers Cintas’ obligation to complete the mergers is not conditioned upon its obtaining financing for the mergers.",
+      "locator": "The Mergers—Financing of the Mergers (p. 53)"
+    },
+    {
+      "claim_id": "merger_agreement_5",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "Although Cintas's obligation to consummate the mergers is not conditioned on consummation of the debt financing, if Cintas is unable to obtain the debt financing the mergers could be delayed or not completed, in which case Cintas may be in breach of its obligations under the merger agreement.",
+      "source": {"id": "s_unf_defm14a", "title": "UniFirst DEFM14A (proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "Although Cintas’ obligation to consummate the mergers is not conditioned upon consummation of the debt financing, if Cintas is unable to obtain the debt financing, the mergers could be delayed or not completed, in which case Cintas may be in breach of its obligations under the merger agreement.",
+      "locator": "Risk Factors — financing of the mergers"
+    },
+    {
+      "claim_id": "merger_agreement_6",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "The mergers are conditioned on the expiration or termination of any waiting period (and any extension thereof) under the HSR Act.",
+      "source": {"id": "s_unf_defm14a", "title": "UniFirst DEFM14A (proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "Regulatory Matters US Antitrust The mergers are conditioned upon the expiration or termination of any waiting period (and any extension thereof) under the HSR Act.",
+      "locator": "The Mergers—Regulatory Matters (p. 75)"
+    },
+    {
+      "claim_id": "merger_agreement_7",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "Beyond HSR, the mergers are also conditioned on (i) the expiration of applicable waiting periods and authorization or consent from a certain foreign regulator under its antitrust laws and (ii) authorization or consent of applicable governmental authorities for certain of UniFirst's permits.",
+      "source": {"id": "s_unf_defm14a", "title": "UniFirst DEFM14A (proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "Other Approvals The mergers are also conditioned upon (i) the expiration of applicable waiting periods and authorization or consent from a certain foreign regulator under its antitrust laws and (ii) the authorization or consent of the applicable governmental authorities in respect of certain of UniFirst’s permits.",
+      "locator": "The Mergers—Regulatory Matters—Other Approvals (p. 75)"
+    },
+    {
+      "claim_id": "merger_agreement_8",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "Completion of the mergers requires approval of the merger proposal by UniFirst shareholders.",
+      "source": {"id": "s_unf_defm14a", "title": "UniFirst DEFM14A (proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "Approval of the merger proposal by UniFirst shareholders is required for completion of the mergers.",
+      "locator": "Questions and Answers about the Special Meeting and the Mergers"
+    },
+    {
+      "claim_id": "merger_agreement_9",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "Closing is also conditioned on the Cintas shares to be issued in the mergers being approved for listing on NASDAQ: neither party is required to consummate the mergers if such shares are not approved for listing.",
+      "source": {"id": "s_unf_defm14a", "title": "UniFirst DEFM14A (proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "The merger agreement provides that neither Cintas nor UniFirst will be required to consummate the mergers if such shares are not approved for listing on the NASDAQ, subject to official notice of issuance.",
+      "locator": "The Merger Agreement—Conditions to Completion of the Mergers (p. 92)"
+    },
+    {
+      "claim_id": "merger_agreement_10",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "The merger agreement contains a Company-side Material Adverse Effect bring-down: it represents that since August 30, 2025 through the date of the agreement there has not been any event that has had, or would reasonably be expected to have, individually or in the aggregate, a Material Adverse Effect on UniFirst (the Company).",
+      "source": {"id": "s_unf_defm14a", "title": "UniFirst DEFM14A (proxy statement/prospectus, incl. Agreement and Plan of Merger)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "(c) Since August 30, 2025 through the date of this Agreement, there has not been any event, circumstance, occurrence, effect, fact, development or change that has had, or would reasonably be expected to have, individually or in the aggregate, a Material Adverse Effect on the Company.",
+      "locator": "Annex A, Agreement and Plan of Merger, Art. III Representations and Warranties of the Company (Absence of Certain Changes)"
+    },
+    {
+      "claim_id": "merger_agreement_11",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "The merger agreement also contains a Parent-side Material Adverse Effect bring-down: it represents that since May 31, 2025 through the date of the agreement there has not been any event that has had, or would reasonably be expected to have, individually or in the aggregate, a Material Adverse Effect on Cintas (Parent).",
+      "source": {"id": "s_unf_defm14a", "title": "UniFirst DEFM14A (proxy statement/prospectus, incl. Agreement and Plan of Merger)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "(b) Since May 31, 2025 through the date of this Agreement, there has not been any event, circumstance, occurrence, effect, fact, development or change that has had, or would reasonably be expected to have, individually or in the aggregate, a Material Adverse Effect on Parent.",
+      "locator": "Annex A, Agreement and Plan of Merger, Art. IV Representations and Warranties of Parent (Absence of Certain Changes)"
+    },
+    {
+      "claim_id": "merger_agreement_12",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "The merger agreement restricts UniFirst's ability to solicit, seek, facilitate, discuss or enter into an agreement with respect to a UniFirst acquisition proposal (a no-shop covenant).",
+      "source": {"id": "s_unf_defm14a", "title": "UniFirst DEFM14A (proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "The merger agreement contains certain provisions that restrict UniFirst’s ability to solicit, seek, facilitate, discuss or enter into an agreement with respect to a UniFirst acquisition proposal.",
+      "locator": "The Merger Agreement—No Solicitation"
+    },
+    {
+      "claim_id": "merger_agreement_13",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "Under the no-shop provisions, UniFirst must keep Cintas informed regarding a UniFirst superior proposal.",
+      "source": {"id": "s_unf_defm14a", "title": "UniFirst DEFM14A (proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "UniFirst must keep Cintas informed regarding a UniFirst superior proposal.",
+      "locator": "The Merger Agreement—No Solicitation (Superior Proposal procedures)"
+    },
+    {
+      "claim_id": "merger_agreement_14",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "The merger agreement is enforceable by specific performance: each party agreed it will not oppose the granting of an injunction, specific performance and other equitable relief on the basis that another party has an adequate remedy at law or that specific performance is not an appropriate remedy.",
+      "source": {"id": "s_unf_defm14a", "title": "UniFirst DEFM14A (proxy statement/prospectus, incl. Agreement and Plan of Merger)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "Each of the parties agrees that it will not oppose the granting of an injunction, specific performance and other equitable relief on the basis that any other party has an adequate remedy at law or that any award of specific performance is not an appropriate remedy for any reason at law or in equity.",
+      "locator": "Annex A, Agreement and Plan of Merger, Section 8.10 Specific Performance"
+    },
+    {
+      "claim_id": "merger_agreement_15",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "During negotiations, Morgan Stanley (for UniFirst) sought meaningful protections against regulatory risk, including an 'above market' reverse termination fee and a 'hell or high water' regulatory efforts covenant.",
+      "source": {"id": "s_unf_defm14a", "title": "UniFirst DEFM14A (proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "Morgan communicated to representatives of Cintas’ Initial Financial Advisor the continuing request for meaningful protections against regulatory risks, including an “above market” reverse termination fee and a “hell or high water” regulatory efforts covenant.",
+      "locator": "The Mergers—Background of the Mergers"
+    },
+    {
+      "claim_id": "merger_agreement_16",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "Cintas at one point terminated discussions due in part to UniFirst's position on the 'hell or high water' regulatory efforts covenant, the above-market regulatory termination fee, and the 'high 300s' per-share price — indicating Cintas resisted an unqualified hell-or-high-water antitrust commitment.",
+      "source": {"id": "s_unf_defm14a", "title": "UniFirst DEFM14A (proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "Cintas decided to terminate the discussions due to, among other things, UniFirst’s position with respect to the “hell or high water” regulatory efforts covenant, the above market regulatory termination fee and the “high 300s” per share price.",
+      "locator": "The Mergers—Background of the Mergers"
+    },
+    {
+      "claim_id": "merger_agreement_17",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "Cintas's proposal provided for a $350.0 million reverse termination fee payable by Cintas to UniFirst if the merger was blocked on antitrust grounds, plus an obligation for Cintas and UniFirst to litigate any challenge by antitrust authorities, if necessary.",
+      "source": {"id": "s_unf_defm14a", "title": "UniFirst DEFM14A (proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "The Cintas proposal also provided for a $350.0 million reverse termination fee payable by Cintas to UniFirst if the merger was blocked on antitrust grounds, and an obligation for Cintas and UniFirst to litigate any challenge by antitrust authorities, if necessary.",
+      "locator": "The Mergers—Background of the Mergers"
+    },
+    {
+      "claim_id": "merger_agreement_18",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "Cintas reaffirmed that it would agree to a reverse termination fee of no more than $350.0 million, and that it would require two four-month extensions at the end of a 10-month termination date to the extent needed to clear antitrust approvals.",
+      "source": {"id": "s_unf_defm14a", "title": "UniFirst DEFM14A (proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "Following the above discussions, Cintas reaffirmed its position that it would agree to a reverse termination fee of no more than $350.0 million, and that it would require two four-months extensions at the end of a 10 months termination date to the extent needed to clear antitrust approvals.",
+      "locator": "The Mergers—Background of the Mergers"
+    },
+    {
+      "claim_id": "merger_agreement_19",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "Either Cintas or UniFirst may terminate the merger agreement if the mergers have not been consummated by an outside date (a 5:00 p.m. deadline on a specified date).",
+      "source": {"id": "s_unf_defm14a", "title": "UniFirst DEFM14A (proxy statement/prospectus)", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000114036126020380/ny20072400x1_defm14a.htm", "tier": "T1"},
+      "quote": "Also, either Cintas or UniFirst may terminate the merger agreement if the mergers have not been consummated on or before 5:00 p.m.",
+      "locator": "The Merger Agreement—Termination of the Merger Agreement (p. 93)"
+    },
+    {
+      "claim_id": "merger_agreement_20",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "The merger agreement shifts a defined slice of antitrust risk to Cintas but stops short of an unlimited 'hell or high water' commitment: Cintas owes UniFirst a $350M reverse termination fee (~1.6x the $213.3M target fee) if the deal is blocked, agreed to litigate antitrust challenges, and accepted a ~10-month outside date extendable by two four-month periods for antitrust clearance — while having rejected UniFirst's request for an 'above market' reverse fee and a 'hell or high water' efforts covenant.",
+      "supports": ["merger_agreement_2", "merger_agreement_15", "merger_agreement_16", "merger_agreement_17", "merger_agreement_18"]
+    },
+    {
+      "claim_id": "merger_agreement_21",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "Because Cintas's closing obligation is not conditioned on financing yet the deal is specifically enforceable, Cintas bears financing-availability risk: if it fails to obtain the debt financing it may be in breach and exposed to specific performance rather than able to walk by paying a fee.",
+      "supports": ["merger_agreement_4", "merger_agreement_5", "merger_agreement_14"]
+    }
+  ]
+}

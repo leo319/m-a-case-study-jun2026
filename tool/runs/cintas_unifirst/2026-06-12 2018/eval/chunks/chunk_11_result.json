@@ -1,0 +1,22 @@
+{"chunk": 11, "verdicts": [
+  {"claim_id": "litigation_5", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_cintas_10k", "span": "—", "reason": "quote present verbatim; 10-K Legal Proceedings/Note 15 context entails the additional non-ordinary-course litigation statement"},
+  {"claim_id": "rt_financing_risk", "type": "inference", "verdict": "PASS",
+   "cited_source": "merger_agreement_21,financing_19,merger_agreement_14", "span": "—", "reason": "supports verified; no-financing-condition + specific-performance + unsecured $2.8B permanent debt yield the low-but-nonzero conclusion"},
+  {"claim_id": "management_governance_9", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_engine_prec14a", "span": "—", "reason": "verbatim quote present; Engine's deeply-disappointing-TSR-across-every-period assertion entailed by quoted span"},
+  {"claim_id": "management_governance_10", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_engine_prec14a", "span": "—", "reason": "quote present verbatim; 12.8%->6.4% ~50% drop vs Cintas margin expansion entailed exactly"},
+  {"claim_id": "short_activist_10", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_engine_dfan_proxyadvisors", "span": "—", "reason": "full source confirms ISS/Glass Lewis/Egan-Jones all recommend FOR Ajdler and M. Croatti on BLUE card at Dec 15 2025 annual meeting"},
+  {"claim_id": "short_activist_11", "type": "inference", "verdict": "PASS",
+   "cited_source": "short_activist_1,short_activist_2,short_activist_3,short_activist_4,short_activist_5,short_activist_7", "span": "—", "reason": "supports verified; activist-not-short thesis (mismanagement under family control, sale as path) reinforces acquirer narrative, follows"},
+  {"claim_id": "management_governance_6", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_defm14a", "span": "—", "reason": "verbatim quote present; two-thirds voting power and expected approval subject to V&S agreement entailed by context"},
+  {"claim_id": "whycintas_11", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_defm14a", "span": "—", "reason": "Feb 8 2026 $310 mix-TBD quote verbatim; same source confirms Cintas viewed $275 as 'full and fair' price, so $35-above framing is grounded"},
+  {"claim_id": "merger_agreement_17", "type": "fact", "verdict": "PASS",
+   "cited_source": "s_unf_defm14a", "span": "—", "reason": "verbatim quote present; $350M reverse termination fee + obligation to litigate antitrust challenges entailed exactly"},
+  {"claim_id": "ex_close", "type": "inference", "verdict": "PASS",
+   "cited_source": "whycintas_17,management_governance_6,merger_agreement_20,merger_agreement_4,antitrust_17,antitrust_18,antitrust_4", "span": "—", "reason": "all supports verified; balanced more-likely-than-not-conditioned-on-remedy synthesis follows from the pro/con supports"}
+]}

@@ -1,0 +1,267 @@
+{
+  "area": "operational_integration",
+  "proposals": [
+    {
+      "claim_id": "operational_integration_1",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "Cintas operates a far larger route network than UniFirst: at May 31, 2025 Cintas had approximately 12,100 local delivery routes, 478 operational facilities and 12 distribution centers across its segments.",
+      "source": {"id": "s_cintas_10k", "title": "Cintas FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000072325425000017/ctas-20250531.htm", "tier": "T1"},
+      "quote": "At May 31, 2025, Cintas, in total, had approximately 12,100 local delivery routes, 478 operational facilities and 12 distribution centers.",
+      "locator": "Part I, Item 1 Business — Operations and Distribution (p. 3)"
+    },
+    {
+      "claim_id": "operational_integration_2",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "Cintas delivers via local routes originating from rental processing plants and branches and owns or leases approximately 22,900 vehicles used for route-based services and by sales and management employee-partners.",
+      "source": {"id": "s_cintas_10k", "title": "Cintas FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000072325425000017/ctas-20250531.htm", "tier": "T1"},
+      "quote": "Cintas owns or leases approximately 22,900 vehicles which are used for the route-based services and by the sales and management employee-partners.",
+      "locator": "Part I, Item 1 Business — Operations and Distribution (p. 3)"
+    },
+    {
+      "claim_id": "operational_integration_3",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "Cintas's route model is explicitly plant-and-branch based: within Uniform Rental and Facility Services, Cintas provides products and services to customers via local delivery routes originating from rental processing plants and branches.",
+      "source": {"id": "s_cintas_10k", "title": "Cintas FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000072325425000017/ctas-20250531.htm", "tier": "T1"},
+      "quote": "Within the Uniform Rental and Facility Services reportable operating segment, Cintas provides its products and services to customers via local delivery routes originating from rental processing plants and branches.",
+      "locator": "Part I, Item 1 Business — Operations and Distribution (p. 3)"
+    },
+    {
+      "claim_id": "operational_integration_4",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "Cintas employed approximately 48,300 employee-partners globally at May 31, 2025, of which only about 900 were represented by labor unions.",
+      "source": {"id": "s_cintas_10k", "title": "Cintas FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000072325425000017/ctas-20250531.htm", "tier": "T1"},
+      "quote": "At May 31, 2025, Cintas employed approximately 48,300 employee-partners in our global workforce, of which approximately 900 were represented by labor unions.",
+      "locator": "Part I, Item 1 Business — Human Capital (p. 5)"
+    },
+    {
+      "claim_id": "operational_integration_5",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "UniFirst's footprint at August 30, 2025 was 281 owned or leased facilities totaling approximately 8.3 million square feet across the U.S., Canada, Mexico, Europe and Nicaragua.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "As of August 30, 2025, we owned or leased 281 facilities containing an aggregate of approximately 8.3 million square feet located in the U.S., Canada, Mexico, Europe and Nicaragua.",
+      "locator": "Part I, Item 2 Properties (p. 19)"
+    },
+    {
+      "claim_id": "operational_integration_6",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "UniFirst employed approximately 16,000 'team partners' across its operations as of August 30, 2025 — roughly a third of Cintas's workforce.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "As of August 30, 2025, we employed approximately 16,000 team partners across our operations.",
+      "locator": "Part I, Item 1 Business — Human Capital (p. 8)"
+    },
+    {
+      "claim_id": "operational_integration_7",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "UniFirst's delivery fleet is roughly 4,813 delivery vans, trucks and other vehicles — about one-fifth the size of Cintas's ~22,900-vehicle fleet — indicating Cintas's route network materially dwarfs UniFirst's.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "We also own a fleet of approximately 4,813 delivery vans, trucks and other vehicles.",
+      "locator": "Part I, Item 2 Properties (p. 19)"
+    },
+    {
+      "claim_id": "operational_integration_8",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "Route servicing dominates UniFirst's revenue: in fiscal 2025 approximately 83.8% of UniFirst's revenues were derived from fees for route servicing of Uniform & Facility Service Solutions and Other segment services performed at the customer's location.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "In fiscal 2025, approximately 83.8 % of the Company’s revenues are derived from fees for route servicing of Uniform & Facility Service Solutions and Other segment services performed by the Company’s employees at the customer’s location of business.",
+      "locator": "Item 8 Notes to Consolidated Financial Statements — Revenue Recognition (p. F-9)"
+    },
+    {
+      "claim_id": "operational_integration_9",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "UniFirst serves customers primarily under written service contracts of three-to-five-year duration, so customer attrition through an integration shows up as non-renewal of multi-year route accounts.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "We primarily serve our customers pursuant to written service contracts that range in duration from three to five years.",
+      "locator": "Part I, Item 1 Business — Customers/Contracts (p. 4)"
+    },
+    {
+      "claim_id": "operational_integration_10",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "The two companies have different supply-chain models: UniFirst manufactured approximately 62% of all garments it placed in service during fiscal 2025 and operates its own manufacturing facilities in Mexico, plus a 325,000-square-foot Owensboro, Kentucky distribution center.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "We manufactured approximately 62% of all garments we placed in service during fiscal 2025.",
+      "locator": "Part I, Item 1 Business — Manufacturing and Sourcing (p. 4)"
+    },
+    {
+      "claim_id": "operational_integration_11",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "By contrast, Cintas sources finished products from many outside suppliers and operates five manufacturing facilities for standard uniform needs — a more outsourced model than UniFirst's largely in-house manufacturing.",
+      "source": {"id": "s_cintas_10k", "title": "Cintas FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000072325425000017/ctas-20250531.htm", "tier": "T1"},
+      "quote": "In addition to sourcing from third-party suppliers, Cintas operates five manufacturing facilities that provide for standard uniform needs.",
+      "locator": "Part I, Item 1 Business — Manufacturing and Sourcing (p. 4)"
+    },
+    {
+      "claim_id": "operational_integration_12",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "UniFirst entered the deal with an unremediated IT material weakness: it disclosed a material weakness in internal control over financial reporting related to IT general controls supporting its 'manage change' and 'manage access' processes.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "We identified material weakness in our internal control over financial reporting related to certain information technology general controls ( “ ITGCs ” ) supporting the manage change and manage access processes.",
+      "locator": "Part I, Item 1A Risk Factors (p. 11)"
+    },
+    {
+      "claim_id": "operational_integration_13",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "As of fiscal year-end 2025 the UniFirst material weakness was still open, narrowed to deficiencies in its CRM system (affecting revenue and receivables) and a group of legacy applications, which UniFirst planned to fully remediate only by the end of fiscal 2026.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "At the end of fiscal 2025, the material weakness had been narrowed to deficiencies related to our CRM system which affected revenue and receivables as well as a group of legacy applications which affected revenue and receivables, supply inventory and merchandise in service.",
+      "locator": "Part II, Item 9A Controls and Procedures (p. F-2)"
+    },
+    {
+      "claim_id": "operational_integration_14",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "UniFirst is mid-stream on a multiyear ERP program initiated in fiscal 2022 and planned to continue through 2027, with $45.3 million capitalized as of fiscal 2025 — i.e., its core systems are still in flux as the deal closes.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "In fiscal 2022, we initiated a multiyear ERP project that we plan to continue through 2027, with early phases focused on master data management and finance capabilities followed by subsequent phases with a strong focus on supply chain, procurement, automation and technology.",
+      "locator": "Part II, Item 7 MD&A — Key Initiatives (p. 26)"
+    },
+    {
+      "claim_id": "operational_integration_15",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "UniFirst capitalized $45.3 million on its ERP project as of fiscal 2025, sizing the in-flight systems investment that any acquirer would inherit and have to reconcile against its own platform.",
+      "source": {"id": "s_unf_10k", "title": "UniFirst FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0000717954/000119312525256222/unf-20250830.htm", "tier": "T1"},
+      "quote": "As of fiscal 2025, we capitalized $45.3 million related to our ERP project.",
+      "locator": "Part II, Item 7 MD&A — Key Initiatives (p. 26)"
+    },
+    {
+      "claim_id": "operational_integration_16",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "Cintas states the synergy thesis runs through combining the two route-based networks: by integrating complementary processing capacity, route networks, service infrastructure, supply chains and technology investments, Cintas expects to create efficiencies and expand service capabilities (an interested-party integration assertion).",
+      "source": {"id": "s_cintas_pr_deal", "title": "Cintas press release — 'Cintas to Acquire UniFirst in $5.5 Billion Transaction' (Mar 11, 2026)", "url": "https://www.cintas.com/about/newsroom/details/news/2026/03/11/cintas-to-acquire-unifirst-in-5.5-billion-transaction-that-expands-service-capabilities-enhances-workday-solutions-and-advances-industry-innovation/", "tier": "T2"},
+      "quote": "By integrating complementary processing capacity, route networks, service infrastructure, supply chains and technology investments, Cintas expects to create efficiencies and expand service capabilities.",
+      "locator": "Press release headlined 'Cintas to Acquire UniFirst in $5.5 Billion Transaction,' Mar 11, 2026 (strategic-benefits section)"
+    },
+    {
+      "claim_id": "operational_integration_17",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "Cintas frames part of the synergy as optimizing overlapping infrastructure: it asserts the deal 'creates opportunities to optimize shared infrastructure and route networks' from the combined companies' technology investments (interested-party assertion).",
+      "source": {"id": "s_cintas_pr_deal", "title": "Cintas press release — 'Cintas to Acquire UniFirst in $5.5 Billion Transaction' (Mar 11, 2026)", "url": "https://www.cintas.com/about/newsroom/details/news/2026/03/11/cintas-to-acquire-unifirst-in-5.5-billion-transaction-that-expands-service-capabilities-enhances-workday-solutions-and-advances-industry-innovation/", "tier": "T2"},
+      "quote": "Accelerates the benefit of the combined companies’ investments in technology-supported operational excellence and creates opportunities to optimize shared infrastructure and route networks for the benefit of customers.",
+      "locator": "Press release headlined 'Cintas to Acquire UniFirst in $5.5 Billion Transaction,' Mar 11, 2026 ('Optimizes Shared Technological Advancements' bullet)"
+    },
+    {
+      "claim_id": "operational_integration_18",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "The combined-entity case rests on ~$375 million of operating cost synergies: Cintas states the $5.5 billion enterprise value implies 8.0x run-rate trailing-12-month EBITDA including approximately $375 million of operating cost synergies (interested-party assertion).",
+      "source": {"id": "s_cintas_pr_deal", "title": "Cintas press release — 'Cintas to Acquire UniFirst in $5.5 Billion Transaction' (Mar 11, 2026)", "url": "https://www.cintas.com/about/newsroom/details/news/2026/03/11/cintas-to-acquire-unifirst-in-5.5-billion-transaction-that-expands-service-capabilities-enhances-workday-solutions-and-advances-industry-innovation/", "tier": "T2"},
+      "quote": "The implied total enterprise value of the transaction is approximately $5.5 billion, which represents a multiple of 8.0x run-rate trailing 12 months EBITDA, including approximately $375 million of operating cost synergies.",
+      "locator": "Press release headlined 'Cintas to Acquire UniFirst in $5.5 Billion Transaction,' Mar 11, 2026 (transaction terms)"
+    },
+    {
+      "claim_id": "operational_integration_19",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "The merger proxy flags execution risk: there can be no assurance that Cintas will be able to successfully integrate UniFirst's assets or otherwise realize the expected benefits of the mergers, including operating and other cost synergies.",
+      "source": {"id": "s_unf_424b3", "title": "Cintas/UniFirst 424B3 (Form S-4 prospectus / merger proxy)", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000114036126020376/ny20069194x3_424b3.htm", "tier": "T1"},
+      "quote": "There can be no assurance that Cintas will be able to successfully integrate UniFirst’s assets or otherwise realize the expected benefits of the mergers (including operating and other cost synergies).",
+      "locator": "Risk Factors — Risks Relating to the Mergers (p. 40)"
+    },
+    {
+      "claim_id": "operational_integration_20",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "The proxy quantifies integration cost as a real drag: the substantial majority of merger expenses will be non-recurring costs related to facilities, technology and systems consolidation, and integration plans may lead to additional unanticipated costs.",
+      "source": {"id": "s_unf_424b3", "title": "Cintas/UniFirst 424B3 (Form S-4 prospectus / merger proxy)", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000114036126020376/ny20069194x3_424b3.htm", "tier": "T1"},
+      "quote": "The substantial majority of the expenses of the mergers and the integration of Cintas and UniFirst will be non-recurring expenses related to the mergers (including financing of the mergers) and to facilities, technology and systems consolidation.",
+      "locator": "Risk Factors — Risks Relating to the Mergers (p. 41)"
+    },
+    {
+      "claim_id": "operational_integration_21",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "Key-person and workforce retention is a named risk: the proxy states the success of Cintas after the mergers will depend in part on the ability of Cintas and UniFirst to attract, motivate and retain key management personnel and other key employees.",
+      "source": {"id": "s_unf_424b3", "title": "Cintas/UniFirst 424B3 (Form S-4 prospectus / merger proxy)", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000114036126020376/ny20069194x3_424b3.htm", "tier": "T1"},
+      "quote": "The success of Cintas after the completion of the mergers will depend in part upon the ability of Cintas and UniFirst to attract, motivate and retain key management personnel and other key employees.",
+      "locator": "Risk Factors — Risks Relating to the Mergers (p. 41)"
+    },
+    {
+      "claim_id": "operational_integration_22",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "Customer and workforce attrition during the pendency of the deal was central to the UniFirst Board's reasoning: it reasoned that the lengthier the period between signing and closing, the more difficult it would be for UniFirst to retain customers and its key workforce — operational, sales and support employees and senior management.",
+      "source": {"id": "s_defm14a_background", "title": "UniFirst DEFM14A — 'Background of the Mergers'", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000114036126020376/ny20069194x3_424b3.htm", "tier": "T1"},
+      "quote": "The UniFirst Board reasoned that the lengthier the period between signing and closing, the more difficult it would be for UniFirst to retain customers and its key workforce (including operational, sales and support service employees, in addition to key members of senior management), during the pendency of the merger.",
+      "locator": "Background of the Mergers (p. 68)"
+    },
+    {
+      "claim_id": "operational_integration_23",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "UniFirst and Cintas put a formal retention mechanism in place: on February 16, 2026 UniFirst management presented Cintas a proposed Retention Program whose overarching goal was to retain key components of the UniFirst workforce — operational, sales and support service employees and key senior management.",
+      "source": {"id": "s_defm14a_background", "title": "UniFirst DEFM14A — 'Background of the Mergers'", "url": "https://www.sec.gov/Archives/edgar/data/0000723254/000114036126020376/ny20069194x3_424b3.htm", "tier": "T1"},
+      "quote": "The overarching goal of the program was to retain various key components of the UniFirst workforce, including operational, sales and support service employees, in addition to key members of senior management.",
+      "locator": "Background of the Mergers (p. 71)"
+    },
+    {
+      "claim_id": "operational_integration_24",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "The deal is a large route-network bolt-on rather than a merger of equals on the operating side: Cintas (~12,100 routes, 478 facilities, ~22,900 vehicles, ~48,300 employees) is acquiring an operation roughly a third to a fifth its size (UniFirst: 281 facilities, ~4,813 vehicles, ~16,000 employees), so synergy capture depends on absorbing UniFirst into Cintas's larger network rather than blending two equals.",
+      "supports": ["operational_integration_1", "operational_integration_2", "operational_integration_4", "operational_integration_5", "operational_integration_6", "operational_integration_7"]
+    },
+    {
+      "claim_id": "operational_integration_25",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "The ~$375M cost-synergy mechanism Cintas asserts (combining processing capacity, route networks, service infrastructure, supply chains and technology) is the realizable kind in principle because both firms run overlapping route-based, plant-and-branch networks — but the proxy itself disclaims any assurance the integration succeeds, and UniFirst arrives with an unremediated IT material weakness and a multi-year ERP project running to 2027, raising the systems-consolidation execution risk.",
+      "supports": ["operational_integration_16", "operational_integration_18", "operational_integration_19", "operational_integration_12", "operational_integration_13", "operational_integration_14"]
+    },
+    {
+      "claim_id": "operational_integration_26",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "Customer-attrition risk through integration is concrete, not theoretical: ~83.8% of UniFirst revenue comes from route servicing under 3-5 year written contracts, and the UniFirst Board itself flagged customer and route/sales/operational-workforce retention as harder the longer the deal stays pending — so route disruption, driver/sales-rep turnover, or contract non-renewal during integration directly threatens the revenue base the synergies are computed against.",
+      "supports": ["operational_integration_8", "operational_integration_9", "operational_integration_22", "operational_integration_23"]
+    },
+    {
+      "claim_id": "operational_integration_27",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "Supply-chain integration is non-trivial because the two companies run structurally different models: UniFirst self-manufactures ~62% of garments in its own (incl. Mexican) plants while Cintas leans on outside suppliers plus five owned plants, so 'combining supply chains' means reconciling an in-house manufacturer with a more outsourced sourcer rather than merging like-for-like procurement.",
+      "supports": ["operational_integration_10", "operational_integration_11"]
+    }
+  ]
+}

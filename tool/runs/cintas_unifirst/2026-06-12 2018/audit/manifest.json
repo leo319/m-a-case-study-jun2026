@@ -1,0 +1,36 @@
+{
+  "deal_id": "cintas_unifirst",
+  "created_at": "2026-06-13T03:18:34.229266+00:00",
+  "stages": [
+    {
+      "key": "intake",
+      "title": "Intake & Scoping",
+      "active": true,
+      "status": "awaiting_gate"
+    },
+    {
+      "key": "source_plan",
+      "title": "Source Planning",
+      "active": true,
+      "status": "awaiting_gate"
+    },
+    {
+      "key": "research",
+      "title": "Research, Grounding & Verification",
+      "active": true,
+      "status": "awaiting_gate"
+    },
+    {
+      "key": "expert",
+      "title": "Expert Analysis",
+      "active": true,
+      "status": "awaiting_gate"
+    },
+    {
+      "key": "redteam",
+      "title": "Red-Team & Finalize",
+      "active": true,
+      "status": "pending"
+    }
+  ]
+}
