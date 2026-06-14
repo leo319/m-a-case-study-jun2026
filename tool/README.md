@@ -9,7 +9,7 @@ It analyzes a merger along two dimensions — the deal's strategic & financial r
 | Bucket | What | Where |
 |---|---|---|
 | **Deal-specific input** (you edit, one per deal) | The deal spec — parties, tickers, date, seed documents, analyst steering. | `deal_spec/<deal>.yaml` |
-| **Deal-agnostic data knobs** (you edit, shared across deals) | What research must cover (areas, subtopics, canonical sources) and the source taxonomy (classes, tiers, method-card buckets). | `config/coverage_checklist.yaml`, `config/source_classes.yaml` |
+| **Deal-agnostic data knobs** (you edit, shared across deals) | What research must cover (areas, subtopics, canonical sources) and the source taxonomy (classes, tiers, method-card buckets). | `config/coverage_checklist.yaml`, `config/source_classes.yaml`, `/methodology` |
 | **Intermediate artifacts** (you review at each gate) | Human-readable stage outputs: the source plan, research findings, the research brief, and the preliminary memo. | `runs/<deal>/<ts>/artifacts/` |
 | **Audit trail** (full provenance) | The structured spine behind every claim: `claims.jsonl`, `source_registry.json`, the verification + coverage reports, the steering/conversation log, the cached source snapshots, and the eval scorecard. | `runs/<deal>/<ts>/audit/`, `runs/<deal>/<ts>/eval/scorecard.md`, `cache/` |
 | **Final output** | The finished IC-style memo. | `runs/<deal>/<ts>/artifacts/final_memo.md` |
