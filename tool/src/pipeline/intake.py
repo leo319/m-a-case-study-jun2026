@@ -63,12 +63,18 @@ def _render_intake_md(intake: dict) -> str:
     lines += ["", "## Run config"]
     lines.append(f"- **Depth:** {rc.get('depth','?')}")
     lines.append(f"- **Emphasize areas:** {', '.join(rc.get('emphasize_areas') or []) or '(none)'}")
-    if steering.get("notes"):
+    notes = steering.get("notes")
+    if notes:
+        # notes may be a YAML string (folded `>` / literal `|`) or a list; normalize to
+        # a list of non-empty lines so a string isn't iterated character-by-character.
+        notes = [ln.strip() for ln in notes.splitlines() if ln.strip()] if isinstance(notes, str) else list(notes)
         lines += ["", "## Analyst steering — notes"]
-        lines += [f"- {n}" for n in steering["notes"]]
-    if steering.get("priorities"):
+        lines += [f"- {n}" for n in notes]
+    priorities = steering.get("priorities")
+    if priorities:
+        priorities = [ln.strip() for ln in priorities.splitlines() if ln.strip()] if isinstance(priorities, str) else list(priorities)
         lines += ["", "## Analyst steering — priorities"]
-        lines += [f"- {p}" for p in steering["priorities"]]
+        lines += [f"- {p}" for p in priorities]
     lines.append("")
     return "\n".join(lines)
 
