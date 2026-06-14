@@ -95,7 +95,7 @@ Two metrics carry the most weight — **precision** (are the facts accurate?) an
 |               | Metric                                  | What it asks                                                                                 |
 | ------------- | --------------------------------------- | -------------------------------------------------------------------------------------------- |
 | **Primary**   | **Fact precision**                      | Does the citation resolve, is the quote present, and does it actually support the statement? |
-|               | ↳ Fabrication rate                      | Citation dead or absent — the cardinal sin.                                                  |
+|               | ↳ Fabrication rate                      | Citation dead or absent.                                                  |
 |               | ↳ Misattribution rate                   | Resolves and quoted correctly, but doesn't support the statement.                            |
 |               | **Inference validity** *(entailment)*   | Are the supports verified, and does the conclusion follow?                                   |
 | **Secondary** | Separation discipline                   | No opinion dressed up as fact.                                                               |
