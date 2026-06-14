@@ -144,26 +144,39 @@ field) — a traceable "why", not speculation. The spine becomes §5/§6 and the
    timeline. If §5's valuation work
    exposes a weakest link (e.g. overpayment vs. the DCF/comps range), carry it here as a
    ranked risk — the dominant risk often lives in the rationale, not just the risk list.
-7. **Assessment & what would change our view** (~0.5 pg) — the bottom line, as **two distinct
-   questions kept apart** (collapsing them is the classic memo leap):
-   - *Will it close?* Reason close likelihood as a **balance of forces** — those pushing the deal
+   - **Rank each tail risk under its OWN bold label naming the risk** (e.g. **Litigation**,
+     **Financing**), including the low ones. Do not bucket several risks under a generic header
+     like "Lower-ranked".
+   - **Only rank things that could DERAIL the deal** (lower the odds of closing or materially cut
+     its value). If a standard tail-risk coverage area (an activist campaign, a shareholder/
+     management controversy, a short thesis) actually **FAVORS or de-risks** the deal, say so
+     plainly and explain why it is not a risk here — do not present it as a ranked risk. Tail
+     risks are downside threats, not a checklist of topics.
+7. **Assessment & what would change our view** (~0.5 pg) — the bottom line, centered on the one
+   question a merger-arbitrage memo exists to answer: **Will it close?** Write it in three parts:
+   - *(a) Scope & limits — the preface that opens §7.* State plainly what the assessment **covers**
+     — the **strategic & financial rationale, the tail risks, and how likely the deal is to close**
+     — and what it does **NOT**: a detailed merger-agreement/legal review, tax analysis, or an audit
+     of management's own projections. Add a line that any figures which aren't fully sourced are
+     flagged as such. This keeps the assessment from being read as broader than the work behind it;
+     tie it to Limitations.
+   - *(b) Will it close?* Reason close likelihood as a **balance of forces** — those pushing the deal
      to completion (a strong strategic imperative and the buyer determination it implies, board/
      insider lock-ups, the merger agreement's deal-protection terms, financing certainty) against
      those pulling it apart (antitrust, a MAC or financing-out trigger, shareholder dissent, target
      deterioration). Weigh them by strength and say **which side dominates and why** — a reasoned
      net, not a binary or a checklist. A strong rationale is itself a push force (a buyer that needs
      the deal will lobby, litigate, re-bid, or accept remedies), so it can lift close-odds even
-     against heavy regulatory pull.
-   - *Is it a good deal?* Separately — does the combination actually improve the economics enough
-     to justify the price (the §5 work, management's logic tested), or not? A deal can be
-     **near-certain to close *and* likely to disappoint** — a coherent verdict only if the two are
-     argued separately, never with one smuggled in as the answer to the other.
-   - Then the **net call**, the specific **monitorables**, and what would flip each. (For a *tool*,
-     this is the "recommendation" — an assessment, not trade advice.)
-   - **Scope the verdict.** State plainly what this assessment covers (e.g. strategic & financial
-     rationale and tail risks) and what it does NOT (e.g. a detailed merger-agreement/legal review,
-     tax, management projections), so the recommendation is not read as broader than the work behind
-     it. Tie this to Limitations.
+     against heavy regulatory pull. **Reflect the deal's *current* status:** a condition already
+     satisfied (e.g. a completed shareholder vote) is no longer a pending force — do not write it as
+     still-uncertain; count only what is genuinely outstanding.
+   - *(c) What to watch — and what would change this view.* The specific **monitorables**, each tied
+     to **what could change the close verdict** (which way it would move the balance, and the
+     evidence that would flip it).
+   - **Do not add a separate "Net call" or net-recommendation paragraph — it duplicates the verdict.**
+     §7 is a judgment on whether the deal *closes* and why, not a standalone investment verdict on
+     whether it is a "good deal" or a good buy. (For a *tool*, this is the "recommendation" — an
+     assessment, not trade advice.)
 8. **Appendix** — **auto-generated** by the renderer (page-level Citations + Sources
    consulted). Do NOT hand-write it.
 
@@ -226,7 +239,8 @@ field) — a traceable "why", not speculation. The spine becomes §5/§6 and the
 
 ## Rules
 - **Write plainly and directly for a portfolio manager.** No taglines, slogans, or aphorisms as
-  section headers or sentence openers. State the point in normal language.
+  section headers or sentence openers. State the point in normal language. Avoid cryptic metaphors
+  or colorful shorthand (e.g. "where customers bleed"); state the mechanism in plain words.
 - **Reason from first principles, not in isolation.** Build the why-spine (method cards) before
   the memo; every load-bearing judgment is a *mechanism* — the causal chain from a verified fact
   to a cost/revenue line — not a fact restated or a label asserted.
@@ -250,7 +264,8 @@ field) — a traceable "why", not speculation. The spine becomes §5/§6 and the
   must state the *same* number.
 - **No logical leaps.** Each "Our view" must follow from the claims it cites plus reasoning a
   reader can check; if it needs an unstated premise, state and ground it or weaken the conclusion —
-  and never let one question's answer ("will it close") stand in for another's ("is it a good deal").
+  and never let one question's answer stand in for another's (e.g. treating the strategic rationale
+  as if it settled close likelihood, or vice versa).
 - Sections 5 & 6 must answer the case brief §1a/§1b specifically (premium, accretion/dilution,
   synergies-vs-premium, synergy basis; per-risk transmission mechanism to *this* deal).
 - Flag what you could NOT conclude — but never write "not computed/assessed" for something a
