@@ -63,17 +63,23 @@ RUN_DIR/eval/
     chunk_00.json          # {"chunk":0,"claims":[<full claim records>]}   (input to a verifier)
     chunk_00_result.json   # {"chunk":0,"verdicts":[...]}                  (verifier output)
     ...
-  scorecard.md             # summary table (metric·definition·score·what-failed) + full per-claim ledger
+  scorecard.md             # summary table (Primary/Secondary metrics · score · what-failed) + full per-claim ledger
   scorecard.json           # machine mirror (feeds eval-dashboard)
 ```
 
 ## Metrics (all guard divide-by-zero → `n/a`)
-- **fact precision** = facts PASS / facts total
-- **fabrication rate** = facts FABRICATION / facts total
-- **misattribution rate** = facts MISATTRIBUTION / facts total
-- **inference validity** = inferences PASS / inferences total
-- **separation discipline** = inferences NOT flagged DISCIPLINE / inferences total
-- **coverage%** and **utilization** are reused from the pipeline's coverage helpers.
+
+**Primary**
+- **Precision** = facts PASS / facts total — does the citation resolve, is the quote present, and does it actually support the statement?
+  - ↳ **Fabrication rate** = facts FABRICATION / facts total — citation dead or absent.
+  - ↳ **Misattribution rate** = facts MISATTRIBUTION / facts total — resolves and quoted correctly, but doesn't support the statement.
+- **Inference validity (entailment)** = inferences PASS / inferences total — are the supports verified, and does the conclusion follow?
+
+**Secondary**
+- **Separation discipline** = inferences NOT flagged DISCIPLINE / inferences total — no opinion dressed up as fact.
+- **Coverage** = checklist areas with ≥1 verified claim (reused from the pipeline's coverage helper).
+- **Utilization** = verified rationale/tailrisk research claims the memo cited (reused from the pipeline's helper) — did the memo use what it found?
+- **Fact / insight recall (gold set only)** = (material facts surfaced + key judgments reached) / gold-set total — did we surface the material facts and reach the key judgments? Computed only when a gold set is supplied for the deal; `n/a` otherwise.
 
 ## Rules
 - Standalone: do NOT wire this into `merger-run`; do NOT mutate the run's claims/memo.

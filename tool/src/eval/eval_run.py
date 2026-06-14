@@ -399,6 +399,9 @@ def aggregate(run_dir: str | Path) -> dict:
         "utilization": utilization_rate,
         "utilization_cited": cited,
         "utilization_total": util_total,
+        # Gold-set-only metric: did we surface the material facts and reach the key
+        # judgments? Computed only when a gold set is supplied; "n/a" otherwise.
+        "fact_insight_recall": "n/a",
         "verifier_model": manifest.get("verifier_model", VERIFIER_MODEL),
         "generated_at": datetime.now(timezone.utc).isoformat(),
     }
@@ -452,30 +455,34 @@ def _write_report(run_dir: str | Path, sc: dict, verdicts: list[dict],
         "",
         "## Summary",
         "",
-        "| Metric | Definition | Score | What failed |",
-        "|---|---|---|---|",
-        f"| **Fact precision** | citation resolves, quote present, statement entailed by the "
-        f"quoted span | {_pct(sc['fact_precision'])} ({sc['facts_pass']}/{sc['facts_total']}) "
+        "| Tier | Metric | What it asks | Score | What failed |",
+        "|---|---|---|---|---|",
+        f"| **Primary** | **Precision** | Does the citation resolve, is the quote present, and "
+        f"does it actually support the statement? | {_pct(sc['fact_precision'])} "
+        f"({sc['facts_pass']}/{sc['facts_total']}) "
         f"| {_md_cell(', '.join(fact_fail) if fact_fail else '—')} |",
-        f"| &nbsp;&nbsp;↳ Fabrication | citation dead/missing or quote absent "
+        f"| | &nbsp;&nbsp;↳ Fabrication rate | Citation dead or absent. "
         f"| {_pct(sc['fabrication_rate'])} ({sc['facts_fabrication']}/{sc['facts_total']}) "
         f"| {_md_cell(_fails('FABRICATION'))} |",
-        f"| &nbsp;&nbsp;↳ Misattribution | quote present, but the statement overreaches it "
-        f"| {_pct(sc['misattribution_rate'])} ({sc['facts_misattribution']}/{sc['facts_total']}) "
-        f"| {_md_cell(_fails('MISATTRIBUTION'))} |",
-        f"| **Inference validity** | supports resolve to verified facts and the conclusion follows "
-        f"| {_pct(sc['inference_validity_rate'])} ({sc['inferences_pass']}/{sc['inferences_total']}) "
-        f"| {_md_cell(_fails('WEAK-INFERENCE'))} |",
-        f"| &nbsp;&nbsp;↳ Separation discipline | no opinion-as-fact; fact/inference separation kept "
+        f"| | &nbsp;&nbsp;↳ Misattribution rate | Resolves and quoted correctly, but doesn't "
+        f"support the statement. | {_pct(sc['misattribution_rate'])} "
+        f"({sc['facts_misattribution']}/{sc['facts_total']}) | {_md_cell(_fails('MISATTRIBUTION'))} |",
+        f"| | **Inference validity** (entailment) | Are the supports verified, and does the "
+        f"conclusion follow? | {_pct(sc['inference_validity_rate'])} "
+        f"({sc['inferences_pass']}/{sc['inferences_total']}) | {_md_cell(_fails('WEAK-INFERENCE'))} |",
+        f"| **Secondary** | Separation discipline | No opinion dressed up as fact. "
         f"| {_pct(sc['separation_discipline_rate'])} "
         f"({sc['inferences_total'] - sc['inferences_discipline']}/{sc['inferences_total']}) "
         f"| {_md_cell(_fails('DISCIPLINE'))} |",
-        f"| Coverage | checklist areas with ≥1 verified claim "
+        f"| | Coverage | Checklist areas with a verified claim. "
         f"| {_pct(sc['coverage_pct'])} ({sc['areas_covered']}/{sc['total_areas']}) "
         f"| {_md_cell(cov_note)} |",
-        f"| Utilization | verified rationale/tailrisk research claims the memo cited "
+        f"| | Utilization | Did the memo use what it found? "
         f"| {_pct(sc['utilization'])} ({sc['utilization_cited']}/{sc['utilization_total']}) "
         f"| {_md_cell(util_note)} |",
+        f"| | Fact / insight recall (gold set only) | Did we surface the material facts and reach "
+        f"the key judgments? | {_md_cell(_pct(sc.get('fact_insight_recall', 'n/a')))} "
+        f"| {_md_cell('requires a gold set; none provided for this run' if sc.get('fact_insight_recall', 'n/a') == 'n/a' else '—')} |",
         "",
         _interpretation(sc),
         "",
