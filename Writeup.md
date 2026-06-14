@@ -48,7 +48,7 @@ Think of it as a small diligence team you direct, where every member shows their
 
 **The run lands in two folders:**
 
-- **`/artifacts`** — the human-readable outputs you review at each gate: the source plan, research findings, the **research brief** (after stage 3), the preliminary memo, and most importantly **`final_memo.md`** — the finished product, with an exec summary, deal structure, rationale, a ranked tail-risk section, an assessment with explicit "what would change our view" triggers, and an honest "limits of this assessment."
+- **`/artifacts`** — the human-readable outputs you review at each gate: the source plan, research findings, the **research brief** (after stage 3), the preliminary memo, and most importantly **`final_memo.md`** — the finished product.
 - **`/audit`** — the structured provenance behind every word of the memo: `claims.jsonl` (the spine), the source registry, the verification and coverage reports, the steering log + full conversation, the per-area research proposals, the cached source snapshots, and the eval scorecard. Nothing in the memo exists here without a traceable origin.
 
 ---
