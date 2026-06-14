@@ -6,7 +6,8 @@ Turns a one-page deal spec into a sourced, audit-traceable M&A investment memo c
 
 | Bucket | What | Where |
 |---|---|---|
-| **Input** (you edit) | The deal spec — parties, tickers, date, seed documents, analyst steering. One file per deal. Plus the deal-agnostic coverage checklist. | `deal_spec/<deal>.yaml`, `config/coverage_checklist.yaml` |
+| **Deal-specific input** (you edit, one per deal) | The deal spec — parties, tickers, date, seed documents, analyst steering. | `deal_spec/<deal>.yaml` |
+| **Deal-agnostic data knobs** (you edit, shared across deals) | What research must cover (areas, subtopics, canonical sources) and the source taxonomy (classes, tiers, method-card buckets). | `config/coverage_checklist.yaml`, `config/source_classes.yaml` |
 | **Intermediate artifacts** (you review at each gate) | Human-readable stage outputs: the source plan, research findings, the research brief, and the preliminary memo. | `runs/<deal>/<ts>/artifacts/` |
 | **Audit trail** (full provenance) | The structured spine behind every claim: `claims.jsonl`, `source_registry.json`, the verification + coverage reports, the steering/conversation log, the cached source snapshots, and the eval scorecard. | `runs/<deal>/<ts>/audit/`, `runs/<deal>/<ts>/eval/scorecard.md`, `cache/` |
 | **Final output** | The finished IC-style memo. | `runs/<deal>/<ts>/artifacts/final_memo.md` |
@@ -16,9 +17,9 @@ Everything under `runs/` and `cache/` is generated — you never hand-edit it. E
 ## Repo layout
 
 ```
-config/           deal-agnostic input knobs (coverage_checklist.yaml)          ✏️ editable
+config/           deal-agnostic data knobs (coverage_checklist.yaml, source_classes.yaml) ✏️ editable
 deal_spec/        one yaml per deal (cintas_unifirst.yaml is the worked example) ✏️ editable
-methodology/      M&A method-cards for the expert stages
+methodology/      deal-agnostic M&A method-cards (reasoning the expert stages tune via prose)
 src/
   schemas/        claim + source JSON schemas — the contract everything flows through
   core/           the spine: paths, content-addressed cache, registry, claims IO, citations
@@ -32,6 +33,8 @@ runs/<deal>/<ts>/ one run, split into artifacts/ · audit/ · eval/             
 ```
 
 The pipeline itself is driven by Claude Code skills in `../.claude/skills/` (orchestrator `merger-run` + one skill per stage), which call the Python spine here through `scripts/cli.py`.
+
+**Where to tune what.** One rule: _deal-specific → `deal_spec/`; deal-agnostic **data** (what to cover, which sources) → `config/`; deal-agnostic **reasoning** (the method cards + the stage prompts) → `methodology/` + `../.claude/`._ No tunable knob lives inside a `.py` file — the Python reads the YAML, it doesn't hardcode it. So to change what every deal must cover, edit `config/coverage_checklist.yaml`; to change the source taxonomy, edit `config/source_classes.yaml`; to change how the expert reasons, edit the cards/prompts.
 
 ## Getting started
 

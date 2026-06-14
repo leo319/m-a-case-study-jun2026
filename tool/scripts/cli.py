@@ -158,6 +158,9 @@ def cmd_coverage_checklist(_args) -> int:
         subs = a.get("subtopics") or []
         if subs:
             print(f"{'':26} subtopics (each must be addressed or flagged): {', '.join(subs)}")
+        canon = a.get("canonical_sources") or []
+        if canon:
+            print(f"{'':26} canonical sources to propose: {'; '.join(canon)}")
     return 0
 
 

@@ -3,7 +3,9 @@
 Before research fans out, the tool proposes a source list *by class* so the analyst
 can approve / add / remove / edit it at a gate (PLAN.md §3, stage 2). The deterministic
 part is the deal-agnostic list of source CLASSES to consider — so blind spots are
-visible. The agent fills in concrete, deal-specific sources with a one-line rationale.
+visible. That list (and the method-card buckets) lives in config/source_classes.yaml,
+next to the coverage checklist; the agent fills in concrete, deal-specific sources with
+a one-line rationale.
 
 The plan is **deal-wide**: every planned source carries its coverage `area`, so the
 Stage-2 gate shows the analyst everything research will pull, grouped by area. A source
@@ -32,23 +34,28 @@ import json
 import sys
 from pathlib import Path
 
+import yaml
+
+from ..core.paths import CONFIG_DIR
 from . import coverage, runspace
 
-# Deal-agnostic source classes to consider for ANY deal. Lives in the tool, not the
-# deal_spec — that's what makes coverage gaps visible rather than silent.
-SOURCE_CLASSES = [
-    {"class": "filings", "default_tier": "T1", "desc": "SEC filings: 10-K, 10-Q, 8-K, merger proxy / 424B3 / S-4"},
-    {"class": "regulators", "default_tier": "T1", "desc": "Antitrust (DOJ/FTC) and sector regulators"},
-    {"class": "court_dockets", "default_tier": "T1", "desc": "Litigation dockets / legal proceedings"},
-    {"class": "news_analyst", "default_tier": "T2", "desc": "Major news and sell-side analyst research"},
-    {"class": "trade_press", "default_tier": "T3", "desc": "Industry / specialist trade press"},
-    {"class": "activist_short", "default_tier": "T4", "desc": "Short-seller and activist reports"},
-]
-_CLASS_ORDER = [c["class"] for c in SOURCE_CLASSES]
+# The deal-agnostic source taxonomy (classes + method-card buckets) lives in config/, next
+# to the coverage checklist — NOT hardcoded here — so every deal-agnostic knob sits in one
+# place. Keeping the class list deterministic is what makes coverage gaps visible rather than
+# silent (an unused class becomes an explicit `classes_skipped` entry).
+SOURCE_CLASSES_PATH = CONFIG_DIR / "source_classes.yaml"
+
+
+def _source_config() -> dict:
+    return yaml.safe_load(SOURCE_CLASSES_PATH.read_text(encoding="utf-8")) or {}
+
+
+def source_classes() -> list[dict]:
+    return _source_config().get("source_classes", [])
 
 
 def baseline_template() -> dict:
-    return {"source_classes": SOURCE_CLASSES}
+    return {"source_classes": source_classes()}
 
 
 def apply_plan(run: runspace.Run, plan: dict) -> dict:
@@ -68,12 +75,14 @@ def _area_order() -> tuple[list[str], dict[str, str]]:
         return [], {}
 
 
-# First-principles buckets (method cards 01-05); "_" catches anything off-list.
-_BUCKET_ORDER = ["industry", "companies", "deal", "macro", "why"]
-_BUCKET_TITLES = {
-    "industry": "Industry", "companies": "Companies", "deal": "Deal & synergies",
-    "macro": "Macro & exogenous", "why": "Why this deal, why now",
-}
+def _buckets() -> tuple[list[str], dict[str, str]]:
+    """First-principles bucket order + key->title (method cards 01-05), from config.
+    "_" catches anything off-list. Degrades gracefully if the config can't be loaded."""
+    try:
+        bks = _source_config().get("buckets", [])
+        return [b["key"] for b in bks], {b["key"]: b.get("title", b["key"]) for b in bks}
+    except Exception:  # noqa: BLE001 — bucket ordering is a render nicety, not a hard dep
+        return [], {}
 
 
 def _render_questions(questions: list) -> list[str]:
@@ -89,10 +98,11 @@ def _render_questions(questions: list) -> list[str]:
     by_bucket: dict[str, list] = {}
     for q in questions:
         by_bucket.setdefault(q.get("bucket") or "_", []).append(q)
-    order = [b for b in _BUCKET_ORDER if b in by_bucket] + \
-            sorted(b for b in by_bucket if b not in _BUCKET_ORDER)
+    bucket_order, bucket_titles = _buckets()
+    order = [b for b in bucket_order if b in by_bucket] + \
+            sorted(b for b in by_bucket if b not in bucket_order)
     for bucket in order:
-        lines.append(f"### {_BUCKET_TITLES.get(bucket, bucket)}")
+        lines.append(f"### {bucket_titles.get(bucket, bucket)}")
         for q in by_bucket[bucket]:
             area = f" _({q['area']})_" if q.get("area") else ""
             lines.append(f"- {q.get('question', '?')}{area}")
@@ -121,12 +131,13 @@ def _render(plan: dict) -> str:
     known = [k for k in order if k in by_area]
     extra = sorted(k for k in by_area if k not in order and k != "(unassigned)")
     tail = ["(unassigned)"] if "(unassigned)" in by_area else []
+    class_order = [c["class"] for c in source_classes()]
     for area in known + extra + tail:
         lines += [f"## {titles.get(area, area)}", ""]
         by_class: dict[str, list] = {}
         for s in by_area[area]:
             by_class.setdefault(s.get("class", "(unclassified)"), []).append(s)
-        for cls in _CLASS_ORDER + [k for k in by_class if k not in _CLASS_ORDER]:
+        for cls in class_order + [k for k in by_class if k not in class_order]:
             if cls not in by_class:
                 continue
             lines.append(f"### {cls}")

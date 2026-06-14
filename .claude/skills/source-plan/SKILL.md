@@ -58,22 +58,10 @@ given `RUN_DIR`.
    - **(a) Seeds** — the seed_docs from intake / anything the analyst supplied.
    - **(b) Discovery** — the relevant candidates from your sweep (tagged `"via":"scout"`).
    - **(c) Canonical / commonsense sources** — the standard places an analyst would
-     always check for that area, even if nobody named them. Use this cheat-sheet:
-
-     | Area | Canonical sources to propose |
-     |---|---|
-     | target_fundamentals | target 10-K + latest 10-Q, earnings releases (8-K Ex-99) |
-     | commercial_market | both 10-K "Competition" sections, industry/analyst overviews |
-     | deal_rationale_synergies | deal press release; 424B3 "Background of the Merger" + **"Opinion of the Financial Advisor"** (premium, comparable-companies / precedent-transactions / DCF multiples, accretion view); the target's **unaffected pre-announcement share price** (for the premium) |
-     | financing_balance_sheet | merger proxy financing section, acquirer debt 8-K, rating-agency actions |
-     | merger_agreement | the **merger agreement** (annex to the merger proxy / 424B3, or 8-K exhibit) — its "The Merger Agreement" summary: conditions, termination & break-fee, MAC, regulatory-efforts covenant |
-     | antitrust_regulatory | merger proxy "Regulatory Approvals", DOJ/FTC press releases, news on second requests |
-     | litigation_legal | 10-K "Legal Proceedings", court dockets (CourtListener), litigation news |
-     | management_governance | DEF 14A proxy, executive/board news, leadership-change coverage |
-     | short_activist | Seeking Alpha, short-seller reports (e.g. Hindenburg/Muddy Waters), 13D activist filings |
-     | macro_geopolitical | 10-K risk factors (FX/tariffs), macro/sector commentary |
-     | operational_integration | both 10-Ks (facilities/IT/supply chain), integration commentary in deal materials |
-     | esg_environmental | 10-K environmental disclosures, ESG-rating / controversy coverage |
+     always check for that area, even if nobody named them. Each area's canonical sources
+     live in the checklist itself: `python tool/scripts/cli.py coverage-checklist` prints
+     them under each area as `canonical sources to propose`. Propose the ones that fit this
+     deal (skip any that genuinely don't apply, and note it under `classes_skipped`).
 
    Give every source an `area`, a `class`, a `tier`, and a one-line rationale. Prefer
    direct URLs; use `search_hint` when you can't pin one. Be honest: if an area/class

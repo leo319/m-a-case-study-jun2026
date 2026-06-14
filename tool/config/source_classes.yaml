@@ -1,0 +1,47 @@
+# ✏️ EDITABLE INPUT · scope: deal-agnostic (applies to every deal) · edit to change the source taxonomy.
+# Deal-agnostic source taxonomy for Stage 2 (source planning) + the first-principles buckets
+# used to tag key_questions. Lives in the tool (config/), NOT in any deal_spec — so the set of
+# source classes and method-card buckets stays consistent and visible across deals.
+#
+# source_classes — the kinds of sources the planner considers for ANY deal. Making the list
+#   deterministic is what keeps coverage gaps visible: a class with no planned source shows up
+#   as an explicit `classes_skipped` entry rather than a silent omission.
+#     class         stable id; planned sources carry this in source_plan.json `class`
+#     default_tier  T1 primary (SEC/court/regulator) > T2 reputable secondary (major news,
+#                   sell-side) > T3 trade/specialist > T4 unverified (short/activist/blog)
+#     desc          what belongs in this class
+#
+# buckets — the five method-card buckets (methodology/01–05). Each key_question is tagged with
+#   one bucket `key`; they drive the grouping of key_questions in source_plan.md.
+
+source_classes:
+  - class: filings
+    default_tier: T1
+    desc: "SEC filings: 10-K, 10-Q, 8-K, merger proxy / 424B3 / S-4"
+  - class: regulators
+    default_tier: T1
+    desc: "Antitrust (DOJ/FTC) and sector regulators"
+  - class: court_dockets
+    default_tier: T1
+    desc: "Litigation dockets / legal proceedings"
+  - class: news_analyst
+    default_tier: T2
+    desc: "Major news and sell-side analyst research"
+  - class: trade_press
+    default_tier: T3
+    desc: "Industry / specialist trade press"
+  - class: activist_short
+    default_tier: T4
+    desc: "Short-seller and activist reports"
+
+buckets:
+  - key: industry
+    title: Industry
+  - key: companies
+    title: Companies
+  - key: deal
+    title: Deal & synergies
+  - key: macro
+    title: Macro & exogenous
+  - key: why
+    title: Why this deal, why now
