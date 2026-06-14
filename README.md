@@ -9,3 +9,7 @@ Suggested order of reading:
 - **tool/runs:** two actual runs: cintas_unifirst (me + the tool worked together) and paramount_wbd (the tool worked by itself). Primary thing to review: `final_memo.md`
   
 **3) tool/README.md:** Try the tool out yourself. You'll need Claude Code and a reasonably high usage limit (I used the MAX plan)
+
+great article by Satya which relates to what we discussed on the value of domain expertise in compounding AI systems
+
+https://x.com/satyanadella/status/2066182223213293753?s=46
