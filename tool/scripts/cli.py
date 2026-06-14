@@ -5,7 +5,6 @@ the heavy logic stays in tool/). Uniform subcommands, no -m / cd gymnastics:
   python tool/scripts/cli.py intake   --deal deal_spec/cintas_unifirst.yaml
   python tool/scripts/cli.py research --run RUNDIR --proposals proposals.json [--mock-sources map.json]
   python tool/scripts/cli.py expert   --run RUNDIR --memo memo_spec.json
-  python tool/scripts/cli.py render   --run RUNDIR --memo memo_spec.json
   python tool/scripts/cli.py check-memo --run RUNDIR --memo memo_spec.json
   python tool/scripts/cli.py verify   --run RUNDIR
   python tool/scripts/cli.py validate --run RUNDIR
@@ -33,7 +32,7 @@ from src.core.paths import CACHE_ROOT, RUNS_ROOT, audit_dir, out_path  # noqa: E
 from src.eval import eval_run  # noqa: E402
 from src.hooks import check_memo, validate_schema, verify_citations  # noqa: E402
 from src.pipeline import (  # noqa: E402
-    coverage, expert, ingest_research, intake, render_brief, render_memo, runspace, source_plan,
+    coverage, expert, ingest_research, intake, render_brief, runspace, source_plan,
 )
 
 
@@ -74,18 +73,6 @@ def cmd_expert(args) -> int:
     print(f"expert: {sc.get('verified',0)} verified, {sc.get('quarantined',0)} quarantined", file=sys.stderr)
     for line in coverage.utilization_report(coverage.utilization(args.run, memo_spec)):
         print(line, file=sys.stderr)
-    return 0
-
-
-def cmd_render(args) -> int:
-    try:
-        md = render_memo.render(args.run, _load(args.memo))
-    except ValueError as e:
-        print(f"render: REFUSED — {e}", file=sys.stderr)
-        return 1
-    out = out_path(args.run, "preliminary_memo.md")
-    out.write_text(md, encoding="utf-8")
-    print(str(out))
     return 0
 
 
@@ -255,9 +242,6 @@ def main() -> int:
 
     p = sub.add_parser("expert"); p.add_argument("--run", required=True); p.add_argument("--memo", required=True)
     p.set_defaults(fn=cmd_expert)
-
-    p = sub.add_parser("render"); p.add_argument("--run", required=True); p.add_argument("--memo", required=True)
-    p.set_defaults(fn=cmd_render)
 
     p = sub.add_parser("render-brief"); p.add_argument("--run", required=True); p.add_argument("--brief", required=True)
     p.set_defaults(fn=cmd_render_brief)
