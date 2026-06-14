@@ -1,0 +1,209 @@
+{
+  "area": "management_governance",
+  "proposals": [
+    {
+      "claim_id": "gov_1",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "WBD's merger proxy quantifies David Zaslav's merger-related 'golden parachute' compensation at a total of $886,836,175, comprising $34,219,178 cash, $517,204,781 equity, $44,195 perquisites/benefits, and a $335,368,021 tax reimbursement (tax gross-up).",
+      "source": {"id": "s_wbd_defm14a_2026", "title": "Warner Bros. Discovery DEFM14A merger proxy (filed Mar 26, 2026)", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "Name Cash ($) (1) Equity ($) (2) Perquisites/ Benefits ($) (3) Tax Reimbursement ($) (4) Total ($) David Zaslav 34,219,178 517,204,781 44,195 335,368,021 886,836,175",
+      "locator": "Interests of WBD's Directors and Executive Officers in the Merger — Golden Parachute Compensation table"
+    },
+    {
+      "claim_id": "gov_2",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "The bulk of Zaslav's parachute equity vests on a 'single trigger' basis solely upon completion of the Merger: WBD's proxy states his CEO equity awards 'vest solely as a result of the consummation of the Merger,' independent of any termination of employment.",
+      "source": {"id": "s_wbd_defm14a_2026", "title": "Warner Bros. Discovery DEFM14A merger proxy (filed Mar 26, 2026)", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "Zaslav’s CEO Awards are “single trigger” awards that vest solely as a result of the consummation of the Merger",
+      "locator": "Interests of WBD's Directors and Executive Officers in the Merger — equity treatment narrative"
+    },
+    {
+      "claim_id": "gov_3",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "WBD stockholders were asked to approve the named-executive merger compensation only on an advisory, non-binding basis (the 'Compensation Proposal').",
+      "source": {"id": "s_wbd_defm14a_2026", "title": "Warner Bros. Discovery DEFM14A merger proxy (filed Mar 26, 2026)", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "At the Special Meeting, WBD stockholders will also be asked to approve, on an advisory (non-binding) basis, the compensation that may be paid or become payable to WBD’s named executive officers that is based on or otherwise relates to the Merger (the “ Compensation Proposal ”).",
+      "locator": "The Special Meeting — Compensation Proposal (advisory say-on-golden-parachute)"
+    },
+    {
+      "claim_id": "gov_4",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "At the April 2026 special meeting WBD shareholders overwhelmingly approved the Paramount merger but voted down Zaslav's payout in the advisory pay vote; because the vote is non-binding it cannot be enforced and does not stop the windfall.",
+      "source": {"id": "s_deadline_payout_2026", "title": "Deadline: 'WBD Shareholders Reject David Zaslav's Golden Parachute In Merger' (Apr 2026)", "url": "https://deadline.com/2026/04/wbd-shareholders-reject-david-zaslav-paramount-merger-payout-1236869504/", "tier": "T2"},
+      "quote": "Unfortunately, shareholder votes on pay are non-binding, meaning they can’t be enforced.",
+      "locator": "Deadline, WBD Shareholders Reject David Zaslav's Golden Parachute In Merger (Apr 23, 2026)"
+    },
+    {
+      "claim_id": "gov_5",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "WBD added Zaslav's tax-reimbursement (gross-up) agreement only on March 10, 2026, days before the proxy; proxy adviser Glass Lewis criticized the gross-up, writing that as a general principle executives should shoulder their own taxes on bonuses and benefits.",
+      "source": {"id": "s_deadline_payout_2026", "title": "Deadline: 'WBD Shareholders Reject David Zaslav's Golden Parachute In Merger' (Apr 2026)", "url": "https://deadline.com/2026/04/wbd-shareholders-reject-david-zaslav-paramount-merger-payout-1236869504/", "tier": "T2"},
+      "quote": "“As a general principle executives, like all employees, should themselves shoulder all taxes associated with any bonuses and benefits they receive,” wrote Glass Lewis.",
+      "locator": "Deadline, WBD Shareholders Reject David Zaslav's Golden Parachute In Merger (Apr 23, 2026)"
+    },
+    {
+      "claim_id": "gov_6",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "Shortly after Paramount won the bidding war, Zaslav sold $114 million of WBD stock (early March 2026), per Deadline and Variety reporting.",
+      "source": {"id": "s_deadline_payout_2026", "title": "Deadline: 'WBD Shareholders Reject David Zaslav's Golden Parachute In Merger' (Apr 2026)", "url": "https://deadline.com/2026/04/wbd-shareholders-reject-david-zaslav-paramount-merger-payout-1236869504/", "tier": "T2"},
+      "quote": "And also to recall that Zaslav in early March sold stock worth $114 million .",
+      "locator": "Deadline, WBD Shareholders Reject David Zaslav's Golden Parachute In Merger (Apr 23, 2026)"
+    },
+    {
+      "claim_id": "gov_7",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "WBD's proxy discloses that during the sale process the Ellisons signaled to Zaslav that, if a PSKY/WBD transaction occurred, he 'would receive a compensation package worth several hundred million dollars,' which Zaslav reported to the board and declined to discuss at that time.",
+      "source": {"id": "s_wbd_defm14a_2026", "title": "Warner Bros. Discovery DEFM14A merger proxy (filed Mar 26, 2026)", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "Zaslav noted for the WBD Board that the Ellisons had indicated to him that, if a transaction between PSKY and WBD were to occur, Mr.",
+      "locator": "Background of the Merger (Zaslav report to WBD Board on PSKY compensation indication)"
+    },
+    {
+      "claim_id": "gov_8",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "Post-merger, the WBD proxy contemplates Zaslav serving as President and Chief Executive Officer of the combined company's Streaming & Studios Business, indicating he is slated to stay on running that unit rather than depart at close.",
+      "source": {"id": "s_wbd_defm14a_2026", "title": "Warner Bros. Discovery DEFM14A merger proxy (filed Mar 26, 2026)", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "Zaslav to serve as President and Chief Executive Officer of the Streaming & Studios Business",
+      "locator": "Interests of WBD's Directors and Executive Officers in the Merger — post-closing arrangements"
+    },
+    {
+      "claim_id": "gov_9",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "Per the Skydance/NAI FCC filing, David Ellison holds 100% of the Ellison family's voting interests in the combined Paramount Skydance and is chairman and CEO of New Paramount, and is the 'sole manager' of the Ellison family entities (Hikouki, Furaito, Aozora LLC) through which the family owns and controls National Amusements Inc. and New Paramount.",
+      "source": {"id": "s_variety_control_2024", "title": "Variety: 'David Ellison Will Hold Full Control of Combined Paramount-Skydance Following Deal Close, per Updated Filing'", "url": "https://variety.com/2024/biz/news/david-ellison-full-control-merged-paramount-skydance-filing-1236194255/", "tier": "T2"},
+      "quote": "He also is designated as “sole manager” of the Ellison family entities — Hikouki LLC, Furaito LLC, and Aozora LLC — through which the Ellison family will own and control National Amusements Inc.",
+      "locator": "Variety, David Ellison Will Hold Full Control of Combined Paramount-Skydance Following Deal Close (per amended FCC filing)"
+    },
+    {
+      "claim_id": "gov_10",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "The Ellison family's special-purpose vehicle Pinnacle Media Ventures owns 77.5% of National Amusements post-close, with RedBird Capital's Gerry Cardinale owning the remaining 22.5%; the Ellison family controls the NAI board (right to appoint up to five of no more than seven directors) and RedBird up to two.",
+      "source": {"id": "s_variety_control_2024", "title": "Variety: 'David Ellison Will Hold Full Control of Combined Paramount-Skydance Following Deal Close, per Updated Filing'", "url": "https://variety.com/2024/biz/news/david-ellison-full-control-merged-paramount-skydance-filing-1236194255/", "tier": "T2"},
+      "quote": "Pinnacle Media Ventures, formed as special purpose vehicles to hold the Ellison family’s interest in NAI and Paramount, will own 77.5% of National Amusements post-close.",
+      "locator": "Variety, David Ellison Will Hold Full Control of Combined Paramount-Skydance (NAI ownership split)"
+    },
+    {
+      "claim_id": "gov_11",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "On the NAI board, the Ellison family (David Ellison) has voting control with the right to appoint up to five of no more than seven directors, while RedBird has the right to appoint up to two — confirming concentrated Ellison-family control over the combined entity's controlling shareholder.",
+      "source": {"id": "s_variety_control_2024", "title": "Variety: 'David Ellison Will Hold Full Control of Combined Paramount-Skydance Following Deal Close, per Updated Filing'", "url": "https://variety.com/2024/biz/news/david-ellison-full-control-merged-paramount-skydance-filing-1236194255/", "tier": "T2"},
+      "quote": "The Ellison family (i.e., David Ellison) will have voting control of the board with the right to appoint up to five members.",
+      "locator": "Variety, David Ellison Will Hold Full Control of Combined Paramount-Skydance (NAI board composition)"
+    },
+    {
+      "claim_id": "gov_12",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "Jeff Shell — most recently at RedBird Capital (Skydance's financial partner) and previously CEO of NBCUniversal — is the incoming president of the combined Paramount, the number-two executive under Ellison.",
+      "source": {"id": "s_thr_leadership_2025", "title": "The Hollywood Reporter: 'New Paramount Leadership Named by David Ellison Ahead of Takeover' (Aug 2025)", "url": "https://www.hollywoodreporter.com/business/business-news/new-paramount-leadership-named-david-ellison-1236335698/", "tier": "T2"},
+      "quote": "Shell, the incoming president, was most recently working with RedBird Capital, Skydance’s financial partner in the Paramount takeover, and before that was the CEO of NBCUniversal.",
+      "locator": "THR, New Paramount Leadership Named by David Ellison Ahead of Takeover (Aug 4, 2025)"
+    },
+    {
+      "claim_id": "gov_13",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "Cindy Holland, a former Netflix VP of original content who had been advising Skydance, oversees Paramount Skydance's direct-to-consumer division (Paramount+ and Pluto TV) as chair — a key-person hire for the streaming priority central to the WBD rationale.",
+      "source": {"id": "s_thewrap_leadership_2025", "title": "TheWrap: 'New Paramount Leadership Team Unveiled Ahead of Skydance Merger Close' (Aug 2025)", "url": "https://www.thewrap.com/paramount-skydance-merger-leadership-team/", "tier": "T2"},
+      "quote": "Cindy Holland, a former Netflix executive who has been serving as a senior advisor to Ellison since October , will oversee the direct-to-consumer division, which includes Paramount+ and Pluto TV, as chair.",
+      "locator": "TheWrap, New Paramount Leadership Team Unveiled Ahead of Skydance Merger Close (Aug 4, 2025)"
+    },
+    {
+      "claim_id": "gov_14",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "George Cheeks — former CBS president/CEO and Paramount co-CEO, the lone holdover from prior Paramount leadership — remains as chair of the TV Media division overseeing the broadcast/cable business.",
+      "source": {"id": "s_thewrap_leadership_2025", "title": "TheWrap: 'New Paramount Leadership Team Unveiled Ahead of Skydance Merger Close' (Aug 2025)", "url": "https://www.thewrap.com/paramount-skydance-merger-leadership-team/", "tier": "T2"},
+      "quote": "George Cheeks, who has served as CBS’ president and CEO and a Paramount co-CEO, will remain with the company and serve as chair of the TV Media division.",
+      "locator": "TheWrap, New Paramount Leadership Team Unveiled Ahead of Skydance Merger Close (Aug 4, 2025)"
+    },
+    {
+      "claim_id": "gov_15",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "Governance controversy: Paramount disclosed that total foreign ownership of the combined company would be 49.5%, including 38.5% from investment funds tied to Saudi Arabia, Qatar and Abu Dhabi; because any foreign stake above 25% requires FCC approval, Paramount petitioned the FCC for a foreign-ownership waiver.",
+      "source": {"id": "s_deadline_foreign_2026", "title": "Deadline: 'Senate Democrats Warn FCC Over Foreign Influence In Paramount-WBD Deal' (May 2026)", "url": "https://deadline.com/2026/05/paramount-warner-bros-foreign-investors-senate-democrats-1236917793/", "tier": "T2"},
+      "quote": "Paramount has disclosed that total foreign ownership of the combined company would be 49.5%, including 38.5% from investment funds from Saudi Arabia, Qatar and Abu Dhabi.",
+      "locator": "Deadline, Senate Democrats Warn FCC Over Foreign Influence In Paramount-WBD Deal (May 2026)"
+    },
+    {
+      "claim_id": "gov_16",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "Paramount's defense to the foreign-influence concern is that the Ellison family retains majority voting control while the foreign investors are passive with no voting control or governance role.",
+      "source": {"id": "s_deadline_foreign_2026", "title": "Deadline: 'Senate Democrats Warn FCC Over Foreign Influence In Paramount-WBD Deal' (May 2026)", "url": "https://deadline.com/2026/05/paramount-warner-bros-foreign-investors-senate-democrats-1236917793/", "tier": "T2"},
+      "quote": "They noted that the Ellison family will retain a majority of the voting interests and control, while the foreign investors will not have voting control or governance.",
+      "locator": "Deadline, Senate Democrats Warn FCC Over Foreign Influence In Paramount-WBD Deal (May 2026)"
+    },
+    {
+      "claim_id": "gov_17",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "Amid concern over Ellison-family control of CNN plus CBS News, David Ellison publicly pledged that CNN's editorial independence 'needs to be maintained,' an interested-party assurance from the acquirer's CEO that critics have questioned.",
+      "source": {"id": "s_cnn_editorial_2026", "title": "CNN Business: 'Paramount CEO David Ellison says CNN's editorial independence will be maintained' (Mar 2026)", "url": "https://www.cnn.com/2026/03/05/media/cnn-david-ellison-paramount-wbd-merger", "tier": "T2"},
+      "quote": "Paramount CEO David Ellison has pledged to support editorial independence at CNN, saying it “needs to be maintained,” amid widespread concern about his company’s plans for the news network.",
+      "locator": "CNN Business, Paramount CEO David Ellison says CNN's editorial independence 'will be maintained' (Mar 5, 2026)"
+    },
+    {
+      "claim_id": "gov_18",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "Editorial-control concern context: in fall 2025 Ellison spent $150 million to acquire The Free Press and installed its co-founder Bari Weiss as editor-in-chief of CBS News, a precedent cited by critics worried about Ellison-family influence over CNN's newsroom.",
+      "source": {"id": "s_cnn_editorial_2026", "title": "CNN Business: 'Paramount CEO David Ellison says CNN's editorial independence will be maintained' (Mar 2026)", "url": "https://www.cnn.com/2026/03/05/media/cnn-david-ellison-paramount-wbd-merger", "tier": "T2"},
+      "quote": "Last fall, Ellison spent $150 million to acquire The Free Press and make its co-founder, Bari Weiss, the editor-in-chief of CBS News.",
+      "locator": "CNN Business, Paramount CEO David Ellison says CNN's editorial independence 'will be maintained' (Mar 5, 2026)"
+    },
+    {
+      "claim_id": "gov_19",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "The combined company carries concentrated key-person/control risk around David Ellison: he holds 100% of the family voting interests, chairs and runs the company, controls the NAI board (up to five of seven seats), and personally fronts the editorial-independence pledges — so governance, strategy and the CNN/CBS News reputational questions all hinge on one controlling individual rather than dispersed public-shareholder oversight.",
+      "supports": ["gov_9", "gov_11", "gov_17"]
+    },
+    {
+      "claim_id": "gov_20",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "Zaslav's ~$887M change-of-control package is structurally insulated from shareholder discipline: it is dominated by single-trigger equity that vests on closing regardless of his employment (gov_2), and the only stockholder vote on it was advisory/non-binding (gov_3) and was rejected yet remains payable (gov_4) — a governance controversy (compounded by a last-minute tax gross-up, gov_5) that nonetheless poses no obstacle to closing.",
+      "supports": ["gov_1", "gov_2", "gov_3", "gov_4", "gov_5"]
+    },
+    {
+      "claim_id": "gov_21",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "management_governance",
+      "statement": "The foreign-ownership profile (49.5% total, 38.5% from Gulf state funds, gov_15) is the live governance/regulatory pressure point distinct from antitrust: it triggers an FCC foreign-ownership waiver and a Senate-Democrat / FCC-Democrat objection, against which Paramount's only mitigant is the Ellison family's retained voting control and the investors' asserted passivity (gov_16) — i.e., the same Ellison-control concentration that drives key-person risk is also the company's defense on foreign influence.",
+      "supports": ["gov_15", "gov_16", "gov_11"]
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "deal_id": "paramount_wbd",
+  "key_questions": [
+    {
+      "id": "q_premium_139",
+      "bucket": "deal",
+      "area": "deal_rationale_synergies",
+      "question": "Why is Paramount paying $31.00/share all-cash \u2014 roughly a 139% premium over WBD's undisturbed price of $12.54 (Sept 10, 2025) \u2014 and how much of that premium is contested-auction dynamics (Netflix and Comcast bidding) versus a unique strategic lever only Paramount can pull?",
+      "why_it_matters": "Separates 'won a bidding war / overpaid' from 'real synergy lever that justifies the price', which determines whether the premium is recoverable or value-destroying."
+    },
+    {
+      "id": "q_cash_vs_stock_flip",
+      "bucket": "deal",
+      "area": "deal_rationale_synergies",
+      "question": "Why did the WBD board flip from the Netflix cash-and-stock deal ($27.75/share, studios+streaming only with linear spun off) to Paramount's all-cash $31 whole-company offer \u2014 was the deciding factor price, cash certainty, or that Paramount absorbed the regulatory risk?",
+      "why_it_matters": "Reveals what the board actually weighted (headline value vs. certainty vs. risk transfer) and what WBD shareholders are really receiving versus the road not taken."
+    },
+    {
+      "id": "q_leverage_declining",
+      "bucket": "deal",
+      "area": "financing_balance_sheet",
+      "question": "Why fund a ~$111B all-cash deal with ~$50B+ of new debt (pro-forma ~6-7x EBITDA, ~$79-87B total debt) to buy a company whose largest segment \u2014 Global Linear Networks \u2014 is in structural decline, and how does the combined entity service that debt if linear erodes faster than planned?",
+      "why_it_matters": "Tests whether the pro-forma balance sheet survives a faster cord-cutting scenario; this is the central tail risk of the transaction."
+    },
+    {
+      "id": "q_whole_co_vs_jewels",
+      "bucket": "companies",
+      "area": "target_fundamentals",
+      "question": "WBD was itself about to split into Warner Bros. (studios+streaming) and Discovery Global (networks); why is Paramount buying the WHOLE company including the declining linear networks rather than only the studio/streaming crown jewels \u2014 does it want the networks' cash flow to service debt, or is it stuck absorbing a melting asset to get HBO/Warner?",
+      "why_it_matters": "Clarifies whether Paramount is paying for an asset it values or tolerating a declining business as the price of acquiring the IP it actually wants."
+    },
+    {
+      "id": "q_streaming_subscale",
+      "bucket": "industry",
+      "area": "commercial_market",
+      "question": "Paramount+ and HBO Max are each sub-scale against Netflix and Disney; what does combining them concretely change in streaming unit economics \u2014 content amortization spread over a larger subscriber base, reduced churn, pricing power \u2014 is there a real density lever, or just additive scale?",
+      "why_it_matters": "This is the core revenue-synergy thesis; per the synergy method a revenue synergy earns credit only with a named mechanism, not 'a bigger platform'."
+    },
+    {
+      "id": "q_reg_no_divestiture",
+      "bucket": "macro",
+      "area": "antitrust_regulatory",
+      "question": "Why did the DOJ clear a combination of two major film/TV studios plus CBS News and CNN with NO divestitures and no conditions on June 12, 2026, against a historically tougher media-antitrust backdrop \u2014 what explains it (streaming-era market definition, or political alignment of the Ellison ownership with the administration)?",
+      "why_it_matters": "The clearance is the pivotal certainty event; understanding WHY it cleared tells us how durable that clearance is against the threatened state-AG challenge."
+    },
+    {
+      "id": "q_state_ag_political",
+      "bucket": "macro",
+      "area": "antitrust_regulatory",
+      "question": "What is the substance and likelihood of the threatened multi-state attorneys-general lawsuit \u2014 and the surrounding political controversy (FCC 'capitulation' dissent, Senate-Democrat foreign-influence concerns over Oracle/Ellison) \u2014 and can a state challenge actually block or materially delay a deal the federal DOJ has already cleared without conditions?",
+      "why_it_matters": "The principal residual close risk after DOJ clearance; sizes the gap between 'cleared' and 'closed' and the timeline to Q3 2026."
+    },
+    {
+      "id": "q_break_fee_risk_allocation",
+      "bucket": "deal",
+      "area": "merger_agreement",
+      "question": "Why did Paramount agree to seller-favorable risk allocation \u2014 a $7B reverse regulatory termination fee, paying WBD's $2.8B Netflix break fee, and a $0.25/quarter ticking fee for delays past Sept 30, 2026 \u2014 and what does that signal about Paramount's confidence in clearance versus its determination to win at any cost?",
+      "why_it_matters": "Deal-protection terms reveal each side's leverage and how hard the buyer will push to close \u2014 a key input to the close-probability force balance."
+    },
+    {
+      "id": "q_synergies_stated",
+      "bucket": "deal",
+      "area": "deal_rationale_synergies",
+      "question": "What synergies has Paramount actually disclosed ($ amount, timing, cost vs. revenue), and what annual synergy level would be needed to offset the premium and the incremental interest burden \u2014 modest or heroic?",
+      "why_it_matters": "The break-even test: a deal needing modest synergies is lower-risk; one hinging on heroic, mostly-revenue synergies is an execution gamble."
+    },
+    {
+      "id": "q_why_now_ellison",
+      "bucket": "why",
+      "area": "deal_rationale_synergies",
+      "question": "Why this buyer, why now: what can David Ellison's Paramount Skydance \u2014 formed only in August 2025 and backed by Ellison-family / Oracle wealth and RedBird capital \u2014 do with WBD that Netflix or Comcast could not, and why launch a $100B+ megadeal within months of its own formation?",
+      "why_it_matters": "The synthesis 'why': distinguishes a specific strategic logic (scale to challenge Netflix/Disney; consolidate the streaming endgame) from empire-building or a politically-enabled land grab."
+    }
+  ],
+  "planned_sources": [
+    {
+      "id": "s_wbd_10k_2025",
+      "title": "Warner Bros. Discovery FY2025 Form 10-K (filed 2026)",
+      "area": "target_fundamentals",
+      "class": "filings",
+      "tier": "T1",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001437107/000143710726000020/wbd-20251231.htm",
+      "rationale": "Primary source for WBD segment revenue mix (Streaming / Studios / Global Linear Networks), Adjusted EBITDA (~$8.7B), net debt (~$29B, 3.3x), and the secular decline in linear \u2014 the target's fundamentals."
+    },
+    {
+      "id": "s_wbd_ir_earnings",
+      "title": "Warner Bros. Discovery investor relations / latest earnings 8-K (Ex-99)",
+      "area": "target_fundamentals",
+      "class": "filings",
+      "tier": "T2",
+      "url": "https://ir.wbd.com/",
+      "rationale": "Most recent quarterly results, subscriber adds, and segment commentary to update the 10-K snapshot."
+    },
+    {
+      "id": "s_psky_earnings_8k",
+      "title": "Paramount Skydance earnings / results 8-K",
+      "area": "target_fundamentals",
+      "class": "filings",
+      "tier": "T1",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PSKY&type=8-K&dateb=&owner=include&count=40",
+      "rationale": "Acquirer fundamentals \u2014 Paramount Skydance's own revenue, Paramount+ subscribers, and standalone leverage going into the deal (card 02 requires the acquirer, not just the target)."
+    },
+    {
+      "id": "s_wbd_10k_competition",
+      "title": "WBD 10-K 'Competition' + streaming market-share overview",
+      "area": "commercial_market",
+      "class": "filings",
+      "tier": "T1",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001437107/000143710726000020/wbd-20251231.htm",
+      "rationale": "Competitive positioning of HBO Max / Warner studios / networks vs. Netflix, Disney, Comcast; framing for the streaming-scale question."
+    },
+    {
+      "id": "s_streaming_market_shares",
+      "title": "U.S./global streaming subscriber & share landscape (Netflix, Disney, WBD, Paramount)",
+      "area": "commercial_market",
+      "class": "news_analyst",
+      "tier": "T2",
+      "search_hint": "2026 streaming subscriber market share Netflix Disney Max Paramount+ comparison",
+      "via": "scout",
+      "rationale": "Quantifies how sub-scale Paramount+ and HBO Max are individually vs. the leaders \u2014 needed to test the density lever in q_streaming_subscale."
+    },
+    {
+      "id": "s_precedent_media_deals",
+      "title": "Precedent media M&A: Disney-Fox (2019), Discovery-WarnerMedia (2022), AT&T-Time Warner, Comcast-Sky",
+      "area": "commercial_market",
+      "class": "news_analyst",
+      "tier": "T2",
+      "search_hint": "Disney Fox 2019 Discovery WarnerMedia 2022 AT&T Time Warner deal value premium synergies outcome",
+      "via": "scout",
+      "rationale": "Precedent transactions (incl. the one that created WBD itself) for premium, synergy %, and how each fared \u2014 the comparable set for this deal's economics."
+    },
+    {
+      "id": "s_paramount_press_acquire",
+      "title": "Paramount press release: 'Paramount to Acquire Warner Bros. Discovery'",
+      "area": "deal_rationale_synergies",
+      "class": "news_analyst",
+      "tier": "T1",
+      "url": "https://www.paramount.com/press/paramount-to-acquire-warner-bros-discovery-to-form-next-generation-global-media-and-entertainment-company",
+      "rationale": "The primary statement of deal terms, strategic rationale, and any disclosed synergy figures, in management's own words (to contrast with the independent read)."
+    },
+    {
+      "id": "s_psky_announce_8k",
+      "title": "Paramount Skydance 8-K announcing the WBD merger (Ex-99.1, Feb 27 2026)",
+      "area": "deal_rationale_synergies",
+      "class": "filings",
+      "tier": "T1",
+      "url": "https://www.sec.gov/Archives/edgar/data/2041610/000110465926021911/tm2533570d75_ex99-1.htm",
+      "rationale": "Primary filing of the definitive deal: $31/share, ~$110.9B value, structure, and stated rationale."
+    },
+    {
+      "id": "s_wbd_superior_proposal",
+      "title": "WBD board: Paramount revised proposal is a 'Company Superior Proposal'",
+      "area": "deal_rationale_synergies",
+      "class": "news_analyst",
+      "tier": "T1",
+      "url": "https://www.wbd.com/news/warner-bros-discovery-board-directors-determines-revised-proposal-paramount-skydance",
+      "rationale": "The board's own articulation of why Paramount beat Netflix \u2014 directly answers q_cash_vs_stock_flip."
+    },
+    {
+      "id": "s_background_merger_proxy",
+      "title": "WBD merger proxy (DEFM14A) \u2014 'Background of the Merger' + Opinion of Financial Advisor",
+      "area": "deal_rationale_synergies",
+      "class": "filings",
+      "tier": "T1",
+      "search_hint": "Warner Bros Discovery DEFM14A 2026 background of the merger opinion of financial advisor Paramount",
+      "rationale": "The authoritative narrative of the Netflix-vs-Paramount-vs-Comcast process, the advisor's comparables/precedent/DCF multiples, and the premium math \u2014 the spine of the deal-rationale analysis."
+    },
+    {
+      "id": "s_undisturbed_price",
+      "title": "WBD unaffected share price ($12.54, Sept 10 2025) and premium math",
+      "area": "deal_rationale_synergies",
+      "class": "news_analyst",
+      "tier": "T2",
+      "search_hint": "WBD undisturbed unaffected price September 10 2025 12.54 Paramount 139% premium",
+      "via": "scout",
+      "rationale": "Anchors the ~139% premium claim to the correct unaffected price (card 03 requires premium vs. unaffected, not last-traded)."
+    },
+    {
+      "id": "s_psky_financing_8k",
+      "title": "Paramount Skydance 8-K \u2014 debt financing plan & leverage targets",
+      "area": "financing_balance_sheet",
+      "class": "filings",
+      "tier": "T1",
+      "url": "https://www.sec.gov/Archives/edgar/data/0002041610/000110465926012401/tm2533570d50_ex99-1.htm",
+      "rationale": "Primary disclosure of the financing package size, structure, and stated post-close deleveraging plan."
+    },
+    {
+      "id": "s_debt_syndication_news",
+      "title": "Debt syndication coverage: ~$54-57.5B commitments, 6-7x leverage (Variety / PitchBook / Bloomberg)",
+      "area": "financing_balance_sheet",
+      "class": "news_analyst",
+      "tier": "T2",
+      "url": "https://variety.com/2026/biz/news/paramount-debt-financing-warner-bros-discovery-deal-1236712406/",
+      "via": "scout",
+      "rationale": "Independent detail on the ~$30B high-grade / $12B high-yield / $7.5B loan structure, pro-forma debt ($79-87B), and market reception of the syndication."
+    },
+    {
+      "id": "s_rating_agency",
+      "title": "Rating-agency actions on Paramount Skydance / pro-forma entity",
+      "area": "financing_balance_sheet",
+      "class": "news_analyst",
+      "tier": "T2",
+      "search_hint": "Moody's S&P Fitch Paramount Skydance Warner Bros Discovery rating downgrade leverage 2026",
+      "via": "scout",
+      "rationale": "Rating actions size the cost of the leverage and any junk/investment-grade boundary risk on ~$80B+ of debt."
+    },
+    {
+      "id": "s_merger_agreement_8k",
+      "title": "Paramount Skydance 8-K + Merger Agreement exhibit (Feb 27 2026)",
+      "area": "merger_agreement",
+      "class": "filings",
+      "tier": "T1",
+      "url": "https://www.sec.gov/Archives/edgar/data/0002041610/000110465926021911/tm2533570d75_8k.htm",
+      "rationale": "Primary source for closing conditions, MAC/MAE, the $7B reverse regulatory termination fee, the $2.8B Netflix break-fee assumption, outside date (Sept 30 2026) and ticking fee \u2014 answers q_break_fee_risk_allocation."
+    },
+    {
+      "id": "s_wbd_tender_offer",
+      "title": "WBD SC TO-T / tender-offer documents (Paramount tender structure)",
+      "area": "merger_agreement",
+      "class": "filings",
+      "tier": "T1",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1437107&type=SC+TO-T&dateb=&owner=include&count=40",
+      "rationale": "The earlier hostile-tender mechanics and amendments (ticking fee origin, conditions) that became the definitive deal \u2014 context on how the structure evolved."
+    },
+    {
+      "id": "s_doj_clearance",
+      "title": "DOJ clears Paramount-WBD with no divestitures (June 12 2026)",
+      "area": "antitrust_regulatory",
+      "class": "news_analyst",
+      "tier": "T2",
+      "url": "https://www.cnn.com/2026/06/12/media/paramount-wbd-merger-doj-approve-trump-cbs-ellison",
+      "via": "scout",
+      "rationale": "Documents the pivotal antitrust clearance, its no-conditions nature, and the political framing (CBS+CNN under one roof) \u2014 central to q_reg_no_divestiture."
+    },
+    {
+      "id": "s_doj_clearance_variety",
+      "title": "DOJ Antitrust Division approves merger \u2014 terms of clearance (Variety)",
+      "area": "antitrust_regulatory",
+      "class": "news_analyst",
+      "tier": "T2",
+      "url": "https://variety.com/2026/tv/news/doj-approves-paramount-warner-bros-discovery-merger-1236780234/",
+      "via": "scout",
+      "rationale": "Second source on the DOJ rationale ('not likely to harm competition' across SVOD, linear, theatrical) to corroborate the no-remedy clearance."
+    },
+    {
+      "id": "s_fcc_license_transfer",
+      "title": "FCC broadcast-license transfer vote (2-1) and dissent ('capitulation')",
+      "area": "antitrust_regulatory",
+      "class": "news_analyst",
+      "tier": "T2",
+      "url": "https://www.yahoo.com/news/articles/dissenting-fcc-commissioner-paramount-chose-222544402.html",
+      "via": "scout",
+      "rationale": "The FCC license-transfer approval and the dissent capture the second regulatory pillar and the politicization narrative feeding q_state_ag_political."
+    },
+    {
+      "id": "s_accc_clearance",
+      "title": "Australian ACCC clearance (waiting period to June 23 2026)",
+      "area": "antitrust_regulatory",
+      "class": "regulators",
+      "tier": "T1",
+      "search_hint": "ACCC Paramount Warner Bros Discovery merger authorisation June 2026",
+      "via": "scout",
+      "rationale": "International clearance datapoint; the deal needs more than just US approval given WBD's global networks."
+    },
+    {
+      "id": "s_precedent_antitrust",
+      "title": "Precedent media antitrust outcomes: AT&T-Time Warner (DOJ sued, lost), Disney-Fox (RSN divestiture)",
+      "area": "antitrust_regulatory",
+      "class": "news_analyst",
+      "tier": "T2",
+      "search_hint": "AT&T Time Warner antitrust DOJ lawsuit 2018 outcome Disney Fox regional sports networks divestiture",
+      "via": "scout",
+      "rationale": "The base-rate read card 04 demands \u2014 how comparable media deals cleared, were challenged, or required remedies, to judge the no-divestiture clearance and state-AG risk."
+    },
+    {
+      "id": "s_state_ag_challenge",
+      "title": "State attorneys-general threatened challenge to the merger",
+      "area": "litigation_legal",
+      "class": "news_analyst",
+      "tier": "T2",
+      "search_hint": "state attorneys general lawsuit challenge Paramount Warner Bros Discovery merger June 2026 Democratic AGs",
+      "via": "scout",
+      "rationale": "The principal post-DOJ litigation/close risk; who is threatening, on what theory, and whether it can enjoin the deal."
+    },
+    {
+      "id": "s_wbd_10k_legal",
+      "title": "WBD 10-K 'Legal Proceedings' + deal-related shareholder litigation",
+      "area": "litigation_legal",
+      "class": "filings",
+      "tier": "T1",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001437107/000143710726000020/wbd-20251231.htm",
+      "rationale": "Standing litigation on the target plus any merger-objection / disclosure suits typical of large public deals."
+    },
+    {
+      "id": "s_senate_foreign_influence",
+      "title": "Senate Democrats warn FCC over foreign influence (Oracle/Ellison) in the deal",
+      "area": "macro_geopolitical",
+      "class": "trade_press",
+      "tier": "T3",
+      "url": "https://deadline.com/2026/05/paramount-warner-bros-foreign-investors-senate-democrats-1236917793/",
+      "via": "scout",
+      "rationale": "The national-security / foreign-influence and editorial-independence (CNN+CBS news) political overhang \u2014 a macro transmission channel into close risk and post-close controversy."
+    },
+    {
+      "id": "s_media_macro",
+      "title": "Media macro: cord-cutting pace, ad-market cyclicality, streaming economics",
+      "area": "macro_geopolitical",
+      "class": "news_analyst",
+      "tier": "T2",
+      "search_hint": "2026 cord cutting linear TV decline pace advertising market streaming profitability outlook",
+      "rationale": "The exogenous demand trend that governs the value of the linear networks Paramount is levering up to buy (transmission into q_leverage_declining)."
+    },
+    {
+      "id": "s_psky_governance",
+      "title": "Paramount Skydance control & governance \u2014 David Ellison, board, Ellison/Oracle/RedBird backing",
+      "area": "management_governance",
+      "class": "news_analyst",
+      "tier": "T2",
+      "search_hint": "Paramount Skydance David Ellison control structure board RedBird Oracle Larry Ellison governance",
+      "via": "scout",
+      "rationale": "Acquirer control structure and key-person dynamics; who actually decides and how integration leadership is set up (q_why_now_ellison)."
+    },
+    {
+      "id": "s_wbd_def14a",
+      "title": "WBD DEF 14A proxy \u2014 executive compensation / change-of-control",
+      "area": "management_governance",
+      "class": "filings",
+      "tier": "T1",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1437107&type=DEF+14A&dateb=&owner=include&count=10",
+      "rationale": "Zaslav and WBD management change-of-control / golden-parachute terms and governance context for the board's process."
+    },
+    {
+      "id": "s_wbd_dfan14a",
+      "title": "WBD DFAN14A / SC TO-T solicitation materials (Paramount contest)",
+      "area": "short_activist",
+      "class": "filings",
+      "tier": "T1",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001437107/000119312526046859/d64725ddfan14a.htm",
+      "rationale": "The contested-solicitation record \u2014 the closest analogue to an activist/contest dynamic here; captures shareholder-pressure arguments during the bidding war."
+    },
+    {
+      "id": "s_integration_plans",
+      "title": "Integration commentary: Paramount+ / HBO Max combination, restructuring, layoffs",
+      "area": "operational_integration",
+      "class": "news_analyst",
+      "tier": "T2",
+      "search_hint": "Paramount Warner Bros Discovery integration HBO Max Paramount+ combine layoffs restructuring plan 2026",
+      "via": "scout",
+      "rationale": "Execution-risk evidence: how the two streamers and content libraries would be combined, workforce overlap, and integration commentary that a revenue/cost synergy would run through."
+    }
+  ],
+  "classes_skipped": [
+    {
+      "class": "esg_environmental",
+      "reason": "A media/entertainment combination carries no material environmental liabilities. The closest 'ESG/social' risk here \u2014 editorial independence of CNN/CBS news and foreign-influence concerns \u2014 is genuinely material and is captured under macro_geopolitical and management_governance rather than as an environmental item."
+    },
+    {
+      "class": "activist_short",
+      "reason": "No credible dedicated short-seller (Hindenburg/Muddy Waters-style) report drives this situation; the relevant shareholder-pressure dynamics are the contested tender solicitation (DFAN14A / SC TO-T), which are captured under short_activist via the solicitation filings instead of a third-party short thesis."
+    }
+  ]
+}

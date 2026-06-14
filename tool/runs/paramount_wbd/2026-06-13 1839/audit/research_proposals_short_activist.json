@@ -1,0 +1,141 @@
+{
+  "area": "short_activist",
+  "proposals": [
+    {
+      "claim_id": "act_1",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "short_activist",
+      "statement": "There is no classic short-seller report (e.g. Hindenburg/Muddy Waters) driving this situation; the analogue shareholder-pressure dynamic was a contested takeover and proxy/tender-offer solicitation fight. After the WBD board agreed to sell to Netflix, Paramount launched a hostile takeover bid for WBD, taking an all-cash offer directly to shareholders.",
+      "source": {"id": "s_cnn_hostile", "title": "Paramount launches a hostile takeover bid for Warner Bros. Discovery (CNN Business)", "url": "https://www.cnn.com/2025/12/08/business/paramount-hostile-takeover-bid-wbd", "tier": "T2"},
+      "quote": "Paramount launches a hostile takeover bid for Warner Bros.",
+      "locator": "CNN Business, headline and lede, Dec 8 2025"
+    },
+    {
+      "claim_id": "act_2",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "short_activist",
+      "statement": "Paramount publicly urged WBD shareholders to side with its bid against the Netflix deal, stating it would solicit proxies against approval of the Netflix transaction at WBD's special meeting.",
+      "source": {"id": "s_psky_enhance", "title": "Paramount Enhances Its Superior $30 Per Share All-Cash Offer for Warner Bros. Discovery (Paramount press release)", "url": "https://www.paramount.com/press/paramount-enhances-its-superior-30-per-share-all-cash-offer-for-warner-bros-discovery-and-provides-update-on-regulatory-progress", "tier": "T1"},
+      "quote": "Paramount will solicit proxies against approval of the Netflix transaction at WBD's upcoming special meeting.",
+      "locator": "Paramount press release, regulatory-progress section (re: special meeting)"
+    },
+    {
+      "claim_id": "act_3",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "short_activist",
+      "statement": "Paramount explicitly urged WBD shareholders to register their preference for Paramount's offer with the WBD board by tendering their shares, escalating the contested solicitation directly to the shareholder base.",
+      "source": {"id": "s_psky_enhance", "title": "Paramount Enhances Its Superior $30 Per Share All-Cash Offer for Warner Bros. Discovery (Paramount press release)", "url": "https://www.paramount.com/press/paramount-enhances-its-superior-30-per-share-all-cash-offer-for-warner-bros-discovery-and-provides-update-on-regulatory-progress", "tier": "T1"},
+      "quote": "PARAMOUNT URGES WBD SHAREHOLDERS TO REGISTER THEIR PREFERENCE FOR PARAMOUNT'S SUPERIOR OFFER WITH THE WBD BOARD OF DIRECTORS BY TENDERING THEIR SHARES TODAY.",
+      "locator": "Paramount press release, shareholder call-to-action"
+    },
+    {
+      "claim_id": "act_4",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "short_activist",
+      "statement": "The WBD board pushed back on the hostile bid: it unanimously reaffirmed its recommendation in favor of the Netflix combination and recommended that WBD shareholders reject Paramount's (PSKY's) tender offer.",
+      "source": {"id": "s_wbd_reject_amended", "title": "Warner Bros. Discovery Board of Directors Unanimously Recommends Shareholders Reject Amended Paramount Tender Offer (PR Newswire)", "url": "https://www.prnewswire.com/news-releases/warner-bros-discovery-board-of-directors-unanimously-recommends-shareholders-reject-amended-paramount-tender-offer-302654772.html", "tier": "T1"},
+      "quote": "The Board unanimously reiterates its recommendation in support of the Netflix combination and recommends that WBD shareholders reject PSKY's offer.",
+      "locator": "PR Newswire WBD board release, board recommendation paragraph"
+    },
+    {
+      "claim_id": "act_5",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "short_activist",
+      "statement": "WBD's board characterized Paramount's offer as 'inferior' to the Netflix merger across multiple key areas, per a statement attributed to a WBD board representative.",
+      "source": {"id": "s_wbd_reject_amended", "title": "Warner Bros. Discovery Board of Directors Unanimously Recommends Shareholders Reject Amended Paramount Tender Offer (PR Newswire)", "url": "https://www.prnewswire.com/news-releases/warner-bros-discovery-board-of-directors-unanimously-recommends-shareholders-reject-amended-paramount-tender-offer-302654772.html", "tier": "T1"},
+      "quote": "The Board unanimously determined that the Paramount's latest offer remains inferior to our merger agreement with Netflix across multiple key areas,",
+      "locator": "PR Newswire WBD board release, board chairman quote"
+    },
+    {
+      "claim_id": "act_6",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "short_activist",
+      "statement": "WBD claimed that more than 93% of its shareholders had rejected Paramount's bid (which WBD labeled an 'inferior scheme') in favor of the Netflix sale, during the tender-offer contest.",
+      "source": {"id": "s_variety_93", "title": "Warner Bros. Discovery Says Over 93% of Shareholders Have 'Rejected Paramount's Inferior Scheme' in Favor of Netflix Deal (Variety)", "url": "https://variety.com/2026/tv/news/warner-bros-discovery-shareholders-reject-paramount-hostile-bid-inferior-scheme-1236637817/", "tier": "T2"},
+      "quote": "It’s also clear our shareholders agree, with more than 93% also rejecting Paramount’s inferior scheme.",
+      "locator": "Variety, WBD statement quoted in body"
+    },
+    {
+      "claim_id": "act_7",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "short_activist",
+      "statement": "The contest escalated until the WBD board reversed course: it determined that Paramount's revised proposal, valuing WBD at $31.00 per share, constituted a 'Company Superior Proposal', giving Netflix a four-business-day match period.",
+      "source": {"id": "s_wbd_superior", "title": "Warner Bros. Discovery Board of Directors Determines Revised Proposal from Paramount Skydance Constitutes a 'Company Superior Proposal' (WBD)", "url": "https://www.wbd.com/news/warner-bros-discovery-board-directors-determines-revised-proposal-paramount-skydance", "tier": "T1"},
+      "quote": "Discovery Board of Directors Determines Revised Proposal from Paramount Skydance Constitutes a “Company Superior Proposal” Revised PSKY Proposal Values WBD at Per Share Price of $31.00; Netflix Now Has a Four Business Day Match Period",
+      "locator": "WBD news release, headline and subhead"
+    },
+    {
+      "claim_id": "act_8",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "short_activist",
+      "statement": "The central bear thesis on the deal is leverage/structure: WBD's board argued Paramount (PSKY) had a roughly $14 billion market capitalization while attempting an acquisition requiring $94.65 billion of debt and equity financing — nearly seven times its total market capitalization. (Interested-party characterization by the target board opposing the bid.)",
+      "source": {"id": "s_wbd_reject_amended", "title": "Warner Bros. Discovery Board of Directors Unanimously Recommends Shareholders Reject Amended Paramount Tender Offer (PR Newswire)", "url": "https://www.prnewswire.com/news-releases/warner-bros-discovery-board-of-directors-unanimously-recommends-shareholders-reject-amended-paramount-tender-offer-302654772.html", "tier": "T1"},
+      "quote": "PSKY is a company with a $14 billion market capitalization attempting an acquisition requiring $94.65 billion of debt and equity financing, nearly seven times its total market capitalization.",
+      "locator": "PR Newswire WBD board release, 'Lack of Certainty in PSKY's Ability to Close' section"
+    },
+    {
+      "claim_id": "act_9",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "short_activist",
+      "statement": "WBD's board framed the transaction as 'the largest LBO in history' with $87 billion of total pro forma gross debt and estimated gross leverage of approximately 7x 2026E EBITDA before synergies — the core value-destruction/leverage argument against the deal. (Interested-party characterization by the opposing target board.)",
+      "source": {"id": "s_wbd_reject_amended", "title": "Warner Bros. Discovery Board of Directors Unanimously Recommends Shareholders Reject Amended Paramount Tender Offer (PR Newswire)", "url": "https://www.prnewswire.com/news-releases/warner-bros-discovery-board-of-directors-unanimously-recommends-shareholders-reject-amended-paramount-tender-offer-302654772.html", "tier": "T1"},
+      "quote": "In fact, it would be the largest LBO in history with $87 billion of total pro forma gross debt and an estimated gross leverage of approximately 7x 2026E EBITDA before synergies.",
+      "locator": "PR Newswire WBD board release, 'Lack of Certainty in PSKY's Ability to Close' section"
+    },
+    {
+      "claim_id": "act_10",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "short_activist",
+      "statement": "WBD's board argued Paramount intended to incur an extraordinary amount of incremental debt — more than $50 billion — through arrangements with multiple financing partners, reinforcing the bear case that the deal loads the combined entity with debt. (Interested-party characterization.)",
+      "source": {"id": "s_wbd_reject_amended", "title": "Warner Bros. Discovery Board of Directors Unanimously Recommends Shareholders Reject Amended Paramount Tender Offer (PR Newswire)", "url": "https://www.prnewswire.com/news-releases/warner-bros-discovery-board-of-directors-unanimously-recommends-shareholders-reject-amended-paramount-tender-offer-302654772.html", "tier": "T1"},
+      "quote": "To effect the transaction, it intends to incur an extraordinary amount of incremental debt – more than $50 billion – through arrangements with multiple financing partners.",
+      "locator": "PR Newswire WBD board release, 'Lack of Certainty in PSKY's Ability to Close' section"
+    },
+    {
+      "claim_id": "act_11",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "short_activist",
+      "statement": "A bear/market read of Netflix's withdrawal: when Netflix dropped out of the bidding war, it stated 'The deal is no longer financially attractive, so we are declining to match the Paramount Skydance bid' — a competing bidder publicly signaling that the $31 price had exceeded what it considered financially attractive, which analysts read as implying Paramount may be overpaying.",
+      "source": {"id": "s_cnn_netflix_out", "title": "Netflix shockingly bows out, leaving Paramount as the apparent Warner Bros. winner (CNN Business)", "url": "https://www.cnn.com/2026/02/26/media/netflix-paramount-wbd", "tier": "T2"},
+      "quote": "“The deal is no longer financially attractive, so we are declining to match the Paramount Skydance bid,” the streamer said, suddenly ending the corporate tug-of-war.",
+      "locator": "CNN Business, Feb 26 2026, paragraph on Netflix's withdrawal statement"
+    },
+    {
+      "claim_id": "act_12",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "short_activist",
+      "statement": "Even as it pursued the whole company, Paramount cast doubt on the value of WBD's cable/linear assets — an internal tension in the bull case that supports the bear read that Paramount is absorbing a declining asset to win the studio/streaming crown jewels.",
+      "source": {"id": "s_cnn_netflix_out", "title": "Netflix shockingly bows out, leaving Paramount as the apparent Warner Bros. winner (CNN Business)", "url": "https://www.cnn.com/2026/02/26/media/netflix-paramount-wbd", "tier": "T2"},
+      "quote": "Paramount has repeatedly said that it was seeking to acquire all of WBD, including the cable assets, even though it cast doubt on the actual value of those assets.",
+      "locator": "CNN Business, Feb 26 2026, paragraph on Paramount's pursuit of cable assets"
+    },
+    {
+      "claim_id": "act_13",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "short_activist",
+      "statement": "The shareholder-pressure dynamic here is a two-sided contested-solicitation / hostile-tender fight, not an activist short campaign: Paramount solicited WBD shareholders against the Netflix deal and urged them to tender (act_2, act_3) after going hostile (act_1), while the WBD board solicited shareholders to reject Paramount's 'inferior' bid (act_4, act_5, act_6) — a contest that resolved only when the board accepted Paramount's escalated $31.00 offer as superior (act_7).",
+      "supports": ["act_1", "act_2", "act_3", "act_4", "act_5", "act_6", "act_7"]
+    },
+    {
+      "claim_id": "act_14",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "short_activist",
+      "statement": "The most developed bear thesis on this deal is a leverage/financeability case, advanced by the WBD board while it opposed the bid: Paramount (~$14B market cap) is funding a ~$94.65B financing — nearly 7x its own market cap — that would be 'the largest LBO in history' at ~$87B pro forma gross debt and ~7x 2026E EBITDA before synergies (act_8, act_9, act_10). Because the proponent was an interested party opposing the offer, this thesis is corroborated as directionally consistent by Netflix — a competing bidder — walking away when it judged $31 'no longer financially attractive' (act_11) and by Paramount itself doubting the value of the cable assets it is buying (act_12).",
+      "supports": ["act_8", "act_9", "act_10", "act_11", "act_12"]
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "area": "financing_balance_sheet",
+  "proposals": [
+    {
+      "claim_id": "fin_1",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "financing_balance_sheet",
+      "statement": "The combined Paramount Skydance / WBD entity is reported to carry roughly $54-57.5 billion of new debt commitments to fund the all-cash acquisition, with post-deal leverage of approximately 6-6.5x EBITDA.",
+      "source": {"id": "s_cryptobriefing_debt", "title": "Paramount Skydance prepares massive debt package for $110B Warner Bros. Discovery acquisition", "url": "https://cryptobriefing.com/paramount-skydance-debt-package-warner-acquisition/", "tier": "T3"},
+      "quote": "Banks are lining up roughly $54-57.5 billion in debt commitments for what would be the largest media merger in history, with post-deal leverage hitting 6-6.5x EBITDA.",
+      "locator": "The financing puzzle section, May 2026"
+    },
+    {
+      "claim_id": "fin_2",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "financing_balance_sheet",
+      "statement": "The combined Paramount-WBD entity is expected to carry between $79 billion and $87 billion in total debt after closing, per independent reporting.",
+      "source": {"id": "s_cryptobriefing_debt", "title": "Paramount Skydance prepares massive debt package for $110B Warner Bros. Discovery acquisition", "url": "https://cryptobriefing.com/paramount-skydance-debt-package-warner-acquisition/", "tier": "T3"},
+      "quote": "The combined entity is expected to carry somewhere between $79 billion and $87 billion in total debt after closing.",
+      "locator": "The financing puzzle section, May 2026"
+    },
+    {
+      "claim_id": "fin_3",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "financing_balance_sheet",
+      "statement": "Bank of America and Citigroup are reported to be among the major banks that committed between $54 billion and $57.5 billion in debt financing for the deal.",
+      "source": {"id": "s_cryptobriefing_debt", "title": "Paramount Skydance prepares massive debt package for $110B Warner Bros. Discovery acquisition", "url": "https://cryptobriefing.com/paramount-skydance-debt-package-warner-acquisition/", "tier": "T3"},
+      "quote": "Bank of America and Citigroup are among the major banks that have committed between $54 billion and $57.5 billion in debt financing to get the deal across the finish line.",
+      "locator": "The financing puzzle section, May 2026"
+    },
+    {
+      "claim_id": "fin_4",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "financing_balance_sheet",
+      "statement": "Per the company's 8-K disclosure, Paramount has a $49.0 billion senior secured bridge facility and plans permanent financing currently expected to include about $39.5 billion of first-lien and $12.4 billion of second-lien secured debt.",
+      "source": {"id": "s_psky_8k_summary", "title": "Paramount Skydance (NASDAQ: PSKY) outlines WBD buyout debt plan and leverage goals (8-K)", "url": "https://www.stocktitan.net/sec-filings/PSKY/8-k-paramount-skydance-corp-reports-material-event-0ce4a25618b6.html", "tier": "T2"},
+      "quote": "Paramount has a $49.0 billion senior secured bridge facility in place and plans permanent financing currently expected to include about $39.5 billion of first‑lien and $12.4 billion of second‑lien secured debt.",
+      "locator": "Rhea-AI Filing Summary, PSKY 8-K"
+    },
+    {
+      "claim_id": "fin_5",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "financing_balance_sheet",
+      "statement": "Paramount told ratings agencies it aims to reduce net debt to adjusted EBITDA below 3.75x by fiscal 2028 and 3.0x by fiscal 2029.",
+      "source": {"id": "s_psky_8k_summary", "title": "Paramount Skydance (NASDAQ: PSKY) outlines WBD buyout debt plan and leverage goals (8-K)", "url": "https://www.stocktitan.net/sec-filings/PSKY/8-k-paramount-skydance-corp-reports-material-event-0ce4a25618b6.html", "tier": "T2"},
+      "quote": "Paramount told ratings agencies it aims to reduce net debt to adjusted EBITDA below 3.75x by fiscal 2028 and 3.0x by fiscal 2029.",
+      "locator": "Rhea-AI Filing Summary, PSKY 8-K"
+    },
+    {
+      "claim_id": "fin_6",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "financing_balance_sheet",
+      "statement": "Paramount disclosed pro forma financials and expects to realize over $6 billion in synergies, with about 30% targeted in the first year after closing and 70% by the second year, supporting its deleveraging plan.",
+      "source": {"id": "s_psky_8k_summary", "title": "Paramount Skydance (NASDAQ: PSKY) outlines WBD buyout debt plan and leverage goals (8-K)", "url": "https://www.stocktitan.net/sec-filings/PSKY/8-k-paramount-skydance-corp-reports-material-event-0ce4a25618b6.html", "tier": "T2"},
+      "quote": "It also disclosed pro forma financials and expects to realize over $6 billion in synergies, with about 30% targeted in the first year after closing and 70% by the second year.",
+      "locator": "Rhea-AI Filing Summary, PSKY 8-K"
+    },
+    {
+      "claim_id": "fin_7",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "financing_balance_sheet",
+      "statement": "In an April 2026 restructuring, the debt deals reduced Paramount's aggregate long-term debt commitments from $54 billion to $49 billion, and reduced previously disclosed commitments for a $3.5 billion revolving credit facility to zero.",
+      "source": {"id": "s_variety_debt", "title": "Paramount Skydance Restructures Debt Financing for Warner Bros. Discovery Deal", "url": "https://variety.com/2026/biz/news/paramount-debt-financing-warner-bros-discovery-deal-1236712406/", "tier": "T3"},
+      "quote": "The debt deals will reduce Paramount’s aggregate long-term debt commitments from $54 billion to $49 billion. In addition, Paramount’s previously disclosed commitments for a $3.5 billion revolving credit facility have been reduced to zero.",
+      "locator": "Apr 9, 2026 (Todd Spangler)"
+    },
+    {
+      "claim_id": "fin_8",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "financing_balance_sheet",
+      "statement": "Paramount amended its existing senior unsecured revolving credit facility to increase committed liquidity from $3.5 billion to $5 billion in advance of the closing of the merger.",
+      "source": {"id": "s_variety_debt", "title": "Paramount Skydance Restructures Debt Financing for Warner Bros. Discovery Deal", "url": "https://variety.com/2026/biz/news/paramount-debt-financing-warner-bros-discovery-deal-1236712406/", "tier": "T3"},
+      "quote": "The company also amended its existing senior unsecured revolving credit facility to increase committed liquidity from $3.5 billion to $5 billion in advance of the closing of the merger.",
+      "locator": "Apr 9, 2026 (Todd Spangler)"
+    },
+    {
+      "claim_id": "fin_9",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "financing_balance_sheet",
+      "statement": "Paramount syndicated the bridge loan commitments across 18 banks to reduce Citi, BofA and Apollo's exposure, and entered permanent financing for the combined capital structure including a $5 billion Term Loan A and a $5 billion new revolver.",
+      "source": {"id": "s_variety_debt", "title": "Paramount Skydance Restructures Debt Financing for Warner Bros. Discovery Deal", "url": "https://variety.com/2026/biz/news/paramount-debt-financing-warner-bros-discovery-deal-1236712406/", "tier": "T3"},
+      "quote": "Through the deals, Paramount syndicated the bridge loan commitments to reduce Citi, BofA and Apollo’s exposure and spread the total amount across 18 banks.",
+      "locator": "Apr 9, 2026 (Todd Spangler)"
+    },
+    {
+      "claim_id": "fin_10",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "financing_balance_sheet",
+      "statement": "Paramount replaced part of its bridge financing with permanent senior secured facilities totaling $10.00 billion (three- and five-year term loans plus a five-year revolver, secured by substantially all U.S. assets) and upsized its existing unsecured revolver to $5.00 billion.",
+      "source": {"id": "s_psky_10b_8k", "title": "Paramount Skydance (PSKY) secures $10B in new loans, upsizes revolver for WBD acquisition (8-K)", "url": "https://www.stocktitan.net/sec-filings/PSKY/8-k-paramount-skydance-corp-reports-material-event-8c96b378295d.html", "tier": "T2"},
+      "quote": "Paramount Skydance replaced part of its bridge financing with permanent senior secured facilities totaling $10.00 billion and upsized an existing unsecured revolver to $5.00 billion.",
+      "locator": "Rhea-AI Filing Summary, PSKY 8-K"
+    },
+    {
+      "claim_id": "fin_11",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "financing_balance_sheet",
+      "statement": "The new secured credit agreements include leverage covenants and a path to unsecured status if investment-grade ratings are achieved.",
+      "source": {"id": "s_psky_10b_8k", "title": "Paramount Skydance (PSKY) secures $10B in new loans, upsizes revolver for WBD acquisition (8-K)", "url": "https://www.stocktitan.net/sec-filings/PSKY/8-k-paramount-skydance-corp-reports-material-event-8c96b378295d.html", "tier": "T2"},
+      "quote": "These agreements include leverage covenants and a path to unsecured status if investment-grade ratings are achieved.",
+      "locator": "Rhea-AI Filing Summary, PSKY 8-K"
+    },
+    {
+      "claim_id": "fin_12",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "financing_balance_sheet",
+      "statement": "S&P Global, having previously downgraded Paramount to junk status, said it will lower Paramount Skydance's issuer credit rating to 'BB' when the WBD acquisition closes, and does not expect leverage to fall below its 4.25x downgrade threshold until 2029.",
+      "source": {"id": "s_thewrap_sp", "title": "S&P Global Will Lower Paramount's Credit Rating Even More After Warner Bros. Merger", "url": "https://www.thewrap.com/industry-news/business/sp-global-paramount-warner-bros-merger-credit-rating-downgrade/", "tier": "T2"},
+      "quote": "We will lower the issuer credit rating on PSKY to ‘BB’ when its acquisition of WBD closes, assuming no material changes to the structure or terms of the transaction due to regulatory considerations, our view of the media ecosystem, or the company’s competitive position due to geopolitical factors or secular pressures,",
+      "locator": "TheWrap, May 20, 2026 (Lucas Manfredi)"
+    },
+    {
+      "claim_id": "fin_13",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "financing_balance_sheet",
+      "statement": "Paramount Skydance management (David Ellison) characterizes post-close leverage as near 4.3x including the $6 billion of synergies and a post-transaction debt level of about $79 billion, and intends to return to investment grade within three years.",
+      "source": {"id": "s_wbd_dfan14a", "title": "Paramount Skydance (WBD) pushes $31/share takeover; $79B debt cited (DFAN14A)", "url": "https://www.stocktitan.net/sec-filings/WBD/dfan14a-warner-bros-discovery-inc-sec-filing-5c3a67c1c035.html", "tier": "T2"},
+      "quote": "He describes expected synergies of $6 billion , post-close leverage near 4.3x (including the synergies), and a post-transaction debt level he characterizes as about $79 billion .",
+      "locator": "Rhea-AI Filing Summary, WBD DFAN14A"
+    },
+    {
+      "claim_id": "fin_14",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "financing_balance_sheet",
+      "statement": "Larry Ellison provided an irrevocable personal guarantee of $43.3 billion on the equity financing for Paramount's revised offer, the cash enhancements to certainty, and any damages claims against Paramount.",
+      "source": {"id": "s_psky_financing_8k", "title": "Paramount Enhances Its Superior $30 Per Share All-Cash Offer for WBD (8-K Ex-99.1)", "url": "https://www.sec.gov/Archives/edgar/data/0002041610/000110465926012401/tm2533570d50_ex99-1.htm", "tier": "T1"},
+      "quote": "Larry Ellison has provided an irrevocable personal guarantee, now of $43.3 billion, on the equity financing for our Revised Offer, the cash enhancements to certainty and any damages claims against Paramount.",
+      "locator": "8-K Ex-99.1, Feb 10, 2026 (debt/equity financing discussion)"
+    },
+    {
+      "claim_id": "fin_15",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "financing_balance_sheet",
+      "statement": "Paramount will fund the $2.8 billion termination fee due to Netflix, eliminate WBD's potential $1.5 billion debt-exchange financing cost (backstopped, without reduction to the separate $5.8 billion reverse termination fee), and its debt financing sources are prepared to extend WBD's existing $15 billion bridge loan if needed.",
+      "source": {"id": "s_psky_financing_8k", "title": "Paramount Enhances Its Superior $30 Per Share All-Cash Offer for WBD (8-K Ex-99.1)", "url": "https://www.sec.gov/Archives/edgar/data/0002041610/000110465926012401/tm2533570d50_ex99-1.htm", "tier": "T1"},
+      "quote": "Bridge loan refinancing : If WBD’s financing sources will not extend the maturity of WBD’s existing $15 billion bridge loan, Paramount’s debt financing sources are fully prepared to do so (with any incremental costs covered by Paramount).",
+      "locator": "8-K Ex-99.1, Feb 10, 2026 (enhanced offer provisions, bullet list)"
+    },
+    {
+      "claim_id": "fin_16",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "financing_balance_sheet",
+      "statement": "On a standalone basis, as of December 31, 2025 WBD had $4,566 million of cash and cash equivalents on hand.",
+      "source": {"id": "s_wbd_10k", "title": "Warner Bros. Discovery FY2025 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0001437107/000143710726000020/wbd-20251231.htm", "tier": "T1"},
+      "quote": "As of December 31, 2025, we had $4,566 million of cash and cash equivalents on hand.",
+      "locator": "FY2025 10-K, MD&A Liquidity and Capital Resources (p. 50)"
+    },
+    {
+      "claim_id": "fin_17",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "financing_balance_sheet",
+      "statement": "WBD's standalone scheduled long-term debt repayments as of December 31, 2025 total approximately $32.7 billion (2026: $139M; 2027: $16,483M; 2028: $1,409M; 2029: $2,274M; 2030: $1,354M; thereafter: $11,186M), with $16.5 billion concentrated in the 2027 maturity tower.",
+      "source": {"id": "s_wbd_10k", "title": "Warner Bros. Discovery FY2025 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0001437107/000143710726000020/wbd-20251231.htm", "tier": "T1"},
+      "quote": "Long-term debt repayments $ 139 $ 16,483 $ 1,409 $ 2,274 $ 1,354 $ 11,186 Interest payments $ 1,947 $ 1,353 $ 723 $ 648 $ 584 $ 5,454",
+      "locator": "FY2025 10-K, Long-term Debt Repayment Schedule (p. 95)"
+    },
+    {
+      "claim_id": "fin_18",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "financing_balance_sheet",
+      "statement": "On the WBD side, a JPMorgan-led bank group refinanced WBD's $15 billion bridge loan with longer-term debt, with WBD's junk credit grade (on the higher end for junk-rated borrowers) and scarce leveraged-loan supply generating more than $30 billion of investor orders.",
+      "source": {"id": "s_fpj_debt", "title": "Paramount Skydance And Warner Bros. Discovery Face One Of The Year's Biggest Debt Market Tests", "url": "https://www.foreignpolicyjournal.com/2026/05/31/paramount-skydance-and-warner-bros-discovery-nasdaq-wbd-face-one-of-the-years-biggest-debt-market-tests/", "tier": "T3"},
+      "quote": "On the Warner Bros. side, a JPMorgan Chase-led bank group seized on red-hot demand for leveraged loans to save hundreds of millions of dollars in interest costs by refinancing a $15 billion bridge loan with longer-term debt.",
+      "locator": "May 31, 2026"
+    },
+    {
+      "claim_id": "fin_19",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "financing_balance_sheet",
+      "statement": "S&P treated David Ellison's verbal pledge to keep Paramount's leverage in line with forecasts as a tacit promise to inject additional capital if needed, and pushed for that commitment to be made public after deal skeptics labeled post-merger leverage levels 'frightening.'",
+      "source": {"id": "s_fpj_debt", "title": "Paramount Skydance And Warner Bros. Discovery Face One Of The Year's Biggest Debt Market Tests", "url": "https://www.foreignpolicyjournal.com/2026/05/31/paramount-skydance-and-warner-bros-discovery-nasdaq-wbd-face-one-of-the-years-biggest-debt-market-tests/", "tier": "T3"},
+      "quote": "Chief Executive Officer David Ellison pledged that his family would do what it takes to keep Paramount’s leverage in line with forecasts, with S&P treating the verbal pledge as a tacit promise to inject additional capital if needed.",
+      "locator": "May 31, 2026"
+    },
+    {
+      "claim_id": "fin_20",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "financing_balance_sheet",
+      "statement": "There is a material gap between the interested-party leverage framing and independent reporting: management cites post-close leverage near 4.3x (fin_13), but independent reporting puts pro-forma leverage at 6-6.5x EBITDA (fin_1) and S&P does not expect leverage below its 4.25x threshold until 2029 (fin_12). The ~2x gap is largely explained by management presenting leverage net of the full $6 billion of not-yet-realized synergies (fin_6, fin_13), which is exactly the execution risk S&P flags.",
+      "supports": ["fin_1", "fin_6", "fin_12", "fin_13"]
+    },
+    {
+      "claim_id": "fin_21",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "financing_balance_sheet",
+      "statement": "Both major agencies that rated the deal cut Paramount to junk: S&P will take PSKY to 'BB' on close (fin_12) and Fitch had already downgraded Paramount to junk status (fin_13 references Fitch's junk downgrade), confirming the combined entity will fund and close as a non-investment-grade borrower despite management's stated three-year investment-grade ambition (fin_13).",
+      "supports": ["fin_12", "fin_13"]
+    },
+    {
+      "claim_id": "fin_22",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "financing_balance_sheet",
+      "statement": "The deleveraging path rests on synergy execution against a structurally declining base: the plan targets net debt/adjusted EBITDA below 3.75x by FY2028 and 3.0x by FY2029 (fin_5), but that requires realizing over $6 billion of synergies (fin_6) on top of ~$79-87B of total debt (fin_2) to acquire WBD, whose largest segment (Global Linear Networks) is in secular decline — the precise risk S&P cites in keeping leverage above 4.25x until 2029 (fin_12) and in treating the Ellison family pledge as a backstop to inject capital if forecasts slip (fin_19).",
+      "supports": ["fin_2", "fin_5", "fin_6", "fin_12", "fin_19"]
+    },
+    {
+      "claim_id": "fin_23",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "financing_balance_sheet",
+      "statement": "Combined-entity liquidity is supported by a $5.0 billion upsized unsecured revolver (fin_8, fin_10) plus WBD's standalone ~$4.6 billion cash balance (fin_16), but the near-term refinancing wall is concentrated in WBD's ~$16.5 billion of 2027 maturities (fin_17), meaning the combined company must access debt markets at junk spreads (fin_12) to term those out — a dependency the deal partly pre-empted via WBD's $15 billion bridge refinancing (fin_18).",
+      "supports": ["fin_8", "fin_10", "fin_16", "fin_17", "fin_18", "fin_12"]
+    }
+  ]
+}

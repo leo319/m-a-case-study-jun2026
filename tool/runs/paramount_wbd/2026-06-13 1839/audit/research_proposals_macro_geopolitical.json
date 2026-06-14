@@ -1,0 +1,171 @@
+{
+  "area": "macro_geopolitical",
+  "proposals": [
+    {
+      "claim_id": "macro_1",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "macro_geopolitical",
+      "statement": "WBD's FY2025 distribution revenue fell 8%, driven primarily by a 9% decline in domestic linear subscribers for the year — a direct measure of the cord-cutting secular decline governing the value of the Global Linear Networks segment Paramount is levering up with ~$50B+ of new debt to buy.",
+      "source": {"id": "s_wbd_10k_2025", "title": "Warner Bros. Discovery FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0001437107/000143710726000020/wbd-20251231.htm", "tier": "T1"},
+      "quote": "Distribution revenue decreased 8% in 2025, primarily attributable to a 9% decline in domestic linear subscribers for the year, and to a lesser extent, lower international affiliate rates and international subscriber declines, partially offset by a 3% increase in domestic affiliate rates.",
+      "locator": "Item 7, MD&A — Global Linear Networks segment results, Revenues / Distribution"
+    },
+    {
+      "claim_id": "macro_2",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "macro_geopolitical",
+      "statement": "WBD's FY2025 advertising revenue fell 11%, primarily attributable to domestic linear network audience declines of 25% — evidencing that the linear-advertising erosion (the cyclically and secularly exposed revenue line of the combined entity's largest segment) is running far faster than the subscriber-count decline.",
+      "source": {"id": "s_wbd_10k_2025", "title": "Warner Bros. Discovery FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0001437107/000143710726000020/wbd-20251231.htm", "tier": "T1"},
+      "quote": "Advertising revenue decreased 11% in 2025, primarily attributable to audience declines in domestic linear networks of 25%, partially offset by an increase in domestic HBO Max ad-lite subscribers.",
+      "locator": "Item 7, MD&A — Global Linear Networks segment results, Revenues / Advertising"
+    },
+    {
+      "claim_id": "macro_3",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "macro_geopolitical",
+      "statement": "WBD warns there is no assurance that growth in streaming/digital advertising will replace the structural decline in its traditional linear advertising — the secular-demand transmission channel that bears directly on the cash flows Paramount is counting on the Global Linear Networks segment to generate to service the deal's debt.",
+      "source": {"id": "s_wbd_10k_2025", "title": "Warner Bros. Discovery FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0001437107/000143710726000020/wbd-20251231.htm", "tier": "T1"},
+      "quote": "There can be no assurance that we can successfully navigate the evolving streaming and digital advertising market or that the advertising revenues we generate in that market will replace the declines in advertising revenues generated from our traditional linear business.",
+      "locator": "Item 1A, Risk Factors — advertising / linear distribution"
+    },
+    {
+      "claim_id": "macro_4",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "macro_geopolitical",
+      "statement": "WBD discloses that its advertising market — the cyclical revenue line most exposed in a downturn for the combined entity — is sensitive to general economic conditions, consumer buying patterns and advertising-agency budget decisions, establishing the advertising-cyclicality transmission channel into pro-forma earnings.",
+      "source": {"id": "s_wbd_10k_2025", "title": "Warner Bros. Discovery FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0001437107/000143710726000020/wbd-20251231.htm", "tier": "T1"},
+      "quote": "The advertising market is also evolving and sensitive to general economic conditions, consumer buying patterns, advertising agency influences (such as how those advertising agencies manage their clients’ marketing budgets and negotiate for our advertising inventory), and developments in AI technology.",
+      "locator": "Item 1A, Risk Factors — advertising revenues"
+    },
+    {
+      "claim_id": "macro_5",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "macro_geopolitical",
+      "statement": "WBD states its business is significantly affected by prevailing economic conditions and consumer discretionary spending, and that a downturn particularly hits advertisers whose expenditures are sensitive to general economic conditions — the macro/recession transmission channel into the combined entity's ad-dependent revenue.",
+      "source": {"id": "s_wbd_10k_2025", "title": "Warner Bros. Discovery FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0001437107/000143710726000020/wbd-20251231.htm", "tier": "T1"},
+      "quote": "A downturn in global economic conditions may negatively affect our current and potential customers, particularly advertisers whose expenditures are sensitive to general economic conditions, vendors and others with whom we do business and their ability to satisfy their obligations to us.",
+      "locator": "Item 1A, Risk Factors — Global economic conditions and other global events"
+    },
+    {
+      "claim_id": "macro_6",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "macro_geopolitical",
+      "statement": "WBD discloses that the Bridge Loan Facility associated with the PSKY transaction bears interest at a variable rate, exposing the company to rising interest rates — the interest-rate transmission channel into the deal's financing cost given the ~$50B+ of new acquisition debt.",
+      "source": {"id": "s_wbd_10k_2025", "title": "Warner Bros. Discovery FY2025 Form 10-K", "url": "https://www.sec.gov/Archives/edgar/data/0001437107/000143710726000020/wbd-20251231.htm", "tier": "T1"},
+      "quote": "The Bridge Loan Facility bears interest at a variable rate, which exposes us to the risk of increased interest rates.",
+      "locator": "Item 1A, Risk Factors — indebtedness / Bridge Loan Facility"
+    },
+    {
+      "claim_id": "macro_7",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "macro_geopolitical",
+      "statement": "An independent Wall Street analyst (Madison & Wall's Brian Wieser) estimated U.S. traditional pay-TV penetration fell to roughly 50% (66.7 million of ~113 million households) in Q4 2025, down from near 80% at its Q1 2018 peak — an exogenous corroboration of the cord-cutting pace eroding the demand base for WBD's linear networks.",
+      "source": {"id": "s_thedesk_paytv_2025", "title": "Analyst: U.S. pay TV penetration falls below 50 percent during Q4 (The Desk)", "url": "https://thedesk.net/2025/11/madison-wall-analyst-cord-cutting-pay-tv-penetration/", "tier": "T3"},
+      "quote": "The report, from Madison & Wall’s Brian Wieser, said Q4 estimates put the number of pay TV subscribers at 66.7 million households, or less than half of the 113 million American households counted by the U.S.",
+      "locator": "Article body, Matthew Keys, November 13, 2025"
+    },
+    {
+      "claim_id": "macro_8",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "macro_geopolitical",
+      "statement": "The same analyst report states U.S. pay-TV households declined 6% year over year in Q3 2025, continuing a multi-year subscriber-erosion trajectory — quantifying the annual pace of the secular decline in the linear-distribution demand base.",
+      "source": {"id": "s_thedesk_paytv_2025", "title": "Analyst: U.S. pay TV penetration falls below 50 percent during Q4 (The Desk)", "url": "https://thedesk.net/2025/11/madison-wall-analyst-cord-cutting-pay-tv-penetration/", "tier": "T3"},
+      "quote": "Wieser said pay TV households declined 6 percent year over year in the third quarter, maintaining the industry’s multi-year trajectory of subscriber erosion.",
+      "locator": "Article body, Matthew Keys, November 13, 2025"
+    },
+    {
+      "claim_id": "macro_9",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "macro_geopolitical",
+      "statement": "Paramount has disclosed that total foreign ownership of the combined company would be 49.5%, including 38.5% from investment funds from Saudi Arabia, Qatar and Abu Dhabi — a political-risk transmission channel, since any foreign stake above 25% requires FCC approval and has drawn Senate-Democrat foreign-influence objections that bear on close certainty.",
+      "source": {"id": "s_deadline_foreign_2026", "title": "Paramount-WBD Foreign Investors Draw Senate Democrats' Objections (Deadline)", "url": "https://deadline.com/2026/05/paramount-warner-bros-foreign-investors-senate-democrats-1236917793/", "tier": "T3"},
+      "quote": "Paramount has disclosed that total foreign ownership of the combined company would be 49.5%, including 38.5% from investment funds from Saudi Arabia, Qatar and Abu Dhabi.",
+      "locator": "Article body, paragraph on foreign ownership / FCC petition (May 2026)"
+    },
+    {
+      "claim_id": "macro_10",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "macro_geopolitical",
+      "statement": "Senate Democrats led by Sen. Maria Cantwell warned the FCC that even as passive investors, the deal's foreign government-linked funds could gain access to Americans' personal information and viewing habits and the ability to influence content — a political/foreign-influence overhang feeding into the FCC foreign-ownership-waiver review and thus close certainty.",
+      "source": {"id": "s_deadline_foreign_2026", "title": "Paramount-WBD Foreign Investors Draw Senate Democrats' Objections (Deadline)", "url": "https://deadline.com/2026/05/paramount-warner-bros-foreign-investors-senate-democrats-1236917793/", "tier": "T3"},
+      "quote": "But even as passive investors, these foreign entities could be in a position to gain sensitive information on Americans’ financial and other personal information, and their viewing habits, as well as the ability to influence the content carried by this massive media conglomerate.",
+      "locator": "Article body, quoting the Cantwell-led letter to FCC Chairman Carr (May 2026)"
+    },
+    {
+      "claim_id": "macro_11",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "macro_geopolitical",
+      "statement": "CNN reports the deal has been a source of controversy partly due to Paramount's close ties to President Trump and its perceived efforts to win his administration's favor, and that the deal is bankrolled by Trump ally Larry Ellison, whose son David Ellison runs Paramount — establishing the Ellison/Trump-alignment political-risk channel into post-close editorial-independence controversy at CNN and CBS News.",
+      "source": {"id": "s_cnn_doj_2026", "title": "Trump's DOJ approves Paramount-Warner Bros. merger, as potential state lawsuits loom (CNN Business)", "url": "https://www.cnn.com/2026/06/12/media/paramount-wbd-merger-doj-approve-trump-cbs-ellison", "tier": "T3"},
+      "quote": "The deal is bankrolled by Trump ally Larry Ellison, the billionaire co-founder of Oracle, whose son David Ellison became CEO of Paramount through a merger last year.",
+      "locator": "Article body, June 12, 2026"
+    },
+    {
+      "claim_id": "macro_12",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "macro_geopolitical",
+      "statement": "CNN reports that, even after the DOJ's June 12, 2026 clearance, the deal still faces a potential lawsuit by a coalition of state attorneys general who say the Trump administration is failing to enforce antitrust law — the political/regulatory overhang as a residual close-certainty risk after federal clearance.",
+      "source": {"id": "s_cnn_doj_2026", "title": "Trump's DOJ approves Paramount-Warner Bros. merger, as potential state lawsuits loom (CNN Business)", "url": "https://www.cnn.com/2026/06/12/media/paramount-wbd-merger-doj-approve-trump-cbs-ellison", "tier": "T3"},
+      "quote": "Discovery (also known as WBD) still face a potential lawsuit by a coalition of state attorneys general who have said the Trump administration is failing to enforce antitrust law.",
+      "locator": "Article body, June 12, 2026"
+    },
+    {
+      "claim_id": "macro_13",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "macro_geopolitical",
+      "statement": "FCC Commissioner Anna Gomez, dissenting on the earlier Skydance-Paramount approval, said the FCC used its vast power to pressure Paramount to broker a private legal settlement and further erode press freedom — the documented basis of the FCC 'capitulation' narrative as a political-risk channel bearing on editorial independence at the combined company.",
+      "source": {"id": "s_deadline_gomez_2025", "title": "FCC Commissioner Anna Gomez Delivers Blistering Statement On Skydance-Paramount Approval (Deadline)", "url": "https://deadline.com/2025/07/fcc-skydance-paramount-anna-gomez-1236468218/", "tier": "T3"},
+      "quote": "In an unprecedented move, this once-independent FCC used its vast power to pressure Paramount to broker a private legal settlement and further erode press freedom.",
+      "locator": "Article body, quoting Commissioner Gomez's statement (July 2025)"
+    },
+    {
+      "claim_id": "macro_14",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "macro_geopolitical",
+      "statement": "Gomez characterized Paramount's conduct toward the administration as institutions choosing 'capitulation over courage' — the source of the 'capitulation' framing that drives concern about editorial independence of CNN and CBS News under common Ellison ownership.",
+      "source": {"id": "s_deadline_gomez_2025", "title": "FCC Commissioner Anna Gomez Delivers Blistering Statement On Skydance-Paramount Approval (Deadline)", "url": "https://deadline.com/2025/07/fcc-skydance-paramount-anna-gomez-1236468218/", "tier": "T3"},
+      "quote": "But such violations endure only when institutions choose capitulation over courage.",
+      "locator": "Article body, quoting Commissioner Gomez's statement (July 2025)"
+    },
+    {
+      "claim_id": "macro_15",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "macro_geopolitical",
+      "statement": "CNN reports that critics of the WBD deal pointed to Paramount's overhaul of CBS News and programs like '60 Minutes' — a longtime target of Trump's ire — as evidence of the company's willingness to accommodate political pressure, illustrating the post-close editorial-independence controversy channel for the combined CNN + CBS News newsroom.",
+      "source": {"id": "s_cnn_doj_2026", "title": "Trump's DOJ approves Paramount-Warner Bros. merger, as potential state lawsuits loom (CNN Business)", "url": "https://www.cnn.com/2026/06/12/media/paramount-wbd-merger-doj-approve-trump-cbs-ellison", "tier": "T3"},
+      "quote": "Critics of the WBD deal have pointed to Paramount’s overhaul of CBS News and programs like “60 Minutes” — long a target of Trump’s ire — as evidence of the company’s willingness to accommodate political pressure.",
+      "locator": "Article body, June 12, 2026"
+    },
+    {
+      "claim_id": "macro_16",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "macro_geopolitical",
+      "statement": "Linear advertising is eroding materially faster than the subscriber base: WBD's FY2025 domestic-linear advertising revenue fell 11% against a 9% subscriber decline, because linear-network audience declines reached 25% — so the demand trend governing the Global Linear Networks segment Paramount is buying with new debt is deteriorating at a double-digit annual pace, ahead of the ~6% national pay-TV household decline.",
+      "supports": ["macro_1", "macro_2", "macro_8"]
+    },
+    {
+      "claim_id": "macro_17",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "macro_geopolitical",
+      "statement": "The political alignment of the Ellison/Oracle ownership with the Trump administration operates as a two-sided macro/political-risk channel: on the upside it plausibly eased the DOJ's no-conditions federal clearance, but it simultaneously creates residual close risk (a threatened multi-state AG antitrust challenge, an unresolved FCC foreign-ownership review over 49.5% foreign ownership) and post-close controversy risk over the editorial independence of commonly owned CNN and CBS News.",
+      "supports": ["macro_9", "macro_11", "macro_12", "macro_13", "macro_15"]
+    }
+  ]
+}
