@@ -1,0 +1,201 @@
+{
+  "area": "antitrust_regulatory",
+  "proposals": [
+    {
+      "claim_id": "anti_1",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "On June 12, 2026, the U.S. Department of Justice cleared Paramount Skydance's acquisition of Warner Bros. Discovery of federal antitrust concerns, stating in its determination that the transaction \"is not likely to result in harm to competition or American consumers.\"",
+      "source": {"id": "s_cnbc_doj", "title": "Paramount-WBD merger wins approval from DOJ", "url": "https://www.cnbc.com/2026/06/12/paramount-wbd-merger-approval-doj.html", "tier": "T2"},
+      "quote": "The Division has completed its analysis of the proposed merger of Paramount and Warner Bros. and determined based on the evidence received in its investigation that the transaction is not likely to result in harm to competition or American consumers,",
+      "locator": "Paramount-WBD merger wins approval from DOJ, CNBC, published Jun 12 2026 4:35 PM EDT (DOJ determination quote)"
+    },
+    {
+      "claim_id": "anti_2",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "The DOJ's eight-month review of the Paramount-WBD merger examined more than two million documents and concluded the deal could strengthen competition across streaming video, traditional television and theatrical film distribution, finding the combined company would continue competing against larger streaming rivals including Netflix, Amazon and Disney.",
+      "source": {"id": "s_fox_doj", "title": "DOJ clears Paramount-Warner Bros merger after 8-month antitrust probe", "url": "https://www.foxbusiness.com/entertainment/doj-clears-paramount-warner-bros-merger-after-8-month-antitrust-probe-says-deal-could-boost-competition.amp", "tier": "T2"},
+      "quote": "The Antitrust Division said its eight-month review examined more than two million documents and found the deal could strengthen competition across the media and entertainment industry, including in streaming video, traditional television and theatrical film distribution.",
+      "locator": "DOJ clears Paramount-Warner Bros merger after 8-month antitrust probe, Fox Business, published June 12 2026 8:38pm EDT (eight-month review paragraph)"
+    },
+    {
+      "claim_id": "anti_3",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "The DOJ stated the investigatory record suggested the Paramount-WBD transaction would increase competition across the media and entertainment ecosystem, with benefits for American consumers and workers.",
+      "source": {"id": "s_fox_doj", "title": "DOJ clears Paramount-Warner Bros merger after 8-month antitrust probe", "url": "https://www.foxbusiness.com/entertainment/doj-clears-paramount-warner-bros-merger-after-8-month-antitrust-probe-says-deal-could-boost-competition.amp", "tier": "T2"},
+      "quote": "The extensive investigatory record reviewed by the Division suggests that the impact of the transaction will be to increase competition across the media and entertainment ecosystem, with benefits for American consumers and workers,",
+      "locator": "DOJ clears Paramount-Warner Bros merger after 8-month antitrust probe, Fox Business, published June 12 2026 8:38pm EDT (DOJ statement quote)"
+    },
+    {
+      "claim_id": "anti_4",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "Variety characterized the DOJ's approval of the Paramount-WBD takeover as clearance \"Without Any Strings Attached,\" reflecting that the Antitrust Division imposed no divestitures or conditions.",
+      "source": {"id": "s_variety_doj", "title": "Justice Department Approves Paramount's Warner Bros. Discovery Takeover Without Any Strings Attached", "url": "https://variety.com/2026/tv/news/doj-approves-paramount-warner-bros-discovery-merger-1236780234/", "tier": "T2"},
+      "quote": "Justice Department Approves Paramount’s Warner Bros.\n\nDiscovery Takeover Without Any Strings Attached",
+      "locator": "Justice Department Approves Paramount's Warner Bros. Discovery Takeover Without Any Strings Attached, Variety, June 12 2026 (headline)"
+    },
+    {
+      "claim_id": "anti_5",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "The federal antitrust clearance was unconditional: the DOJ closed its investigation with no divestitures or behavioral remedies, removing the principal federal antitrust gating risk to closing the Paramount-WBD merger (corroborated across two independent outlets, CNBC and Fox Business, plus Variety's 'no strings' framing).",
+      "supports": ["anti_1", "anti_2", "anti_3", "anti_4"]
+    },
+    {
+      "claim_id": "anti_6",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "Per the merger proxy, the HSR Act waiting period commenced December 8, 2025 upon PSKY's notification filing; after PSKY received a Second Request, PSKY certified substantial compliance on February 9, 2026, and the HSR Act waiting period expired on February 19, 2026.",
+      "source": {"id": "s_defm14a", "title": "WBD DEFM14A merger proxy", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "PSKY certified substantial compliance with its Second Request on February 9, 2026, and the HSR Act waiting period expired on February 19, 2026.",
+      "locator": "DEFM14A, Regulatory Approvals — United States Antitrust (HSR Act waiting period)"
+    },
+    {
+      "claim_id": "anti_7",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "Per the merger proxy, WBD received a Civil Investigative Demand and a Second Request from the Antitrust Division on December 23, 2025, and WBD continued to work cooperatively with the Antitrust Division and several state attorneys general in connection with the merger.",
+      "source": {"id": "s_defm14a", "title": "WBD DEFM14A merger proxy", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "WBD continues to work cooperatively with the Antitrust Division and several state attorneys general in connection with the Merger.",
+      "locator": "DEFM14A, Regulatory Approvals — United States Antitrust (WBD Civil Investigative Demand / Second Request)"
+    },
+    {
+      "claim_id": "anti_8",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "On June 9, 2026, the Australian Competition and Consumer Commission (ACCC) published its decision that the merger may be consummated subject to expiration of a 14-calendar-day waiting period scheduled to expire at 10:00 a.m. Eastern Time on June 23, 2026, concluding the deal was unlikely to substantially lessen competition in the wholesale supply of films for theatrical release in Australia.",
+      "source": {"id": "s_thr_accc", "title": "Paramount-Warner Bros. Deal Cleared in Australia, New Zealand", "url": "https://www.hollywoodreporter.com/business/business-news/paramount-warner-bros-deal-cleared-australia-new-zealand-1236618182/", "tier": "T2"},
+      "quote": "In connection with the merger, on June 9, 2026, the Australian Competition and Consumer Commission (ACCC) published its decision that the merger may be consummated, subject to expiration of a 14-calendar-day waiting period,",
+      "locator": "Paramount-Warner Bros. Deal Cleared in Australia, New Zealand, The Hollywood Reporter, June 10 2026 (ACCC decision, quoting Paramount filing)"
+    },
+    {
+      "claim_id": "anti_9",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "The ACCC concluded the megadeal was unlikely to substantially lessen competition in the wholesale supply of films for theatrical release in Australia, reasoning that while it would remove competition between Paramount and Warner Bros., the merged entity would continue to be constrained by other film studios post-acquisition.",
+      "source": {"id": "s_thr_accc", "title": "Paramount-Warner Bros. Deal Cleared in Australia, New Zealand", "url": "https://www.hollywoodreporter.com/business/business-news/paramount-warner-bros-deal-cleared-australia-new-zealand-1236618182/", "tier": "T2"},
+      "quote": "unlikely to have the effect of substantially lessening competition in relation to the wholesale supply of films for theatrical release in Australia,",
+      "locator": "Paramount-Warner Bros. Deal Cleared in Australia, New Zealand, The Hollywood Reporter, June 10 2026 (ACCC competition assessment, quoting Paramount filing)"
+    },
+    {
+      "claim_id": "anti_10",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "On June 5, 2026, the New Zealand Commerce Commission informed Paramount Skydance it does not intend to consider the merger further, and Paramount disclosed it had also received merger or foreign-direct-investment approvals from authorities in Saudi Arabia, Ukraine, Serbia, North Macedonia, Germany, Slovenia, Belgium, Czechia, Italy, France and Romania.",
+      "source": {"id": "s_thr_accc", "title": "Paramount-Warner Bros. Deal Cleared in Australia, New Zealand", "url": "https://www.hollywoodreporter.com/business/business-news/paramount-warner-bros-deal-cleared-australia-new-zealand-1236618182/", "tier": "T2"},
+      "quote": "In recent weeks, Paramount Skydance received necessary approvals for the merger from competition authorities in Saudi Arabia, Ukraine, Serbia and North Macedonia, and from foreign direct investment authorities in Germany, Slovenia, Belgium, Czechia, New Zealand, Italy, France and Romania.",
+      "locator": "Paramount-Warner Bros. Deal Cleared in Australia, New Zealand, The Hollywood Reporter, June 10 2026 (international approvals, quoting Paramount filing)"
+    },
+    {
+      "claim_id": "anti_11",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "Britain's Competition and Markets Authority (CMA) formally opened a probe into the Paramount Skydance / WBD takeover; separately, Variety reported the U.K. CMA initiated its investigation around June 9, 2026 — an open foreign-jurisdiction review that remained a pending gating item.",
+      "source": {"id": "s_thr_accc", "title": "Paramount-Warner Bros. Deal Cleared in Australia, New Zealand", "url": "https://www.hollywoodreporter.com/business/business-news/paramount-warner-bros-deal-cleared-australia-new-zealand-1236618182/", "tier": "T2"},
+      "quote": "Britain’s Competition and Markets Authority (CMA) has formally opened a probe into the David Ellison-led Paramount Skydance’s proposed $111 billion takeover of Warner Bros. Discovery , but the company has been cleared to close the acquisition by regulators in Australia and New Zealand.",
+      "locator": "Paramount-Warner Bros. Deal Cleared in Australia, New Zealand, The Hollywood Reporter, June 10 2026 (CMA probe opening)"
+    },
+    {
+      "claim_id": "anti_12",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "Despite the DOJ clearance, Paramount and WBD still face a potential antitrust lawsuit by a coalition of state attorneys general who say the Trump administration is failing to enforce antitrust law; a spokesperson for California Attorney General Rob Bonta said the merger \"remains under investigation by the California Department of Justice.\"",
+      "source": {"id": "s_cnn_doj", "title": "Trump's DOJ approves Paramount-Warner Bros. merger, as potential state lawsuits loom", "url": "https://www.cnn.com/2026/06/12/media/paramount-wbd-merger-doj-approve-trump-cbs-ellison", "tier": "T2"},
+      "quote": "Discovery (also known as WBD) still face a potential lawsuit by a coalition of state attorneys general who have said the Trump administration is failing to enforce antitrust law.",
+      "locator": "Trump's DOJ approves Paramount-Warner Bros. merger, as potential state lawsuits loom, CNN Business, Jun 12 2026 (state AG coalition)"
+    },
+    {
+      "claim_id": "anti_13",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "Bloomberg reported that top lawyers in about 10 states have begun drafting a complaint to potentially sue to block the merger; in addition to California, states with Democratic AGs weighing a lawsuit include New York, Washington, Oregon, Nevada, Colorado and Connecticut, with a competitive theory centered on the merged entity's leverage over filmmakers, creators and workers.",
+      "source": {"id": "s_wrap_ags", "title": "State AGs Preparing Lawsuit to Block Paramount-Warner Bros. Merger", "url": "https://www.thewrap.com/industry-news/deals-ma/paramount-warner-bros-merger-state-ags-lawsuit-block/", "tier": "T2"},
+      "quote": "In addition to California, states with Democratic AGs weighing a lawsuit include New York, Washington, Oregon, Nevada, Colorado and Connecticut.",
+      "locator": "State AGs Preparing Lawsuit to Block Paramount-Warner Bros. Merger, TheWrap (states weighing a lawsuit)"
+    },
+    {
+      "claim_id": "anti_14",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "The DOJ's clearance does not by itself prevent additional legal challenges: state attorneys general retain independent authority under antitrust laws, and Sen. Elizabeth Warren (D-Mass.) urged state attorneys general to continue fighting the transaction, calling on state officials to block the deal.",
+      "source": {"id": "s_fox_doj", "title": "DOJ clears Paramount-Warner Bros merger after 8-month antitrust probe", "url": "https://www.foxbusiness.com/entertainment/doj-clears-paramount-warner-bros-merger-after-8-month-antitrust-probe-says-deal-could-boost-competition.amp", "tier": "T2"},
+      "quote": "State attorneys general retain independent authority under antitrust laws, and the DOJ's decision does not itself prevent additional legal challenges to the proposed transaction.",
+      "locator": "DOJ clears Paramount-Warner Bros merger after 8-month antitrust probe, Fox Business, published June 12 2026 8:38pm EDT (state AG independent authority)"
+    },
+    {
+      "claim_id": "anti_15",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "Paramount disclosed that total foreign ownership of the combined company would be 49.5%, including 38.5% from investment funds from Saudi Arabia, Qatar and Abu Dhabi, and petitioned the FCC to approve the foreign investment because any foreign ownership stake above 25% requires agency approval.",
+      "source": {"id": "s_deadline_foreign", "title": "Senate Democrats Warn FCC Over Foreign Influence In Paramount-WBD Deal", "url": "https://deadline.com/2026/05/paramount-warner-bros-foreign-investors-senate-democrats-1236917793/", "tier": "T2"},
+      "quote": "Paramount has disclosed that total foreign ownership of the combined company would be 49.5%, including 38.5% from investment funds from Saudi Arabia, Qatar and Abu Dhabi.",
+      "locator": "Senate Democrats Warn FCC Over Foreign Influence In Paramount-WBD Deal, Deadline, May 21 2026 (foreign ownership disclosure)"
+    },
+    {
+      "claim_id": "anti_16",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "In a letter to FCC Chairman Brendan Carr, a group of Senate Democrats — Maria Cantwell (D-WA), Ed Markey (D-MA), Elizabeth Warren (D-MA), Andy Kim (D-NJ), Ben Ray Lujan (D-NM) and John Hickenlooper (D-CO) — argued the deal sought an \"unprecedented degree of foreign control of U.S. broadcasting\" and warned the foreign-government investors systematically suppress press freedom.",
+      "source": {"id": "s_deadline_foreign", "title": "Senate Democrats Warn FCC Over Foreign Influence In Paramount-WBD Deal", "url": "https://deadline.com/2026/05/paramount-warner-bros-foreign-investors-senate-democrats-1236917793/", "tier": "T2"},
+      "quote": "Paramount’s petition asks for an unprecedented degree of foreign control of U.S. broadcasting.",
+      "locator": "Senate Democrats Warn FCC Over Foreign Influence In Paramount-WBD Deal, Deadline, May 21 2026 (Senate Democrats' letter to FCC Chair Carr)"
+    },
+    {
+      "claim_id": "anti_17",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "The FCC's sole Democrat, Commissioner Anna Gomez, called for a \"rigorous review\" of the foreign investments, warning of investments from foreign governments with documented records of press suppression — mirroring the Senate Democrats' concerns over the Oracle/Ellison-led deal's Middle Eastern backers.",
+      "source": {"id": "s_deadline_foreign", "title": "Senate Democrats Warn FCC Over Foreign Influence In Paramount-WBD Deal", "url": "https://deadline.com/2026/05/paramount-warner-bros-foreign-investors-senate-democrats-1236917793/", "tier": "T2"},
+      "quote": "The letter to Carr mirrors some of the concerns that have been raised by the FCC’s sole Democrat, Anna Gomez, who called for a “rigorous review” of the foreign investments earlier this month.",
+      "locator": "Senate Democrats Warn FCC Over Foreign Influence In Paramount-WBD Deal, Deadline, May 21 2026 (Commissioner Gomez 'rigorous review')"
+    },
+    {
+      "claim_id": "anti_18",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "Precedent — AT&T / Time Warner: the DOJ sued to block AT&T's vertical acquisition of Time Warner and lost; on February 26, 2026 [2019] a federal appeals court ruled the merger could stand, upholding U.S. District Court Judge Richard Leon's ruling that the $85.4 billion bid was legal and imposed no conditions, after which the DOJ dropped the case.",
+      "source": {"id": "s_cnbc_attw", "title": "AT&T-Time Warner merger stands after DOJ loses its appeal, drops case", "url": "https://www.cnbc.com/2019/02/26/appeals-court-upholds-decision-allowing-att-to-buy-time-warner.html", "tier": "T2"},
+      "quote": "District Court Judge Richard Leon ruled the $85.4 billion bid was legal , and imposed no conditions on the merger.",
+      "locator": "AT&T-Time Warner merger stands after DOJ loses its appeal, drops case, CNBC, Feb 26 2019 (Judge Leon ruling)"
+    },
+    {
+      "claim_id": "anti_19",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "Precedent — Disney / 21st Century Fox: Disney agreed to sell off 21st Century Fox's 22 regional sports networks to secure DOJ approval of its $71.3 billion acquisition; the DOJ filed a complaint to block Disney from acquiring the 22 RSNs but simultaneously announced a settlement requiring the divestitures, on the theory that Disney's ownership of ESPN created anticompetitive conflicts.",
+      "source": {"id": "s_variety_disneyfox", "title": "Justice Department Approves Disney's Acquisition of 21st Century Fox With Divestiture of Regional Sports Networks", "url": "https://variety.com/2018/biz/news/disney-21st-century-fox-justice-department-approval-1202859241/amp/", "tier": "T2"},
+      "quote": "Disney has agreed to sell off 21st Century Fox ‘s 22 regional sports networks to secure Justice Department approval of its acquisition of major 21st Century Fox assets.",
+      "locator": "Justice Department Approves Disney's Acquisition of 21st Century Fox With Divestiture of Regional Sports Networks, Variety, June 2018 (RSN divestiture)"
+    },
+    {
+      "claim_id": "anti_20",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "antitrust_regulatory",
+      "statement": "Recent comparable large media M&A has cleared U.S. antitrust review more often via litigation defeat or conduct/divestiture remedy than via outright block: AT&T-Time Warner (DOJ sued, lost on appeal, no conditions) and Disney-Fox (cleared with a 22-RSN divestiture) establish a base rate in which media mega-deals close, supporting that the Paramount-WBD DOJ clearance leaves state-AG litigation and the pending FCC foreign-ownership/CMA reviews — not federal antitrust — as the residual gating risks.",
+      "supports": ["anti_18", "anti_19", "anti_5", "anti_11", "anti_13"]
+    }
+  ]
+}

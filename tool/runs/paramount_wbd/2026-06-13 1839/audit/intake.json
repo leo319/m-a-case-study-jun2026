@@ -1,0 +1,55 @@
+{
+  "deal": {
+    "id": "paramount_wbd",
+    "acquirer": {
+      "name": "Paramount Skydance Corporation",
+      "ticker": "PSKY",
+      "exchange": "NASDAQ"
+    },
+    "target": {
+      "name": "Warner Bros. Discovery, Inc.",
+      "ticker": "WBD",
+      "exchange": "NASDAQ"
+    },
+    "announcement_date": null,
+    "status_note": "Paramount Skydance has publicly pursued Warner Bros. Discovery (multiple reported bids in late 2025), while WBD has concurrently pursued a split into Warner Bros. (studios + streaming) and Discovery Global (networks). Confirm from primary sources in research whether the transaction under analysis is signed, proposed, rejected, or hypothetical before treating ANY term below as real.\n"
+  },
+  "seed_docs": [
+    {
+      "title": "Warner Bros. Discovery SEC filings (EDGAR)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=WBD&type=10-K&dateb=&owner=include&count=10",
+      "tier": "T1"
+    },
+    {
+      "title": "Paramount Skydance SEC filings (EDGAR)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=PSKY&type=10-K&dateb=&owner=include&count=10",
+      "tier": "T1"
+    },
+    {
+      "title": "Warner Bros. Discovery investor relations",
+      "url": "https://ir.wbd.com/",
+      "tier": "T2"
+    },
+    {
+      "title": "Paramount investor relations",
+      "url": "https://www.paramount.com/investors",
+      "tier": "T2"
+    }
+  ],
+  "seed_terms": {
+    "consideration_type": null,
+    "offer_price_per_share": null,
+    "premium_pct": null,
+    "financing": null,
+    "stated_synergies": null
+  },
+  "run_config": {
+    "depth": "standard",
+    "emphasize_areas": null,
+    "steering": {
+      "notes": "Autonomous end-to-end test run; no human gating. A media/entertainment megadeal with heavy regulatory (FCC, antitrust) and a contested deal-status picture \u2014 confirm status from primary sources before treating terms as real.\n",
+      "priorities": null
+    },
+    "max_redteam_loopbacks": 1
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "area": "merger_agreement",
+  "proposals": [
+    {
+      "claim_id": "merg_1",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "The completion of the Merger is subject to satisfaction or waiver of three mutual closing conditions: adoption by WBD stockholders, expiration/termination of the HSR waiting period plus receipt of certain other governmental clearances or approvals, and the absence of any law or order restraining or prohibiting the Merger.",
+      "source": {"id": "s_wbd_defm14a", "title": "Warner Bros. Discovery DEFM14A merger proxy", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "Conditions to Completion of the Merger The obligations of each of WBD, PSKY and Merger Sub to complete the Merger are subject to the satisfaction or waiver of the following conditions: • adoption by the WBD stockholders of the Merger Agreement; • the expiration or termination of the applicable waiting period (or any extension thereof) under the HSR Act, and the expiration of certain other mandatory waiting periods or receipt of certain other clearances or affirmative approvals of certain other governmental bodies, agencies or authorities; and • the absence of any law or order, issued by a court or governmental entity of competent jurisdiction, restraining, enjoining, prohibiting or preventing the consummation of the Merger.",
+      "locator": "The Merger Agreement — Conditions to Completion of the Merger"
+    },
+    {
+      "claim_id": "merg_2",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "WBD represented in the Merger Agreement that, since September 30, 2025 and through the signing date, no Company Material Adverse Effect had occurred — establishing the MAE concept that operates as a backstop in the parties' representations and conditions.",
+      "source": {"id": "s_wbd_defm14a", "title": "Warner Bros. Discovery DEFM14A merger proxy", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "(a) Since September 30, 2025, and through the date of this Agreement, there has not been any Effect that, individually or in the aggregate, has had a Company Material Adverse Effect.",
+      "locator": "Annex A Merger Agreement, Representations and Warranties of the Company (Absence of Certain Changes)"
+    },
+    {
+      "claim_id": "merg_3",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "WBD may be required to pay PSKY a Company Termination Fee of $3 billion (plus reimbursement of the Amended Notes Payment Amount and the Netflix Termination Fee) in specified circumstances, while PSKY may be required to pay WBD a Regulatory Termination Fee of $7 billion.",
+      "source": {"id": "s_wbd_defm14a", "title": "Warner Bros. Discovery DEFM14A merger proxy", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "If the Merger Agreement is terminated, under certain specified circumstances, WBD may be required to pay PSKY the Company Termination Fee, equal to $3 billion, and reimburse PSKY for (i) any Amended Notes Payment Amount paid by PSKY to or on behalf of WBD and (ii) the Netflix Termination Fee paid by PSKY on behalf of WBD, or PSKY may be required to pay WBD the Regulatory Termination Fee, equal to $7 billion.",
+      "locator": "The Merger — Effect on WBD If the Merger Is Not Completed (Termination Fees and Expenses)"
+    },
+    {
+      "claim_id": "merg_4",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "The $7 billion Regulatory Termination Fee is payable by Buyer (PSKY) to WBD in cash if the agreement is terminated in connection with the failure to obtain regulatory clearance under specified circumstances.",
+      "source": {"id": "s_wbd_defm14a", "title": "Warner Bros. Discovery DEFM14A merger proxy", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "The Merger Agreement provides that, upon termination of the Merger Agreement under specified circumstances, a termination fee of $3 billion (the “ Company Termination Fee ”) may be payable by WBD to PSKY or a termination fee of $7 billion (the “ Regulatory Termination Fee ”) may be payable by PSKY to WBD.",
+      "locator": "Summary — Termination Fees and Expenses"
+    },
+    {
+      "claim_id": "merg_5",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "Concurrently with signing, PSKY paid the $2.8 billion Netflix Termination Fee on WBD's behalf so that WBD could terminate its prior (A&R Netflix) merger agreement.",
+      "source": {"id": "s_wbd_defm14a", "title": "Warner Bros. Discovery DEFM14A merger proxy", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "In connection with the termination of the A&R Netflix Merger Agreement, PSKY, on behalf of WBD, paid Netflix a termination fee of $2.8 billion in cash (the “ Netflix Termination Fee ”), and we canceled the special meeting of WBD stockholders for the Netflix Merger.",
+      "locator": "The Merger — Background of the Merger"
+    },
+    {
+      "claim_id": "merg_6",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "If WBD owes the Company Termination Fee (or in certain breach situations), it must also reimburse PSKY for the Netflix Termination Fee PSKY paid on its behalf and any Amended Notes Payment Amount — so the $2.8 billion Netflix fee shifts back to WBD only on a WBD-side termination.",
+      "source": {"id": "s_wbd_defm14a", "title": "Warner Bros. Discovery DEFM14A merger proxy", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "Upon the termination of the Merger Agreement pursuant to which WBD is required to pay the Company Termination Fee or due to certain breaches by WBD of its representations, warranties and covenants contained in the Merger Agreement, subject to certain cure rights, WBD will, in addition to payment of the Company Termination Fee, be obligated to reimburse PSKY for (i) any Amended Notes Payment Amount (as defined herein) paid by PSKY to or on behalf of WBD and (ii) the Netflix Termination Fee (as defined herein) paid by PSKY on behalf of WBD.",
+      "locator": "Summary — Termination Fees and Expenses"
+    },
+    {
+      "claim_id": "merg_7",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "WBD stockholders receive a 'Ticking Consideration' if closing slips past September 30, 2026 — cash of $0.00277778 per share per calendar day elapsed after that date through closing, capped at $0.25 per share per 90-calendar-day period.",
+      "source": {"id": "s_wbd_defm14a", "title": "Warner Bros. Discovery DEFM14A merger proxy", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "The “ Ticking Consideration ” will be an amount in cash equal to $0.00277778 multiplied by the number of calendar days elapsed after September 30, 2026 to and including the Closing Date (which, for the avoidance of doubt, will not exceed $0.25 per 90-calendar-day period).",
+      "locator": "The Merger — Merger Consideration (Ticking Consideration)"
+    },
+    {
+      "claim_id": "merg_8",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "The 'end date' (outside date) is 11:59 p.m. Eastern Time on March 4, 2027, after which either party may terminate, subject to one automatic three-month extension if regulatory closing conditions remain unsatisfied on that date.",
+      "source": {"id": "s_wbd_defm14a", "title": "Warner Bros. Discovery DEFM14A merger proxy", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "The Merger Agreement provides until March 4, 2027 to achieve the necessary regulatory clearances, subject to one automatic extension to June 4, 2027 if, on March 4, 2027, any closing condition related to regulatory approvals and law or governmental orders (solely in connection with any antitrust law or foreign regulatory law) has not been satisfied or waived.",
+      "locator": "The Merger — Regulatory Approvals (Timing Considerations) (p. 101)"
+    },
+    {
+      "claim_id": "merg_9",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "The Merger Agreement may be terminated by either WBD or PSKY if the Merger has not been completed by 11:59 p.m. Eastern Time on March 4, 2027 (the 'end date'), even after WBD stockholders have approved the Merger.",
+      "source": {"id": "s_wbd_defm14a", "title": "Warner Bros. Discovery DEFM14A merger proxy", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "The Merger Agreement may be terminated at any time prior to the Effective Time, even if the WBD stockholders have previously approved the Merger, in any of the following ways: • by the mutual written consent of WBD and PSKY; • by either WBD or PSKY, if: • the Merger has not been completed by 11:59 p.m.",
+      "locator": "The Merger Agreement — Termination of the Merger Agreement (Right to Terminate)"
+    },
+    {
+      "claim_id": "merg_10",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "Both PSKY and WBD agreed to use reasonable best efforts to take all actions necessary, proper or advisable to complete the Merger, in each case subject to the terms of the Merger Agreement — i.e., a 'reasonable best efforts' regulatory standard, not an unqualified hell-or-high-water covenant.",
+      "source": {"id": "s_wbd_defm14a", "title": "Warner Bros. Discovery DEFM14A merger proxy", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "Each of PSKY and WBD has agreed to use reasonable best efforts to take or cause to be taken all actions, and to do or cause to be done all things, necessary, proper, or advisable to complete and make effective the Merger and the other transactions contemplated by the Merger Agreement, in each case, subject to the terms of the Merger Agreement.",
+      "locator": "The Merger — Regulatory Approvals"
+    },
+    {
+      "claim_id": "merg_11",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "The regulatory-efforts covenant is capped, not hell-or-high-water: PSKY is not required to take any action, or proffer any divestiture or other remedy, that would individually or in the aggregate amount to a material adverse effect on PSKY and its subsidiaries (including WBD), taken as a whole, or any remedy not conditioned on consummation of the Merger.",
+      "source": {"id": "s_wbd_defm14a", "title": "Warner Bros. Discovery DEFM14A merger proxy", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "The Merger Agreement provides that PSKY is not required to take any action that would, individually or in the aggregate, amount to a material adverse effect on PSKY and its subsidiaries (including, for this purpose, WBD and its subsidiaries), taken as a whole, or to agree to or proffer any divestiture or other remedy that is not conditioned on the consummation of the Merger.",
+      "locator": "The Merger — Regulatory Approvals (p. 117)"
+    },
+    {
+      "claim_id": "merg_12",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "PSKY and WBD (and, for PSKY, the Ellison Trust and RedBird and their affiliates) also agreed not to take or permit any action — including with respect to antitrust/regulatory filings — that would reasonably be expected to prevent or materially delay consummation of the transactions.",
+      "source": {"id": "s_wbd_defm14a", "title": "Warner Bros. Discovery DEFM14A merger proxy", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "PSKY and WBD have also agreed not to, and to cause their respective affiliates not to (and, in the case of PSKY, each of the Ellison Trust and RedBird and their respective affiliates, other than Oracle and Ellison Institute of Technology or any of their respective controlled affiliates), (i) take, cause or permit to be taken or omit to take any action, including any action with respect to any actions or filings that would be required to be made pursuant to any applicable antitrust laws, foreign regulatory laws or other laws, that would reasonably be expected to prevent or materially delay the consummation of the transactions contemplated by the Merger Agreement or (ii) propose, announce an intention, enter into any agreements or otherwise make a commitment to take such action.",
+      "locator": "The Merger — Regulatory Approvals"
+    },
+    {
+      "claim_id": "merg_13",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "The Merger Agreement contains no financing condition or similar contingency based on PSKY's ability to obtain the debt financing, and includes PSKY's representation that it will have the funds necessary to pay the aggregate Merger Consideration at closing.",
+      "source": {"id": "s_wbd_defm14a", "title": "Warner Bros. Discovery DEFM14A merger proxy", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "The Merger Agreement does not include a financing condition or similar contingency based on PSKY’s ability to obtain the debt financing necessary to complete the Merger, and it includes a representation that PSKY has and will have available at Closing the funds necessary for the payment of the aggregate Merger Consideration.",
+      "locator": "The Merger — Reasons for the Merger (Debt Financing Commitments and Lack of Financing Condition) (p. 64)"
+    },
+    {
+      "claim_id": "merg_14",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "The parties are entitled to specific performance — to enforce the terms of the Merger Agreement and obtain an injunction against breach — without posting a bond, giving WBD the ability to compel PSKY to close.",
+      "source": {"id": "s_wbd_defm14a", "title": "Warner Bros. Discovery DEFM14A merger proxy", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "Specific Performance The parties will be entitled to enforce specifically the terms and provisions of the Merger Agreement and to obtain an injunction restraining any breach or violation or threatened breach or violation of the provisions of the Merger Agreement without necessity of posting a bond or other form of security.",
+      "locator": "The Merger Agreement — Specific Performance"
+    },
+    {
+      "claim_id": "merg_15",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "WBD agreed to a no-shop covenant: it, its subsidiaries and their officers/directors will not, and it will use reasonable best efforts to cause representatives not to, directly or indirectly solicit, initiate, or knowingly encourage or facilitate any inquiry, proposal or offer that constitutes or would reasonably be expected to lead to an Acquisition Proposal, or engage in discussions or negotiations regarding one.",
+      "source": {"id": "s_wbd_defm14a", "title": "Warner Bros. Discovery DEFM14A merger proxy", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "No Solicitation WBD has agreed that it, its subsidiaries and their respective officers and directors will not, and that it will direct and use its reasonable best efforts to cause its and its subsidiaries’ other respective representatives not to, directly or indirectly:",
+      "locator": "The Merger Agreement — Covenants and Agreements (No Solicitation) (p. 112)"
+    },
+    {
+      "claim_id": "merg_16",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "The no-shop is subject to a fiduciary out: before obtaining WBD stockholder approval, the WBD Board may change its recommendation in response to a Superior Proposal or an Intervening Event, subject to specified requirements and conditions.",
+      "source": {"id": "s_wbd_defm14a", "title": "Warner Bros. Discovery DEFM14A merger proxy", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "Notwithstanding the foregoing restrictions, prior to obtaining the WBD stockholder approval, the WBD Board is permitted to make or change its recommendation in response to a Superior Proposal or Intervening Event (as defined below) as discussed below.",
+      "locator": "The Merger Agreement — Covenants and Agreements (No Solicitation / Change of Recommendation)"
+    },
+    {
+      "claim_id": "merg_17",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "The Ellison Parties delivered a guarantee in favor of WBD concurrently with signing the Merger Agreement, providing a sponsor-level backstop to PSKY's obligations (including, per the agreement's terms, the Netflix Termination Fee and a portion of the Merger Consideration).",
+      "source": {"id": "s_wbd_defm14a", "title": "Warner Bros. Discovery DEFM14A merger proxy", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "Concurrently with the execution of the Merger Agreement, the Ellison Parties executed and delivered a guarantee in favor of WBD.",
+      "locator": "Questions and Answers — What is the Ellison Guarantee?"
+    },
+    {
+      "claim_id": "merg_18",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "The deal-protection package is markedly seller-favorable and signals high buyer determination to close: PSKY accepts a $7B reverse regulatory break fee that is roughly 2.3x the $3B fee WBD would owe (7 / 3 ≈ 2.3x), paid WBD's $2.8B Netflix fee up front (recoverable only on a WBD-side termination), granted a quarterly ticking fee for any slip past Sept 30, 2026, waived any financing condition, and gave WBD specific-performance rights — shifting regulatory and timing risk onto the buyer.",
+      "supports": ["merg_3", "merg_4", "merg_5", "merg_6", "merg_7", "merg_13", "merg_14"]
+    },
+    {
+      "claim_id": "merg_19",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "merger_agreement",
+      "statement": "Despite the large reverse break fee, the regulatory-efforts covenant is NOT 'hell or high water': it is a 'reasonable best efforts' standard expressly capped so PSKY need not accept divestitures/remedies amounting to a material adverse effect on the combined business — so PSKY's obligation to litigate or divest to clear antitrust review is bounded, a meaningful limit on close-certainty even with the $7B fee at stake.",
+      "supports": ["merg_10", "merg_11", "merg_12", "merg_4"]
+    }
+  ]
+}

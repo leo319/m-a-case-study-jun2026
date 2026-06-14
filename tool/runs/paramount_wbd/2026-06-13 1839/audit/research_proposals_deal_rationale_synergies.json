@@ -1,0 +1,267 @@
+{
+  "area": "deal_rationale_synergies",
+  "proposals": [
+    {
+      "claim_id": "deal_1",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Under the merger agreement, Paramount will pay $31.00 per share in cash for all outstanding shares of WBD (an all-cash transaction).",
+      "source": {"id": "s_pmt_press", "title": "Paramount press release: 'Paramount to Acquire Warner Bros. Discovery'", "url": "https://www.paramount.com/press/paramount-to-acquire-warner-bros-discovery-to-form-next-generation-global-media-and-entertainment-company", "tier": "T1"},
+      "quote": "Under the terms of the agreement, Paramount will pay $31.00 per share in cash for all outstanding shares of WBD.",
+      "locator": "Transaction terms (press release dated Feb 27, 2026), opening paragraph"
+    },
+    {
+      "claim_id": "deal_2",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Paramount values WBD at $81 billion in equity value and $110 billion in enterprise value at $31 per share in cash plus a ticking fee.",
+      "source": {"id": "s_pmt_press", "title": "Paramount press release: 'Paramount to Acquire Warner Bros. Discovery'", "url": "https://www.paramount.com/press/paramount-to-acquire-warner-bros-discovery-to-form-next-generation-global-media-and-entertainment-company", "tier": "T1"},
+      "quote": "Paramount will acquire 100% of WBD for $31 per share in cash, plus the \"ticking fee\", valuing WBD at $81 billion in equity value and $110 billion in enterprise value.",
+      "locator": "Transaction Highlights (press release dated Feb 27, 2026)"
+    },
+    {
+      "claim_id": "deal_3",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "If the transaction has not closed by September 30, 2026, WBD shareholders receive a $0.25-per-share 'ticking fee' for each quarter (measured daily) until closing.",
+      "source": {"id": "s_pmt_press", "title": "Paramount press release: 'Paramount to Acquire Warner Bros. Discovery'", "url": "https://www.paramount.com/press/paramount-to-acquire-warner-bros-discovery-to-form-next-generation-global-media-and-entertainment-company", "tier": "T1"},
+      "quote": "In the event the transaction has not closed by September 30, 2026 , WBD shareholders will receive a $0.25 per share \"ticking fee\" for each quarter (measured daily) until closing.",
+      "locator": "Transaction terms (press release dated Feb 27, 2026)"
+    },
+    {
+      "claim_id": "deal_4",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "WBD's proxy materials state the $31.00 per share in cash represents a 147% premium to WBD's unaffected stock price of $12.54 per share, with the unaffected price defined as the closing price on 9/10/25.",
+      "source": {"id": "s_wbd_defa14a_mar26", "title": "WBD DEFA14A — Shareholder Meeting Date of April 23, 2026", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125291/d108373ddefa14a.htm", "tier": "T1"},
+      "quote": "WBD shareholders will receive $31.00 per share in cash for each share of WBD common stock they own, which represents a 147% premium to WBD’s unaffected stock price of $12.54",
+      "locator": "DEFA14A (filed Mar 26, 2026), 'WBD Sets Shareholder Meeting Date' — terms paragraph; footnote i: 'Unaffected stock price defined as closing price on 9/10/25'"
+    },
+    {
+      "claim_id": "deal_5",
+      "type": "inference",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "The 147% premium is arithmetically consistent with the grounded prices: $31.00 / $12.54 = 2.47x, i.e. +147.2%, so the offer is roughly 2.5x the unaffected price. (Note: a figure of '139%' sometimes cited for this deal is not what the company discloses; the disclosed and arithmetically correct premium is 147%.)",
+      "supports": ["deal_1", "deal_4"]
+    },
+    {
+      "claim_id": "deal_6",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "On February 26, 2026 — the last trading day before the public announcement of the Paramount merger — WBD's closing price was $28.80 per share, already far above the $12.54 unaffected level (reflecting the prior Netflix deal and the contested auction).",
+      "source": {"id": "s_wbd_defm14a_pmt", "title": "WBD DEFM14A (Paramount merger proxy)", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "On February 26, 2026, the last trading day prior to the public announcement of the Merger, the closing price for the shares of WBD Common Stock on Nasdaq was $28.80 per share.",
+      "locator": "Market Price and Dividend Data of WBD Common Stock (p. 138)"
+    },
+    {
+      "claim_id": "deal_7",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "WBD entered the Paramount (PSKY) merger agreement after its Board determined PSKY's proposal to acquire WBD for the Merger Consideration represented a 'Company Superior Proposal' as defined in the amended-and-restated Netflix merger agreement; the Netflix merger agreement was then terminated and the Netflix merger abandoned.",
+      "source": {"id": "s_wbd_defm14a_pmt", "title": "WBD DEFM14A (Paramount merger proxy)", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "We entered into the Merger Agreement with PSKY following a determination by the WBD Board that the proposal submitted by PSKY to acquire WBD for the Merger Consideration represented a “Company Superior Proposal,” as defined in the A&R Netflix Merger Agreement.",
+      "locator": "Background of the Merger / introductory summary"
+    },
+    {
+      "claim_id": "deal_8",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "In connection with terminating the amended-and-restated Netflix merger agreement, PSKY paid Netflix a $2.8 billion cash termination fee (the 'Netflix Termination Fee') on behalf of WBD, and the special meeting for the Netflix merger was cancelled.",
+      "source": {"id": "s_wbd_defm14a_pmt", "title": "WBD DEFM14A (Paramount merger proxy)", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "In connection with the termination of the A&R Netflix Merger Agreement, PSKY, on behalf of WBD, paid Netflix a termination fee of $2.8 billion in cash (the “ Netflix Termination Fee ”), and we canceled the special meeting of WBD stockholders for the Netflix Merger.",
+      "locator": "Background of the Merger / introductory summary"
+    },
+    {
+      "claim_id": "deal_9",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "The WBD Board's stated reasons for the merger lead with the all-cash consideration and premium: the consideration is an all-cash amount of at least $31.00 per share providing certainty of value and liquidity immediately upon closing.",
+      "source": {"id": "s_wbd_defm14a_pmt", "title": "WBD DEFM14A (Paramount merger proxy)", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "The Merger Consideration is an all-cash amount of at least $31.00 per share of WBD Common Stock, providing WBD’s stockholders with certainty of value and liquidity immediately upon the Closing.",
+      "locator": "Reasons for the Merger — 'Consideration Offered and Premium to Unaffected Trading Price'"
+    },
+    {
+      "claim_id": "deal_10",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "The WBD Board cited cash certainty as a reason: all-cash consideration removes valuation risk associated with stock consideration — a key contrast with the part-stock Netflix proposal.",
+      "source": {"id": "s_wbd_defm14a_pmt", "title": "WBD DEFM14A (Paramount merger proxy)", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "The certainty of all-cash consideration removes any valuation risk for WBD stockholders associated with consideration that consists in whole or in part of stock.",
+      "locator": "Reasons for the Merger — 'Consideration Offered and Premium to Unaffected Trading Price'"
+    },
+    {
+      "claim_id": "deal_11",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "The WBD Board also noted a downside of the all-cash structure: because the merger is all-cash, WBD stockholders will no longer participate in WBD's or the combined company's future earnings or growth after closing.",
+      "source": {"id": "s_wbd_defm14a_pmt", "title": "WBD DEFM14A (Paramount merger proxy)", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "Given that the Merger is an all-cash transaction, following the consummation of the Merger, WBD’s stockholders will no longer participate in WBD’s or the combined company’s future earnings or growth.",
+      "locator": "Reasons for the Merger — potential negative factors"
+    },
+    {
+      "claim_id": "deal_12",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "The fairness opinion supporting the Paramount merger was a joint opinion of Allen & Company and J.P. Morgan dated February 27, 2026; WBD did NOT request and Evercore did NOT render a fairness opinion as to the Merger Consideration.",
+      "source": {"id": "s_wbd_defm14a_pmt", "title": "WBD DEFM14A (Paramount merger proxy)", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "WBD did not request that Evercore Group L.L.C.",
+      "locator": "Opinion of Allen & Company LLC / Opinion of J.P. Morgan (header note re Evercore)"
+    },
+    {
+      "claim_id": "deal_13",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "In Allen & Company / J.P. Morgan's joint discounted cash flow (sum-of-the-parts) analysis, Allen & Company used discount rates of 8.0% to 9.5% for the Streaming & Studios Business and 6.75% to 8.0% for the Discovery Global Business.",
+      "source": {"id": "s_wbd_defm14a_pmt", "title": "WBD DEFM14A (Paramount merger proxy)", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "The present values (as of December 31, 2025) of the cash flows and terminal values were then calculated by Allen & Company using selected ranges of discount rates of 8.0% to 9.5% in the case of the Streaming & Studios Business and 6.75% to 8.0% in the case of the Discovery Global Business.",
+      "locator": "Opinion of Allen & Company LLC — Discounted Cash Flow Analysis"
+    },
+    {
+      "claim_id": "deal_14",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "In the same sum-of-the-parts DCF, J.P. Morgan used discount rates of 8.5% to 9.5% for the Streaming & Studios Business and 7.0% to 8.0% for the Discovery Global Business.",
+      "source": {"id": "s_wbd_defm14a_pmt", "title": "WBD DEFM14A (Paramount merger proxy)", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "Morgan using selected ranges of discount rates of 8.5% to 9.5% in the case of the Streaming & Studios Business and 7.0% to 8.0% in the case of the Discovery Global Business.",
+      "locator": "Opinion of J.P. Morgan — Discounted Cash Flow Analysis"
+    },
+    {
+      "claim_id": "deal_15",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Allen & Company's discounted cash flow analysis indicated an implied equity value per share reference range for WBD that brackets the $31.00 Merger Consideration at its high end.",
+      "source": {"id": "s_wbd_defm14a_pmt", "title": "WBD DEFM14A (Paramount merger proxy)", "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm", "tier": "T1"},
+      "quote": "This analysis indicated the following approximate implied equity value per share reference range for WBD, as compared to the Merger Consideration: Implied Equity Value Per Share Reference Range Merger Consideration $21.16 – $31.91 $31.00",
+      "locator": "Opinion of Allen & Company LLC — Discounted Cash Flow Analysis (implied range $21.16–$31.91 vs $31.00)"
+    },
+    {
+      "claim_id": "deal_16",
+      "type": "inference",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "The $31.00 all-cash price sits at or above the high end of the financial advisors' DCF reference range (Allen & Company DCF $21.16–$31.91, with $31.00 only marginally below the $31.91 top), implying WBD shareholders are being paid essentially full intrinsic value with little standalone-DCF upside left on the table — consistent with a contested-auction outcome rather than a price anchored to a discount-to-value entry.",
+      "supports": ["deal_1", "deal_15"]
+    },
+    {
+      "claim_id": "deal_17",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Paramount discloses NO specific dollar or run-rate synergy figure in its deal announcement; it instead presents valuation 'on a fully synergized basis' — stating the deal values WBD at 7.5x 2026 EBITDA on a fully synergized basis.",
+      "source": {"id": "s_pmt_press", "title": "Paramount press release: 'Paramount to Acquire Warner Bros. Discovery'", "url": "https://www.paramount.com/press/paramount-to-acquire-warner-bros-discovery-to-form-next-generation-global-media-and-entertainment-company", "tier": "T1"},
+      "quote": "On a fully synergized basis, this values WBD at 7.5x 2026 EBITDA.",
+      "locator": "Transaction Highlights (press release dated Feb 27, 2026)"
+    },
+    {
+      "claim_id": "deal_18",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Paramount expects net debt-to-EBITDA of 4.3x at closing 'on a synergized basis,' with a path to investment grade within three years — again expressing leverage on a synergized rather than reported basis without quantifying the synergies.",
+      "source": {"id": "s_pmt_press", "title": "Paramount press release: 'Paramount to Acquire Warner Bros. Discovery'", "url": "https://www.paramount.com/press/paramount-to-acquire-warner-bros-discovery-to-form-next-generation-global-media-and-entertainment-company", "tier": "T1"},
+      "quote": "At closing, we expect to have a net debt-to-EBITDA of 4.3x on a synergized basis, with a clear path to investment grade credit metrics within three years of closing.",
+      "locator": "Transaction Highlights (press release dated Feb 27, 2026)"
+    },
+    {
+      "claim_id": "deal_19",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Paramount's stated synergy basis is qualitative: it cites technology/infrastructure streamlining to 'generate financial and operating efficiencies and eliminate redundancies,' but attaches no dollar amount, timing, or cost-vs-revenue split to these efficiencies.",
+      "source": {"id": "s_pmt_press", "title": "Paramount press release: 'Paramount to Acquire Warner Bros. Discovery'", "url": "https://www.paramount.com/press/paramount-to-acquire-warner-bros-discovery-to-form-next-generation-global-media-and-entertainment-company", "tier": "T1"},
+      "quote": "By streamlining the technological underpinning of every aspect of the combined company's businesses, we will improve the user experience, generate financial and operating efficiencies and eliminate redundancies.",
+      "locator": "Strategic and Financial Benefits — Technology / Infrastructure"
+    },
+    {
+      "claim_id": "deal_20",
+      "type": "inference",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Because Paramount expresses both valuation (7.5x 2026 EBITDA) and pro-forma leverage (4.3x net debt/EBITDA) only 'on a fully synergized basis' yet discloses no synergy dollar amount, timing, or cost-vs-revenue mix, the deal's headline multiple and leverage cannot be independently checked, and the synergies-vs-premium test cannot be quantified from disclosure — a key finding: the synergy case is asserted but not sized. (By contrast, the competing Netflix bid did quantify synergies — see deal_24.)",
+      "supports": ["deal_17", "deal_18", "deal_19", "deal_24"]
+    },
+    {
+      "claim_id": "deal_21",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Paramount's stated strategic rationale, in CEO David Ellison's words, is to honor the two companies' legacy while 'accelerating our vision of building a next-generation media and entertainment company.'",
+      "source": {"id": "s_pmt_press", "title": "Paramount press release: 'Paramount to Acquire Warner Bros. Discovery'", "url": "https://www.paramount.com/press/paramount-to-acquire-warner-bros-discovery-to-form-next-generation-global-media-and-entertainment-company", "tier": "T1"},
+      "quote": "Discovery has been guided by a clear purpose: to honor the legacy of two iconic companies while accelerating our vision of building a next-generation media and entertainment company.",
+      "locator": "David Ellison quote (press release dated Feb 27, 2026)"
+    },
+    {
+      "claim_id": "deal_22",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Paramount frames the strategic driver as combining complementary streaming platforms and world-class studios to create value for audiences, partners and shareholders.",
+      "source": {"id": "s_pmt_press", "title": "Paramount press release: 'Paramount to Acquire Warner Bros. Discovery'", "url": "https://www.paramount.com/press/paramount-to-acquire-warner-bros-discovery-to-form-next-generation-global-media-and-entertainment-company", "tier": "T1"},
+      "quote": "By bringing together these world-class studios, our complementary streaming platforms, and the extraordinary talent behind them, we will create even greater value for audiences, partners and shareholders",
+      "locator": "David Zaslav quote (press release dated Feb 27, 2026)"
+    },
+    {
+      "claim_id": "deal_23",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Paramount sizes a key strategic asset of the combination as a film library of more than 15,000 titles plus thousands of hours of television programming, and commits to 15 theatrical feature films per year per studio.",
+      "source": {"id": "s_pmt_press", "title": "Paramount press release: 'Paramount to Acquire Warner Bros. Discovery'", "url": "https://www.paramount.com/press/paramount-to-acquire-warner-bros-discovery-to-form-next-generation-global-media-and-entertainment-company", "tier": "T1"},
+      "quote": "The combined company will own a film library of more than 15,000 titles and thousands of hours of television programming.",
+      "locator": "Strategic and Financial Benefits — Compelling Portfolio of IP and Content"
+    },
+    {
+      "claim_id": "deal_24",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "The competing (later-abandoned) Netflix deal was a cash-and-stock transaction valued at $27.75 per WBD share, with total enterprise value of approximately $82.7 billion (equity value $72.0 billion) — and acquired only WBD's Streaming & Studios business, following the separation of Discovery Global.",
+      "source": {"id": "s_netflix_acquire", "title": "Netflix newsroom — 'Netflix to Acquire Warner Bros.' (Total EV $82.7B / Equity $72.0B)", "url": "http://about.netflix.com/en/news/netflix-to-acquire-warner-bros", "tier": "T1"},
+      "quote": "The cash and stock transaction is valued at $27.75 per WBD share (subject to a collar as detailed below), with a total enterprise value of approximately $82.7 billion (equity value of $72.0 billion).",
+      "locator": "Netflix newsroom release — 'Transaction Details and Timing'"
+    },
+    {
+      "claim_id": "deal_25",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Under the Netflix terms, each WBD shareholder would receive $23.25 in cash plus $4.50 in Netflix common stock per WBD share — i.e. a part-stock structure, unlike Paramount's all-cash $31.00.",
+      "source": {"id": "s_netflix_acquire", "title": "Netflix newsroom — 'Netflix to Acquire Warner Bros.'", "url": "http://about.netflix.com/en/news/netflix-to-acquire-warner-bros", "tier": "T1"},
+      "quote": "Under the terms of the agreement, each WBD shareholder will receive $23.25 in cash and $4.50 1 in shares of Netflix common stock for each share of WBD common stock outstanding at the closing of the transaction.",
+      "locator": "Netflix newsroom release — 'Transaction Details and Timing'"
+    },
+    {
+      "claim_id": "deal_26",
+      "type": "fact",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "Netflix DISCLOSED quantified synergies for its WBD bid (a direct contrast to Paramount's un-sized synergy case): Netflix said it expected at least $2-3 billion of cost savings per year by year three and expected the transaction to be accretive to GAAP EPS by year two.",
+      "source": {"id": "s_netflix_acquire", "title": "Netflix newsroom — 'Netflix to Acquire Warner Bros.'", "url": "http://about.netflix.com/en/news/netflix-to-acquire-warner-bros", "tier": "T1"},
+      "quote": "The Company also expects to realize at least $2-3 billion of cost savings per year by the third year and expects the transaction to be accretive to GAAP earnings per share by year two.",
+      "locator": "Netflix newsroom release — synergy/accretion paragraph"
+    },
+    {
+      "claim_id": "deal_27",
+      "type": "inference",
+      "module": "rationale",
+      "area": "deal_rationale_synergies",
+      "statement": "The WBD board's flip from Netflix's $27.75 cash-and-stock (Streaming & Studios only) to Paramount's $31.00 all-cash whole-company bid delivered both higher headline value and cash certainty: $31.00 is ~$3.25/share (+11.7%) above the $27.75 Netflix headline, is entirely cash (eliminating the stock-collar/valuation risk the board flagged), and covers 100% of WBD rather than leaving holders with a separate Discovery Global stub — the board's own stated reasons emphasize exactly these certainty-of-value and all-cash points.",
+      "supports": ["deal_1", "deal_9", "deal_10", "deal_24", "deal_25"]
+    }
+  ]
+}

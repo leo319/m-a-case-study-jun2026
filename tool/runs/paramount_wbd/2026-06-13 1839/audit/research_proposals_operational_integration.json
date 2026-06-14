@@ -1,0 +1,149 @@
+{
+  "area": "operational_integration",
+  "proposals": [
+    {
+      "claim_id": "ops_1",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "Paramount asserts the combined company will pursue technology integration to reduce duplicate costs, stating it will streamline the technological underpinning of every aspect of the combined company's businesses to generate efficiencies and eliminate redundancies.",
+      "source": {"id": "s_psky_press_release", "title": "Paramount to Acquire Warner Bros. Discovery to Form Next-Generation Global Media and Entertainment Company", "url": "https://www.paramount.com/press/paramount-to-acquire-warner-bros-discovery-to-form-next-generation-global-media-and-entertainment-company", "tier": "T1"},
+      "quote": "Technology to Create Stronger Infrastructure Backbone and Improved User Interface: By streamlining the technological underpinning of every aspect of the combined company's businesses, we will improve the user experience, generate financial and operating efficiencies and eliminate redundancies.",
+      "locator": "Deal press release, 'Technology to Create Stronger Infrastructure Backbone' bullet (undated, announcing $31/share acquisition)"
+    },
+    {
+      "claim_id": "ops_2",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "Paramount asserts the deal valuation rests on synergies: it states the $110 billion enterprise value of WBD equals 7.5x 2026 EBITDA only 'on a fully synergized basis', and that net debt-to-EBITDA at closing would be 4.3x 'on a synergized basis'.",
+      "source": {"id": "s_psky_8k_ex991", "title": "Paramount Skydance Corp Form 8-K, Exhibit 99.1", "url": "https://www.sec.gov/Archives/edgar/data/2041610/000110465926021911/tm2533570d75_ex99-1.htm", "tier": "T1"},
+      "quote": "On a fully synergized basis, this values WBD at 7.5x 2026 EBITDA.",
+      "locator": "8-K Ex-99.1, Transaction Highlights section"
+    },
+    {
+      "claim_id": "ops_3",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "Paramount targets up to $6 billion in cost synergies over the first three years of the WBD merger, with chief strategy officer Andrew Gordon asserting the cost cutting will not include layoffs or a reduction in content production.",
+      "source": {"id": "s_mediaplaynews_6b", "title": "Paramount Says $6 Billion in Expected Cost Synergies Acquiring WBD Will Not Include Layoffs or Content Production Reduction", "url": "https://www.mediaplaynews.com/paramount-says-6-billion-dollars-in-expected-cost-synergies-acquiring-wbd-will-not-include-layoffs-or-content-production-reduction/", "tier": "T2"},
+      "quote": "Paramount is eyeing upwards of $6 billion in cost synergies over the first three years of the merger — cost cutting that will not include layoffs or a reduction in content production, according to chief strategy officer Andrew Gordon.",
+      "locator": "Media Play News, 2026 article on $6B cost synergies, opening paragraphs"
+    },
+    {
+      "claim_id": "ops_4",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "CEO David Ellison publicly reaffirmed the $6 billion synergy figure in March 2026, characterizing it as overlap to be cut and stating corporate overhead would be rationalized but was 'not the primary driver of the synergies in the deal'.",
+      "source": {"id": "s_sherwood_synergies", "title": "Paramount's Ellison backs $6 billion WBD merger 'synergies' figure", "url": "https://sherwood.news/business/paramounts-ellison-backs-usd6-billion-wbd-merger-synergies-figure-says/", "tier": "T2"},
+      "quote": "We will absolutely have to rationalize the overall corporate overhead of the company.",
+      "locator": "Sherwood News, 3/5/26, quoting Ellison on the $6B synergy figure"
+    },
+    {
+      "claim_id": "ops_5",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "Ellison stated the synergy figure is $6 billion, explicitly rebutting reports of a larger number; Netflix co-CEO Ted Sarandos had implied the synergy figure was in excess of $16 billion.",
+      "source": {"id": "s_sherwood_synergies", "title": "Paramount's Ellison backs $6 billion WBD merger 'synergies' figure", "url": "https://sherwood.news/business/paramounts-ellison-backs-usd6-billion-wbd-merger-synergies-figure-says/", "tier": "T2"},
+      "quote": "It will be $6 billion in synergies,” Ellison said.",
+      "locator": "Sherwood News, 3/5/26, Ellison rebutting the reported $16B figure"
+    },
+    {
+      "claim_id": "ops_6",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "Paramount's stated playbook for the WBD streaming-tech integration is the consolidation it is already running internally: CEO David Ellison said the company is converging Paramount+, BET+ and Pluto into one unified tech stack, and anticipates at least $6 billion in cost savings from the proposed WBD acquisition.",
+      "source": {"id": "s_deadline_techstack", "title": "David Ellison On Cost Savings, Growth, The Tech Stack & AI As WBD Merger", "url": "https://deadline.com/2026/03/david-ellison-warner-bros-discovery-cost-savings-growth-1236769564/", "tier": "T2"},
+      "quote": "We’re in the process of basically converging Paramount+, BET+ and Pluto all into one unified tech stack.",
+      "locator": "Deadline, 3/2026, Ellison conference remarks on tech stack"
+    },
+    {
+      "claim_id": "ops_7",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "Paramount frames its internal streaming-tech consolidation as a rehearsal for the WBD integration: COO and chief strategy officer Andy Gordon said integrating BET+, Pluto and Paramount+ into one tech stack will accelerate the company's ability to do the same upon closing WBD.",
+      "source": {"id": "s_thewrap_techtransform", "title": "Paramount Focuses on Streaming Tech Transformation as WBD Deal Looms", "url": "https://www.thewrap.com/industry-news/business/paramount-earnings-q1-2026/", "tier": "T2"},
+      "quote": "As we integrate BET+, Pluto and Paramount+ into one tech stack, it’s going to accelerate our ability to do the same when we close at WBD,” Chief Operating and Strategy Officer Andy Gordon added.",
+      "locator": "TheWrap, Q1 2026 earnings coverage, tech-transformation section"
+    },
+    {
+      "claim_id": "ops_8",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "Paramount plans to combine Paramount+ and HBO Max into one streaming service if regulators approve the WBD acquisition, with CEO David Ellison saying a combined service would have about 200 million subscribers given existing totals.",
+      "source": {"id": "s_cnbc_merge", "title": "HBO Max, Paramount+ streaming services will merge after WBD deal", "url": "https://www.cnbc.com/2026/03/02/hbo-max-paramount-plus-streaming-services-merge.html", "tier": "T2"},
+      "quote": "A combined service would have about 200 million subscribers given existing totals, Ellison said during his company's investor call about the WBD transaction.",
+      "locator": "CNBC, 3/2/26, investor-call coverage"
+    },
+    {
+      "claim_id": "ops_9",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "As of the March 2026 announcement, Paramount had not disclosed key combined-app details: executives did not offer details on how the company may price a combined service or what it would be called, and Ellison indicated the HBO brand would be preserved ('HBO should stay HBO').",
+      "source": {"id": "s_cnbc_merge", "title": "HBO Max, Paramount+ streaming services will merge after WBD deal", "url": "https://www.cnbc.com/2026/03/02/hbo-max-paramount-plus-streaming-services-merge.html", "tier": "T2"},
+      "quote": "Paramount executives didn't offer any details Monday on how the company may price a combined service or what it would be called.",
+      "locator": "CNBC, 3/2/26, investor-call coverage"
+    },
+    {
+      "claim_id": "ops_10",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "There is substantial subscriber overlap between the two streaming services that would be combined: streaming researcher Antenna estimates that 7.6 million U.S. subscribers have both HBO Max and Paramount+.",
+      "source": {"id": "s_thr_overlap", "title": "More Than a Quarter of HBO Max Subscribers in the U.S. Already Have Paramount+", "url": "https://www.hollywoodreporter.com/tv/tv-news/hbo-max-paramount-plus-combination-how-many-subscribers-1236519619/", "tier": "T2"},
+      "quote": "Antenna estimates that 7.6 million U.S. subscribers have both HBO Max and Paramount+.",
+      "locator": "The Hollywood Reporter, 2026 subscriber-overlap analysis (Antenna data as of January 2026)"
+    },
+    {
+      "claim_id": "ops_11",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "Antenna estimated U.S. paying subscribers as of January 2026 at 35.8 million for Paramount+ and 27.1 million for HBO Max, excluding cable subs and select bundles such as Walmart+ access to Paramount+.",
+      "source": {"id": "s_thr_overlap", "title": "More Than a Quarter of HBO Max Subscribers in the U.S. Already Have Paramount+", "url": "https://www.hollywoodreporter.com/tv/tv-news/hbo-max-paramount-plus-combination-how-many-subscribers-1236519619/", "tier": "T2"},
+      "quote": "Streaming researcher Antenna estimates that as of January 2026, Paramount+ had 35.8 million paying subscribers in the U.S., where HBO Max had 27.1 million paying subs.",
+      "locator": "The Hollywood Reporter, 2026 subscriber-overlap analysis"
+    },
+    {
+      "claim_id": "ops_12",
+      "type": "fact",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "The two streaming audiences are highly compatible and overlapping rather than additive: Parrot Analytics data shows an HBO Max viewer is 86.7% as likely to watch a Paramount+ title as a core Paramount+ viewer is.",
+      "source": {"id": "s_thewrap_overlap", "title": "Combined HBO Max-Paramount+ Streamer Is Good News/Bad News", "url": "https://www.thewrap.com/commentary-analysis/data-analysis/hbo-max-paramount-plus-combo-overlap-audience-streaming/", "tier": "T2"},
+      "quote": "An HBO Max viewer is 86.7% as likely to watch a Paramount+ title as a core Paramount+ viewer is.",
+      "locator": "TheWrap, audience-overlap data analysis (Parrot Analytics)"
+    },
+    {
+      "claim_id": "ops_13",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "The bulk of Paramount's asserted ~$6B synergy runs through technology and overhead consolidation (one unified streaming tech stack, eliminated redundancies, rationalized corporate overhead) rather than workforce or content cuts — making the synergy thesis dependent on execution of a streaming-platform and back-office integration the company has only begun internally.",
+      "supports": ["ops_1", "ops_3", "ops_4", "ops_6", "ops_7"]
+    },
+    {
+      "claim_id": "ops_14",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "The ~200 million combined-subscriber figure overstates net reach because of large audience overlap (7.6M U.S. dual subscribers; an HBO Max viewer 86.7% as likely to watch a Paramount+ title as a core P+ viewer), so combining the two apps carries subscriber-attrition risk: deduplication and consolidation onto one service could shed double-paying subscribers and churn dissatisfied users rather than grow the base.",
+      "supports": ["ops_8", "ops_10", "ops_11", "ops_12"]
+    },
+    {
+      "claim_id": "ops_15",
+      "type": "inference",
+      "module": "tailrisk",
+      "area": "operational_integration",
+      "statement": "Workforce/overhead synergy carries execution and credibility risk: management's 'no layoffs' framing sits against its own acknowledgment that corporate overhead 'will absolutely have to' be rationalized and that the synergies target 'duplicative operations across all aspects of the business' — both companies having already absorbed prior layoff waves, leaving questions about how much non-content overhead remains to cut.",
+      "supports": ["ops_3", "ops_4"]
+    }
+  ]
+}

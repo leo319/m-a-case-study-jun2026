@@ -1,0 +1,249 @@
+{
+  "area": "commercial_market",
+  "proposals": [
+    {
+      "claim_id": "ind_1",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "The global video streaming market was estimated at USD 159.98 billion in 2025 and is forecast to grow to USD 195.85 billion in 2026 and ~USD 873.21 billion by 2035, an 18.5% CAGR (Precedence Research).",
+      "source": {"id": "s_precedence_streaming_tam", "title": "Video Streaming Market Size to Hit USD 873.21 Bn by 2035 (Precedence Research)", "url": "https://www.precedenceresearch.com/video-streaming-market", "tier": "T2"},
+      "quote": "The global video streaming market size is accounted at USD 159.98 billion in 2025 and predicted to increase from USD 195.85 billion in 2026 to approximately USD 873.21 billion by 2035, representing a CAGR of 18.5% from 2026 to 2035.",
+      "locator": "What is the Video Streaming Market Size? (opening market-size summary)"
+    },
+    {
+      "claim_id": "ind_2",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "The North America video streaming market reached USD 53.41 billion in 2025, with the U.S. portion valued at USD 47.62 billion in 2025 (Precedence Research).",
+      "source": {"id": "s_precedence_streaming_tam", "title": "Video Streaming Market Size to Hit USD 873.21 Bn by 2035 (Precedence Research)", "url": "https://www.precedenceresearch.com/video-streaming-market", "tier": "T2"},
+      "quote": "The U.S. video streaming market size is valued at USD 47.62 billion in 2025 and is expected to be worth around USD 253.94 billion by 2034, at a CAGR of 18.22% from 2025 to 2034.",
+      "locator": "Video Streaming Market Size and Growth 2026 to 2035 (U.S. regional section)"
+    },
+    {
+      "claim_id": "ind_3",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Netflix disclosed 325 million subscribers globally and stopped regularly disclosing subscriber and ARPU numbers at the end of 2024 — the streaming-scale leader by a wide margin (TheWrap, Mar 2026).",
+      "source": {"id": "s_thewrap_streamers", "title": "How the Streamers Stack Up in Subscribers, Revenue and Profits (TheWrap)", "url": "https://www.thewrap.com/media-platforms/streaming/netflix-disney-warner-bros-paramount-peacock-subscribers-revenue-profits-march-2026-update/", "tier": "T2"},
+      "quote": "it’s still not enough to topple streaming king Netflix",
+      "locator": "Subscribers section, lede (Lucas Manfredi, Mar 4, 2026)"
+    },
+    {
+      "claim_id": "ind_4",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Netflix reported 325 million subscribers globally as of its latest disclosure (TheWrap, Mar 2026).",
+      "source": {"id": "s_thewrap_streamers", "title": "How the Streamers Stack Up in Subscribers, Revenue and Profits (TheWrap)", "url": "https://www.thewrap.com/media-platforms/streaming/netflix-disney-warner-bros-paramount-peacock-subscribers-revenue-profits-march-2026-update/", "tier": "T2"},
+      "quote": "it’s not enough to topple Netflix, who revealed it has 325 million subscribers globally",
+      "locator": "Subscribers section (Netflix subscriber count)"
+    },
+    {
+      "claim_id": "ind_5",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Disney last disclosed 195.7 million subscribers across Disney+ and Hulu plus 24.1 million at ESPN+ — placing Disney as the clear No. 2 streaming platform behind Netflix (TheWrap, Mar 2026).",
+      "source": {"id": "s_thewrap_streamers", "title": "How the Streamers Stack Up in Subscribers, Revenue and Profits (TheWrap)", "url": "https://www.thewrap.com/media-platforms/streaming/netflix-disney-warner-bros-paramount-peacock-subscribers-revenue-profits-march-2026-update/", "tier": "T2"},
+      "quote": "Disney, which last disclosed 195.7 million subscribers across Disney+ and Hulu and 24.1 million subscribers at ESPN+.",
+      "locator": "Subscribers section (Disney subscriber count)"
+    },
+    {
+      "claim_id": "ind_6",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "WBD reached nearly 132 million streaming (HBO Max) subscribers — 59.2 million domestic and 72.4 million international — and guided to exceed 150 million by end-2026 (TheWrap, Mar 2026).",
+      "source": {"id": "s_thewrap_streamers", "title": "How the Streamers Stack Up in Subscribers, Revenue and Profits (TheWrap)", "url": "https://www.thewrap.com/media-platforms/streaming/netflix-disney-warner-bros-paramount-peacock-subscribers-revenue-profits-march-2026-update/", "tier": "T2"},
+      "quote": "Discovery added 3.5 million streaming subscribers for a total of nearly 132 million globally.",
+      "locator": "Subscribers section (WBD/HBO Max subscriber count)"
+    },
+    {
+      "claim_id": "ind_7",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "WBD's nearly 132 million streaming subscribers comprised 59.2 million domestic and 72.4 million international (TheWrap, Mar 2026).",
+      "source": {"id": "s_thewrap_streamers", "title": "How the Streamers Stack Up in Subscribers, Revenue and Profits (TheWrap)", "url": "https://www.thewrap.com/media-platforms/streaming/netflix-disney-warner-bros-paramount-peacock-subscribers-revenue-profits-march-2026-update/", "tier": "T2"},
+      "quote": "That figure includes 59.2 million domestic subscribers and 72.4 million international subscribers.",
+      "locator": "Subscribers section (WBD domestic/international split)"
+    },
+    {
+      "claim_id": "ind_8",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Paramount+ had 79 million subscribers (excluding free trials) as of its latest quarter, and Paramount expects 2026 subscribers only modestly higher after 4-5 million hard-bundle subscribers exit (TheWrap, Mar 2026).",
+      "source": {"id": "s_thewrap_streamers", "title": "How the Streamers Stack Up in Subscribers, Revenue and Profits (TheWrap)", "url": "https://www.thewrap.com/media-platforms/streaming/netflix-disney-warner-bros-paramount-peacock-subscribers-revenue-profits-march-2026-update/", "tier": "T2"},
+      "quote": "Paramount+ has a total of 79 million subscribers, excluding those on free trials, as of its latest quarter.",
+      "locator": "Subscribers section (Paramount+ subscriber count)"
+    },
+    {
+      "claim_id": "ind_9",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Peacock (Comcast) had just 44 million paid subscribers and remained unprofitable with widening losses in its latest quarter — the smallest and least profitable of the major U.S. streamers (TheWrap, Mar 2026).",
+      "source": {"id": "s_thewrap_streamers", "title": "How the Streamers Stack Up in Subscribers, Revenue and Profits (TheWrap)", "url": "https://www.thewrap.com/media-platforms/streaming/netflix-disney-warner-bros-paramount-peacock-subscribers-revenue-profits-march-2026-update/", "tier": "T2"},
+      "quote": "The Comcast-owned streaming service has just 44 million paid subscribers and is still unprofitable , with widening losses in its latest quarter.",
+      "locator": "Subscribers section (Peacock subscriber count and profitability)"
+    },
+    {
+      "claim_id": "ind_10",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Netflix's streaming revenue grew 17.6% to ~$12.05 billion in its latest quarter, with profit up from $1.87 billion to $2.42 billion — far ahead of peers on both revenue and profit (TheWrap, Mar 2026).",
+      "source": {"id": "s_thewrap_streamers", "title": "How the Streamers Stack Up in Subscribers, Revenue and Profits (TheWrap)", "url": "https://www.thewrap.com/media-platforms/streaming/netflix-disney-warner-bros-paramount-peacock-subscribers-revenue-profits-march-2026-update/", "tier": "T2"},
+      "quote": "Over the past year, profit grew from $1.87 billion to $2.42 billion.",
+      "locator": "Revenue and profits/losses section (Netflix)"
+    },
+    {
+      "claim_id": "ind_11",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Disney+ and Hulu posted combined profit growth of 72% to $450 million on revenue up 11% to $5.35 billion in the quarter (TheWrap, Mar 2026).",
+      "source": {"id": "s_thewrap_streamers", "title": "How the Streamers Stack Up in Subscribers, Revenue and Profits (TheWrap)", "url": "https://www.thewrap.com/media-platforms/streaming/netflix-disney-warner-bros-paramount-peacock-subscribers-revenue-profits-march-2026-update/", "tier": "T2"},
+      "quote": "Disney+ and Hulu posted combined profit growth of 72% to $450 million, while revenue — which excludes Hulu + Live TV and Fubo — grew 11% to $5.35 billion.",
+      "locator": "Revenue and profits/losses section (Disney)"
+    },
+    {
+      "claim_id": "ind_12",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "WBD's total streaming revenue grew 5% to $2.8 billion in the quarter but streaming profit fell 4% to $393 million; for the full year the streaming division posted a $1.37 billion profit, more than doubling year-over-year (TheWrap, Mar 2026).",
+      "source": {"id": "s_thewrap_streamers", "title": "How the Streamers Stack Up in Subscribers, Revenue and Profits (TheWrap)", "url": "https://www.thewrap.com/media-platforms/streaming/netflix-disney-warner-bros-paramount-peacock-subscribers-revenue-profits-march-2026-update/", "tier": "T2"},
+      "quote": "For the full year, the streaming division posted a profit of $1.37 billion, exceeding the company’s guidance and more than doubling year-over-year.",
+      "locator": "Revenue and profits/losses section (Warner Bros. / WBD streaming)"
+    },
+    {
+      "claim_id": "ind_13",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Paramount's streaming division revenue rose 10% to $2.2 billion while losses narrowed from $286 million a year ago to $158 million — i.e. Paramount+ streaming was still loss-making in its latest quarter (TheWrap, Mar 2026).",
+      "source": {"id": "s_thewrap_streamers", "title": "How the Streamers Stack Up in Subscribers, Revenue and Profits (TheWrap)", "url": "https://www.thewrap.com/media-platforms/streaming/netflix-disney-warner-bros-paramount-peacock-subscribers-revenue-profits-march-2026-update/", "tier": "T2"},
+      "quote": "Paramount’s streaming division saw revenue climb 10% to $2.2 billion and losses narrow from $286 million a year ago to $158 million.",
+      "locator": "Revenue and profits/losses section (Paramount streaming)"
+    },
+    {
+      "claim_id": "ind_14",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Paramount confirmed it will combine Paramount+ and HBO Max into a single streaming platform with over 200 million subscribers (Ellison, on analyst call; TheWrap, Mar 2026).",
+      "source": {"id": "s_thewrap_streamers", "title": "How the Streamers Stack Up in Subscribers, Revenue and Profits (TheWrap)", "url": "https://www.thewrap.com/media-platforms/streaming/netflix-disney-warner-bros-paramount-peacock-subscribers-revenue-profits-march-2026-update/", "tier": "T2"},
+      "quote": "Ellison confirmed during a call with analysts on Monday that Paramount+ and HBO Max will combine into a single streaming platform with over 200 million subscribers.",
+      "locator": "Subscribers section (combined-platform statement)"
+    },
+    {
+      "claim_id": "ind_15",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "In the U.S. streaming market, Amazon Prime Video leads with a 22% share and Netflix is second at 21% (Evoca, 2026).",
+      "source": {"id": "s_evoca_share", "title": "Streaming Service Market Share 2026 (By Platforms) (Evoca)", "url": "https://evoca.tv/streaming-service-market-share/", "tier": "T2"},
+      "quote": "Amazon Prime Video leads the U.S. streaming market, holding a 22% share, while Netflix’s market share is 21%, sitting in second.",
+      "locator": "USA Video Streaming Market Share section"
+    },
+    {
+      "claim_id": "ind_16",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Precedent (failed/superseded): Netflix agreed Dec 5, 2025 to acquire Warner Bros. (studios + HBO Max, after Discovery Global separation) at $27.75 per WBD share, a total enterprise value of ~$82.7 billion (equity value ~$72.0 billion) — the bid Paramount's later $31.00 all-cash offer beat.",
+      "source": {"id": "s_netflix_wbd_8k", "title": "Netflix Inc 8-K Ex-99.1 — Netflix to Acquire Warner Bros. (Dec 2025)", "url": "https://www.sec.gov/Archives/edgar/data/0001065280/000119312525308651/d65144dex991.htm", "tier": "T1"},
+      "quote": "The cash and stock transaction is valued at $27.75 per WBD share (subject to a collar as detailed below), with a total enterprise value of approximately $82.7 billion (equity value of $72.0 billion).",
+      "locator": "Press release body, deal-terms paragraph"
+    },
+    {
+      "claim_id": "ind_17",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Precedent (completed, 2019): Disney acquired major 21st Century Fox assets for a total transaction value of ~$71 billion, expected to be EPS-accretive in the second fiscal year after close and to yield at least $2 billion in cost synergies by 2021.",
+      "source": {"id": "s_disney_fox_close", "title": "Disney–21st Century Fox Acquisition Closing Press Release (The Walt Disney Company)", "url": "https://thewaltdisneycompany.com/press-releases/disney-21st-century-fox-acquisition-closing-date/", "tier": "T1"},
+      "quote": "The acquisition is expected to be accretive to Disney earnings per share before the impact of purchase accounting for the second fiscal year after the close of the transaction, and to yield at least $2 billion in cost synergies by 2021 from operating efficiencies realized through the combination of businesses.",
+      "locator": "Press release body, synergy/accretion paragraph"
+    },
+    {
+      "claim_id": "ind_18",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Antitrust outcome of Disney–Fox: the DOJ required Disney to divest 21st Century Fox's 22 regional sports networks to secure approval — a structural remedy because Disney already owned ESPN.",
+      "source": {"id": "s_variety_disney_fox_doj", "title": "Justice Department Approves Disney's Acquisition of 21st Century Fox With Divestiture of Regional Sports Networks (Variety)", "url": "https://variety.com/2018/biz/news/disney-21st-century-fox-justice-department-approval-1202859241/amp/", "tier": "T2"},
+      "quote": "Disney has agreed to sell off 21st Century Fox ‘s 22 regional sports networks to secure Justice Department approval of its acquisition of major 21st Century Fox assets.",
+      "locator": "Article lede"
+    },
+    {
+      "claim_id": "ind_19",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Precedent (completed, 2022): AT&T spun off WarnerMedia and combined it with Discovery via a Reverse Morris Trust, with Discovery renamed Warner Bros. Discovery; AT&T expected to reap ~$43 billion and WBD to assume up to ~$43 billion of additional debt.",
+      "source": {"id": "s_variety_discovery_wm", "title": "Discovery Closes Acquisition of AT&T's WarnerMedia (Variety, Apr 2022)", "url": "https://variety.com/2022/tv/news/discovery-warnermedia-merger-close-warner-bros-discovery-1235200983/", "tier": "T2"},
+      "quote": "At close of the WarnerMedia spinoff, AT&T had said it expected to reap $43 billion (and the new WBD to assume up to approximately $43 billion of additional debt).",
+      "locator": "Article body, deal-value paragraph"
+    },
+    {
+      "claim_id": "ind_20",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "AT&T shareholders received 0.241917 WBD shares per AT&T share, ending with 1.7 billion WBD shares = 71% of WBD on a fully diluted basis, with Discovery's existing holders owning the remainder (Variety, Apr 2022).",
+      "source": {"id": "s_variety_discovery_wm", "title": "Discovery Closes Acquisition of AT&T's WarnerMedia (Variety, Apr 2022)", "url": "https://variety.com/2022/tv/news/discovery-warnermedia-merger-close-warner-bros-discovery-1235200983/", "tier": "T2"},
+      "quote": "As a result, AT&T shareholders received 1.7 billion shares of WBD, representing 71% of WBD shares on a fully diluted basis.”",
+      "locator": "Article body, share-exchange paragraph"
+    },
+    {
+      "claim_id": "ind_21",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Precedent (challenged but completed, 2018-19): the DOJ sued to block AT&T's $85.4 billion acquisition of Time Warner; after losing at trial it appealed, then dropped the case once the appeals court upheld the merger — i.e. the vertical media merger ultimately stood over DOJ objection.",
+      "source": {"id": "s_cnbc_att_tw", "title": "AT&T-Time Warner merger stands after DOJ loses its appeal, drops case (CNBC, Feb 2019)", "url": "https://www.cnbc.com/2019/02/26/appeals-court-upholds-decision-allowing-att-to-buy-time-warner.html", "tier": "T2"},
+      "quote": "The Department of Justice will not pursue further litigation in the case, according to a statement from an agency spokesperson.",
+      "locator": "Article body (DOJ drops appeal)"
+    },
+    {
+      "claim_id": "ind_22",
+      "type": "fact",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Precedent (completed, 2018): Comcast outbid 21st Century Fox in a rare three-round auction to take over British broadcaster Sky in a ~$39 billion deal, offering £17.28/share versus Fox's £15.67/share.",
+      "source": {"id": "s_cnbc_comcast_sky", "title": "Comcast outbids Fox in a $39 billion takeover of Sky (CNBC, Sep 2018)", "url": "https://www.cnbc.com/2018/09/22/sky-comcast-fox-36-billion-takeover-auction.html", "tier": "T2"},
+      "quote": "Comcast outflanked rival Twenty-First Century Fox in a $39 billion takeover of British broadcaster Sky on Saturday, submitting a much higher bid in a rare three-round auction that pitted two of America's largest media companies against one another.",
+      "locator": "Article body, lede paragraph"
+    },
+    {
+      "claim_id": "ind_23",
+      "type": "inference",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "Even combined, Paramount+/HBO Max would sit second to Netflix on subscribers: ~79M (Paramount+) + ~132M (HBO Max) ≈ 211M (consistent with management's 'over 200 million') vs Netflix's 325M — i.e. ~0.65x Netflix's base, so the merger narrows but does not close the scale gap to the leader.",
+      "supports": ["ind_4", "ind_6", "ind_8", "ind_14"]
+    },
+    {
+      "claim_id": "ind_24",
+      "type": "inference",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "The two platforms being merged sit at opposite profitability points — HBO Max's streaming division turned a full-year ~$1.37B profit while Paramount's streaming segment still lost $158M in its latest quarter — so combining them is partly a scale lever for spreading content amortization over a larger base, but the acquirer's own streaming arm enters the combination loss-making, which tempers a clean 'profitable density' read.",
+      "supports": ["ind_12", "ind_13"]
+    },
+    {
+      "claim_id": "ind_25",
+      "type": "inference",
+      "module": "research",
+      "area": "commercial_market",
+      "statement": "The media-M&A precedent set (Disney–Fox $71B with an RSN divestiture; AT&T–Time Warner $85.4B challenged but upheld; Discovery–WarnerMedia ~$43B; Comcast–Sky ~$39B) shows sector megadeals over the last decade have generally closed — the binding antitrust constraint has been horizontal overlap remedied by divestiture (Disney's ESPN+RSNs), not vertical-integration blocks (AT&T), a relevant base rate for the Paramount–WBD review.",
+      "supports": ["ind_16", "ind_17", "ind_18", "ind_19", "ind_21", "ind_22"]
+    }
+  ]
+}

@@ -1,0 +1,629 @@
+{
+  "s_wbd_10k_2025": {
+    "id": "s_wbd_10k_2025",
+    "title": "Warner Bros. Discovery FY2025 Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001437107/000143710726000020/wbd-20251231.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-14T02:03:12.386927+00:00",
+    "content_hash": "ebd993cc315737acfdc82655751c1b09a6379b8d9aed5add25bfb4f40ea2444c",
+    "local_path": "eb/ebd993cc315737acfdc82655751c1b09a6379b8d9aed5add25bfb4f40ea2444c",
+    "media_type": "text/html"
+  },
+  "s_psky_earnings_8k": {
+    "id": "s_psky_earnings_8k",
+    "title": "Paramount Skydance Q3 2025 earnings release (8-K Ex-99)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0002041610/000204161025000042/ex99_q325.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-14T02:01:19.616780+00:00",
+    "content_hash": "0878958ffbb732f8197d95252329e4adfba20a2e75ebd59b761d17bd00cf09a0",
+    "local_path": "08/0878958ffbb732f8197d95252329e4adfba20a2e75ebd59b761d17bd00cf09a0",
+    "media_type": "text/html"
+  },
+  "s_precedence_streaming_tam": {
+    "id": "s_precedence_streaming_tam",
+    "title": "Video Streaming Market Size to Hit USD 873.21 Bn by 2035 (Precedence Research)",
+    "url": "https://www.precedenceresearch.com/video-streaming-market",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:01:24.395043+00:00",
+    "content_hash": "d4c8f6d2d87864adfb42a73af5d4a27f49ae26ffc733753d67d2ef4d63e61363",
+    "local_path": "d4/d4c8f6d2d87864adfb42a73af5d4a27f49ae26ffc733753d67d2ef4d63e61363",
+    "media_type": "text/html"
+  },
+  "s_thewrap_streamers": {
+    "id": "s_thewrap_streamers",
+    "title": "How the Streamers Stack Up in Subscribers, Revenue and Profits (TheWrap)",
+    "url": "https://www.thewrap.com/media-platforms/streaming/netflix-disney-warner-bros-paramount-peacock-subscribers-revenue-profits-march-2026-update/",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:01:24.868771+00:00",
+    "content_hash": "abad85654a9ce523c1392a6e19e2516f9abe09fcf999659d172f4c8d714d88e3",
+    "local_path": "ab/abad85654a9ce523c1392a6e19e2516f9abe09fcf999659d172f4c8d714d88e3",
+    "media_type": "text/html"
+  },
+  "s_evoca_share": {
+    "id": "s_evoca_share",
+    "title": "Streaming Service Market Share 2026 (By Platforms) (Evoca)",
+    "url": "https://evoca.tv/streaming-service-market-share/",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:01:25.167860+00:00",
+    "content_hash": "3e7ac19c48de2b5eb3f8b8947dd18bb6b79d45b3b5c9647ab00f94a739ef6cc9",
+    "local_path": "3e/3e7ac19c48de2b5eb3f8b8947dd18bb6b79d45b3b5c9647ab00f94a739ef6cc9",
+    "media_type": "text/html"
+  },
+  "s_netflix_wbd_8k": {
+    "id": "s_netflix_wbd_8k",
+    "title": "Netflix Inc 8-K Ex-99.1 — Netflix to Acquire Warner Bros. (Dec 2025)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001065280/000119312525308651/d65144dex991.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-14T02:01:25.657189+00:00",
+    "content_hash": "d6765e847c49c7124cea68291e9268fdddbf3466e3aca92771fa2b4433957b87",
+    "local_path": "d6/d6765e847c49c7124cea68291e9268fdddbf3466e3aca92771fa2b4433957b87",
+    "media_type": "text/html"
+  },
+  "s_disney_fox_close": {
+    "id": "s_disney_fox_close",
+    "title": "Disney–21st Century Fox Acquisition Closing Press Release (The Walt Disney Company)",
+    "url": "https://thewaltdisneycompany.com/press-releases/disney-21st-century-fox-acquisition-closing-date/",
+    "tier": "T1",
+    "retrieved_at": "2026-06-14T02:01:26.206364+00:00",
+    "content_hash": "040fc6e7d09651309972abe9696213431f55ece5e0a958665dd69fc3b2288f33",
+    "local_path": "04/040fc6e7d09651309972abe9696213431f55ece5e0a958665dd69fc3b2288f33",
+    "media_type": "text/html"
+  },
+  "s_variety_disney_fox_doj": {
+    "id": "s_variety_disney_fox_doj",
+    "title": "Justice Department Approves Disney's Acquisition of 21st Century Fox With Divestiture of Regional Sports Networks (Variety)",
+    "url": "https://variety.com/2018/biz/news/disney-21st-century-fox-justice-department-approval-1202859241/amp/",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:01:26.835852+00:00",
+    "content_hash": "e1a896d5308dc03be2da584f0dd03b66139bd2f4714512d635a0bdb20a32e351",
+    "local_path": "e1/e1a896d5308dc03be2da584f0dd03b66139bd2f4714512d635a0bdb20a32e351",
+    "media_type": "text/html"
+  },
+  "s_variety_discovery_wm": {
+    "id": "s_variety_discovery_wm",
+    "title": "Discovery Closes Acquisition of AT&T's WarnerMedia (Variety, Apr 2022)",
+    "url": "https://variety.com/2022/tv/news/discovery-warnermedia-merger-close-warner-bros-discovery-1235200983/",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:01:27.232370+00:00",
+    "content_hash": "e5b35f824a8b91e89a2ee38378248ce87bca341c87116020d27b769735f3ca2f",
+    "local_path": "e5/e5b35f824a8b91e89a2ee38378248ce87bca341c87116020d27b769735f3ca2f",
+    "media_type": "text/html"
+  },
+  "s_cnbc_att_tw": {
+    "id": "s_cnbc_att_tw",
+    "title": "AT&T-Time Warner merger stands after DOJ loses its appeal, drops case (CNBC, Feb 2019)",
+    "url": "https://www.cnbc.com/2019/02/26/appeals-court-upholds-decision-allowing-att-to-buy-time-warner.html",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:01:28.676846+00:00",
+    "content_hash": "97519a561c0581a622b6b67756b513289ca4a797fa81408e44649c05ad40d255",
+    "local_path": "97/97519a561c0581a622b6b67756b513289ca4a797fa81408e44649c05ad40d255",
+    "media_type": "text/html"
+  },
+  "s_cnbc_comcast_sky": {
+    "id": "s_cnbc_comcast_sky",
+    "title": "Comcast outbids Fox in a $39 billion takeover of Sky (CNBC, Sep 2018)",
+    "url": "https://www.cnbc.com/2018/09/22/sky-comcast-fox-36-billion-takeover-auction.html",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:01:30.392742+00:00",
+    "content_hash": "29fd7c5c491b2b88a224bf44b036f4ccce19f18f106309c7825231508f6f0b18",
+    "local_path": "29/29fd7c5c491b2b88a224bf44b036f4ccce19f18f106309c7825231508f6f0b18",
+    "media_type": "text/html"
+  },
+  "s_pmt_press": {
+    "id": "s_pmt_press",
+    "title": "Paramount press release: 'Paramount to Acquire Warner Bros. Discovery'",
+    "url": "https://www.paramount.com/press/paramount-to-acquire-warner-bros-discovery-to-form-next-generation-global-media-and-entertainment-company",
+    "tier": "T1",
+    "retrieved_at": "2026-06-14T02:01:36.221696+00:00",
+    "content_hash": "bb1e764e38de639b4ceb6a2c8784545cda8534b716abcc5896b38ba18d7c9049",
+    "local_path": "bb/bb1e764e38de639b4ceb6a2c8784545cda8534b716abcc5896b38ba18d7c9049",
+    "media_type": "text/html"
+  },
+  "s_wbd_defa14a_mar26": {
+    "id": "s_wbd_defa14a_mar26",
+    "title": "WBD DEFA14A — Shareholder Meeting Date of April 23, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125291/d108373ddefa14a.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-14T02:01:36.394674+00:00",
+    "content_hash": "d3698934b7a1f5b2c50245d4b4d9e65f4ebe42cbff17100c5dd669bb8a512476",
+    "local_path": "d3/d3698934b7a1f5b2c50245d4b4d9e65f4ebe42cbff17100c5dd669bb8a512476",
+    "media_type": "text/html"
+  },
+  "s_wbd_defm14a_pmt": {
+    "id": "s_wbd_defm14a_pmt",
+    "title": "WBD DEFM14A (Paramount merger proxy)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-14T02:01:36.954388+00:00",
+    "content_hash": "6b17cd0bb86c7ce5a8e89ea831f10a92fc5cfe71551f9bce544ae443a42f613e",
+    "local_path": "6b/6b17cd0bb86c7ce5a8e89ea831f10a92fc5cfe71551f9bce544ae443a42f613e",
+    "media_type": "text/html"
+  },
+  "s_netflix_acquire": {
+    "id": "s_netflix_acquire",
+    "title": "Netflix newsroom — 'Netflix to Acquire Warner Bros.' (Total EV $82.7B / Equity $72.0B)",
+    "url": "http://about.netflix.com/en/news/netflix-to-acquire-warner-bros",
+    "tier": "T1",
+    "retrieved_at": "2026-06-14T02:01:37.852217+00:00",
+    "content_hash": "b1648011072600220f964ced9aea7590db793c706cb4a8e7efdb62f7531c75a4",
+    "local_path": "b1/b1648011072600220f964ced9aea7590db793c706cb4a8e7efdb62f7531c75a4",
+    "media_type": "text/html"
+  },
+  "s_cryptobriefing_debt": {
+    "id": "s_cryptobriefing_debt",
+    "title": "Paramount Skydance prepares massive debt package for $110B Warner Bros. Discovery acquisition",
+    "url": "https://cryptobriefing.com/paramount-skydance-debt-package-warner-acquisition/",
+    "tier": "T3",
+    "retrieved_at": "2026-06-14T02:01:43.653209+00:00",
+    "content_hash": "3390ace8f96bbfbe61c6ca63a39ce98169a38265d24f4fa665ca91c473d18960",
+    "local_path": "33/3390ace8f96bbfbe61c6ca63a39ce98169a38265d24f4fa665ca91c473d18960",
+    "media_type": "text/html"
+  },
+  "s_psky_8k_summary": {
+    "id": "s_psky_8k_summary",
+    "title": "Paramount Skydance (NASDAQ: PSKY) outlines WBD buyout debt plan and leverage goals (8-K)",
+    "url": "https://www.stocktitan.net/sec-filings/PSKY/8-k-paramount-skydance-corp-reports-material-event-0ce4a25618b6.html",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:01:44.586995+00:00",
+    "content_hash": "7c2b37921d5c04a0cc96cbcefeb601dd77bb0d7843b768bc659a7f0f01cb49be",
+    "local_path": "7c/7c2b37921d5c04a0cc96cbcefeb601dd77bb0d7843b768bc659a7f0f01cb49be",
+    "media_type": "text/html"
+  },
+  "s_variety_debt": {
+    "id": "s_variety_debt",
+    "title": "Paramount Skydance Restructures Debt Financing for Warner Bros. Discovery Deal",
+    "url": "https://variety.com/2026/biz/news/paramount-debt-financing-warner-bros-discovery-deal-1236712406/",
+    "tier": "T3",
+    "retrieved_at": "2026-06-14T02:01:44.951711+00:00",
+    "content_hash": "8fbcc5a659d5a76e1d3feb089bbccdb6874cb8b39d896d01b0222b0df8eca8eb",
+    "local_path": "8f/8fbcc5a659d5a76e1d3feb089bbccdb6874cb8b39d896d01b0222b0df8eca8eb",
+    "media_type": "text/html"
+  },
+  "s_psky_10b_8k": {
+    "id": "s_psky_10b_8k",
+    "title": "Paramount Skydance (PSKY) secures $10B in new loans, upsizes revolver for WBD acquisition (8-K)",
+    "url": "https://www.stocktitan.net/sec-filings/PSKY/8-k-paramount-skydance-corp-reports-material-event-8c96b378295d.html",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:01:45.642903+00:00",
+    "content_hash": "ba249b160e1785541ed3eec60af247118af1ac3b1822b55a541889c48dea53bc",
+    "local_path": "ba/ba249b160e1785541ed3eec60af247118af1ac3b1822b55a541889c48dea53bc",
+    "media_type": "text/html"
+  },
+  "s_thewrap_sp": {
+    "id": "s_thewrap_sp",
+    "title": "S&P Global Will Lower Paramount's Credit Rating Even More After Warner Bros. Merger",
+    "url": "https://www.thewrap.com/industry-news/business/sp-global-paramount-warner-bros-merger-credit-rating-downgrade/",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:01:45.875401+00:00",
+    "content_hash": "40d152e13c696555e87fb7e29fea817ce0898ef3a44c8d486b7644815db0afe5",
+    "local_path": "40/40d152e13c696555e87fb7e29fea817ce0898ef3a44c8d486b7644815db0afe5",
+    "media_type": "text/html"
+  },
+  "s_wbd_dfan14a": {
+    "id": "s_wbd_dfan14a",
+    "title": "Paramount Skydance (WBD) pushes $31/share takeover; $79B debt cited (DFAN14A)",
+    "url": "https://www.stocktitan.net/sec-filings/WBD/dfan14a-warner-bros-discovery-inc-sec-filing-5c3a67c1c035.html",
+    "tier": "T2",
+    "fetch_error": "HTTP Error 429: Too Many Requests"
+  },
+  "s_psky_financing_8k": {
+    "id": "s_psky_financing_8k",
+    "title": "Paramount Enhances Its Superior $30 Per Share All-Cash Offer for WBD (8-K Ex-99.1)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0002041610/000110465926012401/tm2533570d50_ex99-1.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-14T02:01:46.672098+00:00",
+    "content_hash": "3ee99795aaab40da8b004b8bb47a872fb1f57ef6c6c975318ff59de6d096125a",
+    "local_path": "3e/3ee99795aaab40da8b004b8bb47a872fb1f57ef6c6c975318ff59de6d096125a",
+    "media_type": "text/html"
+  },
+  "s_wbd_10k": {
+    "id": "s_wbd_10k",
+    "title": "Warner Bros. Discovery FY2025 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001437107/000143710726000020/wbd-20251231.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-14T02:01:47.399020+00:00",
+    "content_hash": "ebd993cc315737acfdc82655751c1b09a6379b8d9aed5add25bfb4f40ea2444c",
+    "local_path": "eb/ebd993cc315737acfdc82655751c1b09a6379b8d9aed5add25bfb4f40ea2444c",
+    "media_type": "text/html"
+  },
+  "s_fpj_debt": {
+    "id": "s_fpj_debt",
+    "title": "Paramount Skydance And Warner Bros. Discovery Face One Of The Year's Biggest Debt Market Tests",
+    "url": "https://www.foreignpolicyjournal.com/2026/05/31/paramount-skydance-and-warner-bros-discovery-nasdaq-wbd-face-one-of-the-years-biggest-debt-market-tests/",
+    "tier": "T3",
+    "retrieved_at": "2026-06-14T02:01:48.062167+00:00",
+    "content_hash": "e7993e681bbfec6abe60d66c27bd1faabf288954aa2fd872dd45b96be3367b8a",
+    "local_path": "e7/e7993e681bbfec6abe60d66c27bd1faabf288954aa2fd872dd45b96be3367b8a",
+    "media_type": "text/html"
+  },
+  "s_wbd_defm14a": {
+    "id": "s_wbd_defm14a",
+    "title": "Warner Bros. Discovery DEFM14A merger proxy",
+    "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-14T02:02:00.071838+00:00",
+    "content_hash": "6b17cd0bb86c7ce5a8e89ea831f10a92fc5cfe71551f9bce544ae443a42f613e",
+    "local_path": "6b/6b17cd0bb86c7ce5a8e89ea831f10a92fc5cfe71551f9bce544ae443a42f613e",
+    "media_type": "text/html"
+  },
+  "s_cnbc_doj": {
+    "id": "s_cnbc_doj",
+    "title": "Paramount-WBD merger wins approval from DOJ",
+    "url": "https://www.cnbc.com/2026/06/12/paramount-wbd-merger-approval-doj.html",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:02:07.664549+00:00",
+    "content_hash": "db16d6651079611409f818d0c5c5ad20a2726e76d9d5fb9e666399b3d1698c15",
+    "local_path": "db/db16d6651079611409f818d0c5c5ad20a2726e76d9d5fb9e666399b3d1698c15",
+    "media_type": "text/html"
+  },
+  "s_fox_doj": {
+    "id": "s_fox_doj",
+    "title": "DOJ clears Paramount-Warner Bros merger after 8-month antitrust probe",
+    "url": "https://www.foxbusiness.com/entertainment/doj-clears-paramount-warner-bros-merger-after-8-month-antitrust-probe-says-deal-could-boost-competition.amp",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:02:08.063966+00:00",
+    "content_hash": "41b72933e46bcaa7f9eb37505e32e9b58aebe945b969026fefa282de314c03a0",
+    "local_path": "41/41b72933e46bcaa7f9eb37505e32e9b58aebe945b969026fefa282de314c03a0",
+    "media_type": "text/html"
+  },
+  "s_variety_doj": {
+    "id": "s_variety_doj",
+    "title": "Justice Department Approves Paramount's Warner Bros. Discovery Takeover Without Any Strings Attached",
+    "url": "https://variety.com/2026/tv/news/doj-approves-paramount-warner-bros-discovery-merger-1236780234/",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:02:08.529343+00:00",
+    "content_hash": "634eac35fce3ab801b35a81d2a9659258f111f9c7d396bba4a95925cb64a3067",
+    "local_path": "63/634eac35fce3ab801b35a81d2a9659258f111f9c7d396bba4a95925cb64a3067",
+    "media_type": "text/html"
+  },
+  "s_defm14a": {
+    "id": "s_defm14a",
+    "title": "WBD DEFM14A merger proxy",
+    "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-14T02:02:09.028158+00:00",
+    "content_hash": "6b17cd0bb86c7ce5a8e89ea831f10a92fc5cfe71551f9bce544ae443a42f613e",
+    "local_path": "6b/6b17cd0bb86c7ce5a8e89ea831f10a92fc5cfe71551f9bce544ae443a42f613e",
+    "media_type": "text/html"
+  },
+  "s_thr_accc": {
+    "id": "s_thr_accc",
+    "title": "Paramount-Warner Bros. Deal Cleared in Australia, New Zealand",
+    "url": "https://www.hollywoodreporter.com/business/business-news/paramount-warner-bros-deal-cleared-australia-new-zealand-1236618182/",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:02:09.694088+00:00",
+    "content_hash": "c5d5f5f9d9ca28dcc6382aaaf6b54573fbd1e07e1e382022b4df00b02fa31167",
+    "local_path": "c5/c5d5f5f9d9ca28dcc6382aaaf6b54573fbd1e07e1e382022b4df00b02fa31167",
+    "media_type": "text/html"
+  },
+  "s_cnn_doj": {
+    "id": "s_cnn_doj",
+    "title": "Trump's DOJ approves Paramount-Warner Bros. merger, as potential state lawsuits loom",
+    "url": "https://www.cnn.com/2026/06/12/media/paramount-wbd-merger-doj-approve-trump-cbs-ellison",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:02:10.643217+00:00",
+    "content_hash": "43a30dc5e93cbb91a46b0ced1c3fa819310d619b74d34ff0dc4c80c12097f6e3",
+    "local_path": "43/43a30dc5e93cbb91a46b0ced1c3fa819310d619b74d34ff0dc4c80c12097f6e3",
+    "media_type": "text/html"
+  },
+  "s_wrap_ags": {
+    "id": "s_wrap_ags",
+    "title": "State AGs Preparing Lawsuit to Block Paramount-Warner Bros. Merger",
+    "url": "https://www.thewrap.com/industry-news/deals-ma/paramount-warner-bros-merger-state-ags-lawsuit-block/",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:02:10.915117+00:00",
+    "content_hash": "05dbf9671dd3f36f975301d70369b9944d5e377c36ca0a63eda891bcd3d7e95c",
+    "local_path": "05/05dbf9671dd3f36f975301d70369b9944d5e377c36ca0a63eda891bcd3d7e95c",
+    "media_type": "text/html"
+  },
+  "s_deadline_foreign": {
+    "id": "s_deadline_foreign",
+    "title": "Senate Democrats Warn FCC Over Foreign Influence In Paramount-WBD Deal",
+    "url": "https://deadline.com/2026/05/paramount-warner-bros-foreign-investors-senate-democrats-1236917793/",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:02:11.429709+00:00",
+    "content_hash": "3f4f8347be65eccab350e2e1fb30027d9d0cbd632cb0dfe3bc02c7b33e6c70e7",
+    "local_path": "3f/3f4f8347be65eccab350e2e1fb30027d9d0cbd632cb0dfe3bc02c7b33e6c70e7",
+    "media_type": "text/html"
+  },
+  "s_cnbc_attw": {
+    "id": "s_cnbc_attw",
+    "title": "AT&T-Time Warner merger stands after DOJ loses its appeal, drops case",
+    "url": "https://www.cnbc.com/2019/02/26/appeals-court-upholds-decision-allowing-att-to-buy-time-warner.html",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:02:11.893336+00:00",
+    "content_hash": "97519a561c0581a622b6b67756b513289ca4a797fa81408e44649c05ad40d255",
+    "local_path": "97/97519a561c0581a622b6b67756b513289ca4a797fa81408e44649c05ad40d255",
+    "media_type": "text/html"
+  },
+  "s_variety_disneyfox": {
+    "id": "s_variety_disneyfox",
+    "title": "Justice Department Approves Disney's Acquisition of 21st Century Fox With Divestiture of Regional Sports Networks",
+    "url": "https://variety.com/2018/biz/news/disney-21st-century-fox-justice-department-approval-1202859241/amp/",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:02:12.454054+00:00",
+    "content_hash": "e1a896d5308dc03be2da584f0dd03b66139bd2f4714512d635a0bdb20a32e351",
+    "local_path": "e1/e1a896d5308dc03be2da584f0dd03b66139bd2f4714512d635a0bdb20a32e351",
+    "media_type": "text/html"
+  },
+  "s_wbd_10k_legal": {
+    "id": "s_wbd_10k_legal",
+    "title": "Warner Bros. Discovery FY2025 Form 10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001437107/000143710726000020/wbd-20251231.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-14T02:02:25.755708+00:00",
+    "content_hash": "ebd993cc315737acfdc82655751c1b09a6379b8d9aed5add25bfb4f40ea2444c",
+    "local_path": "eb/ebd993cc315737acfdc82655751c1b09a6379b8d9aed5add25bfb4f40ea2444c",
+    "media_type": "text/html"
+  },
+  "s_wbd_disclosure_litigation": {
+    "id": "s_wbd_disclosure_litigation",
+    "title": "Warner Bros. Discovery DEFA14A (supplemental proxy disclosure)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526159063/d78027ddefa14a.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-14T02:02:26.017512+00:00",
+    "content_hash": "4533773944a4ba606d3e3bec4e26672268902dfd6782cbb576a3e4bd3189dc2d",
+    "local_path": "45/4533773944a4ba606d3e3bec4e26672268902dfd6782cbb576a3e4bd3189dc2d",
+    "media_type": "text/html"
+  },
+  "s_state_ag_challenge": {
+    "id": "s_state_ag_challenge",
+    "title": "CNN Business — Trump's DOJ approves Paramount-Warner Bros. merger, as potential state lawsuits loom (June 12, 2026)",
+    "url": "https://www.cnn.com/2026/06/12/media/paramount-wbd-merger-doj-approve-trump-cbs-ellison",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:02:26.685758+00:00",
+    "content_hash": "43a30dc5e93cbb91a46b0ced1c3fa819310d619b74d34ff0dc4c80c12097f6e3",
+    "local_path": "43/43a30dc5e93cbb91a46b0ced1c3fa819310d619b74d34ff0dc4c80c12097f6e3",
+    "media_type": "text/html"
+  },
+  "s_wbd_defm14a_2026": {
+    "id": "s_wbd_defm14a_2026",
+    "title": "Warner Bros. Discovery DEFM14A merger proxy (filed Mar 26, 2026)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1437107/000119312526125075/d115093ddefm14a.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-14T02:02:35.042877+00:00",
+    "content_hash": "6b17cd0bb86c7ce5a8e89ea831f10a92fc5cfe71551f9bce544ae443a42f613e",
+    "local_path": "6b/6b17cd0bb86c7ce5a8e89ea831f10a92fc5cfe71551f9bce544ae443a42f613e",
+    "media_type": "text/html"
+  },
+  "s_deadline_payout_2026": {
+    "id": "s_deadline_payout_2026",
+    "title": "Deadline: 'WBD Shareholders Reject David Zaslav's Golden Parachute In Merger' (Apr 2026)",
+    "url": "https://deadline.com/2026/04/wbd-shareholders-reject-david-zaslav-paramount-merger-payout-1236869504/",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:02:35.829192+00:00",
+    "content_hash": "994500258f87173a5e1a6303fb989dfe3a558a30a8f6e19dd36e6cbd52d64a7e",
+    "local_path": "99/994500258f87173a5e1a6303fb989dfe3a558a30a8f6e19dd36e6cbd52d64a7e",
+    "media_type": "text/html"
+  },
+  "s_variety_control_2024": {
+    "id": "s_variety_control_2024",
+    "title": "Variety: 'David Ellison Will Hold Full Control of Combined Paramount-Skydance Following Deal Close, per Updated Filing'",
+    "url": "https://variety.com/2024/biz/news/david-ellison-full-control-merged-paramount-skydance-filing-1236194255/",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:02:36.195994+00:00",
+    "content_hash": "3e1a3af0480994c8bd7b60fcabee34a27c31b5e140c8aea55aa50f6aa6fdb713",
+    "local_path": "3e/3e1a3af0480994c8bd7b60fcabee34a27c31b5e140c8aea55aa50f6aa6fdb713",
+    "media_type": "text/html"
+  },
+  "s_thr_leadership_2025": {
+    "id": "s_thr_leadership_2025",
+    "title": "The Hollywood Reporter: 'New Paramount Leadership Named by David Ellison Ahead of Takeover' (Aug 2025)",
+    "url": "https://www.hollywoodreporter.com/business/business-news/new-paramount-leadership-named-david-ellison-1236335698/",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:02:36.838129+00:00",
+    "content_hash": "1ff94e3edd7f81c91a7b40fd75a3d1dbb038b3b16bd75fe23edd050b3fe9c454",
+    "local_path": "1f/1ff94e3edd7f81c91a7b40fd75a3d1dbb038b3b16bd75fe23edd050b3fe9c454",
+    "media_type": "text/html"
+  },
+  "s_thewrap_leadership_2025": {
+    "id": "s_thewrap_leadership_2025",
+    "title": "TheWrap: 'New Paramount Leadership Team Unveiled Ahead of Skydance Merger Close' (Aug 2025)",
+    "url": "https://www.thewrap.com/paramount-skydance-merger-leadership-team/",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:02:37.053421+00:00",
+    "content_hash": "ba107a9d1185e507fa44f2f8df11bd442da5e48dfcfdc3f45255bf88787ff2ce",
+    "local_path": "ba/ba107a9d1185e507fa44f2f8df11bd442da5e48dfcfdc3f45255bf88787ff2ce",
+    "media_type": "text/html"
+  },
+  "s_deadline_foreign_2026": {
+    "id": "s_deadline_foreign_2026",
+    "title": "Paramount-WBD Foreign Investors Draw Senate Democrats' Objections (Deadline)",
+    "url": "https://deadline.com/2026/05/paramount-warner-bros-foreign-investors-senate-democrats-1236917793/",
+    "tier": "T3",
+    "retrieved_at": "2026-06-14T02:03:13.452808+00:00",
+    "content_hash": "ccc2e4fe83c41a7767cfecd10c1cc4c076446f1e1a11a4683e9e0c8bb7a97e22",
+    "local_path": "cc/ccc2e4fe83c41a7767cfecd10c1cc4c076446f1e1a11a4683e9e0c8bb7a97e22",
+    "media_type": "text/html"
+  },
+  "s_cnn_editorial_2026": {
+    "id": "s_cnn_editorial_2026",
+    "title": "CNN Business: 'Paramount CEO David Ellison says CNN's editorial independence will be maintained' (Mar 2026)",
+    "url": "https://www.cnn.com/2026/03/05/media/cnn-david-ellison-paramount-wbd-merger",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:02:38.561439+00:00",
+    "content_hash": "70fad71a1054dd4acc91e76b9a6c3a331c2bb56e5910b5ae7cad43d0c335141d",
+    "local_path": "70/70fad71a1054dd4acc91e76b9a6c3a331c2bb56e5910b5ae7cad43d0c335141d",
+    "media_type": "text/html"
+  },
+  "s_psky_press_release": {
+    "id": "s_psky_press_release",
+    "title": "Paramount to Acquire Warner Bros. Discovery to Form Next-Generation Global Media and Entertainment Company",
+    "url": "https://www.paramount.com/press/paramount-to-acquire-warner-bros-discovery-to-form-next-generation-global-media-and-entertainment-company",
+    "tier": "T1",
+    "retrieved_at": "2026-06-14T02:02:53.917994+00:00",
+    "content_hash": "bb1e764e38de639b4ceb6a2c8784545cda8534b716abcc5896b38ba18d7c9049",
+    "local_path": "bb/bb1e764e38de639b4ceb6a2c8784545cda8534b716abcc5896b38ba18d7c9049",
+    "media_type": "text/html"
+  },
+  "s_psky_8k_ex991": {
+    "id": "s_psky_8k_ex991",
+    "title": "Paramount Skydance Corp Form 8-K, Exhibit 99.1",
+    "url": "https://www.sec.gov/Archives/edgar/data/2041610/000110465926021911/tm2533570d75_ex99-1.htm",
+    "tier": "T1",
+    "retrieved_at": "2026-06-14T02:02:54.177907+00:00",
+    "content_hash": "6e7cc5204c4e7bd5ebb4e44d9350653ab048af025996e34ea1e96e83fd1299cd",
+    "local_path": "6e/6e7cc5204c4e7bd5ebb4e44d9350653ab048af025996e34ea1e96e83fd1299cd",
+    "media_type": "text/html"
+  },
+  "s_mediaplaynews_6b": {
+    "id": "s_mediaplaynews_6b",
+    "title": "Paramount Says $6 Billion in Expected Cost Synergies Acquiring WBD Will Not Include Layoffs or Content Production Reduction",
+    "url": "https://www.mediaplaynews.com/paramount-says-6-billion-dollars-in-expected-cost-synergies-acquiring-wbd-will-not-include-layoffs-or-content-production-reduction/",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:02:55.645087+00:00",
+    "content_hash": "c520e497880fe9c9fb05f70709de2d748a8d48391ed25bd9a33ca7eb6e7446e5",
+    "local_path": "c5/c520e497880fe9c9fb05f70709de2d748a8d48391ed25bd9a33ca7eb6e7446e5",
+    "media_type": "text/html"
+  },
+  "s_sherwood_synergies": {
+    "id": "s_sherwood_synergies",
+    "title": "Paramount's Ellison backs $6 billion WBD merger 'synergies' figure",
+    "url": "https://sherwood.news/business/paramounts-ellison-backs-usd6-billion-wbd-merger-synergies-figure-says/",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:02:56.804085+00:00",
+    "content_hash": "c2b954524ffce0f6a76f420a780c693989bbc83e849ec6cfddd4418d5ea720e0",
+    "local_path": "c2/c2b954524ffce0f6a76f420a780c693989bbc83e849ec6cfddd4418d5ea720e0",
+    "media_type": "text/html"
+  },
+  "s_deadline_techstack": {
+    "id": "s_deadline_techstack",
+    "title": "David Ellison On Cost Savings, Growth, The Tech Stack & AI As WBD Merger",
+    "url": "https://deadline.com/2026/03/david-ellison-warner-bros-discovery-cost-savings-growth-1236769564/",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:02:57.270993+00:00",
+    "content_hash": "43b9ce9f60067b0ab450626c767f7c053edd35bdd863e09a7776db516a1acf60",
+    "local_path": "43/43b9ce9f60067b0ab450626c767f7c053edd35bdd863e09a7776db516a1acf60",
+    "media_type": "text/html"
+  },
+  "s_thewrap_techtransform": {
+    "id": "s_thewrap_techtransform",
+    "title": "Paramount Focuses on Streaming Tech Transformation as WBD Deal Looms",
+    "url": "https://www.thewrap.com/industry-news/business/paramount-earnings-q1-2026/",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:02:57.497663+00:00",
+    "content_hash": "1aee4a06039d8dbee874465ec357b563d59b52d6b5a2e7c8da19ba3f2df9f72d",
+    "local_path": "1a/1aee4a06039d8dbee874465ec357b563d59b52d6b5a2e7c8da19ba3f2df9f72d",
+    "media_type": "text/html"
+  },
+  "s_cnbc_merge": {
+    "id": "s_cnbc_merge",
+    "title": "HBO Max, Paramount+ streaming services will merge after WBD deal",
+    "url": "https://www.cnbc.com/2026/03/02/hbo-max-paramount-plus-streaming-services-merge.html",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:02:59.146628+00:00",
+    "content_hash": "a74bf8f419025c78017f4541e30ab4b4c59497d09dc0a488c6775a44361920f7",
+    "local_path": "a7/a74bf8f419025c78017f4541e30ab4b4c59497d09dc0a488c6775a44361920f7",
+    "media_type": "text/html"
+  },
+  "s_thr_overlap": {
+    "id": "s_thr_overlap",
+    "title": "More Than a Quarter of HBO Max Subscribers in the U.S. Already Have Paramount+",
+    "url": "https://www.hollywoodreporter.com/tv/tv-news/hbo-max-paramount-plus-combination-how-many-subscribers-1236519619/",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:02:59.578128+00:00",
+    "content_hash": "f6d51970eab98cb8803291abbd878ca27c451ca0035c21d5ac15ea0b4fca7353",
+    "local_path": "f6/f6d51970eab98cb8803291abbd878ca27c451ca0035c21d5ac15ea0b4fca7353",
+    "media_type": "text/html"
+  },
+  "s_thewrap_overlap": {
+    "id": "s_thewrap_overlap",
+    "title": "Combined HBO Max-Paramount+ Streamer Is Good News/Bad News",
+    "url": "https://www.thewrap.com/commentary-analysis/data-analysis/hbo-max-paramount-plus-combo-overlap-audience-streaming/",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:02:59.877224+00:00",
+    "content_hash": "560e33bb2fee8bc2dd55ed197b46c38b8342a86d713818e345e1dbaf59b3eb7f",
+    "local_path": "56/560e33bb2fee8bc2dd55ed197b46c38b8342a86d713818e345e1dbaf59b3eb7f",
+    "media_type": "text/html"
+  },
+  "s_thedesk_paytv_2025": {
+    "id": "s_thedesk_paytv_2025",
+    "title": "Analyst: U.S. pay TV penetration falls below 50 percent during Q4 (The Desk)",
+    "url": "https://thedesk.net/2025/11/madison-wall-analyst-cord-cutting-pay-tv-penetration/",
+    "tier": "T3",
+    "retrieved_at": "2026-06-14T02:03:13.038792+00:00",
+    "content_hash": "39a3f806439349606098d9e15a11de5f0561b18adac15b986cf0022dafa8c8df",
+    "local_path": "39/39a3f806439349606098d9e15a11de5f0561b18adac15b986cf0022dafa8c8df",
+    "media_type": "text/html"
+  },
+  "s_cnn_doj_2026": {
+    "id": "s_cnn_doj_2026",
+    "title": "Trump's DOJ approves Paramount-Warner Bros. merger, as potential state lawsuits loom (CNN Business)",
+    "url": "https://www.cnn.com/2026/06/12/media/paramount-wbd-merger-doj-approve-trump-cbs-ellison",
+    "tier": "T3",
+    "retrieved_at": "2026-06-14T02:03:14.257028+00:00",
+    "content_hash": "43a30dc5e93cbb91a46b0ced1c3fa819310d619b74d34ff0dc4c80c12097f6e3",
+    "local_path": "43/43a30dc5e93cbb91a46b0ced1c3fa819310d619b74d34ff0dc4c80c12097f6e3",
+    "media_type": "text/html"
+  },
+  "s_deadline_gomez_2025": {
+    "id": "s_deadline_gomez_2025",
+    "title": "FCC Commissioner Anna Gomez Delivers Blistering Statement On Skydance-Paramount Approval (Deadline)",
+    "url": "https://deadline.com/2025/07/fcc-skydance-paramount-anna-gomez-1236468218/",
+    "tier": "T3",
+    "retrieved_at": "2026-06-14T02:03:14.923535+00:00",
+    "content_hash": "838045684ea9e9f548252cccac469858ffa4779c001e02178c5b6e7c5be941ef",
+    "local_path": "83/838045684ea9e9f548252cccac469858ffa4779c001e02178c5b6e7c5be941ef",
+    "media_type": "text/html"
+  },
+  "s_cnn_hostile": {
+    "id": "s_cnn_hostile",
+    "title": "Paramount launches a hostile takeover bid for Warner Bros. Discovery (CNN Business)",
+    "url": "https://www.cnn.com/2025/12/08/business/paramount-hostile-takeover-bid-wbd",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:03:30.268593+00:00",
+    "content_hash": "ad389f03bedaf70e8bffd17c4181becd93194c344facef5a51bfeb0ab2249a56",
+    "local_path": "ad/ad389f03bedaf70e8bffd17c4181becd93194c344facef5a51bfeb0ab2249a56",
+    "media_type": "text/html"
+  },
+  "s_psky_enhance": {
+    "id": "s_psky_enhance",
+    "title": "Paramount Enhances Its Superior $30 Per Share All-Cash Offer for Warner Bros. Discovery (Paramount press release)",
+    "url": "https://www.paramount.com/press/paramount-enhances-its-superior-30-per-share-all-cash-offer-for-warner-bros-discovery-and-provides-update-on-regulatory-progress",
+    "tier": "T1",
+    "retrieved_at": "2026-06-14T02:03:30.800414+00:00",
+    "content_hash": "ffe5451cd1a3133f08c49757bca957603d59b1acdf614104a4dd8523e524f1cb",
+    "local_path": "ff/ffe5451cd1a3133f08c49757bca957603d59b1acdf614104a4dd8523e524f1cb",
+    "media_type": "text/html"
+  },
+  "s_wbd_reject_amended": {
+    "id": "s_wbd_reject_amended",
+    "title": "Warner Bros. Discovery Board of Directors Unanimously Recommends Shareholders Reject Amended Paramount Tender Offer (PR Newswire)",
+    "url": "https://www.prnewswire.com/news-releases/warner-bros-discovery-board-of-directors-unanimously-recommends-shareholders-reject-amended-paramount-tender-offer-302654772.html",
+    "tier": "T1",
+    "retrieved_at": "2026-06-14T02:03:31.144818+00:00",
+    "content_hash": "d50dd90f7da4bc57ed29daa9c69cd72788b9d30cc8908ebdd2cbe1646cef4efc",
+    "local_path": "d5/d50dd90f7da4bc57ed29daa9c69cd72788b9d30cc8908ebdd2cbe1646cef4efc",
+    "media_type": "text/html"
+  },
+  "s_variety_93": {
+    "id": "s_variety_93",
+    "title": "Warner Bros. Discovery Says Over 93% of Shareholders Have 'Rejected Paramount's Inferior Scheme' in Favor of Netflix Deal (Variety)",
+    "url": "https://variety.com/2026/tv/news/warner-bros-discovery-shareholders-reject-paramount-hostile-bid-inferior-scheme-1236637817/",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:03:31.499289+00:00",
+    "content_hash": "fc64779f7429994d4b7ec6a768d491cf4a65a9cbf5ef0512e5326b2b60eb5a6c",
+    "local_path": "fc/fc64779f7429994d4b7ec6a768d491cf4a65a9cbf5ef0512e5326b2b60eb5a6c",
+    "media_type": "text/html"
+  },
+  "s_wbd_superior": {
+    "id": "s_wbd_superior",
+    "title": "Warner Bros. Discovery Board of Directors Determines Revised Proposal from Paramount Skydance Constitutes a 'Company Superior Proposal' (WBD)",
+    "url": "https://www.wbd.com/news/warner-bros-discovery-board-directors-determines-revised-proposal-paramount-skydance",
+    "tier": "T1",
+    "retrieved_at": "2026-06-14T02:03:32.097184+00:00",
+    "content_hash": "4700cdd6f308e27660345e6b353d953ed3ec52bb8087852bf2add786407ee8ad",
+    "local_path": "47/4700cdd6f308e27660345e6b353d953ed3ec52bb8087852bf2add786407ee8ad",
+    "media_type": "text/html"
+  },
+  "s_cnn_netflix_out": {
+    "id": "s_cnn_netflix_out",
+    "title": "Netflix shockingly bows out, leaving Paramount as the apparent Warner Bros. winner (CNN Business)",
+    "url": "https://www.cnn.com/2026/02/26/media/netflix-paramount-wbd",
+    "tier": "T2",
+    "retrieved_at": "2026-06-14T02:03:32.717209+00:00",
+    "content_hash": "8da7297650c2b35512b7b3990a340c6e2042a30640a11baea82a5dfd6c6b92c8",
+    "local_path": "8d/8da7297650c2b35512b7b3990a340c6e2042a30640a11baea82a5dfd6c6b92c8",
+    "media_type": "text/html"
+  }
+}
