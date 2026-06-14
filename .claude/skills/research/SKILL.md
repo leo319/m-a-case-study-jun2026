@@ -14,16 +14,19 @@ context gets bogged down, then ingest everything centrally and verify. You are g
 ## How to work
 
 1. **Choose the areas to cover.** List the checklist (`python tool/scripts/cli.py
-   coverage-checklist`). Cover the areas the analyst emphasized in `run_config`; if they
-   didn't restrict it, cover all `required` + `recommended` areas. **Always also run two
-   dedicated context deep-dives** so the brief stands alone and has real depth:
-   - **`company_profiles`** — both acquirer and target: reportable segments with revenue in
-     `$` and `%`, segment growth, employee/customer counts, and each company's stated
-     strategy. (Tag target claims to `target_fundamentals`, acquirer claims to
-     `commercial_market`.)
-   - **`industry_structure`** — market structure (how many national players vs. the regional
-     long tail), secular trends, and **comparable consolidations** (precedent M&A — e.g. prior
-     roll-ups, spin-offs, rebuffed approaches). (Tag to `commercial_market`.)
+   coverage-checklist`) — it prints each area's subtopics and canonical sources. Cover the
+   areas the analyst emphasized in `run_config`; if they didn't restrict it, cover all
+   `required` + `recommended` areas. **On top of the per-area workers, always run two
+   dedicated cross-company depth passes** so the brief stands alone — both source their depth
+   bar from the checklist subtopics, not a separate list here:
+   - a **company profile of *both* acquirer and target** — the depth the `target_fundamentals`
+     subtopics call for (segment revenue mix in `$` and `%`, strategy & geographic footprint),
+     applied to each side. Tag target claims to `target_fundamentals`, acquirer claims to
+     `commercial_market`.
+   - an **industry-structure** pass — the `commercial_market` subtopics on market structure
+     (national players vs. the regional long tail), secular trends, and comparable
+     consolidations (precedent M&A — prior roll-ups, spin-offs, rebuffed approaches). Tag to
+     `commercial_market`.
 
 2. **Fan out — one `research-area` subagent per area, spawned in parallel.** Use the
    Task tool with `subagent_type: "research-area"`, one call per area, **in a single

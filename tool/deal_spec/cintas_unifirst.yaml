@@ -56,8 +56,10 @@ seed_terms:
 # run_config drives HOW this deal is run and carries analyst steering. Propagates to every stage.
 run_config:
   depth: standard               # quick | standard | deep
-  # Coverage areas to emphasise. The full checklist lives in methodology/ (deal-agnostic);
-  # this just biases weighting toward what the analyst already cares about.
+  # Coverage areas to emphasise — biases weighting toward what the analyst already cares
+  # about. Valid keys are the area keys in tool/config/coverage_checklist.yaml (deal-agnostic),
+  # e.g. [deal_rationale_synergies, antitrust_regulatory]. Leave null to cover all
+  # required + recommended areas.
   emphasize_areas: null
   # Free-form analyst steering captured at intake. Hunches, priorities, worries.
   steering:
