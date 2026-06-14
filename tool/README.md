@@ -21,7 +21,7 @@ Everything under `runs/` and `cache/` is generated — you never hand-edit it. E
 ```
 config/            deal-agnostic data knobs — coverage_checklist.yaml, source_classes.yaml   ✏️ editable
 deal_spec/         one YAML per deal (cintas_unifirst.yaml is the worked example)            ✏️ editable
-methodology/       deal-agnostic M&A method cards (00–05) the plan/expert stages reason from
+methodology/       deal-agnostic M&A method cards (00–05) the plan/expert stages reason from ✏️ editable
 src/
   schemas/         claim + source JSON schemas — the contract every claim flows through
   core/            the spine: paths, content-addressed cache, source registry, claims IO, citations
