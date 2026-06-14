@@ -144,8 +144,8 @@ field) — a traceable "why", not speculation. The spine becomes §5/§6 and the
    timeline. If §5's valuation work
    exposes a weakest link (e.g. overpayment vs. the DCF/comps range), carry it here as a
    ranked risk — the dominant risk often lives in the rationale, not just the risk list.
-7. **Assessment & what would change our view** (~0.5 pg) — the bottom line, as **two distinct
-   questions kept apart** (collapsing them is the classic memo leap):
+7. **Assessment & what would change our view** (~0.5 pg) — the bottom line, centered on the one
+   question a merger-arbitrage memo exists to answer: **Will it close?**
    - *Will it close?* Reason close likelihood as a **balance of forces** — those pushing the deal
      to completion (a strong strategic imperative and the buyer determination it implies, board/
      insider lock-ups, the merger agreement's deal-protection terms, financing certainty) against
@@ -154,16 +154,17 @@ field) — a traceable "why", not speculation. The spine becomes §5/§6 and the
      net, not a binary or a checklist. A strong rationale is itself a push force (a buyer that needs
      the deal will lobby, litigate, re-bid, or accept remedies), so it can lift close-odds even
      against heavy regulatory pull.
-   - *Is it a good deal?* Separately — does the combination actually improve the economics enough
-     to justify the price (the §5 work, management's logic tested), or not? A deal can be
-     **near-certain to close *and* likely to disappoint** — a coherent verdict only if the two are
-     argued separately, never with one smuggled in as the answer to the other.
-   - Then the **net call**, the specific **monitorables**, and what would flip each. (For a *tool*,
-     this is the "recommendation" — an assessment, not trade advice.)
-   - **Scope the verdict.** State plainly what this assessment covers (e.g. strategic & financial
-     rationale and tail risks) and what it does NOT (e.g. a detailed merger-agreement/legal review,
-     tax, management projections), so the recommendation is not read as broader than the work behind
-     it. Tie this to Limitations.
+   - Then the **net call** — your read on close likelihood and on the deal's underlying logic (does
+     the combination's rationale, tested in §5, hold up, and is that logic a force for or against
+     completion) — the specific **monitorables**, and what would flip each. This is a judgment on
+     whether the deal *closes* and why, **not** a standalone investment verdict on whether it is a
+     "good deal" or a good buy. (For a *tool*, this is the "recommendation" — an assessment, not
+     trade advice.)
+   - **Scope the assessment.** State plainly what it covers — the **deal rationale, the tail risks,
+     and the close likelihood** — and what it does NOT: it is **not** a standalone investment /
+     "good deal" judgment, nor a detailed merger-agreement/legal review, tax analysis, or audit of
+     management's projections, so the recommendation is not read as broader than the work behind it.
+     Tie this to Limitations.
 8. **Appendix** — **auto-generated** by the renderer (page-level Citations + Sources
    consulted). Do NOT hand-write it.
 
@@ -250,7 +251,8 @@ field) — a traceable "why", not speculation. The spine becomes §5/§6 and the
   must state the *same* number.
 - **No logical leaps.** Each "Our view" must follow from the claims it cites plus reasoning a
   reader can check; if it needs an unstated premise, state and ground it or weaken the conclusion —
-  and never let one question's answer ("will it close") stand in for another's ("is it a good deal").
+  and never let one question's answer stand in for another's (e.g. treating the strategic rationale
+  as if it settled close likelihood, or vice versa).
 - Sections 5 & 6 must answer the case brief §1a/§1b specifically (premium, accretion/dilution,
   synergies-vs-premium, synergy basis; per-risk transmission mechanism to *this* deal).
 - Flag what you could NOT conclude — but never write "not computed/assessed" for something a
