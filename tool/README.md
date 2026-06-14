@@ -71,5 +71,3 @@ It runs five stages — intake → source planning → research → expert → r
 ```
 
 ---
-
-_The Python spine is also callable directly — `python scripts/cli.py map` prints the full pipeline, and `python scripts/run_milestone2_mock.py` proves the whole loop with no tokens (fixtures stand in for the agents)._
