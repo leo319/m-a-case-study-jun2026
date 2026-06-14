@@ -62,6 +62,8 @@ You are given `RUN_DIR`.
 
 ## Rules
 - The skeptic attacks judgment; you never weaken the fact/inference + fail-closed guarantees.
+- **Flag mis-framed risks.** Any item presented as a "risk" that actually favors or de-risks the
+  deal is mis-framed — it should be reclassified (and explained as such), not listed as a risk.
 - **Close, don't loop.** Try to answer each unanswered "why" / `key_question` from existing
   verified claims (grounded `rt_*` inference); never re-open research. Unclosable → Limitations.
 - **Check entailment, not just facts.** Beyond closing "whys", make sure each load-bearing

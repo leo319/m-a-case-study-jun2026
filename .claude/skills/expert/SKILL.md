@@ -144,27 +144,39 @@ field) — a traceable "why", not speculation. The spine becomes §5/§6 and the
    timeline. If §5's valuation work
    exposes a weakest link (e.g. overpayment vs. the DCF/comps range), carry it here as a
    ranked risk — the dominant risk often lives in the rationale, not just the risk list.
+   - **Rank each tail risk under its OWN bold label naming the risk** (e.g. **Litigation**,
+     **Financing**), including the low ones. Do not bucket several risks under a generic header
+     like "Lower-ranked".
+   - **Only rank things that could DERAIL the deal** (lower the odds of closing or materially cut
+     its value). If a standard tail-risk coverage area (an activist campaign, a shareholder/
+     management controversy, a short thesis) actually **FAVORS or de-risks** the deal, say so
+     plainly and explain why it is not a risk here — do not present it as a ranked risk. Tail
+     risks are downside threats, not a checklist of topics.
 7. **Assessment & what would change our view** (~0.5 pg) — the bottom line, centered on the one
-   question a merger-arbitrage memo exists to answer: **Will it close?**
-   - *Will it close?* Reason close likelihood as a **balance of forces** — those pushing the deal
+   question a merger-arbitrage memo exists to answer: **Will it close?** Write it in three parts:
+   - *(a) Scope & limits — the preface that opens §7.* State plainly what the assessment **covers**
+     — the **strategic & financial rationale, the tail risks, and how likely the deal is to close**
+     — and what it does **NOT**: a detailed merger-agreement/legal review, tax analysis, or an audit
+     of management's own projections. Add a line that any figures which aren't fully sourced are
+     flagged as such. This keeps the assessment from being read as broader than the work behind it;
+     tie it to Limitations.
+   - *(b) Will it close?* Reason close likelihood as a **balance of forces** — those pushing the deal
      to completion (a strong strategic imperative and the buyer determination it implies, board/
      insider lock-ups, the merger agreement's deal-protection terms, financing certainty) against
      those pulling it apart (antitrust, a MAC or financing-out trigger, shareholder dissent, target
      deterioration). Weigh them by strength and say **which side dominates and why** — a reasoned
      net, not a binary or a checklist. A strong rationale is itself a push force (a buyer that needs
      the deal will lobby, litigate, re-bid, or accept remedies), so it can lift close-odds even
-     against heavy regulatory pull.
-   - Then the **net call** — your read on close likelihood and on the deal's underlying logic (does
-     the combination's rationale, tested in §5, hold up, and is that logic a force for or against
-     completion) — the specific **monitorables**, and what would flip each. This is a judgment on
-     whether the deal *closes* and why, **not** a standalone investment verdict on whether it is a
-     "good deal" or a good buy. (For a *tool*, this is the "recommendation" — an assessment, not
-     trade advice.)
-   - **Scope the assessment.** State plainly what it covers — the **deal rationale, the tail risks,
-     and the close likelihood** — and what it does NOT: it is **not** a standalone investment /
-     "good deal" judgment, nor a detailed merger-agreement/legal review, tax analysis, or audit of
-     management's projections, so the recommendation is not read as broader than the work behind it.
-     Tie this to Limitations.
+     against heavy regulatory pull. **Reflect the deal's *current* status:** a condition already
+     satisfied (e.g. a completed shareholder vote) is no longer a pending force — do not write it as
+     still-uncertain; count only what is genuinely outstanding.
+   - *(c) What to watch — and what would change this view.* The specific **monitorables**, each tied
+     to **what could change the close verdict** (which way it would move the balance, and the
+     evidence that would flip it).
+   - **Do not add a separate "Net call" or net-recommendation paragraph — it duplicates the verdict.**
+     §7 is a judgment on whether the deal *closes* and why, not a standalone investment verdict on
+     whether it is a "good deal" or a good buy. (For a *tool*, this is the "recommendation" — an
+     assessment, not trade advice.)
 8. **Appendix** — **auto-generated** by the renderer (page-level Citations + Sources
    consulted). Do NOT hand-write it.
 
@@ -227,7 +239,8 @@ field) — a traceable "why", not speculation. The spine becomes §5/§6 and the
 
 ## Rules
 - **Write plainly and directly for a portfolio manager.** No taglines, slogans, or aphorisms as
-  section headers or sentence openers. State the point in normal language.
+  section headers or sentence openers. State the point in normal language. Avoid cryptic metaphors
+  or colorful shorthand (e.g. "where customers bleed"); state the mechanism in plain words.
 - **Reason from first principles, not in isolation.** Build the why-spine (method cards) before
   the memo; every load-bearing judgment is a *mechanism* — the causal chain from a verified fact
   to a cost/revenue line — not a fact restated or a label asserted.
